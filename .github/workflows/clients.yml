@@ -1,0 +1,48 @@
+# Keeps clients/clients.json in step with the logos in clients/.
+# The home page reads that list, so a logo uploaded to clients/ shows up
+# without editing any code.
+name: Update client logo list
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "clients/**"
+      - "!clients/clients.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: clients-list
+  cancel-in-progress: false
+
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Write clients/clients.json
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, re
+          folder = pathlib.Path("clients")
+          names = sorted(f.name for f in folder.iterdir()
+                         if f.is_file() and re.search(r"\.(png|jpe?g|webp|svg|gif|avif)$", f.name, re.I))
+          (folder / "clients.json").write_text(json.dumps(names, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+          print(len(names), "logos")
+          PY
+
+      - name: Commit if the list changed
+        run: |
+          if git diff --quiet -- clients/clients.json; then
+            echo "List already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add clients/clients.json
+          git commit -m "Update client logo list"
+          git push

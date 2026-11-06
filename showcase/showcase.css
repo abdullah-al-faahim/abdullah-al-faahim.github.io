@@ -622,8 +622,8 @@ dialog.cvbox::backdrop { background: rgb(12 4 48 / 0.82); backdrop-filter: blur(
 .list .li-sub:hover { background: #004182; transform: translateY(-1px); }
 .list .li-sub svg { width: 13px; height: 13px; fill: currentColor; }
 
-/* Nav: ten links fit the bar on wide screens; below 1320px they move into the menu */
-@media (max-width: 1320px) {
+/* Nav: links share the bar on wide screens; below 960px they move into the menu */
+@media (max-width: 960px) {
   .menu { display: inline-grid; }
   .links {
     position: absolute; left: 0; right: 0; top: 100%; flex-direction: column; gap: 0; padding: 8px 16px 20px;
@@ -633,6 +633,35 @@ dialog.cvbox::backdrop { background: rgb(12 4 48 / 0.82); backdrop-filter: blur(
   .links.open { display: flex; }
   .links a { padding: 13px 16px; font-size: 14px; margin-top: 4px; }
 }
-@media (min-width: 1321px) {
+@media (min-width: 961px) {
   .links a { padding: 9px 13px; }
+}
+
+/* About submenu: Experience, Recognition, Toolbox */
+.has-sub { position: relative; display: flex; align-items: center; }
+.sub-toggle {
+  display: grid; place-items: center; width: 26px; height: 26px; margin-left: -8px; padding: 0;
+  border: 0; border-radius: 50%; background: none; color: var(--deep-muted); cursor: pointer;
+}
+.sub-toggle:hover { color: #fff; }
+.sub-toggle svg { width: 14px; height: 14px; transition: transform .2s; }
+.sub {
+  list-style: none; margin: 0; padding: 8px; position: absolute; top: calc(100% + 10px); left: 0; z-index: 50;
+  min-width: 200px; display: none; flex-direction: column; gap: 2px;
+  background: var(--night); border: 1px solid var(--deep-line); border-radius: 16px; box-shadow: 0 18px 40px rgb(0 0 0 / 0.4);
+}
+.has-sub::after { content: ""; position: absolute; left: 0; right: 0; top: 100%; height: 12px; }
+.sub a { display: block; }
+.has-sub.open .sub, .has-sub:focus-within .sub { display: flex; }
+.has-sub.open .sub-toggle svg { transform: rotate(180deg); }
+.has-sub.child-current > a { color: #fff; background: rgb(107 74 255 / 0.16); border-color: rgb(143 126 255 / 0.3); }
+@media (hover: hover) and (min-width: 961px) {
+  .has-sub:hover .sub { display: flex; }
+  .has-sub:hover .sub-toggle svg { transform: rotate(180deg); }
+}
+@media (max-width: 960px) {
+  .has-sub { display: block; }
+  .has-sub::after, .sub-toggle { display: none; }
+  .sub { position: static; display: flex; min-width: 0; padding: 0 0 0 18px; background: none; border: 0; box-shadow: none; }
+  .sub a { font-size: 13px; padding: 11px 16px; color: var(--deep-muted); }
 }

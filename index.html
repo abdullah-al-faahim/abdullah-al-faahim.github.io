@@ -42,14 +42,17 @@
       <a class="logo" href="#top">Abdullah Al <span>Fahim</span></a>
       <ul class="links" id="links">
         <li><a href="#top">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
+        <li class="has-sub">
+          <a href="#about">About</a><button class="sub-toggle" type="button" aria-expanded="false" aria-controls="aboutSub" aria-label="Show more About sections"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></button>
+          <ul class="sub" id="aboutSub">
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#recognition">Recognition</a></li>
+            <li><a href="#toolbox">Toolbox</a></li>
+          </ul>
+        </li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#work">Work</a></li>
+        <li><a href="#designs">Designs</a></li>
         <li><a href="#apps">Apps</a></li>
-        <li><a href="#recognition">Recognition</a></li>
-        <li><a href="#toolbox">Toolbox</a></li>
-        <li><a href="#contact">Contact</a></li>
                 <li><a href="cv/Abdullah%20Al%20Fahim_CV.pdf" target="_blank" rel="noopener" data-cv>CV</a></li>
       </ul>
       <button class="icon-btn theme" type="button" aria-label="Switch to dark theme">
@@ -72,7 +75,7 @@
           <h1><span class="first">Abdullah</span> <span class="last">Al Fahim</span></h1>
           <p class="hero-lead">I design brand identities, social media campaigns, web banners and UI for brands in Bangladesh, and I build the Android and web apps you can try below.</p>
           <div class="hero-actions">
-            <a class="btn btn-lime" href="#work"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>See my work</a>
+            <a class="btn btn-lime" href="#designs"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>See my designs</a>
             <a class="btn btn-ghost" href="#apps"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></svg>Try my apps</a>
             <a class="btn btn-ghost" id="viewCv" href="cv/Abdullah%20Al%20Fahim_CV.pdf" target="_blank" rel="noopener" data-cv aria-haspopup="dialog"><svg viewBox="0 0 24 24" style="fill:none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="i" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>View CV</a>
           </div>
@@ -265,9 +268,9 @@
       </div>
     </section>
 
-    <section class="alt" id="work">
+    <section class="alt" id="designs">
       <div class="wrap">
-        <span class="eyebrow rv">My work</span>
+        <span class="eyebrow rv">Designs</span>
         <h2 class="rv">Selected projects from <em>Behance and Dribbble</em></h2>
         <div class="filters" id="filters" role="group" aria-label="Filter projects by category"><button type="button" data-c="all" aria-pressed="true">All work<small>45</small></button><button type="button" data-c="social" aria-pressed="false">Social media<small>13</small></button><button type="button" data-c="poster" aria-pressed="false">Posters &amp; campaigns<small>6</small></button><button type="button" data-c="brand" aria-pressed="false">Logo &amp; identity<small>6</small></button><button type="button" data-c="uiux" aria-pressed="false">UI/UX &amp; web<small>6</small></button><button type="button" data-c="print" aria-pressed="false">Print &amp; decks<small>7</small></button><button type="button" data-c="banner" aria-pressed="false">Web banners<small>2</small></button><button type="button" data-c="art" aria-pressed="false">Illustration &amp; motion<small>5</small></button></div>
         <div class="grid" id="grid">
@@ -541,7 +544,7 @@
         <h2 class="rv">Brands and teams <em>I&#8217;ve worked with</em></h2>
       </div>
       <div class="logo-strip" id="logoStrip" data-repo="abdullah-al-faahim/abdullah-al-faahim.github.io" data-folder="clients">
-        <div class="logo-row"><span class="client" title="Channel i"><img src="showcase/img/clients/channel-i.svg" alt="Channel i" decoding="async" /></span><span class="client" title="Laptop World BD"><img src="showcase/img/clients/laptop-world-bd.png" alt="Laptop World BD" decoding="async" /></span><span class="client" title="FarhanasBrainstation"><img src="showcase/img/clients/farhanas-brainstation.png" alt="FarhanasBrainstation" decoding="async" /></span></div>
+        <div class="logo-row"><span class="client" title="Channel i"><img src="showcase/img/clients/channel-i.svg" alt="Channel i" decoding="async" /></span><span class="client" title="Laptop World BD"><img src="clients/Laptop%20World%20BD.png" alt="Laptop World BD" decoding="async" /></span><span class="client" title="FarhanasBrainstation"><img src="clients/FarhanasBrainstation.png" alt="FarhanasBrainstation" decoding="async" /></span><span class="client" title="AI Crafters Bangladesh"><img src="clients/AI%20Crafters%20Bangladesh.svg" alt="AI Crafters Bangladesh" decoding="async" /></span><span class="client" title="Amader Sui Suta"><img src="clients/Amader%20Sui%20Suta.png" alt="Amader Sui Suta" decoding="async" /></span><span class="client" title="Buy Now"><img src="clients/Buy%20Now.png" alt="Buy Now" decoding="async" /></span><span class="client" title="EGR Shop"><img src="clients/EGR%20Shop.png" alt="EGR Shop" decoding="async" /></span><span class="client" title="English Carnival"><img src="clients/English%20Carnival.png" alt="English Carnival" decoding="async" /></span><span class="client" title="ISTT Innovation Hub"><img src="clients/ISTT%20Innovation%20Hub.png" alt="ISTT Innovation Hub" decoding="async" /></span><span class="client" title="ISTT"><img src="clients/ISTT.png" alt="ISTT" decoding="async" /></span><span class="client" title="InstaPack"><img src="clients/InstaPack.webp" alt="InstaPack" decoding="async" /></span><span class="client" title="Kumu&#x27;s Elegance"><img src="clients/Kumu%27s%20Elegance.png" alt="Kumu&#x27;s Elegance" decoding="async" /></span><span class="client" title="LapX"><img src="clients/LapX.png" alt="LapX" decoding="async" /></span><span class="client" title="Learn to Lead"><img src="clients/Learn%20to%20Lead.png" alt="Learn to Lead" decoding="async" /></span><span class="client" title="Legacy of ISTT"><img src="clients/Legacy%20of%20ISTT.png" alt="Legacy of ISTT" decoding="async" /></span><span class="client" title="Ome Hair Fashion"><img src="clients/Ome%20Hair%20Fashion.png" alt="Ome Hair Fashion" decoding="async" /></span><span class="client" title="The Aesthetic Vagabonds"><img src="clients/The%20Aesthetic%20Vagabonds.png" alt="The Aesthetic Vagabonds" decoding="async" /></span><span class="client" title="Utopia Design Studio"><img src="clients/Utopia%20Design%20Studio.png" alt="Utopia Design Studio" decoding="async" /></span><span class="client dark" title="Utopia SoftTech"><img src="clients/Utopia%20SoftTech%20%28white%29.png" alt="Utopia SoftTech" decoding="async" /></span></div>
       </div>
     </section>
 
@@ -556,7 +559,7 @@
             <div class="honor"><span class="mark">3RD</span><div><b>Excellence Award, final year result</b><span>National University, ISTT &#183; 2023</span></div></div>
             <div class="honor"><span class="mark">2ND</span><div><b>Runners-up, RHTI 3rd International Business Genius Bangladesh</b><span>Business idea competition &#183; 2019</span></div></div>
             <div class="honor"><span class="mark">PUB</span><div><b>Design of Gateless Toll Collection System on Expressway Utilizing RFID Tag</b><span>Co-author &#183; 2023 &#183; <a href="https://doi.org/10.13140/RG.2.2.32480.05121">DOI 10.13140/RG.2.2.32480.05121</a></span></div></div>
-            <div class="honor"><span class="mark">PUB</span><div><b>Social Responses to Sudden Earthquake Shock in Bangladesh</b><span>Co-authored study of the November 2025 earthquake, 110 survey responses &#183; 2025</span></div></div>
+            <div class="honor"><span class="mark">PUB</span><div><b>Social Responses to Sudden Earthquake Shock in Bangladesh: An Exploratory Analysis of Public Reactions</b><span>With Sadia Afrin Hema &#183; study of the November 2025 earthquake, 110 survey responses &#183; 2025 &#183; <a href="https://doi.org/10.13140/RG.2.2.25055.52642/2">DOI 10.13140/RG.2.2.25055.52642/2</a></span></div></div>
           </div>
           <div class="panel rv">
             <h3 class="label">Certifications</h3>

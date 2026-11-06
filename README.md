@@ -15,7 +15,7 @@ Plain HTML, CSS and a little JavaScript, served by GitHub Pages from `main`. No 
 
 ## Adding a client logo
 
-Upload a PNG, SVG, WebP or JPG to the `clients/` folder (on GitHub: open the folder, then **Add file > Upload files**). The home page picks it up on its own, no code to edit.
+Upload a PNG, SVG, WebP or JPG to the `clients/` folder (on GitHub: open the folder, then **Add file > Upload files**). A GitHub Action (`.github/workflows/clients.yml`) then adds it to `clients/clients.json`, and the home page shows it within a minute or two. No code to edit.
 
 - The file name becomes the logo's label: `NUSDF Bangladesh.png` shows as "NUSDF Bangladesh".
 - Use a transparent or white background; logos sit on white cards.

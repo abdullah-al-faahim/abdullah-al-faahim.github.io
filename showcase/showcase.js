@@ -33,6 +33,23 @@
   links.addEventListener("click", function (e) { if (e.target.closest("a")) setMenu(false); });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") setMenu(false); });
 
+  // About submenu: click or keyboard opens it (hover does too on desktop, in CSS)
+  (function () {
+    var toggle = document.querySelector(".sub-toggle");
+    if (!toggle) return;
+    var item = toggle.closest(".has-sub");
+    function set(open) {
+      item.classList.toggle("open", open);
+      toggle.setAttribute("aria-expanded", open);
+    }
+    toggle.addEventListener("click", function (e) { e.stopPropagation(); set(!item.classList.contains("open")); });
+    document.addEventListener("click", function (e) { if (!item.contains(e.target)) set(false); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") { set(false); } });
+    item.querySelectorAll(".sub a").forEach(function (a) {
+      a.addEventListener("click", function () { set(false); a.blur(); });
+    });
+  })();
+
   // Header shadow once scrolled
   var top = document.querySelector(".top");
   function onScroll() { top.classList.toggle("scrolled", window.scrollY > 8); }
@@ -161,15 +178,15 @@
     box.addEventListener("close", function () { if (opener) opener.focus(); });
   })();
 
-  // Clients strip: built-in logos plus any image uploaded to the site's clients/ folder.
-  // GitHub Pages can't list a folder, so the list comes from the GitHub API (cached per visit).
+  // Clients strip: the page ships with every logo; then clients/clients.json (rewritten by a GitHub
+  // Action whenever clients/ changes) adds new uploads. The GitHub API is only a fallback.
   (function () {
     var strip = document.getElementById("logoStrip");
     if (!strip) return;
     var row = strip.querySelector(".logo-row");
     var key = function (s) { return s.toLowerCase().replace(/\.[a-z0-9]+$/, "").replace(/[^a-z0-9]+/g, ""); };
     var logos = Array.prototype.map.call(row.children, function (el) {
-      return { name: el.title, src: el.querySelector("img").getAttribute("src") };
+      return { name: el.title, src: el.querySelector("img").getAttribute("src"), dark: el.classList.contains("dark") };
     });
 
     function tile(l) {
@@ -202,7 +219,7 @@
         // A file with "white" in its name is a light logo: show it on a dark card, without the word in its label
         var dark = /(^|[\s_\-(])white([\s_\-)]|$)/i.test(base);
         var name = base.replace(/\(?\bwhite\b\)?/i, "").replace(/[-_]+/g, " ").replace(/\s+/g, " ").trim();
-        var src = strip.dataset.folder + "/" + encodeURIComponent(f.name);
+        var src = strip.dataset.folder + "/" + encodeURIComponent(f.name).replace(/'/g, "%27");
         var match = logos.filter(function (l) { return key(l.name) === key(name); })[0];
         if (match) { match.src = src; match.dark = dark; }
         else logos.push({ name: name, src: src, dark: dark });
@@ -211,21 +228,17 @@
     }
 
     render();
-    var cacheKey = "clients:" + strip.dataset.folder;
-    try {
-      var cached = sessionStorage.getItem(cacheKey);
-      if (cached) { merge(JSON.parse(cached)); return; }
-    } catch (e) {}
     if (!window.fetch) return;
-    fetch("https://api.github.com/repos/" + strip.dataset.repo + "/contents/" + strip.dataset.folder)
-      .then(function (r) { return r.ok ? r.json() : []; })
-      .then(function (files) {
-        if (!Array.isArray(files)) return;
-        var slim = files.map(function (f) { return { type: f.type, name: f.name }; });
-        try { sessionStorage.setItem(cacheKey, JSON.stringify(slim)); } catch (e) {}
-        merge(slim);
-      })
-      .catch(function () {});
+    var asFiles = function (names) { return names.map(function (n) { return { type: "file", name: n }; }); };
+    fetch(strip.dataset.folder + "/clients.json", { cache: "no-cache" })
+      .then(function (r) { if (!r.ok) throw r; return r.json(); })
+      .then(function (names) { if (Array.isArray(names)) merge(asFiles(names)); })
+      .catch(function () {
+        fetch("https://api.github.com/repos/" + strip.dataset.repo + "/contents/" + strip.dataset.folder)
+          .then(function (r) { return r.ok ? r.json() : []; })
+          .then(function (files) { if (Array.isArray(files)) merge(files); })
+          .catch(function () {});
+      });
   })();
 
   // Reveal on scroll and highlight the current section in the nav
@@ -247,6 +260,9 @@
         navLinks.forEach(function (a) {
           if (a.getAttribute("href") === "#" + entry.target.id) a.setAttribute("aria-current", "true");
           else a.removeAttribute("aria-current");
+        });
+        document.querySelectorAll(".has-sub").forEach(function (h) {
+          h.classList.toggle("child-current", !!h.querySelector(".sub a[aria-current]"));
         });
       });
     }, { rootMargin: "-45% 0px -50% 0px" });
