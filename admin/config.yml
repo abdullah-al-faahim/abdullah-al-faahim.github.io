@@ -1,0 +1,65 @@
+# Blog editor settings (Sveltia CMS). Posts are saved to content/blog/ and the
+# "Build blog" GitHub Action turns them into pages under /blog/.
+backend:
+  name: github
+  repo: abdullah-al-faahim/abdullah-al-faahim.github.io
+  branch: main
+  commit_messages:
+    create: "Blog: add {{slug}}"
+    update: "Blog: update {{slug}}"
+    delete: "Blog: delete {{slug}}"
+    uploadMedia: "Blog: upload {{path}}"
+    deleteMedia: "Blog: delete {{path}}"
+
+site_url: https://abdullah-al-faahim.github.io
+display_url: https://abdullah-al-faahim.github.io/blog/
+logo_url: /favicon.svg
+
+media_folder: blog/media
+public_folder: /blog/media
+
+collections:
+  - name: blog
+    label: Blog posts
+    label_singular: Blog post
+    description: Write a post, add a cover, then Save. The site updates about a minute later.
+    folder: content/blog
+    create: true
+    delete: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    summary: "{{title}} · {{date}}"
+    sortable_fields: [date, title, category]
+    preview_path: "blog/{{slug}}/"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - label: Publish date
+        name: date
+        widget: datetime
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+      - label: Topic
+        name: category
+        widget: select
+        options:
+          - { label: Broadcast technology, value: broadcast }
+          - { label: App development, value: apps }
+          - { label: Design systems, value: design-systems }
+          - { label: Brand identity, value: brand }
+          - { label: Design theory & research, value: research }
+          - { label: Leadership, value: leadership }
+          - { label: AI for design, value: ai }
+      - { label: Short summary, name: excerpt, widget: text, hint: "One or two sentences. Shown on cards, in search results and when the link is shared." }
+      - label: Cover image
+        name: cover
+        widget: image
+        required: false
+        media_folder: /blog/media/covers
+        public_folder: /blog/media/covers
+        hint: "16:9 works best, for example 1600 × 900."
+      - { label: Cover description, name: cover_alt, widget: string, required: false, hint: "What the cover shows, for screen readers." }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Draft (hide from the site), name: draft, widget: boolean, default: false, required: false }
+      - { label: Post, name: body, widget: markdown }

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Abdullah Al Fahim · Blog</title>
+    <link>https://abdullah-al-faahim.github.io/blog/</link>
+    <description>Broadcast technology, app development, design systems, brand identity, research, leadership and AI for design.</description>
+    <language>en</language>
+    <item>
+      <title>Inside a Master Control Room: How a TV Channel Stays on Air 24/7</title>
+      <link>https://abdullah-al-faahim.github.io/blog/inside-a-master-control-room/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/inside-a-master-control-room/</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0600</pubDate>
+      <category>Broadcast technology</category>
+      <description>What actually happens between a playlist and your television screen, and the habits that keep a 24-hour channel from going dark.</description>
+    </item>
+    <item>
+      <title>AI in My Design Workflow: Where It Helps and Where It Doesn&#x27;t</title>
+      <link>https://abdullah-al-faahim.github.io/blog/ai-in-my-design-workflow/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/ai-in-my-design-workflow/</guid>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0600</pubDate>
+      <category>AI for design</category>
+      <description>A practical look at using AI tools for briefs, research, ideation, image editing and code, plus the parts of design I still won&#x27;t hand over.</description>
+    </item>
+    <item>
+      <title>Building a Personal Design System from One Colour</title>
+      <link>https://abdullah-al-faahim.github.io/blog/design-system-from-one-colour/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/design-system-from-one-colour/</guid>
+      <pubDate>Sat, 24 Oct 2026 09:00:00 +0600</pubDate>
+      <category>Design systems</category>
+      <description>How one violet, one highlight colour and two typefaces became the rules behind my website, GitHub profile, CV and apps.</description>
+    </item>
+    <item>
+      <title>Making Alarms Reliable on Android: Lessons from Building TaskBell</title>
+      <link>https://abdullah-al-faahim.github.io/blog/reliable-alarms-on-android/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/reliable-alarms-on-android/</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0600</pubDate>
+      <category>App development</category>
+      <description>Exact alarms, Doze, battery savers, reboots and time zones: what it takes for a reminder app to ring at the right second, every time.</description>
+    </item>
+    <item>
+      <title>Designing Bilingual Brands: Setting Bangla and English Together</title>
+      <link>https://abdullah-al-faahim.github.io/blog/designing-bilingual-brands/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/designing-bilingual-brands/</guid>
+      <pubDate>Sun, 11 Oct 2026 09:00:00 +0600</pubDate>
+      <category>Brand identity</category>
+      <description>Why Bangla and English type rarely match out of the box, and the practical rules I use to make them feel like one brand.</description>
+    </item>
+    <item>
+      <title>From SDI to IP: What SMPTE ST 2110 Changes for Broadcasters</title>
+      <link>https://abdullah-al-faahim.github.io/blog/sdi-to-ip-st-2110/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/sdi-to-ip-st-2110/</guid>
+      <pubDate>Sun, 04 Oct 2026 09:00:00 +0600</pubDate>
+      <category>Broadcast technology</category>
+      <description>Broadcast facilities are swapping coaxial cables for network switches. Here is what ST 2110 actually is, why it matters, and what it asks of engineers.</description>
+    </item>
+    <item>
+      <title>Brand Identity Is More Than a Logo: A Practical Process for Small Organisations</title>
+      <link>https://abdullah-al-faahim.github.io/blog/brand-identity-process/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/brand-identity-process/</guid>
+      <pubDate>Sat, 26 Sep 2026 09:00:00 +0600</pubDate>
+      <category>Brand identity</category>
+      <description>The step-by-step process I use with startups, youth organisations and shops to go from a vague brief to an identity people can actually use.</description>
+    </item>
+    <item>
+      <title>Design Theory You Can Use Tomorrow: Gestalt, Hierarchy and Simple Research</title>
+      <link>https://abdullah-al-faahim.github.io/blog/design-theory-you-can-use/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/design-theory-you-can-use/</guid>
+      <pubDate>Fri, 18 Sep 2026 09:00:00 +0600</pubDate>
+      <category>Design theory &amp; research</category>
+      <description>The handful of design principles and research methods I actually use every week, explained without the jargon.</description>
+    </item>
+    <item>
+      <title>Building Offline-First Apps for Bangladesh</title>
+      <link>https://abdullah-al-faahim.github.io/blog/offline-first-apps-bangladesh/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/offline-first-apps-bangladesh/</guid>
+      <pubDate>Thu, 10 Sep 2026 09:00:00 +0600</pubDate>
+      <category>App development</category>
+      <description>Why my apps work without the internet, keep data on the phone and speak Bangla first, and the design and engineering choices that follow.</description>
+    </item>
+    <item>
+      <title>Leading Volunteer Creative Teams: What Student Organisations Taught Me</title>
+      <link>https://abdullah-al-faahim.github.io/blog/leading-volunteer-creative-teams/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/leading-volunteer-creative-teams/</guid>
+      <pubDate>Wed, 02 Sep 2026 09:00:00 +0600</pubDate>
+      <category>Leadership</category>
+      <description>Lessons from leading design teams and events in student and youth organisations, where nobody is paid and everyone is busy.</description>
+    </item>
+  </channel>
+</rss>

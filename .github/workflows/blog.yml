@@ -1,0 +1,46 @@
+# Rebuilds the blog whenever a post, a blog image or the builder changes:
+# blog/<slug>/ pages, blog/index.html, feed, sitemap and the home page's
+# "From the blog" section. Posts are usually saved by the editor at /admin/.
+name: Build blog
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/blog/**"
+      - "blog/media/**"
+      - "tools/build_blog.py"
+      - ".github/workflows/blog.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-blog
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install the Markdown and YAML libraries
+        run: python3 -m pip install --quiet markdown pyyaml
+
+      - name: Build
+        run: python3 tools/build_blog.py
+
+      - name: Commit the built pages
+        run: |
+          git add -A blog index.html sitemap.xml
+          if git diff --cached --quiet; then
+            echo "Nothing changed"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Build blog"
+          git pull --rebase origin main
+          git push

@@ -695,3 +695,20 @@ dialog.cvbox::backdrop { background: rgb(12 4 48 / 0.82); backdrop-filter: blur(
 .job time { order: -1; }
 @media (max-width: 1020px) { .jobs { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .jobs { grid-template-columns: 1fr; } .job-logo { height: 88px; } }
+
+/* Blog cards: shared by the home page "From the blog" section and /blog/ */
+.post-grid { display: grid; gap: 28px 20px; margin-top: 44px; }
+.post-grid.four { grid-template-columns: repeat(4, 1fr); }
+.post-grid.three { grid-template-columns: repeat(3, 1fr); }
+.post-card { display: flex; flex-direction: column; text-decoration: none; color: var(--ink); }
+.post-card .pc-im { display: block; border-radius: 16px; overflow: hidden; aspect-ratio: 16 / 9; background: var(--chip); }
+.post-card .pc-im img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
+.post-card:hover .pc-im img { transform: scale(1.04); }
+.pc-meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 14px; font: 600 12px/1.4 var(--mono); color: var(--muted); }
+.pc-cat { display: inline-block; padding: 5px 10px; border-radius: 999px; background: var(--chip); color: var(--mark); font: 600 11px/1.2 var(--mono); letter-spacing: .06em; text-transform: uppercase; }
+.post-card b { display: block; margin-top: 10px; font-size: 18px; line-height: 1.3; letter-spacing: -0.015em; }
+.post-card:hover b { color: var(--mark); }
+.post-card small { display: block; margin-top: 8px; color: var(--muted); font-size: 14px; line-height: 1.55; }
+.pc-read { margin-top: 12px; font: 600 12px/1 var(--mono); color: var(--mark); }
+@media (max-width: 1020px) { .post-grid.four, .post-grid.three { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .post-grid.four, .post-grid.three { grid-template-columns: 1fr; } }
