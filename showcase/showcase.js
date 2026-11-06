@@ -124,6 +124,22 @@
     x0 = null;
   });
 
+  // CV preview: "View CV" opens the pages in a dialog; without JS the link opens the PDF
+  (function () {
+    var open = document.getElementById("viewCv");
+    var box = document.getElementById("cvBox");
+    if (!open || !box || typeof box.showModal !== "function") return;
+    open.addEventListener("click", function (e) {
+      e.preventDefault();
+      box.querySelectorAll("img").forEach(function (img) { img.loading = "eager"; });
+      box.showModal();
+      box.querySelector(".cv-pages").scrollTop = 0;
+    });
+    document.getElementById("cvClose").addEventListener("click", function () { box.close(); });
+    box.addEventListener("click", function (e) { if (e.target === box) box.close(); });
+    box.addEventListener("close", function () { open.focus(); });
+  })();
+
   // Clients strip: built-in logos plus any image uploaded to the site's clients/ folder.
   // GitHub Pages can't list a folder, so the list comes from the GitHub API (cached per visit).
   (function () {

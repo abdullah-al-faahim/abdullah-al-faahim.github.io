@@ -63,7 +63,7 @@
           <div class="hero-actions">
             <a class="btn btn-lime" href="#work"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>See my work</a>
             <a class="btn btn-ghost" href="#apps"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></svg>Try my apps</a>
-            <a class="btn btn-ghost" href="cv/Abdullah%20Al%20Fahim_CV.pdf" download="Abdullah Al Fahim_CV.pdf"><svg viewBox="0 0 24 24" style="fill:none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="i" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>Download CV</a>
+            <a class="btn btn-ghost" id="viewCv" href="cv/Abdullah%20Al%20Fahim_CV.pdf" target="_blank" rel="noopener" aria-haspopup="dialog"><svg viewBox="0 0 24 24" style="fill:none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="i" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>View CV</a>
           </div>
         </div>
         <div class="hero-photo"><img src="assets/img/avatar.webp" alt="Abdullah Al Fahim" width="460" height="460" fetchpriority="high" /></div>
@@ -516,6 +516,23 @@
           <button class="btn btn-line" id="lbClose" type="button">Close</button>
         </div>
       </div>
+    </div>
+  </dialog>
+
+  <dialog class="cvbox" id="cvBox" aria-labelledby="cvTitle">
+    <div class="cv-head">
+      <div><b id="cvTitle">Abdullah Al Fahim · CV</b><small>V2026.11.003 · 4 pages</small></div>
+      <div class="acts">
+        <a class="btn btn-violet" href="cv/Abdullah%20Al%20Fahim_CV.pdf" download="Abdullah Al Fahim_CV.pdf"><svg viewBox="0 0 24 24" style="fill:none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="i" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>Download PDF</a>
+        <a class="btn btn-line" href="cv/Abdullah%20Al%20Fahim_CV.pdf" target="_blank" rel="noopener">Open PDF</a>
+        <button class="icon-btn cv-close" id="cvClose" type="button" aria-label="Close CV preview"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18" /></svg></button>
+      </div>
+    </div>
+    <div class="cv-pages" tabindex="0" aria-label="CV pages">
+        <img src="cv/preview/page-1.webp" alt="CV page 1 of 4" width="1241" height="1754" loading="lazy" decoding="async" />
+        <img src="cv/preview/page-2.webp" alt="CV page 2 of 4" width="1241" height="1754" loading="lazy" decoding="async" />
+        <img src="cv/preview/page-3.webp" alt="CV page 3 of 4" width="1241" height="1754" loading="lazy" decoding="async" />
+        <img src="cv/preview/page-4.webp" alt="CV page 4 of 4" width="1241" height="1754" loading="lazy" decoding="async" />
     </div>
   </dialog>
 
