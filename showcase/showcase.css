@@ -616,3 +616,13 @@ dialog.cvbox::backdrop { background: rgb(12 4 48 / 0.82); backdrop-filter: blur(
   .panel { padding: 22px; }
   .tools img { height: 40px; }
 }
+
+/* LinkedIn newsletter subscribe button (LinkedIn blue, site type) */
+.list .li-sub {
+  grid-column: 1 / -1; justify-self: start; display: inline-flex; align-items: center; gap: 8px;
+  margin-top: 10px; min-height: 40px; padding: 0 18px; border-radius: 999px;
+  background: #0a66c2; color: #fff; font-weight: 600; font-size: 14px; text-decoration: none;
+  transition: background-color .2s, transform .2s;
+}
+.list .li-sub:hover { background: #004182; transform: translateY(-2px); }
+.list .li-sub svg { width: 16px; height: 16px; fill: currentColor; }
