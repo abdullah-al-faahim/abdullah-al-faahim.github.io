@@ -151,12 +151,101 @@
       var primary = btns[0], secondary = btns[1];
       var arrow = primary.querySelector("svg");
       primary.href = url;
+      primary.setAttribute("data-frame", "");
+      primary.dataset.title = card.dataset.name || "";
       primary.textContent = "Open live page ";
       if (arrow) primary.appendChild(arrow);
       if (secondary) { secondary.href = card.dataset.apk; secondary.textContent = "Download APK"; }
       card.querySelector(".url").textContent = location.host + url;
     }).catch(function () {});
   });
+
+  // Viewer dialog: app live pages open in a frame; Behance, Dribbble and Pinterest open a
+  // profile preview (those sites refuse to be framed, so the preview is built from my own work)
+  (function () {
+    var box = document.getElementById("viewBox");
+    if (!box || typeof box.showModal !== "function") return;
+    var frame = document.getElementById("vbFrame");
+    var title = document.getElementById("vbTitle");
+    var sub = document.getElementById("vbSub");
+    var openLink = document.getElementById("vbOpen");
+    var panels = box.querySelectorAll(".pf-panel");
+    var opener = null;
+    var pinLoaded = false;
+
+    function show(t, s, url, label) {
+      title.textContent = t;
+      sub.textContent = s;
+      openLink.href = url;
+      openLink.lastChild.textContent = label;
+      box.showModal();
+    }
+    function hideAll() {
+      panels.forEach(function (p) { p.hidden = true; });
+      frame.hidden = true;
+      frame.removeAttribute("src");
+      box.classList.remove("framed");
+    }
+    function openFrame(url, name) {
+      hideAll();
+      frame.hidden = false;
+      frame.title = name + " live page";
+      frame.src = url;
+      box.classList.add("framed");
+      show(name, location.host + url, url, "Open in new tab");
+    }
+    function pinterest(panel) {
+      var mount = document.getElementById("pinMount");
+      var note = document.getElementById("pinNote");
+      if (pinLoaded) return;
+      pinLoaded = true;
+      var w = Math.max(280, Math.min(880, mount.clientWidth - 8));
+      var a = document.createElement("a");
+      a.setAttribute("data-pin-do", "embedUser");
+      a.setAttribute("data-pin-board-width", String(w));
+      a.setAttribute("data-pin-scale-height", String(Math.max(360, window.innerHeight - 260)));
+      a.setAttribute("data-pin-scale-width", w < 500 ? "80" : "115");
+      a.href = "https://www.pinterest.com/utopiadesignsbd/";
+      mount.appendChild(a);
+      var done = function () { if (window.PinUtils && window.PinUtils.build) window.PinUtils.build(); };
+      if (window.PinUtils) done();
+      else {
+        var sc = document.createElement("script");
+        sc.async = true;
+        sc.src = "https://assets.pinterest.com/js/pinit.js";
+        sc.onload = done;
+        sc.onerror = function () { note.hidden = false; };
+        document.body.appendChild(sc);
+      }
+      setTimeout(function () { if (!mount.querySelector("span, iframe, img")) note.hidden = false; }, 8000);
+    }
+    function openProfile(kind) {
+      hideAll();
+      var panel = box.querySelector('.pf-panel[data-panel="' + kind + '"]');
+      if (!panel) return false;
+      panel.hidden = false;
+      panel.querySelectorAll("img").forEach(function (img) { img.loading = "eager"; });
+      box.querySelector(".vb-body").scrollTop = 0;
+      show(panel.dataset.title, panel.dataset.sub, panel.dataset.url, panel.dataset.label);
+      if (kind === "pinterest") pinterest(panel);
+      return true;
+    }
+
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest("[data-frame], [data-profile]");
+      if (!a || e.ctrlKey || e.metaKey || e.shiftKey || e.button !== 0) return;
+      e.preventDefault();
+      opener = a;
+      if (a.hasAttribute("data-frame")) openFrame(a.getAttribute("href"), a.dataset.title || a.textContent.trim());
+      else if (!openProfile(a.dataset.profile)) window.open(a.href, "_blank", "noopener");
+    });
+    document.getElementById("vbClose").addEventListener("click", function () { box.close(); });
+    box.addEventListener("click", function (e) { if (e.target === box) box.close(); });
+    box.addEventListener("close", function () {
+      frame.removeAttribute("src");
+      if (opener) opener.focus();
+    });
+  })();
 
   // CV preview: every [data-cv] link opens the pages in a dialog; without JS the link opens the PDF
   (function () {

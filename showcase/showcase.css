@@ -665,3 +665,33 @@ dialog.cvbox::backdrop { background: rgb(12 4 48 / 0.82); backdrop-filter: blur(
   .sub { position: static; display: flex; min-width: 0; padding: 0 0 0 18px; background: none; border: 0; box-shadow: none; }
   .sub a { font-size: 13px; padding: 11px 16px; color: var(--deep-muted); }
 }
+
+/* Viewer dialog: app live pages and profile previews (reuses the CV dialog frame) */
+.vb-body { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; background: var(--tint); }
+.vb-body iframe { display: block; width: 100%; height: 100%; border: 0; background: #fff; }
+.vb-body [hidden] { display: none; }
+.viewbox.framed .vb-body { overflow: hidden; }
+.pf-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 18px 16px; padding: 22px; }
+.pf-item { display: block; text-decoration: none; color: var(--ink); }
+.pf-item img { width: 100%; aspect-ratio: 808 / 632; object-fit: cover; border-radius: 12px; background: var(--chip); transition: transform .3s ease; }
+.pf-item:hover img { transform: translateY(-3px); }
+.pf-item span { display: block; margin-top: 8px; font-size: 14px; font-weight: 600; line-height: 1.35; }
+.pin-mount { display: flex; justify-content: center; padding: 22px; min-height: 200px; }
+.pf-note { padding: 0 22px 22px; color: var(--muted); text-align: center; }
+.pf-note a { color: var(--mark); font-weight: 600; }
+@media (max-width: 560px) {
+  .pf-grid { grid-template-columns: 1fr 1fr; gap: 14px 10px; padding: 12px; }
+  .pf-item span { font-size: 12px; }
+  .pin-mount { padding: 12px; }
+}
+
+/* Experience: four cards in a row, each stacked logo, role, dates, text */
+.jobs { grid-template-columns: repeat(4, 1fr); gap: 16px; align-items: stretch; }
+.job { grid-template-columns: 1fr; align-items: start; align-content: start; gap: 18px; padding: 16px; }
+.job-logo { height: 104px; min-height: 0; }
+.job-body { padding: 0 6px 6px; }
+.job-top { flex-direction: column; align-items: flex-start; gap: 6px; }
+.job h3 { font-size: 18px; line-height: 1.25; }
+.job time { order: -1; }
+@media (max-width: 1020px) { .jobs { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .jobs { grid-template-columns: 1fr; } .job-logo { height: 88px; } }

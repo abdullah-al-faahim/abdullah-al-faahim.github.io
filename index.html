@@ -457,9 +457,9 @@
         </div>
         <div class="work-more">
           <button class="btn btn-dark" id="more" type="button">Show all 45 projects</button>
-          <a class="btn btn-line" href="https://behance.net/hire-fahim"><svg class="i" aria-hidden="true"><use href="assets/img/icons.svg#behance" /></svg>Behance</a>
-          <a class="btn btn-line" href="https://dribbble.com/hire-fahim"><svg class="i" aria-hidden="true"><use href="assets/img/icons.svg#dribbble" /></svg>Dribbble</a>
-          <a class="btn btn-line" href="https://pinterest.com/utopiadesignsbd"><svg class="i" aria-hidden="true"><use href="assets/img/icons.svg#pinterest" /></svg>Pinterest</a>
+          <a class="btn btn-line" href="https://behance.net/hire-fahim" data-profile="behance"><svg class="i" aria-hidden="true"><use href="assets/img/icons.svg#behance" /></svg>Behance</a>
+          <a class="btn btn-line" href="https://dribbble.com/hire-fahim" data-profile="dribbble"><svg class="i" aria-hidden="true"><use href="assets/img/icons.svg#dribbble" /></svg>Dribbble</a>
+          <a class="btn btn-line" href="https://pinterest.com/utopiadesignsbd" data-profile="pinterest"><svg class="i" aria-hidden="true"><use href="assets/img/icons.svg#pinterest" /></svg>Pinterest</a>
         </div>
       </div>
     </section>
@@ -480,7 +480,7 @@
             <ul class="chips"><li>Kotlin</li><li>No internet permission</li><li>Android 8.0+</li></ul>
             <p class="url">abdullah-al-faahim.github.io/TaskBell-releases/</p>
             <div class="acts">
-              <a class="btn btn-violet" href="/TaskBell-releases/">Open live page <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg></a>
+              <a class="btn btn-violet" href="/TaskBell-releases/" data-frame data-title="TaskBell">Open live page <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg></a>
               <a class="btn btn-line" href="https://github.com/abdullah-al-faahim/TaskBell-releases/releases/latest">Download APK</a>
             </div>
           </div>
@@ -495,12 +495,12 @@
             <ul class="chips"><li>Flutter</li><li>Bangla and English</li><li>Offline</li></ul>
             <p class="url">abdullah-al-faahim.github.io/taka-releases/</p>
             <div class="acts">
-              <a class="btn btn-violet" href="/taka-releases/">Open live page <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg></a>
+              <a class="btn btn-violet" href="/taka-releases/" data-frame data-title="Taka · টাকা">Open live page <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg></a>
               <a class="btn btn-line" href="https://github.com/abdullah-al-faahim/taka-releases/releases">All releases</a>
             </div>
           </div>
         </article>
-        <article class="app rv" data-live="/zakat-calculator-app/" data-apk="https://github.com/abdullah-al-faahim/zakat-calculator-app/releases/latest/download/zakat-calculator.apk">
+        <article class="app rv" data-live="/zakat-calculator-app/" data-apk="https://github.com/abdullah-al-faahim/zakat-calculator-app/releases/latest/download/zakat-calculator.apk" data-name="Zakat Calculator · যাকাত ক্যালকুলেটর">
           <div class="app-art"><div class="phone"><img src="showcase/img/apps/zakat-1.webp" alt="Zakat Calculator · যাকাত ক্যালকুলেটর screen" width="420" height="910" loading="lazy" decoding="async" /></div><div class="phone"><img src="showcase/img/apps/zakat-2.webp" alt="Zakat Calculator · যাকাত ক্যালকুলেটর screen" width="420" height="910" loading="lazy" decoding="async" /></div></div>
           <div class="app-info">
             <span class="tag">Android app · Faith and finance</span>
@@ -522,7 +522,7 @@
           <span class="shot"><img src="showcase/img/apps/rokto-1.webp" alt="" loading="lazy" decoding="async" /></span>
           <div><b>Roktobondhu</b><small>Blood donor app for Bangladesh: requests and donors on one live map.</small><span>Flutter · Supabase &#8599;</span></div>
         </a>
-        <a class="mini rv" href="/Bijoy-Bangla-Typing-Practice/">
+        <a class="mini rv" href="/Bijoy-Bangla-Typing-Practice/" data-frame data-title="Bijoy Typing Practice">
           <span class="shot wide"><img src="showcase/img/apps/bijoy-1.webp" alt="" loading="lazy" decoding="async" /></span>
           <div><b>Bijoy Typing Practice</b><small>Learn the Bijoy Bayanno Bangla keyboard with key charts for every letter.</small><span>Web · Live page &#8599;</span></div>
         </a>
@@ -586,6 +586,19 @@
       </div>
     </section>
 
+    <section class="deep" id="process">
+      <div class="wrap">
+        <span class="eyebrow rv">How it works</span>
+        <h2 class="rv">Four steps from <em>brief to final file</em></h2>
+        <ol class="steps">
+          <li class="rv"><h3>Brief</h3><p>You tell me about the brand, the audience, the formats and the deadline.</p></li>
+          <li class="rv"><h3>First concept</h3><p>I send a first design built around one clear idea, not ten options.</p></li>
+          <li class="rv"><h3>Revisions</h3><p>We refine it together using your feedback until it&#8217;s right.</p></li>
+          <li class="rv"><h3>Final files</h3><p>You get files ready for social media, web, print or the Play Store.</p></li>
+        </ol>
+      </div>
+    </section>
+
     <section class="alt" id="toolbox">
       <div class="wrap">
         <span class="eyebrow rv">Toolbox</span>
@@ -601,19 +614,6 @@
       </div>
     </section>
 
-    <section class="deep" id="process">
-      <div class="wrap">
-        <span class="eyebrow rv">How it works</span>
-        <h2 class="rv">Four steps from <em>brief to final file</em></h2>
-        <ol class="steps">
-          <li class="rv"><h3>Brief</h3><p>You tell me about the brand, the audience, the formats and the deadline.</p></li>
-          <li class="rv"><h3>First concept</h3><p>I send a first design built around one clear idea, not ten options.</p></li>
-          <li class="rv"><h3>Revisions</h3><p>We refine it together using your feedback until it&#8217;s right.</p></li>
-          <li class="rv"><h3>Final files</h3><p>You get files ready for social media, web, print or the Play Store.</p></li>
-        </ol>
-      </div>
-    </section>
-
     <section class="deep contact" id="contact">
       <div class="wrap">
         <h2 class="rv">Got a brand, campaign or app <em>coming up?</em></h2>
@@ -625,9 +625,9 @@
           <a class="btn btn-ghost" href="cv/Abdullah%20Al%20Fahim_CV.pdf" target="_blank" rel="noopener" data-cv><svg viewBox="0 0 24 24" style="fill:none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="i" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>Preview CV</a>
         </div>
         <ul class="socials rv">
-          <li><a href="https://behance.net/hire-fahim"><svg class="i" aria-hidden="true"><use href="assets/img/icons.svg#behance" /></svg>Behance</a></li>
-          <li><a href="https://dribbble.com/hire-fahim"><svg class="i" aria-hidden="true"><use href="assets/img/icons.svg#dribbble" /></svg>Dribbble</a></li>
-          <li><a href="https://pinterest.com/utopiadesignsbd"><svg class="i" aria-hidden="true"><use href="assets/img/icons.svg#pinterest" /></svg>Pinterest</a></li>
+          <li><a href="https://behance.net/hire-fahim" data-profile="behance"><svg class="i" aria-hidden="true"><use href="assets/img/icons.svg#behance" /></svg>Behance</a></li>
+          <li><a href="https://dribbble.com/hire-fahim" data-profile="dribbble"><svg class="i" aria-hidden="true"><use href="assets/img/icons.svg#dribbble" /></svg>Dribbble</a></li>
+          <li><a href="https://pinterest.com/utopiadesignsbd" data-profile="pinterest"><svg class="i" aria-hidden="true"><use href="assets/img/icons.svg#pinterest" /></svg>Pinterest</a></li>
           <li><a href="https://linkedin.com/in/abdullah-al-fahim"><svg class="i" aria-hidden="true"><use href="assets/img/icons.svg#linkedin" /></svg>LinkedIn</a></li>
           <li><a href="https://github.com/abdullah-al-faahim"><svg class="i" aria-hidden="true"><use href="assets/img/icons.svg#github" /></svg>GitHub</a></li>
         </ul>
@@ -638,7 +638,7 @@
   <footer>
     <div class="wrap">
       <span>&#169; <span id="year">2026</span> Abdullah Al Fahim</span>
-      <span><a href="https://behance.net/hire-fahim">Behance</a> &#183; <a href="https://dribbble.com/hire-fahim">Dribbble</a> &#183; <a href="https://github.com/abdullah-al-faahim">GitHub</a> &#183; <a href="https://linkedin.com/in/abdullah-al-fahim">LinkedIn</a></span>
+      <span><a href="https://behance.net/hire-fahim" data-profile="behance">Behance</a> &#183; <a href="https://dribbble.com/hire-fahim" data-profile="dribbble">Dribbble</a> &#183; <a href="https://github.com/abdullah-al-faahim">GitHub</a> &#183; <a href="https://linkedin.com/in/abdullah-al-fahim">LinkedIn</a></span>
     </div>
   </footer>
 
@@ -655,6 +655,83 @@
           <a class="btn btn-violet" id="lbLink" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg><span>View project</span></a>
           <button class="btn btn-line" id="lbClose" type="button">Close</button>
         </div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="cvbox viewbox" id="viewBox" aria-labelledby="vbTitle">
+    <div class="cv-head">
+      <div><b id="vbTitle">Preview</b><small id="vbSub"></small></div>
+      <div class="acts">
+        <a class="btn btn-violet" id="vbOpen" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg><span>Open in new tab</span></a>
+        <button class="icon-btn cv-close" id="vbClose" type="button" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18" /></svg></button>
+      </div>
+    </div>
+    <div class="vb-body">
+      <iframe id="vbFrame" title="Live page" hidden></iframe>
+      <div class="pf-panel" data-panel="behance" data-title="Behance · Abdullah Al Fahim" data-sub="38 projects · behance.net/hire-fahim" data-url="https://behance.net/hire-fahim" data-label="Open on Behance" hidden>
+        <div class="pf-grid">
+<a class="pf-item" href="https://www.behance.net/gallery/237338359/Portfolio-of-Aleya-Aktar" target="_blank" rel="noopener"><img src="showcase/img/work/t/237338359.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Portfolio Presentation for Aleya Aktar</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/236937815/Company-Envelop-Design" target="_blank" rel="noopener"><img src="showcase/img/work/t/236937815.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Company Envelope Design</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/218032003/Project-Infographic" target="_blank" rel="noopener"><img src="showcase/img/work/t/218032003.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Project Infographic</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/216071755/Logo-Design-NUSDF-Bangladesh-4th-Anniversary" target="_blank" rel="noopener"><img src="showcase/img/work/t/216071755.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>NUSDF Bangladesh 4th Anniversary Logo</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/203193601/CRM-Software-Landing-Page-Wireframe-Design" target="_blank" rel="noopener"><img src="showcase/img/work/t/203193601.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>CRM Landing Page Wireframe</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/202231811/Logo-Design-of-AI-Crafters-Bangladesh" target="_blank" rel="noopener"><img src="showcase/img/work/t/202231811.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>AI Crafters Bangladesh Logo</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/201760589/Logo-Design-for-Fast-Fashion-Brand" target="_blank" rel="noopener"><img src="showcase/img/work/t/201760589.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Fast Fashion Brand Logo</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/200239021/Web-Banner-Design" target="_blank" rel="noopener"><img src="showcase/img/work/t/200239021.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Web Banner Design</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/200383685/Product-Manipulation-Web-Banner" target="_blank" rel="noopener"><img src="showcase/img/work/t/200383685.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Product Manipulation Web Banner</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/200237073/Social-Media-Post-Design-for-Laptop-World-BD" target="_blank" rel="noopener"><img src="showcase/img/work/t/200237073.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Laptop World BD Social Posts</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/200235201/Restaurant-Menu-Animation" target="_blank" rel="noopener"><img src="showcase/img/work/t/200235201.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Restaurant Menu Animation</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/197649061/Brand-Identity-Design-GreenOn-Digital" target="_blank" rel="noopener"><img src="showcase/img/work/t/197649061.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>GreenOn Digital Brand Identity</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/197498483/May-Day-Creative-Static-Poster" target="_blank" rel="noopener"><img src="showcase/img/work/t/197498483.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>May Day Poster</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/197308885/Fashion-Company-Brand-Identity-Design" target="_blank" rel="noopener"><img src="showcase/img/work/t/197308885.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Elevate Fashion Brand Identity</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/197141985/Tour-Group-T-shirt-Design" target="_blank" rel="noopener"><img src="showcase/img/work/t/197141985.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Tour Group T-Shirt</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/192720525/Social-Media-Ad-Design" target="_blank" rel="noopener"><img src="showcase/img/work/t/192720525.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>NUSDF Recruitment Social Ad</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/192719929/Intl-Mother-Language-Day-Poster-Laptop-World-BD" target="_blank" rel="noopener"><img src="showcase/img/work/t/192719929.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Mother Language Day Poster</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/192659389/NU-Skill-Development-Summit-2024-Chattogram-Division" target="_blank" rel="noopener"><img src="showcase/img/work/t/192659389.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>NU Skill Development Summit 2024</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/190690561/Public-Speaking-Mastermind-by-NUSDF-Bangladesh" target="_blank" rel="noopener"><img src="showcase/img/work/t/190690561.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Public Speaking Mastermind</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/189475275/Market-Canvas-Magazine-3rd-Edition-JAN-2024" target="_blank" rel="noopener"><img src="showcase/img/work/t/189475275.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Market Canvas Magazine, 3rd Edition</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/188291883/Study-Abroad-Poster" target="_blank" rel="noopener"><img src="showcase/img/work/t/188291883.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Study Abroad Posts</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/187865331/New-Year-2024" target="_blank" rel="noopener"><img src="showcase/img/work/t/187865331.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>New Year 2024 Post</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/187839643/Happy-New-Year-2024" target="_blank" rel="noopener"><img src="showcase/img/work/t/187839643.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Happy New Year 2024</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/187834331/National-Days" target="_blank" rel="noopener"><img src="showcase/img/work/t/187834331.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>National Days Series</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/187794819/E-Learning-Platform-UIUX-Design" target="_blank" rel="noopener"><img src="showcase/img/work/t/187794819.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>E-Learning Platform UI/UX</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/187793885/Event-Promotion-Static-Design" target="_blank" rel="noopener"><img src="showcase/img/work/t/187793885.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Event Promotion Post</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/187793675/Social-Media-Static-Post" target="_blank" rel="noopener"><img src="showcase/img/work/t/187793675.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Team Building Social Post</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/187793569/Webinar-Static-Minimalistic-Poster-Design" target="_blank" rel="noopener"><img src="showcase/img/work/t/187793569.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Minimal Webinar Poster</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/187778263/Civil-Engineers-CV" target="_blank" rel="noopener"><img src="showcase/img/work/t/187778263.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Civil Engineer&#x27;s CV</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/187777755/Aesthetic-Black-and-White-Resume-Design" target="_blank" rel="noopener"><img src="showcase/img/work/t/187777755.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Black and White Resume Template</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/187777193/E-Pushti-UIUX-Design" target="_blank" rel="noopener"><img src="showcase/img/work/t/187777193.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>E-Pushti Website UI/UX</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/187754561/T-Shirt-Design-003" target="_blank" rel="noopener"><img src="showcase/img/work/t/187754561.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Minimal T-Shirt Design</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/187753581/Portrait-Illustration" target="_blank" rel="noopener"><img src="showcase/img/work/t/187753581.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Portrait Illustration</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/187752167/LinkedIn-Personal-Profile-Development-Post" target="_blank" rel="noopener"><img src="showcase/img/work/t/187752167.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>LinkedIn Profile Development Post</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/187749631/Restaurant-Website-on-Wordpress" target="_blank" rel="noopener"><img src="showcase/img/work/t/187749631.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Restaurant Website on WordPress</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/184151629/Girls-Spread-HOPE" target="_blank" rel="noopener"><img src="showcase/img/work/t/184151629.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Girls Spread HOPE Campaign</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/184151191/Project-Team-Features" target="_blank" rel="noopener"><img src="showcase/img/work/t/184151191.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Team HOPE Feature Post</span></a>
+<a class="pf-item" href="https://www.behance.net/gallery/184103261/NU-Skill-Development-Summit-2023" target="_blank" rel="noopener"><img src="showcase/img/work/t/184103261.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>NU Skill Development Summit 2023</span></a>
+        </div>
+      </div>
+      <div class="pf-panel" data-panel="dribbble" data-title="Dribbble · Abdullah Al Fahim" data-sub="14 shots · dribbble.com/hire-fahim" data-url="https://dribbble.com/hire-fahim" data-label="Open on Dribbble" hidden>
+        <div class="pf-grid">
+<a class="pf-item" href="https://dribbble.com/shots/24664997-Portrait-Illustration" target="_blank" rel="noopener"><img src="showcase/img/work/t/187753581.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Portrait Illustration</span></a>
+<a class="pf-item" href="https://dribbble.com/shots/24664270-Polio-CRM-Landing-Page-Design" target="_blank" rel="noopener"><img src="showcase/img/work/t/24664270.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Polio CRM Landing Page</span></a>
+<a class="pf-item" href="https://dribbble.com/shots/24518670-Carousel-Design-Choose-Your-Chart-Wisely" target="_blank" rel="noopener"><img src="showcase/img/work/t/24518670.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Choose Your Chart Wisely Carousel</span></a>
+<a class="pf-item" href="https://dribbble.com/shots/24517271-CRM-Software-Landing-Page-Wireframe-Design" target="_blank" rel="noopener"><img src="showcase/img/work/t/203193601.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>CRM Landing Page Wireframe</span></a>
+<a class="pf-item" href="https://dribbble.com/shots/24449843-Redesigned-the-AI-Crafters-Bangladesh-Logo" target="_blank" rel="noopener"><img src="showcase/img/work/t/202231811.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>AI Crafters Bangladesh Logo</span></a>
+<a class="pf-item" href="https://dribbble.com/shots/24449712-Business-Magazine-Design-Market-Canvas-Magazine" target="_blank" rel="noopener"><img src="showcase/img/work/t/189475275.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Market Canvas Magazine</span></a>
+<a class="pf-item" href="https://dribbble.com/shots/24446030-Professional-Notion-Dashboard-UI-Design" target="_blank" rel="noopener"><img src="showcase/img/work/t/24446030.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Notion Dashboard UI</span></a>
+<a class="pf-item" href="https://dribbble.com/shots/24425575-Professional-CV-Resume-Cover-Letter-Design" target="_blank" rel="noopener"><img src="showcase/img/work/t/24425575.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>CV, Resume and Cover Letter Set</span></a>
+<a class="pf-item" href="https://dribbble.com/shots/24425405-Nike-Dunk-Low-Retro-Product-Animation-Sound-On" target="_blank" rel="noopener"><img src="showcase/img/work/t/24425405.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Nike Dunk Low Product Animation</span></a>
+<a class="pf-item" href="https://dribbble.com/shots/24425283-Pitch-Deck-Design-for-a-AI-Based-Tech-Company" target="_blank" rel="noopener"><img src="showcase/img/work/t/24425283.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>AI Tech Company Pitch Deck</span></a>
+<a class="pf-item" href="https://dribbble.com/shots/24407035-Logo-Design-for-a-Microsoft-powered-Ai-Community" target="_blank" rel="noopener"><img src="showcase/img/work/t/202231811.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Logo for a Microsoft-powered AI Community</span></a>
+<a class="pf-item" href="https://dribbble.com/shots/24406898-Brand-Guideline-Development-for-a-Fashion-Brand-Shop" target="_blank" rel="noopener"><img src="showcase/img/work/t/201760589.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Fashion Brand Guidelines</span></a>
+<a class="pf-item" href="https://dribbble.com/shots/24406439-Web-Banner-Ads-Design-for-Laptop-Brands" target="_blank" rel="noopener"><img src="showcase/img/work/t/200237073.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Web Banners for Laptop Brands</span></a>
+<a class="pf-item" href="https://dribbble.com/shots/24406416-Design-Service-Brief-by-Abdullah-Al-Fahim" target="_blank" rel="noopener"><img src="showcase/img/work/t/24406416.webp" alt="" width="560" height="438" loading="lazy" decoding="async" /><span>Design Service Brief</span></a>
+        </div>
+      </div>
+      <div class="pf-panel" data-panel="pinterest" data-title="Pinterest · Utopia Creative Studio" data-sub="pinterest.com/utopiadesignsbd" data-url="https://pinterest.com/utopiadesignsbd" data-label="Open on Pinterest" hidden>
+        <div class="pin-mount" id="pinMount"></div>
+        <p class="pf-note" id="pinNote" hidden>Pinterest didn&#8217;t load here (an ad blocker may stop it). <a href="https://pinterest.com/utopiadesignsbd" target="_blank" rel="noopener">Open the profile on Pinterest &#8599;</a></p>
       </div>
     </div>
   </dialog>
