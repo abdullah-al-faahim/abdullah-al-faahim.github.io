@@ -124,20 +124,24 @@
     x0 = null;
   });
 
-  // CV preview: "View CV" opens the pages in a dialog; without JS the link opens the PDF
+  // CV preview: every [data-cv] link opens the pages in a dialog; without JS the link opens the PDF
   (function () {
-    var open = document.getElementById("viewCv");
     var box = document.getElementById("cvBox");
-    if (!open || !box || typeof box.showModal !== "function") return;
-    open.addEventListener("click", function (e) {
-      e.preventDefault();
-      box.querySelectorAll("img").forEach(function (img) { img.loading = "eager"; });
-      box.showModal();
-      box.querySelector(".cv-pages").scrollTop = 0;
+    var openers = document.querySelectorAll("[data-cv]");
+    if (!box || !openers.length || typeof box.showModal !== "function") return;
+    var opener = null;
+    openers.forEach(function (link) {
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+        opener = link;
+        box.querySelectorAll("img").forEach(function (img) { img.loading = "eager"; });
+        box.showModal();
+        box.querySelector(".cv-pages").scrollTop = 0;
+      });
     });
     document.getElementById("cvClose").addEventListener("click", function () { box.close(); });
     box.addEventListener("click", function (e) { if (e.target === box) box.close(); });
-    box.addEventListener("close", function () { open.focus(); });
+    box.addEventListener("close", function () { if (opener) opener.focus(); });
   })();
 
   // Clients strip: built-in logos plus any image uploaded to the site's clients/ folder.
