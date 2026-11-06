@@ -124,6 +124,70 @@
     x0 = null;
   });
 
+  // Clients strip: built-in logos plus any image uploaded to the site's clients/ folder.
+  // GitHub Pages can't list a folder, so the list comes from the GitHub API (cached per visit).
+  (function () {
+    var strip = document.getElementById("logoStrip");
+    if (!strip) return;
+    var row = strip.querySelector(".logo-row");
+    var key = function (s) { return s.toLowerCase().replace(/\.[a-z0-9]+$/, "").replace(/[^a-z0-9]+/g, ""); };
+    var logos = Array.prototype.map.call(row.children, function (el) {
+      return { name: el.title, src: el.querySelector("img").getAttribute("src") };
+    });
+
+    function tile(l) {
+      var span = document.createElement("span");
+      span.className = "client";
+      span.title = l.name;
+      var img = document.createElement("img");
+      img.src = l.src;
+      img.alt = l.name;
+      img.decoding = "async";
+      span.appendChild(img);
+      return span;
+    }
+    function render() {
+      row.textContent = "";
+      logos.forEach(function (l) { row.appendChild(tile(l)); });
+      // Repeat the set until one half is wider than the screen, then double it so the loop is seamless
+      var one = row.scrollWidth || 1;
+      var copies = Math.max(1, Math.ceil((window.innerWidth * 1.2) / one));
+      var half = [];
+      for (var c = 0; c < copies; c++) logos.forEach(function (l) { half.push(l); });
+      row.textContent = "";
+      half.concat(half).forEach(function (l) { row.appendChild(tile(l)); });
+      row.style.animationDuration = Math.max(20, (one * copies) / 45) + "s";
+    }
+    function merge(files) {
+      files.forEach(function (f) {
+        if (f.type !== "file" || !/\.(png|jpe?g|webp|svg|gif|avif)$/i.test(f.name)) return;
+        var name = f.name.replace(/\.[^.]+$/, "").replace(/[-_]+/g, " ").trim();
+        var src = strip.dataset.folder + "/" + encodeURIComponent(f.name);
+        var match = logos.filter(function (l) { return key(l.name) === key(f.name); })[0];
+        if (match) match.src = src;
+        else logos.push({ name: name, src: src });
+      });
+      render();
+    }
+
+    render();
+    var cacheKey = "clients:" + strip.dataset.folder;
+    try {
+      var cached = sessionStorage.getItem(cacheKey);
+      if (cached) { merge(JSON.parse(cached)); return; }
+    } catch (e) {}
+    if (!window.fetch) return;
+    fetch("https://api.github.com/repos/" + strip.dataset.repo + "/contents/" + strip.dataset.folder)
+      .then(function (r) { return r.ok ? r.json() : []; })
+      .then(function (files) {
+        if (!Array.isArray(files)) return;
+        var slim = files.map(function (f) { return { type: f.type, name: f.name }; });
+        try { sessionStorage.setItem(cacheKey, JSON.stringify(slim)); } catch (e) {}
+        merge(slim);
+      })
+      .catch(function () {});
+  })();
+
   // Reveal on scroll and highlight the current section in the nav
   if ("IntersectionObserver" in window) {
     var reveal = new IntersectionObserver(function (entries) {
