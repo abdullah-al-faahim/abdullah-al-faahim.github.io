@@ -124,6 +124,23 @@
     x0 = null;
   });
 
+  // Apps whose page isn't published yet: switch the card to it as soon as the address answers
+  document.querySelectorAll(".app[data-live]").forEach(function (card) {
+    if (!window.fetch) return;
+    var url = card.dataset.live;
+    fetch(url, { method: "HEAD", cache: "no-store" }).then(function (r) {
+      if (!r.ok) return;
+      var btns = card.querySelectorAll(".acts .btn");
+      var primary = btns[0], secondary = btns[1];
+      var arrow = primary.querySelector("svg");
+      primary.href = url;
+      primary.textContent = "Open live page ";
+      if (arrow) primary.appendChild(arrow);
+      if (secondary) { secondary.href = card.dataset.apk; secondary.textContent = "Download APK"; }
+      card.querySelector(".url").textContent = location.host + url;
+    }).catch(function () {});
+  });
+
   // CV preview: every [data-cv] link opens the pages in a dialog; without JS the link opens the PDF
   (function () {
     var box = document.getElementById("cvBox");
