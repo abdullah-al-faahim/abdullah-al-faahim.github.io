@@ -19,6 +19,7 @@ Upload a PNG, SVG, WebP or JPG to the `clients/` folder (on GitHub: open the fol
 
 - The file name becomes the logo's label: `NUSDF Bangladesh.png` shows as "NUSDF Bangladesh".
 - Use a transparent or white background; logos sit on white cards.
+- For a white logo, put `white` in the file name, e.g. `Utopia SoftTech (white).png`. It gets a dark card and the word is left out of the label.
 - A file named like a built-in logo replaces it (Channel i, Laptop World BD, FarhanasBrainstation).
 
 - Colors and type follow the profile design system: one violet scale on `#3A10AD`, Acid Lime `#D4FF24` as the only highlight, Sora and JetBrains Mono (SIL Open Font License, see `assets/fonts/`).

@@ -501,6 +501,8 @@ footer a { color: #fff; }
 .client img { width: auto; height: auto; max-width: 100%; max-height: 64px; object-fit: contain; filter: grayscale(1); opacity: .72; transition: filter .25s, opacity .25s; }
 .client:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
 .client:hover img { filter: none; opacity: 1; }
+.client.dark { background: var(--night); border-color: #2a2550; }
+.client.dark img { opacity: .85; }
 @media (max-width: 560px) {
   .client { width: 150px; height: 84px; padding: 14px 18px; }
   .client img { max-height: 48px; }

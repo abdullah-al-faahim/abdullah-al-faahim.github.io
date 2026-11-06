@@ -174,7 +174,7 @@
 
     function tile(l) {
       var span = document.createElement("span");
-      span.className = "client";
+      span.className = l.dark ? "client dark" : "client";
       span.title = l.name;
       var img = document.createElement("img");
       img.src = l.src;
@@ -198,11 +198,14 @@
     function merge(files) {
       files.forEach(function (f) {
         if (f.type !== "file" || !/\.(png|jpe?g|webp|svg|gif|avif)$/i.test(f.name)) return;
-        var name = f.name.replace(/\.[^.]+$/, "").replace(/[-_]+/g, " ").trim();
+        var base = f.name.replace(/\.[^.]+$/, "");
+        // A file with "white" in its name is a light logo: show it on a dark card, without the word in its label
+        var dark = /(^|[\s_\-(])white([\s_\-)]|$)/i.test(base);
+        var name = base.replace(/\(?\bwhite\b\)?/i, "").replace(/[-_]+/g, " ").replace(/\s+/g, " ").trim();
         var src = strip.dataset.folder + "/" + encodeURIComponent(f.name);
-        var match = logos.filter(function (l) { return key(l.name) === key(f.name); })[0];
-        if (match) match.src = src;
-        else logos.push({ name: name, src: src });
+        var match = logos.filter(function (l) { return key(l.name) === key(name); })[0];
+        if (match) { match.src = src; match.dark = dark; }
+        else logos.push({ name: name, src: src, dark: dark });
       });
       render();
     }
