@@ -8,9 +8,8 @@ Plain HTML, CSS and a little JavaScript, served by GitHub Pages from `main`. No 
 
 | Path | Page |
 |---|---|
-| `/` (`index.html`) | Home: design work from Behance and Dribbble, and the apps live on this domain. Styles, scripts and images in `showcase/`. |
-| `/resume/` | Résumé: experience, projects, recognition and toolbox. |
-| `/cv/` | Latest CV as a PDF, linked from both pages. |
+| `/` (`index.html`) | The whole site: about, experience, design work, apps, clients, recognition and toolbox. Styles, scripts and images in `showcase/`. |
+| `/cv/` | Latest CV as a PDF, with page previews in `cv/preview/`. |
 | `/showcase/` | Old address, redirects to `/`. |
 | `/clients/` | Client logos for the home page strip (empty until you add some). |
 
