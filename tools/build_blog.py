@@ -10,7 +10,10 @@ This script writes:
 and fills the "From the blog" section of index.html (between the BLOG markers)
 with the four newest posts.
 
-Posts with `draft: true` are skipped. Needs:  pip install markdown pyyaml
+It also draws a 1200x630 social share image per post (tools/og_images.py,
+blog/media/og/) and points each page's Open Graph and Twitter tags at it.
+
+Posts with `draft: true` are skipped. Needs:  pip install markdown pyyaml pillow
 Run from anywhere:  python tools/build_blog.py
 The GitHub Action in .github/workflows/blog.yml runs it on every change to content/blog/.
 """
@@ -26,6 +29,11 @@ from pathlib import Path
 
 import markdown
 import yaml
+
+try:  # social share images; the blog still builds without Pillow
+    import og_images
+except ImportError:
+    og_images = None
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "content" / "blog"
@@ -116,7 +124,10 @@ BARS = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width=
 ARROW = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg>'
 
 
-def head(title, description, url, image, kind="website", extra=""):
+def head(title, description, url, image, kind="website", extra="", image_alt=""):
+    size = ('<meta property="og:image:width" content="1200" />\n  <meta property="og:image:height" content="630" />\n  '
+            if "/media/og/" in image else "")
+    alt = f'<meta property="og:image:alt" content="{esc(image_alt)}" />\n  <meta name="twitter:image:alt" content="{esc(image_alt)}" />\n  ' if image_alt else ""
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -132,7 +143,9 @@ def head(title, description, url, image, kind="website", extra=""):
   <meta property="og:title" content="{esc(title)}" />
   <meta property="og:description" content="{esc(description)}" />
   <meta property="og:image" content="{esc(image)}" />
-  <meta name="twitter:card" content="summary_large_image" />
+  {size}{alt}<meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{esc(title)}" />
+  <meta name="twitter:description" content="{esc(description)}" />
   <meta name="twitter:image" content="{esc(image)}" />
   {extra}<link rel="alternate" type="application/rss+xml" title="{AUTHOR} · Blog" href="/blog/feed.xml" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -186,9 +199,12 @@ def card(p, cls="post-card"):
 
 
 # ---------------------------------------------------------------- pages
-def post_page(p, prev_p, next_p, more):
+def post_page(p, prev_p, next_p, more, og=None):
     url = f"{SITE}/blog/{p['slug']}/"
-    image = SITE + p["cover"] if p["cover"].startswith("/") else (p["cover"] or SITE + "/showcase/img/og.jpg")
+    if og:
+        image = f"{SITE}/blog/media/og/{og}"
+    else:
+        image = SITE + p["cover"] if p["cover"].startswith("/") else (p["cover"] or SITE + "/showcase/img/og.jpg")
     ld = {
         "@context": "https://schema.org", "@type": "BlogPosting", "headline": p["title"],
         "description": p["excerpt"], "datePublished": p["date"].isoformat(), "image": image,
@@ -210,7 +226,8 @@ def post_page(p, prev_p, next_p, more):
     cover = (f'<figure class="post-cover"><img src="{esc(p["cover"])}" alt="{esc(p["cover_alt"])}" width="1600" height="900" fetchpriority="high" decoding="async" /></figure>'
              if p["cover"] else "")
     more_html = "".join(card(m) for m in more)
-    return head(f'{p["title"]} · {AUTHOR}', p["excerpt"] or p["title"], url, image, "article", extra) + f"""
+    return head(f'{p["title"]} · {AUTHOR}', p["excerpt"] or p["title"], url, image, "article", extra,
+                f'{p["title"]}, a post by {AUTHOR}') + f"""
   <main id="main">
     <article class="post">
       <header class="post-head wrap">
@@ -257,7 +274,7 @@ def post_page(p, prev_p, next_p, more):
 """ + FOOT
 
 
-def index_page(posts):
+def index_page(posts, og=None):
     counts = {c: sum(1 for p in posts if p["category"] == c) for c in CATEGORIES}
     chips = [f'<button type="button" data-c="all" aria-pressed="true">All posts<small>{len(posts)}</small></button>']
     chips += [f'<button type="button" data-c="{c}" aria-pressed="false">{esc(n)}<small>{counts[c]}</small></button>' for c, n in CATEGORIES.items() if counts[c]]
@@ -265,7 +282,8 @@ def index_page(posts):
     lead_html = card(lead, "post-card lead") if lead else '<p class="empty">No posts yet.</p>'
     grid = "".join(card(p) for p in rest)
     desc = "Notes on broadcast technology, app development, design systems, brand identity, design research, leadership and AI for design by Abdullah Al Fahim."
-    return head(f"Blog · {AUTHOR}", desc, f"{SITE}/blog/", SITE + "/showcase/img/og.jpg") + f"""
+    image = f"{SITE}/blog/media/og/{og}" if og else SITE + "/showcase/img/og.jpg"
+    return head(f"Blog · {AUTHOR}", desc, f"{SITE}/blog/", image, image_alt=f"{AUTHOR} · Blog") + f"""
   <main id="main">
     <section class="blog-hero">
       <div class="wrap">
@@ -334,13 +352,23 @@ def main():
             if d.is_dir() and d.name not in slugs and page.exists() and MARK in page.read_text(encoding="utf-8"):
                 shutil.rmtree(d)
 
+    og = {}
+    if og_images:
+        local = lambda c: str(ROOT / c.lstrip("/")) if c.startswith("/") else None
+        cards = [{"key": p["slug"], "title": p["title"], "label": CATEGORIES[p["category"]],
+                  "meta": f'{nice_date(p["date"])} · {p["minutes"]} min read', "cover": local(p["cover"])} for p in posts]
+        if posts:
+            cards.append({"key": "blog", "title": "Notes on broadcast, apps and design.", "label": "Blog",
+                          "meta": f"{len(posts)} posts · broadcast, apps, design", "cover": local(posts[0]["cover"])})
+        og = og_images.render(cards, OUT / "media" / "og")
+
     for i, p in enumerate(posts):
         prev_p = posts[i - 1] if i > 0 else None
         next_p = posts[i + 1] if i + 1 < len(posts) else None
         same = [q for q in posts if q is not p and q["category"] == p["category"]]
         others = [q for q in posts if q is not p and q not in same]
-        write(OUT / p["slug"] / "index.html", post_page(p, prev_p, next_p, (same + others)[:3]))
-    write(OUT / "index.html", index_page(posts))
+        write(OUT / p["slug"] / "index.html", post_page(p, prev_p, next_p, (same + others)[:3], og.get(p["slug"])))
+    write(OUT / "index.html", index_page(posts, og.get("blog")))
     write(OUT / "feed.xml", feed(posts))
     write(ROOT / "sitemap.xml", sitemap(posts))
     write(OUT / "posts.json", json.dumps([
@@ -357,7 +385,7 @@ def main():
             block = "<!-- BLOG:START -->" + "".join(card(p, "post-card rv") for p in posts[:4]) + "<!-- BLOG:END -->"
             text = text[:m.start()] + block + text[m.end():]
             write(home, text)
-    print(f"Built {len(posts)} posts")
+    print(f"Built {len(posts)} posts, {len(og)} share images")
 
 
 if __name__ == "__main__":
