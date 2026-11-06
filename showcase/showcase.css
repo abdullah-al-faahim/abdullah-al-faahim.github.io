@@ -136,7 +136,7 @@ svg.i { width: 18px; height: 18px; fill: currentColor; flex: none; }
 }
 .top.scrolled { border-color: var(--deep-line); box-shadow: 0 8px 24px rgb(10 2 40 / 0.25); }
 .top nav { display: flex; align-items: center; gap: 20px; min-height: 72px; }
-.logo { font-weight: 700; font-size: 18px; letter-spacing: -0.02em; text-decoration: none; margin-right: auto; }
+.logo { font-weight: 700; font-size: 18px; letter-spacing: -0.02em; text-decoration: none; margin-right: auto; white-space: nowrap; flex-shrink: 0; }
 .logo span { color: var(--lime); }
 .links { display: flex; gap: 4px; list-style: none; margin: 0; padding: 0; }
 .links a {
@@ -448,13 +448,6 @@ footer a { color: #fff; }
   .app-art { min-height: 360px; }
 }
 @media (max-width: 860px) {
-  .menu { display: inline-grid; }
-  .links {
-    position: absolute; left: 0; right: 0; top: 100%; flex-direction: column; gap: 0; padding: 8px 16px 20px;
-    background: var(--night); border-bottom: 1px solid var(--deep-line); display: none;
-  }
-  .links.open { display: flex; }
-  .links a { padding: 14px 16px; font-size: 14px; margin-top: 4px; }
   .hero-in { grid-template-columns: 1fr; min-height: 0; }
   .hero-text { padding: 40px 0 0; max-width: none; }
   .hero-word { top: 66%; font-size: 30vw; }
@@ -626,3 +619,18 @@ dialog.cvbox::backdrop { background: rgb(12 4 48 / 0.82); backdrop-filter: blur(
 }
 .list .li-sub:hover { background: #004182; transform: translateY(-1px); }
 .list .li-sub svg { width: 13px; height: 13px; fill: currentColor; }
+
+/* Nav: ten links fit the bar on wide screens; below 1320px they move into the menu */
+@media (max-width: 1320px) {
+  .menu { display: inline-grid; }
+  .links {
+    position: absolute; left: 0; right: 0; top: 100%; flex-direction: column; gap: 0; padding: 8px 16px 20px;
+    background: var(--night); border-bottom: 1px solid var(--deep-line); display: none;
+    max-height: calc(100dvh - 72px); overflow-y: auto;
+  }
+  .links.open { display: flex; }
+  .links a { padding: 13px 16px; font-size: 14px; margin-top: 4px; }
+}
+@media (min-width: 1321px) {
+  .links a { padding: 9px 13px; }
+}
