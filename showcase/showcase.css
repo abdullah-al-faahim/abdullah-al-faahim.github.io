@@ -435,7 +435,7 @@ footer a { color: #fff; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .reel-row, .ticker-row, .scroll i::after { animation: none; }
+  .scroll i::after { animation: none; }
   .js .rv { opacity: 1; transform: none; transition: none; }
 }
 
