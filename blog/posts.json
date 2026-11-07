@@ -1,5 +1,15 @@
 [
  {
+  "slug": "mcr-high-reliability-operation",
+  "title": "Running an MCR Like a High-Reliability Operation: Shift Handovers, SOPs and Checklists That Prevent On-Air Errors",
+  "date": "2026-11-07",
+  "category": "broadcast",
+  "categoryLabel": "Broadcast technology",
+  "excerpt": "Hospitals, airlines and power plants learned how to avoid disasters with handovers, checklists and a healthy fear of failure. A Master Control Room can borrow every one of those habits.",
+  "cover": "/blog/media/covers/mcr-high-reliability-operation.jpg",
+  "minutes": 9
+ },
+ {
   "slug": "inside-a-master-control-room",
   "title": "Inside a Master Control Room: How a TV Channel Stays on Air 24/7",
   "date": "2026-11-04",
