@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Abdullah Al Fahim · Blog</title>
+    <link>https://abdullah-al-faahim.github.io/blog/</link>
+    <description>Broadcast technology, app development, design systems, brand identity, research, leadership and AI for design.</description>
+    <language>en</language>
+    <item>
+      <title>Logos With a Second Meaning: FedEx, Amazon, Baskin-Robbins, Toblerone and Why Hidden Symbols Work</title>
+      <link>https://abdullah-al-faahim.github.io/blog/logos-with-a-second-meaning/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/logos-with-a-second-meaning/</guid>
+      <pubDate>Sat, 14 Nov 2026 09:00:00 +0600</pubDate>
+      <category>Brand identity</category>
+      <description>An arrow between two letters. A smile that points from A to Z. A number hidden in initials. Why the best hidden symbols in logos work, and how to use negative space in your own designs without making a puzzle.</description>
+    </item>
+    <item>
+      <title>The Week Nusrat Said Yes to Everything</title>
+      <link>https://abdullah-al-faahim.github.io/blog/stop-saying-yes-to-everything/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/stop-saying-yes-to-everything/</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0600</pubDate>
+      <category>Work &amp; life</category>
+      <description>Nusrat is the designer who never says no: to her boss, to the sales team, to her cousin&#x27;s wedding card. Then one Thursday night in Banani, everything she promised comes due at once. A Friday story about the overcommitment trap.</description>
+    </item>
+    <item>
+      <title>What a 24/7 Control Room Teaches About Calm Leadership</title>
+      <link>https://abdullah-al-faahim.github.io/blog/calm-leadership-24-7-control-room/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/calm-leadership-24-7-control-room/</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0600</pubDate>
+      <category>Leadership</category>
+      <description>A Master Control Room never closes, never pauses and never gets a second take. Here is what running live transmission at Channel i has taught me about staying calm, and helping a team stay calm, when the stakes are on air.</description>
+    </item>
+    <item>
+      <title>Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet</title>
+      <link>https://abdullah-al-faahim.github.io/blog/color-profiles-explained/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/color-profiles-explained/</guid>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0600</pubDate>
+      <category>Colour &amp; print</category>
+      <description>Which colour profile should you export for the web, social media, print and video? A plain-language guide to sRGB, Display P3, Adobe RGB, Rec.709 and CMYK (FOGRA/SWOP), with a decision flowchart.</description>
+    </item>
+    <item>
+      <title>Case Study: Building khanfarhana.info, a Brand, a Community and an Academy in One WordPress Theme</title>
+      <link>https://abdullah-al-faahim.github.io/blog/khanfarhana-info-case-study/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/khanfarhana-info-case-study/</guid>
+      <pubDate>Mon, 09 Nov 2026 09:00:00 +0600</pubDate>
+      <category>Case studies</category>
+      <description>How I designed and hand-coded one WordPress theme that holds a personal brand, a fellowship, an opportunities board, a press room and a full learning platform with payments, and that her team runs without a developer.</description>
+    </item>
+    <item>
+      <title>Running an MCR Like a High-Reliability Operation: Shift Handovers, SOPs and Checklists That Prevent On-Air Errors</title>
+      <link>https://abdullah-al-faahim.github.io/blog/mcr-high-reliability-operation/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/mcr-high-reliability-operation/</guid>
+      <pubDate>Sat, 07 Nov 2026 09:00:00 +0600</pubDate>
+      <category>Broadcast technology</category>
+      <description>Hospitals, airlines and power plants learned how to avoid disasters with handovers, checklists and a healthy fear of failure. A Master Control Room can borrow every one of those habits.</description>
+    </item>
+    <item>
+      <title>Inside a Master Control Room: How a TV Channel Stays on Air 24/7</title>
+      <link>https://abdullah-al-faahim.github.io/blog/inside-a-master-control-room/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/inside-a-master-control-room/</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0600</pubDate>
+      <category>Broadcast technology</category>
+      <description>What actually happens between a playlist and your television screen, and the habits that keep a 24-hour channel from going dark.</description>
+    </item>
+    <item>
+      <title>AI in My Design Workflow: Where It Helps and Where It Doesn&#x27;t</title>
+      <link>https://abdullah-al-faahim.github.io/blog/ai-in-my-design-workflow/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/ai-in-my-design-workflow/</guid>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0600</pubDate>
+      <category>AI for design</category>
+      <description>A practical look at using AI tools for briefs, research, ideation, image editing and code, plus the parts of design I still won&#x27;t hand over.</description>
+    </item>
+    <item>
+      <title>Building a Personal Design System from One Colour</title>
+      <link>https://abdullah-al-faahim.github.io/blog/design-system-from-one-colour/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/design-system-from-one-colour/</guid>
+      <pubDate>Sat, 24 Oct 2026 09:00:00 +0600</pubDate>
+      <category>Design systems</category>
+      <description>How one violet, one highlight colour and two typefaces became the rules behind my website, GitHub profile, CV and apps.</description>
+    </item>
+    <item>
+      <title>Making Alarms Reliable on Android: Lessons from Building TaskBell</title>
+      <link>https://abdullah-al-faahim.github.io/blog/reliable-alarms-on-android/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/reliable-alarms-on-android/</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0600</pubDate>
+      <category>App development</category>
+      <description>Exact alarms, Doze, battery savers, reboots and time zones: what it takes for a reminder app to ring at the right second, every time.</description>
+    </item>
+    <item>
+      <title>Designing Bilingual Brands: Setting Bangla and English Together</title>
+      <link>https://abdullah-al-faahim.github.io/blog/designing-bilingual-brands/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/designing-bilingual-brands/</guid>
+      <pubDate>Sun, 11 Oct 2026 09:00:00 +0600</pubDate>
+      <category>Brand identity</category>
+      <description>Why Bangla and English type rarely match out of the box, and the practical rules I use to make them feel like one brand.</description>
+    </item>
+    <item>
+      <title>Moving from SDI to IP Workflows (SMPTE ST 2110): Planning, Risks and a Phased Migration Roadmap for Bangladesh</title>
+      <link>https://abdullah-al-faahim.github.io/blog/sdi-to-ip-st-2110/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/sdi-to-ip-st-2110/</guid>
+      <pubDate>Sun, 04 Oct 2026 09:00:00 +0600</pubDate>
+      <category>Broadcast technology</category>
+      <description>Most Bangladeshi TV channels still run on SDI cables built a decade or more ago. Here is how a channel in Dhaka can plan a move to SMPTE ST 2110: what it changes, the local risks, and a phased roadmap that never puts the on-air signal at risk.</description>
+    </item>
+    <item>
+      <title>Brand Identity Is More Than a Logo: A Practical Process for Small Organisations</title>
+      <link>https://abdullah-al-faahim.github.io/blog/brand-identity-process/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/brand-identity-process/</guid>
+      <pubDate>Sat, 26 Sep 2026 09:00:00 +0600</pubDate>
+      <category>Brand identity</category>
+      <description>The step-by-step process I use with startups, youth organisations and shops to go from a vague brief to an identity people can actually use.</description>
+    </item>
+    <item>
+      <title>Design Theory You Can Use Tomorrow: Gestalt, Hierarchy and Simple Research</title>
+      <link>https://abdullah-al-faahim.github.io/blog/design-theory-you-can-use/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/design-theory-you-can-use/</guid>
+      <pubDate>Fri, 18 Sep 2026 09:00:00 +0600</pubDate>
+      <category>Design theory &amp; research</category>
+      <description>The handful of design principles and research methods I actually use every week, explained without the jargon.</description>
+    </item>
+    <item>
+      <title>Building Offline-First Apps for Bangladesh</title>
+      <link>https://abdullah-al-faahim.github.io/blog/offline-first-apps-bangladesh/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/offline-first-apps-bangladesh/</guid>
+      <pubDate>Thu, 10 Sep 2026 09:00:00 +0600</pubDate>
+      <category>App development</category>
+      <description>Why my apps work without the internet, keep data on the phone and speak Bangla first, and the design and engineering choices that follow.</description>
+    </item>
+    <item>
+      <title>Leading Volunteer Creative Teams: What Student Organisations Taught Me</title>
+      <link>https://abdullah-al-faahim.github.io/blog/leading-volunteer-creative-teams/</link>
+      <guid>https://abdullah-al-faahim.github.io/blog/leading-volunteer-creative-teams/</guid>
+      <pubDate>Wed, 02 Sep 2026 09:00:00 +0600</pubDate>
+      <category>Leadership</category>
+      <description>Lessons from leading design teams and events in student and youth organisations, where nobody is paid and everyone is busy.</description>
+    </item>
+  </channel>
+</rss>

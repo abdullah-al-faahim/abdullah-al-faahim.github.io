@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Running an MCR Like a High-Reliability Operation: Shift Handovers, SOPs and Checklists That Prevent On-Air Errors · Abdullah Al Fahim</title>
+  <meta name="description" content="Hospitals, airlines and power plants learned how to avoid disasters with handovers, checklists and a healthy fear of failure. A Master Control Room can borrow every one of those habits." />
+  <meta name="author" content="Abdullah Al Fahim" />
+  <meta name="theme-color" content="#1e066f" />
+  <link rel="canonical" href="https://abdullah-al-faahim.github.io/blog/mcr-high-reliability-operation/" />
+  <link rel="me" href="https://linkedin.com/in/abdullah-al-fahim" />
+  <link rel="me" href="https://github.com/abdullah-al-faahim" />
+  <link rel="me" href="https://behance.net/hire-fahim" />
+  <link rel="me" href="https://dribbble.com/hire-fahim" />
+  <link rel="me" href="https://pinterest.com/utopiadesignsbd" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Abdullah Al Fahim" />
+  <meta property="og:url" content="https://abdullah-al-faahim.github.io/blog/mcr-high-reliability-operation/" />
+  <meta property="og:title" content="Running an MCR Like a High-Reliability Operation: Shift Handovers, SOPs and Checklists That Prevent On-Air Errors · Abdullah Al Fahim" />
+  <meta property="og:description" content="Hospitals, airlines and power plants learned how to avoid disasters with handovers, checklists and a healthy fear of failure. A Master Control Room can borrow every one of those habits." />
+  <meta property="og:image" content="https://abdullah-al-faahim.github.io/blog/media/og/mcr-high-reliability-operation.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Running an MCR Like a High-Reliability Operation: Shift Handovers, SOPs and Checklists That Prevent On-Air Errors, a post by Abdullah Al Fahim" />
+  <meta name="twitter:image:alt" content="Running an MCR Like a High-Reliability Operation: Shift Handovers, SOPs and Checklists That Prevent On-Air Errors, a post by Abdullah Al Fahim" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Running an MCR Like a High-Reliability Operation: Shift Handovers, SOPs and Checklists That Prevent On-Air Errors · Abdullah Al Fahim" />
+  <meta name="twitter:description" content="Hospitals, airlines and power plants learned how to avoid disasters with handovers, checklists and a healthy fear of failure. A Master Control Room can borrow every one of those habits." />
+  <meta name="twitter:image" content="https://abdullah-al-faahim.github.io/blog/media/og/mcr-high-reliability-operation.jpg" />
+  <meta property="article:published_time" content="2026-11-07" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Running an MCR Like a High-Reliability Operation: Shift Handovers, SOPs and Checklists That Prevent On-Air Errors", "description": "Hospitals, airlines and power plants learned how to avoid disasters with handovers, checklists and a healthy fear of failure. A Master Control Room can borrow every one of those habits.", "datePublished": "2026-11-07", "image": "https://abdullah-al-faahim.github.io/blog/media/og/mcr-high-reliability-operation.jpg", "dateModified": "2026-11-07", "inLanguage": "en", "articleSection": "Broadcast technology", "author": {"@type": "Person", "@id": "https://abdullah-al-faahim.github.io/#person", "name": "Abdullah Al Fahim", "alternateName": ["Fahim Rifat", "Abdullah Al Faahim", "Fahim"], "url": "https://abdullah-al-faahim.github.io/", "sameAs": ["https://linkedin.com/in/abdullah-al-fahim", "https://github.com/abdullah-al-faahim", "https://behance.net/hire-fahim", "https://dribbble.com/hire-fahim", "https://pinterest.com/utopiadesignsbd"]}, "publisher": {"@type": "Person", "@id": "https://abdullah-al-faahim.github.io/#person", "name": "Abdullah Al Fahim", "alternateName": ["Fahim Rifat", "Abdullah Al Faahim", "Fahim"], "url": "https://abdullah-al-faahim.github.io/", "sameAs": ["https://linkedin.com/in/abdullah-al-fahim", "https://github.com/abdullah-al-faahim", "https://behance.net/hire-fahim", "https://dribbble.com/hire-fahim", "https://pinterest.com/utopiadesignsbd"]}, "mainEntityOfPage": "https://abdullah-al-faahim.github.io/blog/mcr-high-reliability-operation/", "isPartOf": {"@type": "Blog", "@id": "https://abdullah-al-faahim.github.io/blog/#blog", "name": "Abdullah Al Fahim · Blog"}, "keywords": "Broadcast, Master Control Room, SOPs, Checklists, Reliability, Operations", "wordCount": 2016}</script>
+  <link rel="alternate" type="application/rss+xml" title="Abdullah Al Fahim · Blog" href="/blog/feed.xml" />
+  <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  <link rel="icon" href="/favicon.svg?v=g" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="preload" href="/assets/fonts/sora.woff" as="font" type="font/woff" crossorigin />
+  <link rel="stylesheet" href="/showcase/showcase.css?v=e8b0a039" />
+  <link rel="stylesheet" href="/blog/blog.css?v=796f2ef2" />
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+      document.documentElement.classList.add("js");
+    })();
+  </script>
+</head>
+<body>
+  <!-- generated by tools/build_blog.py -->
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="read-bar" aria-hidden="true"><i></i></div>
+  <header class="top">
+    <nav class="wrap" aria-label="Main">
+      <a class="logo" href="/">Abdullah Al <span>Fahim</span></a>
+      <ul class="links" id="links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/#about">About</a></li>
+        <li><a href="/#designs">Designs</a></li>
+        <li><a href="/#apps">Apps</a></li>
+        <li><a href="/blog/" aria-current="true">Blog</a></li>
+        <li><a href="/cv/Abdullah%20Al%20Fahim_CV.pdf" target="_blank" rel="noopener">CV</a></li>
+        <li class="m-book"><a href="/#book">Book a Meeting</a></li>
+      </ul>
+      <button class="icon-btn theme" type="button" aria-label="Switch to dark theme"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" /></svg><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" /></svg></button>
+      <button class="icon-btn menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="links"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16" /></svg></button>
+      <a class="btn btn-lime hire" href="/#book">Book a Meeting</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article class="post">
+      <header class="post-head wrap">
+        <a class="crumb" href="/blog/">&#8592; All posts</a>
+        <span class="pc-cat">Broadcast technology</span>
+        <h1>Running an MCR Like a High-Reliability Operation: Shift Handovers, SOPs and Checklists That Prevent On-Air Errors</h1>
+        <p class="post-excerpt">Hospitals, airlines and power plants learned how to avoid disasters with handovers, checklists and a healthy fear of failure. A Master Control Room can borrow every one of those habits.</p>
+        <div class="byline">
+          <img src="/assets/img/avatar.webp" alt="" width="44" height="44" />
+          <div><b>Abdullah Al Fahim</b><span><time datetime="2026-11-07">7 Nov 2026</time> &#183; 10 min read<span class="reads" data-reads="/blog/mcr-high-reliability-operation/" hidden></span></span></div>
+        </div>
+      </header>
+      <div class="wrap"><figure class="post-cover"><img src="/blog/media/covers/mcr-high-reliability-operation.jpg" alt="A shift handover checklist on a clipboard with lime ticks, a 24-hour shift clock, two operators passing the shift and an ON AIR light." width="1600" height="900" fetchpriority="high" decoding="async" /></figure></div>
+      <div class="post-layout wrap">
+        <aside class="post-toc" aria-label="On this page"><b>On this page</b><ol><li><a href="#what-high-reliability-actually-means">What “high reliability” actually means</a></li><li><a href="#shift-handovers-where-most-knowledge-gets-lost">Shift handovers: where most knowledge gets lost</a></li><li><a href="#sops-decide-once-not-at-3-am">SOPs: decide once, not at 3 a.m.</a></li><li><a href="#checklists-the-cheapest-reliability-tool-there-is">Checklists: the cheapest reliability tool there is</a></li><li><a href="#two-people-for-risky-actions">Two people for risky actions</a></li><li><a href="#watch-the-right-things-and-only-the-right-things">Watch the right things, and only the right things</a></li><li><a href="#learn-from-near-misses-without-blame">Learn from near misses, without blame</a></li><li><a href="#practise-failure-on-purpose">Practise failure on purpose</a></li><li><a href="#look-after-the-people">Look after the people</a></li><li><a href="#a-simple-starting-point">A simple starting point</a></li><li><a href="#summary">Summary</a></li></ol></aside>
+        <div class="prose">
+<p>Most on-air errors don&rsquo;t start with broken equipment. They start with a small gap between people: a shift that didn&rsquo;t hear about a flaky feed, a step skipped because &ldquo;we always do it this way&rdquo;, a live event that changed at the last minute and nobody wrote it down.</p>
+<p>In my work at Channel i, I&rsquo;ve learned that the equipment in a Master Control Room (MCR) is usually the easy part. The hard part is making a 24/7 room behave the same way at 3 p.m. on a calm Tuesday and at 3 a.m. during a breaking-news overrun, with different people on every shift.</p>
+<p>Other industries solved this problem long ago. Hospitals, airlines, air traffic control and power plants operate in conditions where small mistakes become serious very quickly, yet they make remarkably few of them. Researchers call them <em>high-reliability organisations</em>. This post is about borrowing their habits for broadcast: shift handovers, standard operating procedures (SOPs) and checklists.</p>
+<figure class="fig"><img loading="lazy" decoding="async" alt="A blank checklist on a clipboard." src="/blog/media/photos/mcr-high-reliability-operation.webp" /><figcaption>Checklists are the cheapest reliability tool a control room has.</figcaption></figure>
+<p class="credit">Photo: <a href="https://www.rawpixel.com/image/5917664/image-paper-public-domain-check">Close checklist wooden surface</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via rawpixel.</p>
+
+<h2 id="what-high-reliability-actually-means">What &ldquo;high reliability&rdquo; actually means</h2>
+<figure class="fig"><img loading="lazy" decoding="async" alt="Diagram: Five habits of high-reliability teams." src="/blog/media/design/mcr-high-reliability-operation-1.svg" /><figcaption>Five habits of high-reliability teams.</figcaption></figure>
+<p>The idea comes from organisational research, most famously Karl Weick and Kathleen Sutcliffe&rsquo;s work on how these organisations stay safe. They describe five habits of mind. Each one maps neatly onto an MCR:</p>
+<ol>
+<li><strong>Preoccupation with failure.</strong> Treat every small glitch as a warning, not as luck. A single dropped frame on a backup feed is information.</li>
+<li><strong>Reluctance to simplify.</strong> &ldquo;It&rsquo;s probably the encoder again&rdquo; is how real causes get missed. Look at what actually happened.</li>
+<li><strong>Sensitivity to operations.</strong> Know what&rsquo;s happening on the floor right now, not just what the schedule says should be happening.</li>
+<li><strong>Commitment to resilience.</strong> Expect things to go wrong and practise recovering from them quickly.</li>
+<li><strong>Deference to expertise.</strong> In a fault, the person who knows the system best leads, whatever their job title.</li>
+</ol>
+<p>None of this needs new equipment. It needs routines that make these habits automatic, which is exactly what handovers, SOPs and checklists are for.</p>
+<h2 id="shift-handovers-where-most-knowledge-gets-lost">Shift handovers: where most knowledge gets lost</h2>
+<p>A 24-hour room changes hands several times a day. Every handover is a moment where information can disappear. The outgoing operator knows that the remote feed from the stadium kept breaking up, that the 8 p.m. programme was replaced, that the backup playout server rebooted itself once. If that knowledge doesn&rsquo;t cross the handover, the next shift rediscovers it the hard way, usually on air.</p>
+<h3 id="make-handovers-written-and-structured">Make handovers written and structured</h3>
+<p>Spoken handovers are better than nothing, but they depend on memory and mood at the end of a long shift. Healthcare uses structured formats such as SBAR (Situation, Background, Assessment, Recommendation) for exactly this reason. For an MCR, I use a simple written structure:</p>
+<ul>
+<li><strong>On air now:</strong> what&rsquo;s playing, what&rsquo;s coming in the next hour, any live events scheduled.</li>
+<li><strong>Changes:</strong> schedule changes, replaced programmes, new ad breaks, late material.</li>
+<li><strong>Known issues:</strong> anything flaky, even if it recovered (feeds, encoders, graphics, power, network).</li>
+<li><strong>Workarounds in place:</strong> anything temporary, like a source routed manually or a backup chain left on air.</li>
+<li><strong>Pending actions:</strong> calls to return, tickets raised, engineers on their way.</li>
+<li><strong>Watch for:</strong> the one or two things the next shift should keep an eye on.</li>
+</ul>
+<p>It takes five minutes to write and saves far more. It also creates a record: when someone asks next week why the backup chain was on air on Thursday night, the answer is there.</p>
+<h3 id="overlap-dont-just-swap">Overlap, don&rsquo;t just swap</h3>
+<p>A good handover has a few minutes of overlap where both operators are in the room and both are watching the output. The incoming operator reads the written handover, asks questions, and only then takes over. The rule I like is simple: <strong>you haven&rsquo;t handed over until the other person says &ldquo;I have it.&rdquo;</strong></p>
+<h3 id="never-hand-over-in-the-middle-of-a-critical-event">Never hand over in the middle of a critical event</h3>
+<p>If a live event or a known risky transition is minutes away, the outgoing shift stays until it&rsquo;s done. Handing over a live programme halfway through is how cues get missed.</p>
+<h2 id="sops-decide-once-not-at-3-am">SOPs: decide once, not at 3 a.m.</h2>
+<p>Faults rarely give you time to think. When the main feed drops during a live programme, the operator needs to act in seconds. That&rsquo;s not the moment to work out from first principles which way to switch.</p>
+<p>A standard operating procedure decides in advance, when everyone is calm, what the right response is. In my team, writing technical SOPs and troubleshooting guides for our common faults cut problem-resolution time by about 35%. Most of the time saved wasn&rsquo;t technical. It was the minutes people used to lose deciding what to do and who to call.</p>
+<h3 id="what-a-good-mcr-sop-looks-like">What a good MCR SOP looks like</h3>
+<p>The SOPs that actually get used share a few features:</p>
+<ul>
+<li><strong>One page, one situation.</strong> &ldquo;Main playout failure&rdquo;, &ldquo;loss of live contribution feed&rdquo;, &ldquo;audio missing on air&rdquo;. Not one giant manual.</li>
+<li><strong>The first action at the top.</strong> Usually &ldquo;protect the air&rdquo;: switch to backup, cut to a slate or put up filler. Diagnosis comes after viewers are safe.</li>
+<li><strong>Short, numbered steps</strong> with the exact names of buttons, sources and devices as they appear in the room.</li>
+<li><strong>Decision points made explicit.</strong> &ldquo;If the backup is also failing, go to step 6.&rdquo;</li>
+<li><strong>Who to call, with numbers,</strong> and when to escalate.</li>
+<li><strong>How to return to normal,</strong> because switching back is when the second error often happens.</li>
+<li><strong>A last-reviewed date and an owner,</strong> so stale SOPs get noticed.</li>
+</ul>
+<h3 id="keep-them-where-people-are">Keep them where people are</h3>
+<p>An SOP on a shared drive nobody can find during a fault is useless. The ones that matter most should be printed and within reach of the operator&rsquo;s chair, and also available digitally. The test is simple: could a new operator find and follow it in under a minute, with an alarm going off?</p>
+<h3 id="update-them-after-every-incident">Update them after every incident</h3>
+<p>Every real fault is a free test of an SOP. If people had to improvise, the SOP was missing something. Updating it right after the event, while memories are fresh, is how the procedures stay alive.</p>
+<h2 id="checklists-the-cheapest-reliability-tool-there-is">Checklists: the cheapest reliability tool there is</h2>
+<p>Atul Gawande&rsquo;s <em>The Checklist Manifesto</em> popularised a point that aviation learned decades earlier: skilled people still forget simple steps, especially under pressure or routine. Checklists catch those slips.</p>
+<p>There are two styles, and both have a place in an MCR:</p>
+<ul>
+<li><strong>Read-do checklists:</strong> you read each step and do it, in order. Good for rare or complicated procedures, like a planned switch to a backup uplink path.</li>
+<li><strong>Do-confirm checklists:</strong> you do the work from memory, then stop and confirm nothing was missed. Good for routine tasks experienced operators do daily.</li>
+</ul>
+<h3 id="checklists-ive-found-worth-having">Checklists I&rsquo;ve found worth having</h3>
+<p><strong>Start of shift (do-confirm):</strong></p>
+<ul>
+<li>Read the handover and ask questions.</li>
+<li>Confirm off-air monitoring is working and matches the output.</li>
+<li>Check main and backup chains are both healthy.</li>
+<li>Check audio loudness meters and alarms are live.</li>
+<li>Review the next few hours of the playlist, especially live events and transitions.</li>
+</ul>
+<p><strong>Before a live event (read-do):</strong></p>
+<ul>
+<li>Every source tested end to end, including the return feed to the venue.</li>
+<li>Backup source or filler programme ready and cued.</li>
+<li>Graphics, lower thirds and tickers checked on the actual output.</li>
+<li>Communication with the production gallery and the remote team confirmed.</li>
+<li>Timing agreed: start time, breaks and hard out.</li>
+<li>Who does what if the main feed fails, said out loud.</li>
+</ul>
+<p><strong>Planned changeovers and maintenance (read-do):</strong></p>
+<ul>
+<li>Is anything live or critical coming up? If yes, wait.</li>
+<li>Backup confirmed healthy before touching the main.</li>
+<li>One change at a time, with the result checked on air after each one.</li>
+<li>A second person watching the output during risky steps.</li>
+<li>Everything returned to normal and written in the handover.</li>
+</ul>
+<h3 id="keep-checklists-short">Keep checklists short</h3>
+<p>A checklist that takes twenty minutes gets skipped. The best ones fit on one card and only include the steps that are both important and easy to forget. Everything else belongs in training, not on the list.</p>
+<h2 id="two-people-for-risky-actions">Two people for risky actions</h2>
+<p>Aviation uses &ldquo;challenge and response&rdquo;: one person reads, the other confirms. In an MCR, the equivalent is simple: for actions that can take the channel off air (switching transmission paths, restarting a playout server, changing routing during a live event), a second person watches the output and confirms each step. It feels slow. It&rsquo;s much faster than recovering from a mistake that went to air.</p>
+<h2 id="watch-the-right-things-and-only-the-right-things">Watch the right things, and only the right things</h2>
+<p>Sensitivity to operations depends on monitoring, but more monitoring isn&rsquo;t automatically better. A multiviewer wall full of tiny pictures and an alarm panel that beeps constantly teach operators to ignore both. That&rsquo;s <em>alarm fatigue</em>, and it&rsquo;s a known problem in hospitals too.</p>
+<p>What helps:</p>
+<ul>
+<li>Make the on-air output and off-air return the biggest pictures in the room.</li>
+<li>Show audio meters and loudness clearly next to the output.</li>
+<li>Tune alarms so they mean something: silence, black, freeze and loss of signal on air should be loud and unmistakable; minor warnings shouldn&rsquo;t sound the same.</li>
+<li>Review alarm noise regularly and remove the ones nobody acts on.</li>
+</ul>
+<h2 id="learn-from-near-misses-without-blame">Learn from near misses, without blame</h2>
+<p>The most valuable events in a reliable operation are the ones where <em>nothing reached air</em>: the feed that dropped during a promo instead of during the news, the wrong clip caught in preview. These near misses are free lessons.</p>
+<p>I find two practices make the biggest difference:</p>
+<ul>
+<li><strong>A near-miss log</strong> in the handover notes: what almost happened and what caught it.</li>
+<li><strong>Blameless reviews</strong> after real incidents: what happened, why it made sense to the people involved at the time, and what we&rsquo;ll change. The goal is a better system, not a guilty person. If people expect blame, they stop reporting near misses, and the organisation goes blind.</li>
+</ul>
+<h2 id="practise-failure-on-purpose">Practise failure on purpose</h2>
+<p>Redundancy only works if it&rsquo;s tested. A backup chain nobody has switched to in six months is a hope, not a plan. Regular, planned failover drills (during quiet hours, with everyone aware) keep both the equipment and the people ready. New operators should run their first failover in a drill, not during a live news bulletin.</p>
+<p>This connects directly to the preventive maintenance routine I described in <a href="/blog/inside-a-master-control-room/">Inside a Master Control Room</a>. In our team, steady maintenance cut system downtime by around 30% and helped us reach 99.99% uptime across more than 400 live broadcasts. The hardware matters, but the routine around it matters more.</p>
+<h2 id="look-after-the-people">Look after the people</h2>
+<p>Every procedure above assumes an alert operator. Night shifts, long live events and back-to-back overruns wear that down. Reliable operations plan for fatigue: sensible shift lengths, proper breaks during long events, and the expectation that anyone can ask for a second pair of eyes without it being a weakness.</p>
+<h2 id="a-simple-starting-point">A simple starting point</h2>
+<p>If your MCR doesn&rsquo;t have these routines yet, you don&rsquo;t need to build everything at once. Start with three things:</p>
+<ol>
+<li><strong>A written handover template</strong>, used at every shift change.</li>
+<li><strong>One-page SOPs for your three most common faults</strong>, printed and within reach.</li>
+<li><strong>A pre-live checklist</strong> for every live event.</li>
+</ol>
+<p>Then review them after every incident and near miss. Within a few months, the room starts to feel calmer, faults get shorter, and the channel stays on air through problems that used to make it go dark.</p>
+<p>The audience never sees any of this. That&rsquo;s the point.</p>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>Borrow habits from high-reliability organisations.</li>
+<li>Make shift handovers structured, spoken and written.</li>
+<li>Decide procedures once in SOPs, not at 3 a.m.</li>
+<li>Use checklists and two-person checks for risky actions.</li>
+<li>Learn from near misses without blame and practise failure.</li>
+</ul>
+<figure class="fig"><img loading="lazy" decoding="async" alt="Cheat sheet: Running an MCR Like a High-Reliability Operation." src="/blog/media/design/mcr-high-reliability-operation-cheat.svg" /><figcaption>Save this cheat sheet.</figcaption></figure>
+        </div>
+        <aside class="post-side">
+          <ul class="post-tags" aria-label="Tags"><li>Broadcast</li><li>Master Control Room</li><li>SOPs</li><li>Checklists</li><li>Reliability</li><li>Operations</li></ul>
+          <div class="share">
+            <b>Share</b>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://abdullah-al-faahim.github.io/blog/mcr-high-reliability-operation/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://twitter.com/intent/tweet?url=https://abdullah-al-faahim.github.io/blog/mcr-high-reliability-operation/&amp;text=Running an MCR Like a High-Reliability Operation: Shift Handovers, SOPs and Checklists That Prevent On-Air Errors" target="_blank" rel="noopener">X</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://abdullah-al-faahim.github.io/blog/mcr-high-reliability-operation/" target="_blank" rel="noopener">Facebook</a>
+            <button type="button" class="copy-link" data-url="https://abdullah-al-faahim.github.io/blog/mcr-high-reliability-operation/">Copy link</button>
+          </div>
+        </aside>
+      </div>
+      <div class="wrap post-end">
+        <div class="author-card">
+          <img src="/assets/img/avatar.webp" alt="" width="72" height="72" loading="lazy" />
+          <div>
+            <b>Written by Abdullah Al Fahim</b>
+            <p>Broadcast engineer at Channel i, brand and social media designer, and maker of offline-first apps for Bangladesh.</p>
+            <a href="/">See my work <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg></a>
+          </div>
+        </div>
+        <nav class="post-nav" aria-label="More posts"><a class="prev" href="/blog/khanfarhana-info-case-study/"><small>Newer</small><b>Case Study: Building khanfarhana.info, a Brand, a Community and an Academy in One WordPress Theme</b></a><a class="next" href="/blog/inside-a-master-control-room/"><small>Older</small><b>Inside a Master Control Room: How a TV Channel Stays on Air 24/7</b></a></nav>
+      </div>
+    </article>
+    <section class="more-posts"><div class="wrap"><span class="eyebrow">Keep reading</span><div class="post-grid three"><a class="post-card" href="/blog/inside-a-master-control-room/" data-cat="broadcast"><span class="pc-im"><img src="/blog/media/covers/inside-a-master-control-room.jpg" alt="" width="1600" height="900" loading="lazy" decoding="async" /></span><span class="pc-meta"><span class="pc-cat">Broadcast technology</span><time datetime="2026-11-04">4 Nov 2026</time></span><b>Inside a Master Control Room: How a TV Channel Stays on Air 24/7</b><small>What actually happens between a playlist and your television screen, and the habits that keep a 24-hour channel from going dark.</small><span class="pc-read">8 min read<span class="reads" data-reads="/blog/inside-a-master-control-room/" hidden></span></span></a><a class="post-card" href="/blog/sdi-to-ip-st-2110/" data-cat="broadcast"><span class="pc-im"><img src="/blog/media/covers/sdi-to-ip-st-2110.jpg" alt="" width="1600" height="900" loading="lazy" decoding="async" /></span><span class="pc-meta"><span class="pc-cat">Broadcast technology</span><time datetime="2026-10-04">4 Oct 2026</time></span><b>Moving from SDI to IP Workflows (SMPTE ST 2110): Planning, Risks and a Phased Migration Roadmap for Bangladesh</b><small>Most Bangladeshi TV channels still run on SDI cables built a decade or more ago. Here is how a channel in Dhaka can plan a move to SMPTE ST 2110: what it changes, the local risks, and a phased roadmap that never puts the on-air signal at risk.</small><span class="pc-read">11 min read<span class="reads" data-reads="/blog/sdi-to-ip-st-2110/" hidden></span></span></a><a class="post-card" href="/blog/logos-with-a-second-meaning/" data-cat="brand"><span class="pc-im"><img src="/blog/media/covers/logos-with-a-second-meaning.jpg" alt="" width="1600" height="900" loading="lazy" decoding="async" /></span><span class="pc-meta"><span class="pc-cat">Brand identity</span><time datetime="2026-11-14">14 Nov 2026</time></span><b>Logos With a Second Meaning: FedEx, Amazon, Baskin-Robbins, Toblerone and Why Hidden Symbols Work</b><small>An arrow between two letters. A smile that points from A to Z. A number hidden in initials. Why the best hidden symbols in logos work, and how to use negative space in your own designs without making a puzzle.</small><span class="pc-read">4 min read<span class="reads" data-reads="/blog/logos-with-a-second-meaning/" hidden></span></span></a></div></div></section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <span>&#169; <span id="year">2026</span> Abdullah Al Fahim (Fahim Rifat)</span>
+      <span><a href="/blog/feed.xml">RSS</a> &#183; <a href="https://behance.net/hire-fahim">Behance</a> &#183; <a href="https://github.com/abdullah-al-faahim">GitHub</a> &#183; <a href="https://linkedin.com/in/abdullah-al-fahim">LinkedIn</a></span>
+    </div>
+  </footer>
+  <script src="/blog/blog.js?v=d20cc449" defer></script>
+  <script data-goatcounter="https://fahim.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

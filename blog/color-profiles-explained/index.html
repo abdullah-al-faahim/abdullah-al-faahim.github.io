@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet · Abdullah Al Fahim</title>
+  <meta name="description" content="Which colour profile should you export for the web, social media, print and video? A plain-language guide to sRGB, Display P3, Adobe RGB, Rec.709 and CMYK (FOGRA/SWOP), with a decision flowchart." />
+  <meta name="author" content="Abdullah Al Fahim" />
+  <meta name="theme-color" content="#1e066f" />
+  <link rel="canonical" href="https://abdullah-al-faahim.github.io/blog/color-profiles-explained/" />
+  <link rel="me" href="https://linkedin.com/in/abdullah-al-fahim" />
+  <link rel="me" href="https://github.com/abdullah-al-faahim" />
+  <link rel="me" href="https://behance.net/hire-fahim" />
+  <link rel="me" href="https://dribbble.com/hire-fahim" />
+  <link rel="me" href="https://pinterest.com/utopiadesignsbd" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Abdullah Al Fahim" />
+  <meta property="og:url" content="https://abdullah-al-faahim.github.io/blog/color-profiles-explained/" />
+  <meta property="og:title" content="Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet · Abdullah Al Fahim" />
+  <meta property="og:description" content="Which colour profile should you export for the web, social media, print and video? A plain-language guide to sRGB, Display P3, Adobe RGB, Rec.709 and CMYK (FOGRA/SWOP), with a decision flowchart." />
+  <meta property="og:image" content="https://abdullah-al-faahim.github.io/blog/media/og/color-profiles-explained.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet, a post by Abdullah Al Fahim" />
+  <meta name="twitter:image:alt" content="Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet, a post by Abdullah Al Fahim" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet · Abdullah Al Fahim" />
+  <meta name="twitter:description" content="Which colour profile should you export for the web, social media, print and video? A plain-language guide to sRGB, Display P3, Adobe RGB, Rec.709 and CMYK (FOGRA/SWOP), with a decision flowchart." />
+  <meta name="twitter:image" content="https://abdullah-al-faahim.github.io/blog/media/og/color-profiles-explained.jpg" />
+  <meta property="article:published_time" content="2026-11-11" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet", "description": "Which colour profile should you export for the web, social media, print and video? A plain-language guide to sRGB, Display P3, Adobe RGB, Rec.709 and CMYK (FOGRA/SWOP), with a decision flowchart.", "datePublished": "2026-11-11", "image": "https://abdullah-al-faahim.github.io/blog/media/og/color-profiles-explained.jpg", "dateModified": "2026-11-11", "inLanguage": "en", "articleSection": "Colour & print", "author": {"@type": "Person", "@id": "https://abdullah-al-faahim.github.io/#person", "name": "Abdullah Al Fahim", "alternateName": ["Fahim Rifat", "Abdullah Al Faahim", "Fahim"], "url": "https://abdullah-al-faahim.github.io/", "sameAs": ["https://linkedin.com/in/abdullah-al-fahim", "https://github.com/abdullah-al-faahim", "https://behance.net/hire-fahim", "https://dribbble.com/hire-fahim", "https://pinterest.com/utopiadesignsbd"]}, "publisher": {"@type": "Person", "@id": "https://abdullah-al-faahim.github.io/#person", "name": "Abdullah Al Fahim", "alternateName": ["Fahim Rifat", "Abdullah Al Faahim", "Fahim"], "url": "https://abdullah-al-faahim.github.io/", "sameAs": ["https://linkedin.com/in/abdullah-al-fahim", "https://github.com/abdullah-al-faahim", "https://behance.net/hire-fahim", "https://dribbble.com/hire-fahim", "https://pinterest.com/utopiadesignsbd"]}, "mainEntityOfPage": "https://abdullah-al-faahim.github.io/blog/color-profiles-explained/", "isPartOf": {"@type": "Blog", "@id": "https://abdullah-al-faahim.github.io/blog/#blog", "name": "Abdullah Al Fahim · Blog"}, "keywords": "Colour, Colour Profiles, sRGB, Display P3, Print, Video", "wordCount": 792}</script>
+  <link rel="alternate" type="application/rss+xml" title="Abdullah Al Fahim · Blog" href="/blog/feed.xml" />
+  <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  <link rel="icon" href="/favicon.svg?v=g" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="preload" href="/assets/fonts/sora.woff" as="font" type="font/woff" crossorigin />
+  <link rel="stylesheet" href="/showcase/showcase.css?v=e8b0a039" />
+  <link rel="stylesheet" href="/blog/blog.css?v=796f2ef2" />
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+      document.documentElement.classList.add("js");
+    })();
+  </script>
+</head>
+<body>
+  <!-- generated by tools/build_blog.py -->
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="read-bar" aria-hidden="true"><i></i></div>
+  <header class="top">
+    <nav class="wrap" aria-label="Main">
+      <a class="logo" href="/">Abdullah Al <span>Fahim</span></a>
+      <ul class="links" id="links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/#about">About</a></li>
+        <li><a href="/#designs">Designs</a></li>
+        <li><a href="/#apps">Apps</a></li>
+        <li><a href="/blog/" aria-current="true">Blog</a></li>
+        <li><a href="/cv/Abdullah%20Al%20Fahim_CV.pdf" target="_blank" rel="noopener">CV</a></li>
+        <li class="m-book"><a href="/#book">Book a Meeting</a></li>
+      </ul>
+      <button class="icon-btn theme" type="button" aria-label="Switch to dark theme"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" /></svg><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" /></svg></button>
+      <button class="icon-btn menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="links"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16" /></svg></button>
+      <a class="btn btn-lime hire" href="/#book">Book a Meeting</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article class="post">
+      <header class="post-head wrap">
+        <a class="crumb" href="/blog/">&#8592; All posts</a>
+        <span class="pc-cat">Colour &amp; print</span>
+        <h1>Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet</h1>
+        <p class="post-excerpt">Which colour profile should you export for the web, social media, print and video? A plain-language guide to sRGB, Display P3, Adobe RGB, Rec.709 and CMYK (FOGRA/SWOP), with a decision flowchart.</p>
+        <div class="byline">
+          <img src="/assets/img/avatar.webp" alt="" width="44" height="44" />
+          <div><b>Abdullah Al Fahim</b><span><time datetime="2026-11-11">11 Nov 2026</time> &#183; 4 min read<span class="reads" data-reads="/blog/color-profiles-explained/" hidden></span></span></div>
+        </div>
+      </header>
+      <div class="wrap"><figure class="post-cover"><img src="/blog/media/covers/color-profiles-explained.jpg" alt="Nested colour gamut triangles over a horseshoe-shaped chromaticity chart, labelled sRGB, P3 and Adobe RGB." width="1600" height="900" fetchpriority="high" decoding="async" /></figure></div>
+      <div class="post-layout wrap">
+        <aside class="post-toc" aria-label="On this page"><b>On this page</b><ol><li><a href="#why-it-matters">Why it matters</a></li><li><a href="#the-idea-explained">The idea explained</a></li><li><a href="#a-real-example">A real example</a></li><li><a href="#try-it-yourself">Try it yourself</a></li><li><a href="#common-mistakes">Common mistakes</a></li><li><a href="#summary">Summary</a></li><li><a href="#sources-and-image-credits">Sources and image credits</a></li></ol></aside>
+        <div class="prose">
+<p><strong>After reading this, you&rsquo;ll know which colour profile to export for web, social, print and video, and why the wrong one makes colours look dull or strange.</strong></p>
+<figure class="fig"><img loading="lazy" decoding="async" alt="A technician checking colour bars on a monitor with test equipment." src="/blog/media/photos/color-profiles-explained.webp" /><figcaption>Colour has to be checked, not assumed.</figcaption></figure>
+<p class="credit">Photo by <a href="https://pixabay.com/users/Pexels-2286921/">Pexels</a> on <a href="https://pixabay.com/photos/technology-electronics-computer-1850021/">Pixabay</a> (<a href="https://pixabay.com/service/license-summary/">Pixabay Content License</a>).</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+<p>A colour value like <code>#6B4AFF</code> isn&rsquo;t a colour on its own. It&rsquo;s an instruction: &ldquo;this much red, green and blue&rdquo;. A <strong>colour profile</strong> tells the device what those numbers mean. Export the right numbers with the wrong profile and the same file looks vivid on your screen, washed out on a client&rsquo;s phone and muddy in print.</p>
+<p>I deal with this from two sides: as a designer exporting brand files, and as a broadcast engineer, where video has its own colour rules. The good news is that you only need to understand five profiles to make the right choice almost every time.</p>
+<h2 id="the-idea-explained">The idea explained</h2>
+<p>Every profile describes a <strong>gamut</strong>: the range of colours it can represent. On a chromaticity chart (the horseshoe of all colours people can see), each RGB gamut is a triangle. A bigger triangle can show more saturated colours.</p>
+<figure class="fig"><img loading="lazy" decoding="async" alt="Nested triangles for sRGB, Display P3 and Adobe RGB drawn inside the horseshoe of visible colours, with CMYK as an irregular smaller shape." src="/blog/media/design/color-profiles-explained-1.svg" /><figcaption>Simplified gamut comparison. Shapes are illustrative, not measured.</figcaption></figure>
+<p>Here are the five you&rsquo;ll meet most:</p>
+<ul>
+<li><strong>sRGB</strong>: the standard for the web and most screens since the 1990s. Smallest of the RGB gamuts here, and the safest default.</li>
+<li><strong>Display P3</strong>: a wider gamut used by most recent iPhones, Macs and many Android flagships. Roughly a quarter more colour area than sRGB, especially in reds and greens.</li>
+<li><strong>Adobe RGB (1998)</strong>: wider than sRGB in greens and cyans. Popular with photographers who print, but rarely the right choice for screens.</li>
+<li><strong>Rec.709 (BT.709)</strong>: the HD television standard. It uses the <strong>same primaries as sRGB</strong>, but video also uses a limited &ldquo;legal&rdquo; signal range and its own gamma. More on that in a later post on broadcast-safe colour.</li>
+<li><strong>CMYK (FOGRA, SWOP, GRACoL)</strong>: not one profile but a family describing specific printing conditions: paper, ink and press. FOGRA profiles are common in Europe and Asia; SWOP and GRACoL in the US. Ask your printer which one they use.</li>
+</ul>
+<h2 id="a-real-example">A real example</h2>
+<p>Take a bright violet button colour from a brand palette and export it three ways:</p>
+<figure class="fig"><img loading="lazy" decoding="async" alt="Three panels showing the same violet: correct in sRGB on the web, shifted when a P3 file is shown without its profile, and duller in CMYK print." src="/blog/media/design/color-profiles-explained-2.svg" /><figcaption>One colour, three outcomes depending on profile handling.</figcaption></figure>
+<ol>
+<li><strong>Exported in sRGB with the profile embedded:</strong> looks the same in every modern browser.</li>
+<li><strong>Exported in Display P3 but the profile stripped</strong> (some upload tools do this): the numbers are read as sRGB, and the colour shifts.</li>
+<li><strong>Converted to CMYK for print:</strong> the most saturated violets fall outside the CMYK gamut, so they become slightly duller. That&rsquo;s physics, not a mistake, and it&rsquo;s why print proofs matter.</li>
+</ol>
+<h2 id="try-it-yourself">Try it yourself</h2>
+<p>Use this decision path for your next export:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Where will it be seen?</th>
+<th>Export as</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Website, email, most social media</td>
+<td><strong>sRGB</strong>, profile embedded</td>
+</tr>
+<tr>
+<td>App or site targeting modern Apple devices, with a fallback</td>
+<td><strong>Display P3</strong> + sRGB fallback</td>
+</tr>
+<tr>
+<td>Video for TV or YouTube</td>
+<td><strong>Rec.709</strong> (check your editor&rsquo;s project settings)</td>
+</tr>
+<tr>
+<td>Commercial print</td>
+<td><strong>CMYK profile from your printer</strong> (e.g., a FOGRA profile)</td>
+</tr>
+<tr>
+<td>Photo printing at a lab</td>
+<td>Ask the lab: often sRGB or Adobe RGB</td>
+</tr>
+</tbody>
+</table></div>
+<p>Then open one of your recent exports in Photoshop (<strong>Edit → Assign Profile</strong> shows what&rsquo;s embedded) or check it with an online EXIF viewer. Is the profile what you expected?</p>
+<h2 id="common-mistakes">Common mistakes</h2>
+<ul>
+<li><strong>Designing in a wide gamut and exporting without conversion.</strong> Convert to sRGB on export rather than just labelling.</li>
+<li><strong>Stripping profiles to save a few kilobytes.</strong> Many optimisers remove them; check the settings.</li>
+<li><strong>Converting to CMYK yourself with a generic profile.</strong> Use your printer&rsquo;s profile, or send RGB and let them convert, if they prefer.</li>
+<li><strong>Assuming Rec.709 and sRGB are interchangeable.</strong> The colours match, but video levels and gamma are different.</li>
+<li><strong>Trusting one uncalibrated screen.</strong> Check on a few devices before approving.</li>
+</ul>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>A colour profile tells devices what the colour numbers mean.</li>
+<li>Use sRGB for web and social unless you have a clear reason not to.</li>
+<li>Use Display P3 only with a fallback and when you&rsquo;re sure it will be shown properly.</li>
+<li>Use Rec.709 for video projects; it shares sRGB&rsquo;s colours but not its levels.</li>
+<li>For print, use the CMYK profile your printer gives you.</li>
+<li>Always embed the profile and check the export on more than one screen.</li>
+</ul>
+<figure class="fig"><img loading="lazy" decoding="async" alt="Cheat sheet summarising which colour profile to use for web, video and print." src="/blog/media/design/color-profiles-explained-cheat.svg" /><figcaption>Save this cheat sheet for your next export.</figcaption></figure>
+<h2 id="sources-and-image-credits">Sources and image credits</h2>
+<ul>
+<li>International Color Consortium (ICC), <a href="https://www.color.org/">about ICC profiles</a>.</li>
+<li>ITU-R, <a href="https://www.itu.int/rec/R-REC-BT.709">Recommendation BT.709</a>.</li>
+<li>Apple Developer documentation on wide colour (Display P3).</li>
+<li>All diagrams were drawn by me for this post. Gamut shapes are simplified for explanation, not measured data.</li>
+</ul>
+        </div>
+        <aside class="post-side">
+          <ul class="post-tags" aria-label="Tags"><li>Colour</li><li>Colour Profiles</li><li>sRGB</li><li>Display P3</li><li>Print</li><li>Video</li></ul>
+          <div class="share">
+            <b>Share</b>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://abdullah-al-faahim.github.io/blog/color-profiles-explained/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://twitter.com/intent/tweet?url=https://abdullah-al-faahim.github.io/blog/color-profiles-explained/&amp;text=Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet" target="_blank" rel="noopener">X</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://abdullah-al-faahim.github.io/blog/color-profiles-explained/" target="_blank" rel="noopener">Facebook</a>
+            <button type="button" class="copy-link" data-url="https://abdullah-al-faahim.github.io/blog/color-profiles-explained/">Copy link</button>
+          </div>
+        </aside>
+      </div>
+      <div class="wrap post-end">
+        <div class="author-card">
+          <img src="/assets/img/avatar.webp" alt="" width="72" height="72" loading="lazy" />
+          <div>
+            <b>Written by Abdullah Al Fahim</b>
+            <p>Broadcast engineer at Channel i, brand and social media designer, and maker of offline-first apps for Bangladesh.</p>
+            <a href="/">See my work <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg></a>
+          </div>
+        </div>
+        <nav class="post-nav" aria-label="More posts"><a class="prev" href="/blog/calm-leadership-24-7-control-room/"><small>Newer</small><b>What a 24/7 Control Room Teaches About Calm Leadership</b></a><a class="next" href="/blog/khanfarhana-info-case-study/"><small>Older</small><b>Case Study: Building khanfarhana.info, a Brand, a Community and an Academy in One WordPress Theme</b></a></nav>
+      </div>
+    </article>
+    <section class="more-posts"><div class="wrap"><span class="eyebrow">Keep reading</span><div class="post-grid three"><a class="post-card" href="/blog/logos-with-a-second-meaning/" data-cat="brand"><span class="pc-im"><img src="/blog/media/covers/logos-with-a-second-meaning.jpg" alt="" width="1600" height="900" loading="lazy" decoding="async" /></span><span class="pc-meta"><span class="pc-cat">Brand identity</span><time datetime="2026-11-14">14 Nov 2026</time></span><b>Logos With a Second Meaning: FedEx, Amazon, Baskin-Robbins, Toblerone and Why Hidden Symbols Work</b><small>An arrow between two letters. A smile that points from A to Z. A number hidden in initials. Why the best hidden symbols in logos work, and how to use negative space in your own designs without making a puzzle.</small><span class="pc-read">4 min read<span class="reads" data-reads="/blog/logos-with-a-second-meaning/" hidden></span></span></a><a class="post-card" href="/blog/stop-saying-yes-to-everything/" data-cat="work-life"><span class="pc-im"><img src="/blog/media/covers/stop-saying-yes-to-everything.jpg" alt="" width="1600" height="900" loading="lazy" decoding="async" /></span><span class="pc-meta"><span class="pc-cat">Work &amp; life</span><time datetime="2026-11-13">13 Nov 2026</time></span><b>The Week Nusrat Said Yes to Everything</b><small>Nusrat is the designer who never says no: to her boss, to the sales team, to her cousin&#x27;s wedding card. Then one Thursday night in Banani, everything she promised comes due at once. A Friday story about the overcommitment trap.</small><span class="pc-read">4 min read<span class="reads" data-reads="/blog/stop-saying-yes-to-everything/" hidden></span></span></a><a class="post-card" href="/blog/calm-leadership-24-7-control-room/" data-cat="leadership"><span class="pc-im"><img src="/blog/media/covers/calm-leadership-24-7-control-room.jpg" alt="" width="1600" height="900" loading="lazy" decoding="async" /></span><span class="pc-meta"><span class="pc-cat">Leadership</span><time datetime="2026-11-12">12 Nov 2026</time></span><b>What a 24/7 Control Room Teaches About Calm Leadership</b><small>A Master Control Room never closes, never pauses and never gets a second take. Here is what running live transmission at Channel i has taught me about staying calm, and helping a team stay calm, when the stakes are on air.</small><span class="pc-read">4 min read<span class="reads" data-reads="/blog/calm-leadership-24-7-control-room/" hidden></span></span></a></div></div></section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <span>&#169; <span id="year">2026</span> Abdullah Al Fahim (Fahim Rifat)</span>
+      <span><a href="/blog/feed.xml">RSS</a> &#183; <a href="https://behance.net/hire-fahim">Behance</a> &#183; <a href="https://github.com/abdullah-al-faahim">GitHub</a> &#183; <a href="https://linkedin.com/in/abdullah-al-fahim">LinkedIn</a></span>
+    </div>
+  </footer>
+  <script src="/blog/blog.js?v=d20cc449" defer></script>
+  <script data-goatcounter="https://fahim.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

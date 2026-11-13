@@ -1,0 +1,162 @@
+[
+ {
+  "slug": "logos-with-a-second-meaning",
+  "title": "Logos With a Second Meaning: FedEx, Amazon, Baskin-Robbins, Toblerone and Why Hidden Symbols Work",
+  "date": "2026-11-14",
+  "category": "brand",
+  "categoryLabel": "Brand identity",
+  "excerpt": "An arrow between two letters. A smile that points from A to Z. A number hidden in initials. Why the best hidden symbols in logos work, and how to use negative space in your own designs without making a puzzle.",
+  "cover": "/blog/media/covers/logos-with-a-second-meaning.jpg",
+  "minutes": 4
+ },
+ {
+  "slug": "stop-saying-yes-to-everything",
+  "title": "The Week Nusrat Said Yes to Everything",
+  "date": "2026-11-13",
+  "category": "work-life",
+  "categoryLabel": "Work & life",
+  "excerpt": "Nusrat is the designer who never says no: to her boss, to the sales team, to her cousin's wedding card. Then one Thursday night in Banani, everything she promised comes due at once. A Friday story about the overcommitment trap.",
+  "cover": "/blog/media/covers/stop-saying-yes-to-everything.jpg",
+  "minutes": 4
+ },
+ {
+  "slug": "calm-leadership-24-7-control-room",
+  "title": "What a 24/7 Control Room Teaches About Calm Leadership",
+  "date": "2026-11-12",
+  "category": "leadership",
+  "categoryLabel": "Leadership",
+  "excerpt": "A Master Control Room never closes, never pauses and never gets a second take. Here is what running live transmission at Channel i has taught me about staying calm, and helping a team stay calm, when the stakes are on air.",
+  "cover": "/blog/media/covers/calm-leadership-24-7-control-room.jpg",
+  "minutes": 4
+ },
+ {
+  "slug": "color-profiles-explained",
+  "title": "Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet",
+  "date": "2026-11-11",
+  "category": "color",
+  "categoryLabel": "Colour & print",
+  "excerpt": "Which colour profile should you export for the web, social media, print and video? A plain-language guide to sRGB, Display P3, Adobe RGB, Rec.709 and CMYK (FOGRA/SWOP), with a decision flowchart.",
+  "cover": "/blog/media/covers/color-profiles-explained.jpg",
+  "minutes": 4
+ },
+ {
+  "slug": "khanfarhana-info-case-study",
+  "title": "Case Study: Building khanfarhana.info, a Brand, a Community and an Academy in One WordPress Theme",
+  "date": "2026-11-09",
+  "category": "case-studies",
+  "categoryLabel": "Case studies",
+  "excerpt": "How I designed and hand-coded one WordPress theme that holds a personal brand, a fellowship, an opportunities board, a press room and a full learning platform with payments, and that her team runs without a developer.",
+  "cover": "/blog/media/covers/khanfarhana-info-case-study.jpg",
+  "minutes": 9
+ },
+ {
+  "slug": "mcr-high-reliability-operation",
+  "title": "Running an MCR Like a High-Reliability Operation: Shift Handovers, SOPs and Checklists That Prevent On-Air Errors",
+  "date": "2026-11-07",
+  "category": "broadcast",
+  "categoryLabel": "Broadcast technology",
+  "excerpt": "Hospitals, airlines and power plants learned how to avoid disasters with handovers, checklists and a healthy fear of failure. A Master Control Room can borrow every one of those habits.",
+  "cover": "/blog/media/covers/mcr-high-reliability-operation.jpg",
+  "minutes": 10
+ },
+ {
+  "slug": "inside-a-master-control-room",
+  "title": "Inside a Master Control Room: How a TV Channel Stays on Air 24/7",
+  "date": "2026-11-04",
+  "category": "broadcast",
+  "categoryLabel": "Broadcast technology",
+  "excerpt": "What actually happens between a playlist and your television screen, and the habits that keep a 24-hour channel from going dark.",
+  "cover": "/blog/media/covers/inside-a-master-control-room.jpg",
+  "minutes": 8
+ },
+ {
+  "slug": "ai-in-my-design-workflow",
+  "title": "AI in My Design Workflow: Where It Helps and Where It Doesn't",
+  "date": "2026-10-30",
+  "category": "ai",
+  "categoryLabel": "AI for design",
+  "excerpt": "A practical look at using AI tools for briefs, research, ideation, image editing and code, plus the parts of design I still won't hand over.",
+  "cover": "/blog/media/covers/ai-in-my-design-workflow.jpg",
+  "minutes": 6
+ },
+ {
+  "slug": "design-system-from-one-colour",
+  "title": "Building a Personal Design System from One Colour",
+  "date": "2026-10-24",
+  "category": "design-systems",
+  "categoryLabel": "Design systems",
+  "excerpt": "How one violet, one highlight colour and two typefaces became the rules behind my website, GitHub profile, CV and apps.",
+  "cover": "/blog/media/covers/design-system-from-one-colour.jpg",
+  "minutes": 6
+ },
+ {
+  "slug": "reliable-alarms-on-android",
+  "title": "Making Alarms Reliable on Android: Lessons from Building TaskBell",
+  "date": "2026-10-18",
+  "category": "apps",
+  "categoryLabel": "App development",
+  "excerpt": "Exact alarms, Doze, battery savers, reboots and time zones: what it takes for a reminder app to ring at the right second, every time.",
+  "cover": "/blog/media/covers/reliable-alarms-on-android.jpg",
+  "minutes": 6
+ },
+ {
+  "slug": "designing-bilingual-brands",
+  "title": "Designing Bilingual Brands: Setting Bangla and English Together",
+  "date": "2026-10-11",
+  "category": "brand",
+  "categoryLabel": "Brand identity",
+  "excerpt": "Why Bangla and English type rarely match out of the box, and the practical rules I use to make them feel like one brand.",
+  "cover": "/blog/media/covers/designing-bilingual-brands.jpg",
+  "minutes": 6
+ },
+ {
+  "slug": "sdi-to-ip-st-2110",
+  "title": "Moving from SDI to IP Workflows (SMPTE ST 2110): Planning, Risks and a Phased Migration Roadmap for Bangladesh",
+  "date": "2026-10-04",
+  "category": "broadcast",
+  "categoryLabel": "Broadcast technology",
+  "excerpt": "Most Bangladeshi TV channels still run on SDI cables built a decade or more ago. Here is how a channel in Dhaka can plan a move to SMPTE ST 2110: what it changes, the local risks, and a phased roadmap that never puts the on-air signal at risk.",
+  "cover": "/blog/media/covers/sdi-to-ip-st-2110.jpg",
+  "minutes": 11
+ },
+ {
+  "slug": "brand-identity-process",
+  "title": "Brand Identity Is More Than a Logo: A Practical Process for Small Organisations",
+  "date": "2026-09-26",
+  "category": "brand",
+  "categoryLabel": "Brand identity",
+  "excerpt": "The step-by-step process I use with startups, youth organisations and shops to go from a vague brief to an identity people can actually use.",
+  "cover": "/blog/media/covers/brand-identity-process.jpg",
+  "minutes": 6
+ },
+ {
+  "slug": "design-theory-you-can-use",
+  "title": "Design Theory You Can Use Tomorrow: Gestalt, Hierarchy and Simple Research",
+  "date": "2026-09-18",
+  "category": "research",
+  "categoryLabel": "Design theory & research",
+  "excerpt": "The handful of design principles and research methods I actually use every week, explained without the jargon.",
+  "cover": "/blog/media/covers/design-theory-you-can-use.jpg",
+  "minutes": 6
+ },
+ {
+  "slug": "offline-first-apps-bangladesh",
+  "title": "Building Offline-First Apps for Bangladesh",
+  "date": "2026-09-10",
+  "category": "apps",
+  "categoryLabel": "App development",
+  "excerpt": "Why my apps work without the internet, keep data on the phone and speak Bangla first, and the design and engineering choices that follow.",
+  "cover": "/blog/media/covers/offline-first-apps-bangladesh.jpg",
+  "minutes": 6
+ },
+ {
+  "slug": "leading-volunteer-creative-teams",
+  "title": "Leading Volunteer Creative Teams: What Student Organisations Taught Me",
+  "date": "2026-09-02",
+  "category": "leadership",
+  "categoryLabel": "Leadership",
+  "excerpt": "Lessons from leading design teams and events in student and youth organisations, where nobody is paid and everyone is busy.",
+  "cover": "/blog/media/covers/leading-volunteer-creative-teams.jpg",
+  "minutes": 5
+ }
+]
