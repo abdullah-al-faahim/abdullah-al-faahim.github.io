@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f3a73"/>
+      <stop offset=".34" stop-color="#2a76bf"/>
+      <stop offset=".58" stop-color="#86b4d9"/>
+      <stop offset=".72" stop-color="#f3c08a"/>
+      <stop offset=".82" stop-color="#ef8a6c"/>
+      <stop offset="1" stop-color="#b9577a"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="610" cy="405" r="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff4cf" stop-opacity=".95"/>
+      <stop offset=".25" stop-color="#ffd79a" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#ffb07a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7c93b8"/><stop offset="1" stop-color="#a9a3bd"/>
+    </linearGradient>
+    <linearGradient id="mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f7466"/><stop offset="1" stop-color="#2c5a4c"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5cc04a"/><stop offset=".5" stop-color="#2f8a3a"/><stop offset="1" stop-color="#174d24"/>
+    </linearGradient>
+    <linearGradient id="grass2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3fa043"/><stop offset="1" stop-color="#123a1c"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".72" stop-color="#0c1411" stop-opacity="0"/><stop offset="1" stop-color="#0c1411"/>
+    </linearGradient>
+    <radialGradient id="coin" cx=".38" cy=".32" r=".8">
+      <stop offset="0" stop-color="#fff3b0"/><stop offset=".45" stop-color="#ffc83d"/><stop offset="1" stop-color="#d98a12"/>
+    </radialGradient>
+    <linearGradient id="gem" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c9b8ff"/><stop offset=".5" stop-color="#7a5cff"/><stop offset="1" stop-color="#3b1db0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky, sun, stars -->
+  <rect width="1200" height="520" fill="url(#sky)"/>
+  <rect width="1200" height="520" fill="url(#sun)"/>
+  <g fill="#fff">
+    <circle cx="140" cy="70" r="1.6" opacity=".8"/><circle cx="260" cy="40" r="1.2" opacity=".6"/><circle cx="420" cy="88" r="1.4" opacity=".7"/>
+    <circle cx="790" cy="54" r="1.3" opacity=".7"/><circle cx="930" cy="96" r="1.7" opacity=".8"/><circle cx="1060" cy="44" r="1.2" opacity=".6"/>
+    <circle cx="560" cy="34" r="1.1" opacity=".5"/><circle cx="700" cy="110" r="1" opacity=".5"/>
+  </g>
+
+  <!-- clouds -->
+  <g fill="#fff" opacity=".55">
+    <path d="M820 230c10-26 44-34 64-18 12-22 52-24 66 0 26-6 46 10 44 30H812c-6-4-2-10 8-12z"/>
+    <path d="M150 262c8-20 36-26 52-14 10-18 42-18 52 2 20-4 36 8 34 22H140c-4-4 0-8 10-10z" opacity=".8"/>
+    <path d="M1010 168c6-14 26-18 36-10 8-12 30-12 36 2 14-2 24 6 22 16h-100c-2-4 0-6 6-8z" opacity=".7"/>
+  </g>
+
+  <!-- far range -->
+  <path fill="url(#far)" opacity=".85" d="M0 380 L90 318 L160 350 L250 280 L330 336 L420 300 L520 352 L600 330 L680 356 L760 300 L840 250 L930 310 L1010 270 L1100 320 L1200 288 V520 H0Z"/>
+  <!-- mid range with snow -->
+  <path fill="url(#mid)" d="M420 520 L520 452 L600 410 L700 330 L760 360 L860 268 L950 340 L1030 300 L1120 360 L1200 330 V520 H420Z"/>
+  <path fill="#d8e6ee" opacity=".9" d="M860 268 L896 300 L880 296 L866 310 L850 296 L834 300Z M1030 300 L1058 320 L1044 318 L1030 330 L1018 318 L1008 320Z"/>
+  <path fill="#356656" d="M0 420 L80 380 L170 404 L260 370 L340 410 L420 432 C470 446 520 470 560 520 H0Z"/>
+
+  <!-- pines -->
+  <g fill="#1f4a35">
+    <path d="M980 430 l22-70 22 70z"/><path d="M1010 436 l16-52 16 52z"/><path d="M1050 432 l26-86 26 86z"/>
+    <path d="M1100 440 l18-60 18 60z"/><path d="M1130 436 l24-78 24 78z"/><path d="M1168 444 l18-58 18 58z"/>
+    <path d="M60 440 l18-56 18 56z"/><path d="M92 444 l14-44 14 44z"/>
+  </g>
+  <g fill="#2a6a3e" opacity=".9">
+    <path d="M1040 452 l20-62 20 62z"/><path d="M1150 456 l20-64 20 64z"/>
+  </g>
+
+  <!-- meadows -->
+  <path fill="url(#grass2)" d="M560 520 C640 450 760 430 880 440 C990 448 1100 420 1200 430 V520Z"/>
+  <path fill="url(#grass)" d="M0 438 C120 410 260 420 380 446 C470 466 540 480 640 520 H0Z"/>
+  <!-- path through the meadow -->
+  <path fill="#e7c48e" opacity=".55" d="M470 520 C500 494 560 470 640 460 C600 476 572 496 560 520Z"/>
+
+  <!-- flowers and grass tufts -->
+  <g>
+    <g fill="#ff6fb5"><circle cx="120" cy="472" r="7"/><circle cx="132" cy="466" r="7"/><circle cx="130" cy="480" r="7"/><circle cx="114" cy="482" r="6"/></g>
+    <circle cx="124" cy="474" r="4" fill="#ffe36b"/>
+    <g fill="#ffd34d"><circle cx="300" cy="476" r="5"/><circle cx="310" cy="470" r="5"/><circle cx="308" cy="482" r="5"/></g>
+    <circle cx="305" cy="476" r="2.6" fill="#fff"/>
+    <g fill="#b98cff"><circle cx="220" cy="496" r="6"/><circle cx="230" cy="490" r="6"/><circle cx="230" cy="502" r="6"/></g>
+    <circle cx="226" cy="496" r="3" fill="#fff6c9"/>
+    <g fill="#ff7a59"><circle cx="760" cy="486" r="5"/><circle cx="768" cy="480" r="5"/><circle cx="768" cy="492" r="5"/></g>
+    <g stroke="#123a1c" stroke-width="3" stroke-linecap="round" fill="none" opacity=".7">
+      <path d="M40 500 l6-22 M50 502 l2-26 M60 500 l-4-20"/><path d="M380 500 l6-20 M390 502 l0-24"/><path d="M880 498 l4-20 M890 500 l-2-22"/>
+    </g>
+  </g>
+
+  <!-- game pickups: coin, heart, gem, sparkles -->
+  <g transform="translate(960 160)">
+    <circle r="30" fill="url(#coin)" stroke="#b86e0a" stroke-width="3"/>
+    <circle r="19" fill="none" stroke="#c9850f" stroke-width="3" opacity=".8"/>
+    <path d="M-4 -10 h8 v20 h-8z" fill="#c9850f" opacity=".8"/>
+    <path d="M-18 -16 a24 24 0 0 1 14 -10" stroke="#fff" stroke-width="4" stroke-linecap="round" fill="none" opacity=".8"/>
+  </g>
+  <g transform="translate(212 150)" fill="#ff4f7b">
+    <rect x="-24" y="-16" width="16" height="8"/><rect x="8" y="-16" width="16" height="8"/>
+    <rect x="-32" y="-8" width="64" height="16"/><rect x="-24" y="8" width="48" height="8"/>
+    <rect x="-16" y="16" width="32" height="8"/><rect x="-8" y="24" width="16" height="8"/>
+    <rect x="-24" y="-8" width="8" height="8" fill="#ffd0dc"/>
+  </g>
+  <g transform="translate(1060 262) rotate(8)">
+    <path d="M0 -26 L20 -8 L0 28 L-20 -8Z" fill="url(#gem)" stroke="#2a1288" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M-20 -8 H20 M0 -26 L-8 -8 L0 28 L8 -8Z" fill="none" stroke="#e9e2ff" stroke-width="1.5" opacity=".7"/>
+  </g>
+  <g fill="#fffbe0">
+    <path d="M1010 120 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3z"/>
+    <path d="M262 112 l2.4 7 7 2.4 -7 2.4 -2.4 7 -2.4 -7 -7 -2.4 7 -2.4z"/>
+    <path d="M1100 218 l2 6 6 2 -6 2 -2 6 -2 -6 -6 -2 6 -2z"/>
+  </g>
+
+  <!-- canopy across the top edge -->
+  <g fill="#0c1411">
+    <path d="M0 0 H1200 V22 C1140 34 1100 18 1040 30 C980 44 940 26 880 34 C820 42 790 20 730 26 C680 30 650 46 600 40 C540 32 520 18 460 26 C400 34 370 50 310 40 C250 30 220 16 160 26 C100 36 60 22 0 34Z"/>
+    <path d="M300 40 c10 8 22 10 34 4 c-12 -2 -22 -6 -34 -4z M720 28 c8 10 22 14 36 8 c-14 0 -24 -4 -36 -8z M1040 30 c-6 12 -2 22 8 28 c-2 -10 -2 -20 -8 -28z M160 26 c-4 12 0 22 10 28 c-2 -10 -4 -20 -10 -28z"/>
+    <path d="M520 22 c14 4 30 14 34 30 c-16 -6 -28 -14 -34 -30z M900 32 c12 6 22 16 22 30 c-12 -8 -20 -18 -22 -30z"/>
+  </g>
+  <path d="M0 34 C60 22 100 36 160 26 C220 16 250 30 310 40" stroke="#0c1411" stroke-width="3" fill="none"/>
+
+  <!-- fade into the page -->
+  <rect width="1200" height="520" fill="url(#fade)"/>
+</svg>

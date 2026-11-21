@@ -1,0 +1,243 @@
+/* Oxford 3000 (/games/oxford-3000/): its own violet and lime look, on the site's frame. */
+.ox {
+  --bg: #130a38; --panel: #1c1152; --panel2: #271a6a; --line: #3a2b8c; --ink: #f4f1ff; --muted: #aaa1e6; --soft: #d9d3ff;
+  --lime: #d4ff24; --violet: #6b4aff; --pink: #ff9ec1; --good: #79e08f; --bad: #ff7b8a; --gold: #ffd34d;
+  max-width: 1040px; margin: 0 auto; padding: 28px 22px 64px; color: var(--ink);
+}
+.ox button { font: inherit; color: inherit; cursor: pointer; }
+.ox button:focus-visible, .ox-card:focus-visible, .ox input:focus-visible { outline: 3px solid var(--lime); outline-offset: 3px; }
+.ox [lang="bn"] { font-family: "Noto Sans Bengali", "Nirmala UI", "Hind Siliguri", "Segoe UI", sans-serif; }
+.ox mark { background: rgb(212 255 36 / .2); color: var(--lime); padding: 0 3px; border-radius: 4px; font-weight: 700; }
+
+/* ---------- Top ---------- */
+.ox-top { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end; margin-bottom: 22px; }
+.ox-back { color: var(--muted); font-size: 14px; text-decoration: none; }
+.ox-back:hover { color: var(--lime); }
+.ox h1 { margin: 8px 0 8px; font-size: clamp(36px, 6vw, 56px); font-weight: 800; letter-spacing: -.04em; line-height: 1; }
+.ox h1 span { color: var(--lime); }
+.ox-brand p { margin: 0; max-width: 56ch; color: var(--soft); line-height: 1.6; }
+.ox-me { display: grid; gap: 10px; min-width: 260px; }
+.ox-chips { display: flex; gap: 8px; }
+.ox-chip { display: inline-flex; align-items: center; gap: 7px; padding: 8px 14px; border-radius: 999px; background: var(--panel); border: 1px solid var(--line); }
+.ox-chip i { font-style: normal; }
+.ox-chip b { font-size: 18px; font-variant-numeric: tabular-nums; }
+.ox-chip small { color: var(--muted); font-size: 12px; }
+.ox-level { display: grid; gap: 6px; font-size: 13px; color: var(--soft); }
+.ox-bar { height: 8px; border-radius: 99px; background: rgb(255 255 255 / .1); overflow: hidden; }
+.ox-bar i { display: block; height: 100%; border-radius: 99px; background: linear-gradient(90deg, var(--violet), var(--lime)); transition: width .4s ease; }
+.ox-bar.big { height: 12px; flex: 1; }
+.ox-acct { display: grid; text-align: left; padding: 10px 16px; border-radius: 14px; border: 1px solid var(--line); background: var(--panel); transition: border-color .2s ease, transform .2s ease; }
+.ox-acct:hover { border-color: var(--lime); }
+.ox-acct span { font-weight: 700; }
+.ox-acct small { color: var(--muted); font-size: 12px; }
+
+/* ---------- Tabs ---------- */
+.ox-tabs { display: flex; gap: 6px; padding: 6px; border-radius: 18px; background: var(--panel); border: 1px solid var(--line); overflow-x: auto; scrollbar-width: none; }
+.ox-tabs::-webkit-scrollbar { display: none; }
+.ox-tabs button { position: relative; flex: 1 0 auto; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 12px 16px; border: 0; border-radius: 13px; background: none; color: var(--muted); font-weight: 700; white-space: nowrap; transition: background .2s ease, color .2s ease; }
+.ox-tabs button i { font-style: normal; font-size: 18px; }
+.ox-tabs button:hover { color: var(--ink); }
+.ox-tabs button[aria-selected="true"] { background: var(--lime); color: #1b0f50; }
+.ox-tabs em { font-style: normal; min-width: 20px; height: 20px; padding: 0 6px; display: inline-grid; place-items: center; border-radius: 99px; background: var(--pink); color: #2a0c1c; font-size: 12px; font-weight: 800; }
+
+/* ---------- Stage ---------- */
+.ox-stage { margin-top: 22px; min-height: 420px; }
+.ox-loading { text-align: center; color: var(--muted); padding: 80px 0; }
+.ox-primary { padding: 14px 26px; border: 0; border-radius: 999px; background: var(--lime); color: #1b0f50 !important; font-weight: 800; font-size: 16px; transition: transform .15s ease, filter .15s ease; }
+.ox-primary:hover { filter: brightness(1.06); transform: translateY(-1px); }
+.ox-primary:disabled { opacity: .6; }
+.ox-ghost { padding: 12px 22px; border-radius: 999px; background: none; border: 1.5px solid var(--line); font-weight: 700; color: var(--ink); transition: border-color .2s ease, background .2s ease; }
+.ox-ghost:hover { border-color: var(--lime); background: rgb(212 255 36 / .06); }
+.ox-ghost small { color: var(--muted); font-weight: 500; }
+.ox-link { background: none; border: 0; color: var(--muted); font-weight: 600; padding: 4px 0; }
+.ox-link:hover { color: var(--lime); }
+.ox-small { color: var(--muted); font-size: 13px; line-height: 1.6; }
+.ox-sub { margin: 30px 0 12px; font: 700 12px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.ox-actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 22px; }
+.ox-emoji { font-size: 56px; line-height: 1; margin-bottom: 8px; }
+.ox-lead { color: var(--soft); max-width: 60ch; line-height: 1.6; }
+
+/* ---------- Today ---------- */
+.ox-hero { display: flex; align-items: center; gap: 30px; padding: 30px; border-radius: 26px; background: linear-gradient(135deg, var(--panel2), var(--panel)); border: 1px solid var(--line); }
+.ox-ringwrap { position: relative; width: 132px; height: 132px; flex: none; }
+.ox-ring { width: 100%; height: 100%; transform: rotate(-90deg); fill: none; stroke-width: 12; stroke-linecap: round; }
+.ox-ring .bg { stroke: rgb(255 255 255 / .1); }
+.ox-ring .fg { stroke: var(--lime); transition: stroke-dasharray .6s ease; }
+.ox-ringtxt { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; }
+.ox-ringtxt b { font-size: 36px; line-height: 1; }
+.ox-ringtxt span { font-size: 12px; color: var(--muted); }
+.ox-herotxt h2 { margin: 0 0 8px; font-size: 28px; letter-spacing: -.02em; }
+.ox-herotxt p { margin: 0 0 18px; color: var(--soft); line-height: 1.6; max-width: 52ch; }
+.ox-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 14px; }
+.ox-mini { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; padding: 22px; border-radius: 20px; background: var(--panel); border: 1px solid var(--line); }
+.ox-mini h3 { margin: 0; font: 700 12px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--lime); }
+.ox-mini p { margin: 6px 0 12px; color: var(--soft); line-height: 1.55; font-size: 15px; }
+.ox-mini .ox-ghost { margin-top: auto; }
+.ox-mini.wod .w { font-size: 26px; font-weight: 800; margin: 8px 0 0; color: var(--ink); }
+.ox-mini.wod .bn { margin: 0; font-size: 18px; color: var(--lime); }
+.ox-mini.wod .ex { font-size: 14px; color: var(--muted); margin: 6px 0 0; font-style: italic; }
+.ox-speak { display: inline-grid; place-items: center; width: 34px; height: 34px; margin-left: 6px; border-radius: 50%; border: 1px solid var(--line); background: var(--panel2); font-size: 15px; vertical-align: middle; flex: none; transition: background .15s ease, transform .15s ease; }
+.ox-speak:hover { background: var(--violet); transform: scale(1.08); }
+
+/* ---------- Flashcards ---------- */
+.ox-session { max-width: 640px; margin: 0 auto; }
+.ox-prog { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+.ox-card { position: relative; min-height: 380px; perspective: 1400px; cursor: pointer; transform-style: preserve-3d; }
+.ox-face { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 28px 26px; text-align: center; border-radius: 26px; border: 1px solid var(--line); background: linear-gradient(160deg, var(--panel2), var(--panel)); backface-visibility: hidden; transition: transform .55s cubic-bezier(.2, .8, .2, 1); box-shadow: 0 24px 60px rgb(5 0 30 / .45); }
+.ox-face.front { transform: rotateY(0); }
+.ox-face.back { transform: rotateY(180deg); justify-content: flex-start; overflow-y: auto; align-items: stretch; text-align: left; padding-top: 22px; }
+.ox-card[data-flip="true"] .front { transform: rotateY(-180deg); }
+.ox-card[data-flip="true"] .back { transform: rotateY(0); }
+.ox-lvl { position: absolute; top: 18px; left: 20px; padding: 5px 11px; border-radius: 99px; background: rgb(212 255 36 / .14); color: var(--lime); font: 700 12px/1 var(--mono); letter-spacing: .08em; }
+.ox-face h2 { margin: 0; font-size: clamp(40px, 9vw, 64px); font-weight: 800; letter-spacing: -.03em; line-height: 1.05; overflow-wrap: anywhere; }
+.ox-pos { margin: 10px 0 18px; color: var(--muted); font: 600 15px/1.2 var(--mono); }
+.ox-face .ox-speak { width: 48px; height: 48px; font-size: 20px; margin: 0; }
+.ox-tap { position: absolute; bottom: 20px; margin: 0; font-size: 13px; color: var(--muted); }
+.ox-wordsm { margin: 0 0 6px; font-size: 20px; font-weight: 800; }
+.ox-wordsm span { margin-left: 6px; color: var(--muted); font: 500 13px var(--mono); }
+.ox-wordsm .ox-speak { width: 30px; height: 30px; font-size: 13px; }
+.ox-bn { margin: 4px 0 10px; font-size: clamp(26px, 6vw, 34px); font-weight: 800; color: var(--lime); line-height: 1.35; }
+.ox-def { margin: 0 0 14px; color: var(--soft); line-height: 1.6; font-size: 16px; }
+.ox-ex { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.ox-ex li { padding: 12px 14px; border-radius: 14px; background: rgb(255 255 255 / .06); line-height: 1.55; font-size: 15px; color: var(--ink); }
+.ox-ex li .ox-speak { width: 28px; height: 28px; font-size: 12px; margin-left: 8px; }
+.ox-rate { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 18px; }
+.ox-rate[hidden], .ox-flipbtn[hidden] { display: none; }
+.ox-rate button { display: grid; gap: 2px; padding: 14px; border-radius: 18px; border: 2px solid; font-size: 18px; font-weight: 800; background: none; transition: transform .15s ease, background .2s ease; }
+.ox-rate button:hover { transform: translateY(-2px); }
+.ox-rate small { font-weight: 500; font-size: 12px; opacity: .8; }
+.ox-again { border-color: var(--bad) !important; color: var(--bad) !important; }
+.ox-again:hover { background: rgb(255 123 138 / .12) !important; }
+.ox-got { border-color: var(--good) !important; color: var(--good) !important; }
+.ox-got:hover { background: rgb(121 224 143 / .14) !important; }
+.ox-flipbtn { display: block; width: 100%; margin-top: 18px; }
+
+/* ---------- Quiz ---------- */
+.ox-q { padding: 28px; border-radius: 26px; background: linear-gradient(160deg, var(--panel2), var(--panel)); border: 1px solid var(--line); text-align: center; }
+.ox-qlabel { margin: 0 0 14px; color: var(--muted); font: 700 12px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+.ox-qword { margin: 0; font-size: clamp(34px, 8vw, 52px); font-weight: 800; letter-spacing: -.03em; }
+.ox-qword .ox-speak { width: 40px; height: 40px; }
+.ox-qbn { margin: 0 0 8px; font-size: clamp(26px, 6vw, 34px); color: var(--lime); font-weight: 800; line-height: 1.35; }
+.ox-qsent { margin: 0 0 8px; font-size: clamp(20px, 4.5vw, 26px); font-weight: 700; line-height: 1.5; }
+.ox-hintline { margin: 0 0 6px; color: var(--muted); font-size: 15px; }
+.ox-bigspeak { padding: 18px 30px; border-radius: 999px; border: 2px solid var(--lime); background: rgb(212 255 36 / .08); color: var(--lime); font-size: 20px; font-weight: 800; }
+.ox-bigspeak:hover { background: rgb(212 255 36 / .16); }
+.ox-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 22px; text-align: left; }
+.ox-opt { display: flex; align-items: center; gap: 12px; padding: 16px; border-radius: 16px; border: 2px solid var(--line); background: var(--bg); font-size: 17px; font-weight: 600; transition: border-color .15s ease, transform .15s ease, background .15s ease; }
+.ox-opt:hover:not(:disabled) { border-color: var(--lime); transform: translateY(-2px); }
+.ox-opt kbd { display: inline-grid; place-items: center; flex: none; width: 26px; height: 26px; border-radius: 8px; background: var(--panel2); color: var(--muted); font: 700 12px var(--mono); }
+.ox-opt.right { border-color: var(--good); background: rgb(121 224 143 / .16); }
+.ox-opt.wrong { border-color: var(--bad); background: rgb(255 123 138 / .16); }
+.ox-opt:disabled { cursor: default; color: var(--ink); }
+.ox-type { display: flex; gap: 10px; margin-top: 20px; }
+.ox-type input { flex: 1; min-width: 0; padding: 14px 16px; border-radius: 14px; border: 2px solid var(--line); background: var(--bg); color: var(--ink); font-size: 20px; font-weight: 700; text-align: center; }
+.ox-type input.right { border-color: var(--good); } .ox-type input.wrong { border-color: var(--bad); }
+.ox-fb { margin-top: 18px; text-align: left; }
+.ox-fbbox { padding: 14px 16px; border-radius: 16px; margin-bottom: 14px; border: 1px solid; }
+.ox-fbbox.ok { border-color: var(--good); background: rgb(121 224 143 / .1); }
+.ox-fbbox.no { border-color: var(--bad); background: rgb(255 123 138 / .1); }
+.ox-fbbox p { margin: 0 0 4px; }
+.ox-fbbox .t { font-weight: 800; font-size: 18px; }
+.ox-fbbox.ok .t { color: var(--good); } .ox-fbbox.no .t { color: var(--bad); }
+.ox-fbbox span { color: var(--lime); margin-left: 6px; }
+.ox-exline { color: var(--soft); font-style: italic; font-size: 14px; }
+.ox-fb .ox-primary { display: block; margin: 0 auto; }
+.ox-fb .ox-primary small { font-weight: 500; opacity: .7; }
+.ox-combo, .ox-examtag { text-align: center; margin: -4px 0 12px; font-weight: 800; color: var(--gold); }
+.ox-examtag { color: var(--pink); font: 700 12px var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+
+/* ---------- Results ---------- */
+.ox-result, .ox-empty, .ox-practice { max-width: 680px; margin: 0 auto; text-align: center; padding: 10px 0 20px; }
+.ox-result h2, .ox-empty h2, .ox-practice h2 { margin: 0 0 8px; font-size: clamp(28px, 6vw, 40px); letter-spacing: -.02em; }
+.ox-result p, .ox-empty p { color: var(--soft); line-height: 1.6; }
+.ox-stars { display: flex; justify-content: center; gap: 6px; margin: 10px 0; font-size: 40px; }
+.ox-stars i { font-style: normal; color: rgb(255 255 255 / .15); }
+.ox-stars i.on { color: var(--gold); text-shadow: 0 0 18px rgb(255 211 77 / .5); animation: ox-pop .5s ease backwards; }
+.ox-stars i.on:nth-child(2) { animation-delay: .12s; } .ox-stars i.on:nth-child(3) { animation-delay: .24s; }
+@keyframes ox-pop { from { transform: scale(0) rotate(-40deg); } }
+.ox-chiplist { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 16px 0; }
+.ox-chiplist span { padding: 7px 14px; border-radius: 99px; background: var(--panel); border: 1px solid var(--line); font-weight: 700; font-size: 14px; }
+.ox-perfect { color: var(--good) !important; font-weight: 700; }
+.ox-grade { font-size: 20px; font-weight: 800; margin: 0 0 14px; }
+.ox-grade.pass { color: var(--good) !important; } .ox-grade.fail { color: var(--gold) !important; }
+.ox-review { display: grid; gap: 8px; text-align: left; }
+.ox-mw { padding: 12px 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); display: grid; grid-template-columns: auto auto 1fr; gap: 2px 10px; align-items: center; }
+.ox-mw b { font-size: 18px; }
+.ox-mw > span { grid-column: 3; justify-self: end; color: var(--lime); font-weight: 700; text-align: right; }
+.ox-mw em { grid-column: 1 / -1; color: var(--muted); font-size: 14px; }
+.ox-mw .ox-speak { width: 26px; height: 26px; font-size: 11px; margin-left: 6px; }
+
+/* ---------- Practice ---------- */
+.ox-modes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 20px; text-align: left; }
+.ox-mode { display: grid; gap: 4px; padding: 20px; border-radius: 20px; border: 1.5px solid var(--line); background: var(--panel); text-align: left; transition: border-color .2s ease, transform .2s ease; }
+.ox-mode:hover { border-color: var(--lime); transform: translateY(-3px); }
+.ox-mode i { font-style: normal; font-size: 30px; }
+.ox-mode b { font-size: 18px; margin-top: 4px; }
+.ox-mode span { color: var(--muted); font-size: 14px; line-height: 1.45; }
+.ox-practice { max-width: none; text-align: left; }
+.ox-practice h2 { text-align: left; }
+
+/* ---------- Progress ---------- */
+.ox-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.ox-stats > div { padding: 18px; border-radius: 18px; background: var(--panel); border: 1px solid var(--line); text-align: center; }
+.ox-stats b { display: block; font-size: 34px; letter-spacing: -.02em; color: var(--lime); }
+.ox-stats span { color: var(--muted); font-size: 13px; }
+.ox-levels { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.ox-lv { padding: 14px 16px; border-radius: 16px; background: var(--panel); border: 1px solid var(--line); display: grid; gap: 10px; }
+.ox-lv > div:first-child { display: flex; justify-content: space-between; }
+.ox-lv span { color: var(--muted); font-size: 13px; }
+.ox-heat { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; max-width: 360px; }
+.ox-heat i { aspect-ratio: 1; border-radius: 6px; background: rgb(255 255 255 / .07); }
+.ox-heat .h1 { background: rgb(212 255 36 / .3); } .ox-heat .h2 { background: rgb(212 255 36 / .6); } .ox-heat .h3 { background: var(--lime); }
+.ox-hist { display: grid; gap: 8px; }
+.ox-hist > div { display: grid; grid-template-columns: 70px 1fr 52px; gap: 12px; align-items: center; font-size: 14px; }
+.ox-hist span { color: var(--muted); } .ox-hist b { text-align: right; }
+.ox-badges { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+.ox-badges > div { display: grid; justify-items: center; gap: 6px; padding: 14px 6px; border-radius: 16px; background: var(--panel); border: 1px solid var(--line); text-align: center; opacity: .4; filter: grayscale(1); }
+.ox-badges > div.on { opacity: 1; filter: none; border-color: var(--lime); }
+.ox-badges i { font-style: normal; font-size: 28px; }
+.ox-badges span { font-size: 12px; color: var(--soft); line-height: 1.3; }
+
+.ox-credit { margin: 40px 0 0; color: var(--muted); font-size: 13px; line-height: 1.6; text-align: center; }
+.ox-credit a { color: var(--soft); }
+.ox-confetti { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 60; }
+
+/* ---------- Account dialog ---------- */
+.ox-dlg { width: min(420px, calc(100vw - 28px)); padding: 28px 24px 24px; border: 1px solid var(--line); border-radius: 24px; background: #1c1152; color: #f4f1ff; box-shadow: 0 30px 80px rgb(0 0 0 / .55); }
+.ox-dlg::backdrop { background: rgb(8 3 30 / .75); backdrop-filter: blur(3px); }
+.ox-dlg h2 { margin: 0 0 6px; font-size: 26px; letter-spacing: -.02em; }
+.ox-dlg-sub { margin: 0 0 16px; color: #aaa1e6; line-height: 1.55; font-size: 15px; }
+.ox-x { position: absolute; top: 14px; right: 14px; width: 34px; height: 34px; border-radius: 50%; border: 0; background: rgb(255 255 255 / .08); color: #f4f1ff; }
+.ox-seg { display: grid; grid-template-columns: 1fr 1fr; padding: 4px; border-radius: 99px; background: #130a38; margin-bottom: 16px; }
+.ox-seg button { padding: 10px; border: 0; border-radius: 99px; background: none; color: #aaa1e6; font-weight: 700; }
+.ox-seg button[aria-selected="true"] { background: #d4ff24; color: #1b0f50; }
+.ox-dlg label { display: grid; gap: 6px; margin-bottom: 12px; font-size: 14px; color: #d9d3ff; font-weight: 600; }
+.ox-dlg input { padding: 13px 14px; border-radius: 12px; border: 2px solid #3a2b8c; background: #130a38; color: #f4f1ff; font-size: 16px; }
+.ox-dlg input:focus { border-color: #d4ff24; outline: 0; }
+.ox-form-note { margin: 0 0 12px; color: #aaa1e6; font-size: 13px; line-height: 1.55; }
+.ox-form-err { margin: 0 0 10px; min-height: 1.2em; color: #ff9aa6; font-size: 14px; font-weight: 600; }
+.ox-dlg .ox-primary { width: 100%; }
+.ox-dlg-acts { display: grid; gap: 10px; }
+
+@media (max-width: 860px) {
+  .ox-top { grid-template-columns: 1fr; }
+  .ox-me { min-width: 0; }
+  .ox-hero { flex-direction: column; text-align: center; gap: 18px; padding: 24px 18px; }
+  .ox-herotxt p { margin-left: auto; margin-right: auto; }
+  .ox-cards { grid-template-columns: 1fr; }
+  .ox-modes { grid-template-columns: repeat(2, 1fr); }
+  .ox-stats { grid-template-columns: repeat(2, 1fr); }
+  .ox-badges { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 560px) {
+  .ox { padding: 18px 12px 48px; }
+  .ox-opts { grid-template-columns: 1fr; }
+  .ox-card { min-height: 440px; }
+  .ox-q { padding: 20px 14px; }
+  .ox-levels { grid-template-columns: 1fr; }
+  .ox-modes { grid-template-columns: 1fr; }
+  .ox-tabs button { padding: 11px 12px; }
+  .ox-tabs button i { display: none; }
+  .ox-type { flex-direction: column; }
+}
+@media (prefers-reduced-motion: reduce) { .ox-face { transition: none; } .ox-stars i.on { animation: none; } }

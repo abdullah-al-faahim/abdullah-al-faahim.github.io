@@ -1,0 +1,2646 @@
+# Abdullah Al Fahim (Fahim Rifat)
+
+> Abdullah Al Fahim, also known as Fahim Rifat, is a creative technologist in Dhaka, Bangladesh. He works where design meets engineering: broadcast engineering at Channel i, brand identity design through his studio Utopia SoftTech, and Android and web apps such as TaskBell and Taka.
+
+Official website: https://abdullah-al-faahim.github.io/
+
+## Facts
+
+- Name: Abdullah Al Fahim. Also known as: Fahim Rifat, Abdullah Al Faahim.
+- Based in: Dhaka, Bangladesh.
+- Current role: Broadcast Engineer, Transmission, at Channel i (Impress Telefilm Ltd.), since September 2024. Runs Master Control Room transmission, encoding and live contribution: 800+ live broadcasts.
+- Founder and Creative Director, Utopia SoftTech (since 2018): brand identity, presentations, apps and tools.
+- Previously: Executive, IT & System Support (MIS), Laptop World BD (2023–2024).
+- Education: BSc in Electronics & Communication Engineering, ISTT, National University, Bangladesh (2018–2023).
+- Leadership: Head of Branding & Communication, NUSDF (2023–24); General Secretary, IEEE ISTT Student Branch (2020–21); IEEEXtreme 15.0 Country Ambassador (2021).
+- Skills: broadcast engineering, brand identity and graphic design, design systems, Android and web app development.
+
+## Main pages
+
+- [Home and portfolio](https://abdullah-al-faahim.github.io/): about, design projects, apps, experience, booking.
+- [Blog](https://abdullah-al-faahim.github.io/blog/): articles on broadcast technology, design, colour, design systems and leadership.
+- [CV (PDF)](https://abdullah-al-faahim.github.io/cv/Abdullah%20Al%20Fahim_CV.pdf)
+- [Book a meeting](https://cal.com/meet-fahim)
+
+## Profiles
+
+- [LinkedIn](https://linkedin.com/in/abdullah-al-fahim)
+- [GitHub](https://github.com/abdullah-al-faahim)
+- [Behance](https://behance.net/hire-fahim)
+- [Dribbble](https://dribbble.com/hire-fahim)
+
+# Articles (full text)
+
+---
+
+## Build a Personal Design System in a Weekend: Palette, Type Scale, Spacing, 5 Components and a README
+
+URL: https://abdullah-al-faahim.github.io/blog/personal-design-system-weekend/  
+Published: 2026-11-21  
+Topic: Design systems  
+Author: Abdullah Al Fahim
+
+**After reading this, you'll have a two-day plan to build a small personal design system that makes everything you publish look like it belongs together.**
+
+![A designer's hands sketching interface ideas.](/blog/media/photos/personal-design-system-weekend.webp "A weekend is enough for a small, useful system.")
+
+<p class="credit">Photo by <a href="https://pixabay.com/users/Firmbee-663163/">Firmbee</a> on <a href="https://pixabay.com/photos/ux-prototyping-design-webdesign-788002/">Pixabay</a> (<a href="https://pixabay.com/service/license-summary/">Pixabay Content License</a>).</p>
+
+## Why it matters
+
+Most designers spend their time building systems for clients and almost none on their own work. The result: a portfolio, a LinkedIn banner, a CV and a GitHub profile that each look like a different person made them.
+
+A personal design system fixes that. It doesn't need to be big. In [Building a personal design system from one colour](/blog/design-system-from-one-colour/) I explained the thinking behind my own palette. This post is the practical version: a weekend plan you can follow.
+
+## The idea explained
+
+A personal system has five parts. Each one is small:
+
+![Diagram of five layers: palette, type scale, spacing scale, five core components and a README, each feeding the next.](/blog/media/design/personal-design-system-weekend-1.svg "Five small parts make a complete personal system.")
+
+1. **Palette**: one main colour, one accent, neutrals, and light/dark variants.
+2. **Type scale**: one or two typefaces and five or six sizes.
+3. **Spacing scale**: a short list of spacing values (for example 4, 8, 12, 16, 24, 32, 48, 64).
+4. **Five core components**: the things you make most often.
+5. **README**: one page explaining how to use it.
+
+## A real example
+
+My own system started from a single violet and a sharp lime accent, with a deep ink colour for text. I use it across my site, GitHub profile, blog covers and documents.
+
+Before, my GitHub profile README was a list of badges in every colour, mixed fonts in images and no clear structure. After applying the system, it uses the same palette, the same heading style and a consistent card layout as the website.
+
+![Before: a GitHub-style profile with mixed colours and badges. After: the same profile with one palette, consistent cards and clear hierarchy.](/blog/media/design/personal-design-system-weekend-2.svg "Same content, before and after applying a personal system. Illustrative mock-up.")
+
+## Try it yourself: the weekend plan
+
+**Saturday morning: palette (2 hours)**
+- Pick one main colour that feels like you.
+- Add one accent with strong contrast.
+- Add an ink (near-black) and two or three neutrals.
+- Check text contrast with a WCAG checker.
+
+**Saturday afternoon: type and spacing (3 hours)**
+- Choose a display typeface and a text typeface (or one family for both).
+- Build a scale with a ratio such as 1.25: for example 14, 16, 20, 25, 31, 39 px.
+- Choose spacing steps based on 4 or 8 px.
+
+**Sunday morning: five components (3 hours)**
+Pick the five things you make most. Mine are:
+1. Button / link style
+2. Card (project or post)
+3. Section heading with a small label
+4. Social post template
+5. Cover/banner template
+
+Build each in Figma using only your palette, type and spacing.
+
+**Sunday afternoon: README and rollout (2 hours)**
+- Write one page: colours with values, type sizes, spacing, components, do's and don'ts.
+- Apply it to one real thing immediately: your GitHub README, LinkedIn banner or CV.
+
+## Common mistakes
+
+- **Too many colours.** Start with fewer; you can add later.
+- **Building components you never use.** Five real ones beat twenty theoretical ones.
+- **Skipping the README.** Without it, you'll forget your own rules in a month.
+- **Not applying it.** A system lives only when it's used.
+- **Changing it every week.** Give it three months before redesigning.
+
+## Summary
+
+- A personal design system has five parts: palette, type scale, spacing, components, README.
+- Keep each part small and practical.
+- Build the five components you actually use most.
+- Write a one-page README so future you follows the rules.
+- Apply it immediately to one real profile or document.
+
+![Cheat sheet: weekend plan for building a personal design system.](/blog/media/design/personal-design-system-weekend-cheat.svg "The weekend plan on one page.")
+
+## Sources and image credits
+
+- [Figma variables documentation](https://help.figma.com/).
+- WebAIM, [contrast checker](https://webaim.org/resources/contrastchecker/).
+- All diagrams and mock-ups were made by me for this post.
+
+---
+
+## Tanvir and the 50/50 Myth: What Work-Life Balance Really Means
+
+URL: https://abdullah-al-faahim.github.io/blog/what-work-life-balance-really-means/  
+Published: 2026-11-20  
+Topic: Work & life  
+Author: Abdullah Al Fahim
+
+*A Friday story. The people and places are fictional; the lessons are real.*
+
+**Tanvir had read the articles. Eight hours of work, eight hours of rest, eight hours of life. He laughed every time.**
+
+Tanvir Hasan was 30, a broadcast engineer in the master control room of a TV channel in Tejgaon. His roster rotated: mornings one week, evenings the next, nights after that. Live cricket ran over. Breaking news arrived without asking. Eid meant working while the city celebrated.
+
+"Work-life balance," he told his cousin Arif over the phone, "is for people with normal jobs."
+
+![A stack of balanced stones at sunset.](/blog/media/photos/what-work-life-balance-really-means.webp "Balance is measured over weeks, not hours.")
+
+<p class="credit">Photo by <a href="https://pixabay.com/users/GidonPico-850967/">GidonPico</a> on <a href="https://pixabay.com/photos/rocks-balance-sunset-mountain-top-1757593/">Pixabay</a> (<a href="https://pixabay.com/service/license-summary/">Pixabay Content License</a>).</p>
+
+## The guilt
+
+He felt it everywhere. When he missed his nephew's birthday because of a night shift, he felt guilty about family. When he left the control room on time and a problem appeared an hour later, he felt guilty about work. When he finally had a day off, he spent it asleep, and felt guilty about that too.
+
+Every day was supposed to be balanced. Not one of them was.
+
+## Nani's oranges
+
+One Friday in late November, Tanvir visited his grandmother in Mohammadpur. Nani sat on the veranda in a shawl, peeling oranges, the radio playing old songs.
+
+"You look tired, bhai," she said.
+
+He told her about the shifts, the guilt, the articles with their perfect eight-eight-eight.
+
+Nani laughed and handed him half an orange. "When your grandfather was building his business, he worked until midnight for two years. When your mother was born, he came home every day for lunch. When I was ill, he closed the shop for a month. Was he balanced?"
+
+"Some years, no," Tanvir said.
+
+"Over his life? Yes." She wiped her fingers. "You are measuring the wrong thing. You measure a day. Measure a season."
+
+## A better definition
+
+On the bus home, Tanvir wrote in his phone's notes:
+
+![Diagram: Four parts of real balance.](/blog/media/design/what-work-life-balance-really-means-1.svg "Four parts of real balance.")
+
+**Control.** Some say over when and how I work. He couldn't choose his shifts, but he could swap with colleagues in advance and plan around the roster.
+
+**Recovery.** Enough rest that he started each roster week with energy, not exhaustion.
+
+**Presence.** When he was at work, fully there. When at home, actually home, not half-reading the control room WhatsApp group.
+
+**Priorities.** Time going to the things he said mattered: his parents, his health, the guitar he hadn't touched in a year.
+
+Hours weren't on the list.
+
+## The scorecard
+
+That night, he scored himself from 1 to 5 on each.
+
+Control: 3. Recovery: 1. Presence: 2. Priorities: 2.
+
+Recovery was the problem. He'd been treating days off as "catch-up sleep and nothing else", and he was never really rested.
+
+So he changed one thing. After each night-shift week, he protected the first full day off: sleep until late morning, then a walk by the lake at Dhanmondi, lunch with his parents, and no work messages until the evening.
+
+## Three months later
+
+It wasn't perfect. Some weeks were still brutal. But on the Friday he visited Nani again, he brought his guitar.
+
+"Balanced?" she asked.
+
+"This season," he said, "more than before."
+
+## Try this week
+
+Score yourself from 1 to 5 on control, recovery, presence and priorities. Pick the lowest score and make one small change, like protecting one evening, one morning or one full day off.
+
+## Summary
+
+- Balance isn't a daily 50/50 split; measure it over weeks and seasons.
+- Real balance means control, recovery, presence and priorities.
+- Hours matter less than whether you recover.
+- Balance changes with your life stage.
+- Score yourself on the four parts and fix the lowest first.
+
+![Cheat sheet: Tanvir and the 50/50 Myth.](/blog/media/design/what-work-life-balance-really-means-cheat.svg "Save this cheat sheet.")
+
+---
+
+## Writing the Runbook So Anyone Can Lead at 3 AM
+
+URL: https://abdullah-al-faahim.github.io/blog/runbook-anyone-can-lead-at-3am/  
+Published: 2026-11-19  
+Topic: Leadership  
+Author: Abdullah Al Fahim
+
+At 3 a.m., the most experienced engineer in the building is usually asleep at home. Whoever is on shift has to deal with whatever happens, often alone, often tired, sometimes new to the job.
+
+That's why I think a good runbook is one of the most powerful leadership tools a technical team has. It is your best judgement, written down, available to anyone at any hour. When it's done well, the night shift doesn't need you awake. When it's done badly, they call you, or worse, they guess.
+
+![An office building at night with lit windows.](/blog/media/photos/runbook-anyone-can-lead-at-3am.webp "A runbook is written for the tired person on the night shift.")
+
+<p class="credit">Photo: <a href="https://stocksnap.io/photo/building-architecture-ONN4Z188GF">Building Architecture</a> by <a href="https://stocksnap.io/author/20296">Vladimir Kudinov</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via StockSnap.</p>
+
+## What a runbook is (and isn't)
+
+A **runbook** is a set of step-by-step instructions for specific situations: a feed loss, an encoder failure, a power changeover, a satellite issue, a scheduled maintenance task.
+
+It is not:
+
+- A manual that explains how the equipment works.
+- A policy document full of "should" and "ensure".
+- A diary of what happened last time.
+
+It answers one question: **"This is happening. What do I do, in what order?"**
+
+## Write for the tired, new person
+
+The test I use: could someone in their first month, at 3 a.m., under pressure, follow this without calling anyone? That changes how you write:
+
+- **Short numbered steps**, one action each.
+- **Exact names**: the label on the panel, the name on the screen, the button text. Not "switch to the backup source" but "On router panel 2, press *BKP-1*".
+- **What you should see next**: "The tally light on monitor 4 turns red."
+- **What to do if you don't**: "If the picture doesn't return within 10 seconds, go to step 6."
+
+Vague steps feel efficient to the writer and impossible to the reader.
+
+## Start with the symptom, not the cause
+
+![Diagram: A runbook entry, in order.](/blog/media/design/runbook-anyone-can-lead-at-3am-1.svg "A runbook entry, in order.")
+
+At 3 a.m., nobody knows the cause yet. They know the symptom: black picture, no audio, freeze, colour bars on air, alarm on the encoder. So organise runbooks by **what the operator sees**:
+
+- *Picture frozen on main output*
+- *Audio missing on air*
+- *Satellite uplink alarm*
+- *Mains power failure*
+
+Each one begins with "restore air" steps, then moves to "diagnose and report" steps.
+
+## Put the decision points in writing
+
+Good runbooks don't remove judgement. They tell people **where** judgement is needed and give them a default:
+
+> If you are unsure whether to switch to backup, **switch**. A backup picture is always better than a frozen one.
+
+Defaults like this are leadership. They decide in advance, on a calm day, what the team should do on a stressful night, and they take the fear out of acting.
+
+## Include who to call, and when
+
+Every runbook ends with escalation:
+
+- Who to call (role first, then name and number).
+- When to call: immediately, after 10 minutes, or at start of business.
+- What to tell them: what happened, what you did, what's on air now.
+
+This protects both sides. Juniors know they are allowed to call. Seniors receive a clear summary instead of a confused one.
+
+## Keep it alive
+
+Runbooks rot. Equipment changes, panels get relabelled, and a step that worked last year becomes wrong. Some habits that keep them useful:
+
+- **Review after every incident.** Did the runbook help? Where did people deviate, and why?
+- **Have new staff test them.** If a newcomer gets stuck, the runbook is wrong, not the newcomer.
+- **Date every page** and name an owner.
+- **Keep them where the work is**: printed at the desk *and* on a shared drive, in case the network is the thing that failed.
+
+## Why this is leadership
+
+It's tempting to see documentation as admin work that gets in the way of "real" engineering. I see it the other way around. A runbook spreads the knowledge of one experienced person to every shift. It lets juniors act confidently. It makes the team less dependent on any single hero.
+
+Leadership isn't only about being there when things go wrong. It's about making sure the team is ready when you're not.
+
+If you want the wider context of how runbooks fit with handovers and checklists, read [Running an MCR like a high-reliability operation](/blog/mcr-high-reliability-operation/).
+
+## Summary
+
+- A runbook guides action; it isn't a manual.
+- Write for a tired, new person.
+- Start with the symptom, not the cause.
+- Put decision points and escalation contacts in writing.
+- Keep it alive after every incident.
+
+![Cheat sheet: Writing the Runbook So Anyone Can Lead at 3 AM.](/blog/media/design/runbook-anyone-can-lead-at-3am-cheat.svg "Save this cheat sheet.")
+
+---
+
+## RGB vs CMYK vs Pantone: Why Your Logo Looks Different on Screen and in Print
+
+URL: https://abdullah-al-faahim.github.io/blog/rgb-vs-cmyk-vs-pantone/  
+Published: 2026-11-18  
+Topic: Colour & print  
+Author: Abdullah Al Fahim
+
+**After reading this, you'll know why colours change between screen and print, and how to specify a brand colour so it stays consistent.**
+
+![A printing press roller with red ink.](/blog/media/photos/rgb-vs-cmyk-vs-pantone.webp "Print makes colour with ink, not light.")
+
+<p class="credit">Photo by <a href="https://pixabay.com/users/paine_z-9934419/">paine_z</a> on <a href="https://pixabay.com/photos/offset-printing-macine-3634411/">Pixabay</a> (<a href="https://pixabay.com/service/license-summary/">Pixabay Content License</a>).</p>
+
+## Why it matters
+
+Almost every designer has had the "my red turned brown" moment. The logo looked perfect on screen, the printed banners arrived, and the colour was duller, darker or just *different*. Clients notice. Brand consistency depends on understanding that screens and printers make colour in completely different ways.
+
+This builds on last week's post, [Colour profiles explained](/blog/color-profiles-explained/).
+
+## The idea explained
+
+![Diagram comparing RGB additive light mixing, CMYK subtractive ink mixing and a single pre-mixed spot ink.](/blog/media/design/rgb-vs-cmyk-vs-pantone-1.svg "Three ways to make colour: adding light, layering inks, or using one pre-mixed ink.")
+
+- **RGB (additive):** screens emit red, green and blue light. Add all three at full strength and you get white. Screens can show very bright, saturated colours because they produce light.
+- **CMYK (subtractive):** printers lay down cyan, magenta, yellow and black ink in tiny dots. Ink absorbs light; paper reflects what's left. Many bright screen colours, especially vivid reds, oranges, greens and blues, can't be reached with four inks. They're **out of gamut**.
+- **Pantone spot colours:** instead of mixing a colour from four inks on paper, the printer uses **one ink pre-mixed** to an exact formula. Spot colours can reach colours CMYK can't (including metallics and fluorescents) and stay more consistent between print runs.
+
+So the same "brand red" can be described three ways, and each description is a different physical process.
+
+## A real example
+
+![Swatch strip showing one brand red as the RGB screen colour, the closest CMYK print colour (slightly duller), and a Pantone spot ink (close to the screen colour).](/blog/media/design/rgb-vs-cmyk-vs-pantone-2.svg "One brand red in three systems. On-screen swatches are approximations.")
+
+Imagine a brand red defined only as `#E4002B` on screen:
+
+- **On screen (RGB):** bright and clean.
+- **Printed in CMYK** after an automatic conversion: still red, but it can lose brightness and drift slightly towards brown or orange, depending on paper and press.
+- **Printed with a matching Pantone spot ink:** much closer to the intended colour, because the ink was mixed for it.
+
+The fix isn't to choose one system. It's to **define the colour in all of them** and tell each supplier which one to use.
+
+## Try it yourself
+
+Create a simple **colour spec** for one of your brand colours:
+
+| Use | Value |
+|---|---|
+| Screen (web, apps, social) | HEX and RGB |
+| Four-colour print | CMYK values (agreed with your printer or from the Pantone guide) |
+| Spot print (signage, packaging, premium print) | Pantone number, coated (C) and uncoated (U) |
+| Video | Rec.709 RGB (usually the same as screen values) |
+
+Then ask a printer for a **proof** of the CMYK version and compare it with your screen in daylight. You'll quickly see which colours need adjusting.
+
+## Common mistakes
+
+- **Designing print files in RGB** and letting the printer's RIP convert automatically, without a proof.
+- **Choosing brand colours only on screen.** Check early whether they can be printed.
+- **Using one CMYK value for every paper.** Coated and uncoated paper give different results.
+- **Expecting a perfect match.** Screens and paper will never be identical. The goal is consistent and approved, not identical.
+- **Forgetting the black.** Rich black (CMYK with extra C, M, Y) prints deeper than 100% K alone for large areas, but isn't suitable for small text.
+
+## Summary
+
+- Screens add light (RGB). Printers subtract light with ink (CMYK).
+- Many bright screen colours can't be reproduced with CMYK inks.
+- Pantone spot inks are pre-mixed for accuracy and reach colours CMYK can't.
+- Define every brand colour in HEX/RGB, CMYK and Pantone.
+- Always proof printed colour, on the actual paper.
+
+![Cheat sheet: how RGB, CMYK and Pantone differ and how to specify a brand colour.](/blog/media/design/rgb-vs-cmyk-vs-pantone-cheat.svg "RGB, CMYK and Pantone in one page.")
+
+## Sources and image credits
+
+- [Pantone: what is a spot colour](https://www.pantone.com/).
+- Adobe Help: [colour modes in Photoshop and Illustrator](https://helpx.adobe.com/).
+- Pantone® and PMS are trademarks of Pantone LLC. Colours shown on screen are approximations of printed colours.
+- All diagrams were drawn by me for this post.
+
+---
+
+## "Dead Air Is Not an Option": Deciding With 30 Seconds to Act
+
+URL: https://abdullah-al-faahim.github.io/blog/dead-air-30-second-decisions/  
+Published: 2026-11-17  
+Topic: Leadership  
+Author: Abdullah Al Fahim
+
+Every broadcast engineer knows the phrase: *dead air is not an option*. A black screen, frozen picture or silent audio is the one failure every viewer notices instantly. When it threatens, you don't get a meeting. You might get thirty seconds.
+
+Working in Channel i's Master Control Room has taught me that fast decisions are not about being brave or brilliant. They are about having done most of the thinking **before** the clock started. This post breaks down how that works.
+
+![A close-up of a stopwatch dial.](/blog/media/photos/dead-air-30-second-decisions.webp "In dead air, the decision has to be made before the problem arrives.")
+
+<p class="credit">Photo: <a href="https://www.rawpixel.com/image/6031270/photo-image-public-domain-white-free">Sports stopwatch, timepiece</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via rawpixel.</p>
+
+## Decide in advance, act in the moment
+
+The most important decisions in an MCR are made on calm days:
+
+- **What is our backup for each source?** Second feed, standby clip, slate, alternative encoder.
+- **What is the order of actions?** Restore air first, diagnose second.
+- **Who is allowed to make which call?** An operator shouldn't need permission to switch to backup.
+
+When those answers already exist, a thirty-second decision becomes a choice between a few prepared options, not an invention under pressure. That is the real job of a leader here: shrink live decisions down to choices that have been thought through.
+
+## Restore first, understand later
+
+Engineers love to understand problems. Under pressure, that instinct is dangerous. If the picture is gone, the priority is getting *something acceptable* back on air: the backup feed, a filler programme, a station slate. Root cause can wait ten minutes. Viewers can't.
+
+A useful mental line is: **"What gets a correct picture to the viewer fastest?"** Not "what's the elegant fix", not "what caused this", just that.
+
+## Use a simple decision frame
+
+![Diagram: Thirty seconds to act.](/blog/media/design/dead-air-30-second-decisions-1.svg "Thirty seconds to act.")
+
+When I have seconds, I run through a short sequence:
+
+1. **What do I see?** Confirm the symptom on more than one monitor.
+2. **Where is it broken?** Source, path or output. This decides which backup helps.
+3. **What's my safest option?** The action with the least chance of making it worse.
+4. **Act and announce.** Do it, say it out loud, and say when you'll update.
+
+It takes far less time to do than to read. The point is that the steps are the same every time, so the brain doesn't waste effort deciding *how* to decide.
+
+## Reversible beats perfect
+
+Under time pressure, prefer the decision you can undo. Switching to a backup path is reversible. Rebooting a core device in the middle of a programme often isn't. Leaders sometimes feel they must find the "right" answer instantly. In reality, a quick reversible step buys time to find the right answer safely.
+
+## Trust the person closest to the signal
+
+The person watching the multiviewer often sees the problem first. A team where operators wait for a senior engineer before acting loses precious seconds. Good leadership here means giving clear authority in advance: *if the main feed fails, you switch. You don't need to ask.*
+
+Then, after the event, you back that person up, even if their call wasn't perfect. People only act fast if they know they won't be punished for acting in good faith.
+
+## After the thirty seconds
+
+Once air is safe, the work continues:
+
+- Log what happened, with times.
+- Keep watching. A fix that holds for one minute isn't proven.
+- Inform the right people: duty manager, programming, engineering.
+- Hold a short, [blameless review](/blog/blameless-post-mortems-broadcast-engineering/) once the shift allows.
+
+The review is where the next thirty-second decision gets easier, because the team updates its prepared options.
+
+## The lesson for any team
+
+Most leaders don't face dead air, but many face their own version: a client presentation that breaks, a launch-day bug, an event where the projector fails in front of hundreds of people. The same approach works:
+
+- Decide your backups before you need them.
+- Restore a good-enough experience first.
+- Prefer reversible steps.
+- Give the people closest to the problem the authority to act.
+- Learn afterwards, without blame.
+
+Good decisions under pressure are rarely made under pressure. They are made earlier, quietly, by people who expected the bad day to come.
+
+## Summary
+
+- Decide in advance so you only act in the moment.
+- Restore air first and understand the cause later.
+- Use a simple frame: confirm, switch, announce, stabilise.
+- Prefer reversible actions over perfect ones.
+- Trust the person closest to the signal.
+
+![Cheat sheet: Dead Air Is Not an Option.](/blog/media/design/dead-air-30-second-decisions-cheat.svg "Save this cheat sheet.")
+
+---
+
+## Designing Redundancy for 24/7 Transmission: N+1 vs 2N, Failover Testing, and When Each Is Worth the Cost
+
+URL: https://abdullah-al-faahim.github.io/blog/redundancy-n-plus-1-vs-2n-broadcast/  
+Published: 2026-11-16  
+Topic: Broadcast technology  
+Author: Abdullah Al Fahim
+
+Ask any broadcast engineer whether their channel has redundancy and the answer is almost always "yes". Ask a second question, *"when did you last prove the backup takes over by itself?"*, and the room goes quieter.
+
+Redundancy isn't a box you buy. It's a design decision made separately for every link in the transmission chain, and it only counts when it has been tested. In this post I'll explain the two most common models, **N+1** and **2N**, where each one makes sense in a TV facility, and how to test failover without putting the air at risk.
+
+![Two large satellite dishes against a blue sky.](/blog/media/photos/redundancy-n-plus-1-vs-2n-broadcast.webp "Redundancy decides whether a failure becomes an incident or a non-event.")
+
+<p class="credit">Photo: <a href="https://www.rawpixel.com/image/6042594/photo-image-public-domain-blue-technology">Satellite dish space technolgy</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via rawpixel.</p>
+
+## First, map the chain
+
+Before choosing a redundancy model, draw the path a picture takes from playout to the viewer. In a typical satellite channel in Bangladesh it looks something like this:
+
+1. **Playout server** (or automation + server pair)
+2. **Master control switcher / branding** (logos, tickers, graphics)
+3. **Encoder** (compression to MPEG-2, H.264 or HEVC)
+4. **Multiplexer** (if several services share a carrier)
+5. **Modulator** and **upconverter**
+6. **HPA** (high-power amplifier)
+7. **Antenna** and uplink to the satellite
+8. Plus the things everything depends on: **power**, **reference/sync**, **network** and **cooling**
+
+Each box is a single point of failure until you decide otherwise. The aim isn't to duplicate everything. It's to know, for each box, what happens when it fails and how long the screen stays black.
+
+## The vocabulary
+
+- **N** is the number of units you need to run the service.
+- **N+1** means one spare unit shared across the group. If you need four encoders, you have five, and the spare takes over for whichever one fails.
+- **2N** means a complete second copy of everything. Two playout chains, two encoders, two modulators, ideally running in parallel all the time.
+- **1+1** is the 2N idea applied to a single service: one main, one dedicated backup, both live.
+- **Hot**, **warm** and **cold** standby describe how ready the backup is: already running and in sync (hot), powered but needing configuration (warm), or on a shelf (cold).
+
+## N+1: efficient, but slower and shared
+
+N+1 is popular for groups of identical equipment, such as encoders for several channels, or HPAs in a multi-carrier uplink.
+
+**Strengths**
+
+- Much cheaper than duplicating everything.
+- Works well when units are identical and configuration can be copied automatically.
+- Good for failures that are rare and independent.
+
+**Weaknesses**
+
+- Failover is often **not instant**. The spare has to load the right configuration, lock to the input and start outputting.
+- Only **one failure at a time** is covered. If two units fail, or the spare is already in use, you're on air with nothing.
+- The **switching logic** (a router, a redundancy controller) becomes a new single point of failure.
+
+N+1 is a sensible choice where a short interruption is acceptable and many identical units share the same risk.
+
+## 2N: expensive, fast, and simpler to reason about
+
+In a 2N design, a main chain and a backup chain run side by side, both producing the signal, and a changeover switch picks one. If main fails, the switch moves to backup in a frame or a few frames.
+
+**Strengths**
+
+- Near-instant failover, often invisible to viewers.
+- Independent paths: a fault in one chain doesn't touch the other.
+- Maintenance becomes safer, because you can work on one chain while the other carries air.
+
+**Weaknesses**
+
+- Roughly double the equipment, power and rack space.
+- **Divergence**: if the two chains aren't kept identical (same playlist, same graphics, same audio routing), the failover itself causes an on-air error.
+- The changeover switch must be very reliable, and needs its own bypass.
+
+2N is worth it for the parts of the chain where a few seconds of black is unacceptable and where a failure would take down the whole channel: playout, master control and the final transmission path.
+
+## A practical rule for deciding
+
+![Diagram: N+1 or 2N?.](/blog/media/design/redundancy-n-plus-1-vs-2n-broadcast-1.svg "N+1 or 2N?.")
+
+For each link in the chain, ask three questions:
+
+1. **Impact**: if this fails, does the whole channel go off air, or only one feature?
+2. **Likelihood**: how often does this type of equipment fail, and how old is ours?
+3. **Recovery time**: how long would it take a person to fix it by hand at 3 a.m.?
+
+Then sort the answers:
+
+| Situation | Usually sensible |
+|---|---|
+| Whole channel off air, manual fix takes minutes or more | **2N / 1+1 hot standby** |
+| Several identical units, short outage acceptable | **N+1** with automatic switching |
+| Single feature affected (e.g., one graphics layer) | Cold spare + documented procedure |
+| Very rare failure, very fast manual fix | Spare parts on site, and training |
+
+The answer will be different for each channel. A news channel running live most of the day can justify more 2N than a channel that mainly plays out recorded programmes.
+
+## Don't forget the shared dependencies
+
+Two perfect chains can still fail together if they share something. These are the usual suspects:
+
+- **Power.** Both chains on the same UPS, the same distribution board, or the same phase. In Bangladesh, where grid interruptions still happen, the generator changeover and UPS autonomy deserve as much attention as any video equipment.
+- **Reference / sync.** One master sync generator feeding everything. Use a pair with automatic changeover.
+- **Network.** One core switch carrying control traffic for both chains.
+- **Playlists and media.** Backup playout that isn't receiving the latest playlist changes or the new promo that was added ten minutes ago.
+- **People and procedures.** One person who knows how to force a manual changeover.
+
+Redundancy is only as strong as the most shared component.
+
+## Failover testing: the part everyone postpones
+
+An untested backup is a hope, not a system. Testing feels risky because it touches the air, so it gets postponed until a real failure does the test for you.
+
+A safer approach:
+
+1. **Start with the paths that don't touch air.** Test backup encoders, spare units and secondary feeds on monitoring outputs first.
+2. **Schedule controlled tests** at low-risk times, with the right people present and the editorial team informed.
+3. **Write a test procedure**: what will be switched, what success looks like, how to roll back, who decides to abort.
+4. **Test the automatic path, not just the manual one.** Pull the input or power to the main unit and confirm the system switches by itself.
+5. **Check what viewers would see**: was there a glitch, black, frozen frame, audio drop? How long?
+6. **Record the result** in the maintenance log, including anything surprising.
+7. **Fix divergence you discover.** Failover tests often reveal that the backup chain is missing a logo, has different audio levels, or runs an older firmware.
+
+How often? A reasonable starting point is a monthly test for the critical on-air chain and a quarterly test for everything else, adjusted to your own risk and to the manufacturer's guidance.
+
+## Making the case for the cost
+
+Redundancy costs money, and management will ask why. Avoid fear. Use numbers:
+
+- How much **revenue** does one minute of commercial airtime earn during peak hours?
+- What are the **regulatory and contractual** consequences of an outage?
+- What does it cost in **reputation** when viewers and advertisers see black during a major event?
+- How old is the current equipment, and what's its likely failure rate?
+
+I'll write about building that business case in a later post on budgeting for broadcast tech.
+
+## The takeaway
+
+- Map your chain and every shared dependency.
+- Use **2N** where an outage takes the channel off air and recovery is slow.
+- Use **N+1** where identical units share a risk and a short interruption is acceptable.
+- Keep backups **identical** to the main chain.
+- **Test failover regularly**, and treat every test as a chance to learn.
+
+Redundancy doesn't prevent failures. It decides whether a failure becomes an incident report or a non-event.
+
+## Summary
+
+- Map the chain and every shared dependency.
+- Use 2N where an outage takes the channel off air and recovery is slow.
+- Use N+1 where identical units share a risk.
+- Keep backup chains identical to the main chain.
+- Test failover regularly and learn from each test.
+
+![Cheat sheet: Designing Redundancy for 24/7 Transmission.](/blog/media/design/redundancy-n-plus-1-vs-2n-broadcast-cheat.svg "Save this cheat sheet.")
+
+---
+
+## The Handover: How Shift-Change Communication Prevents Outages
+
+URL: https://abdullah-al-faahim.github.io/blog/shift-handover-prevents-outages/  
+Published: 2026-11-15  
+Topic: Leadership  
+Author: Abdullah Al Fahim
+
+Every 24/7 team has a weak point that doesn't appear on any equipment diagram: the few minutes when one shift leaves and another arrives. Knowledge that lived in one person's head has to move into another's, often when the first person is tired and the second hasn't fully woken up.
+
+In broadcast, that gap is where many problems begin. A feed that was "a bit unstable" at 2 a.m. becomes a frozen picture at 4 a.m. because the next operator never heard about it. I wrote about the operational side of this in [Running an MCR like a high-reliability operation](/blog/mcr-high-reliability-operation/). This post is about the **leadership** side: why handovers fail, and how to build a team where they don't.
+
+![Operators at monitoring desks in a control room.](/blog/media/photos/shift-handover-prevents-outages.webp "Most knowledge is lost in the minutes between shifts.")
+
+<p class="credit">Photo: <a href="https://www.flickr.com/photos/35278629@N08/6460334219">Hubble Space Telescope Control Room</a> by <a href="https://www.flickr.com/photos/35278629@N08">NASA Goddard Space Flight Center</a>, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, via Flickr.</p>
+
+## Why handovers fail
+
+Handovers rarely fail because people are careless. They fail because:
+
+- **The outgoing person is tired** and wants to leave.
+- **"Nothing happened" feels like nothing to say**, so small warning signs are skipped.
+- **Information lives in many places**: a log book, a WhatsApp message, a sticky note, someone's memory.
+- **The incoming person doesn't ask**, because asking can feel like doubting a colleague.
+
+None of these are technical problems. They are communication and culture problems, which makes them leadership problems.
+
+## What a good handover contains
+
+![Diagram: What a good handover contains.](/blog/media/design/shift-handover-prevents-outages-1.svg "What a good handover contains.")
+
+A useful handover answers the same questions every time, in the same order:
+
+1. **Current state.** What is on air right now, on which path, main or backup?
+2. **Open issues.** Anything unstable, unusual or "probably fine".
+3. **Changes made.** What was switched, restarted, reconfigured or tested this shift?
+4. **What's coming.** Live events, schedule changes, maintenance windows, special programmes.
+5. **Who to call.** Which engineer or vendor is involved in an open issue.
+
+Writing these five headings on a shared sheet or form turns a handover from a casual chat into a structured transfer. The structure protects tired people from their own memory.
+
+## Talk *and* write
+
+A written log alone isn't enough, and a conversation alone isn't enough either.
+
+- **Writing** creates a record that survives the shift and can be checked later.
+- **Talking** lets the incoming person ask questions and hear the tone: "it's fine" said with a frown means something different from "it's fine" said with a smile.
+
+The best handovers I've seen are short, face to face, and walk through the written log together.
+
+## The incoming person owns the questions
+
+A rule I like: **the handover isn't finished until the incoming person says it is.** That small shift in ownership changes behaviour. The person arriving is responsible for understanding, so they ask. The person leaving is responsible for answering, so they don't rush off.
+
+As a leader, you make this safe by asking questions yourself, publicly, even when you think you know the answer. When senior people ask "just to confirm", juniors learn that questions are normal, not an insult.
+
+## Repeat back the critical items
+
+Borrowed from aviation and healthcare: for anything that could affect air, the incoming operator repeats it back. "So the backup encoder is on the spare input, and the live programme at 8 needs the second return feed." It takes ten seconds and catches misunderstandings while they are still harmless.
+
+## Handovers between teams, not just shifts
+
+The same idea applies wherever work changes hands:
+
+- From the scheduling team to master control before a special broadcast.
+- From engineers to operators after maintenance.
+- From a designer to a developer when a brand system goes into an app.
+- From one event volunteer team to the next on a long programme day.
+
+Wherever ownership moves, information can fall through the gap. A short, structured handover with a chance to ask questions closes it.
+
+## How to introduce better handovers in your team
+
+If your team's handovers are informal today, don't try to fix everything in one meeting:
+
+1. **Agree on the five headings** above, or your own version.
+2. **Put them in one place**, such as a shared sheet, a form or a printed log.
+3. **Model it yourself** on every shift you work.
+4. **Praise good handovers** out loud, especially when a small note prevented a bigger problem.
+5. **Review after incidents**: was the problem mentioned at handover? If not, why not?
+
+Good handovers are invisible on a normal day. On a bad day, they are the reason the next shift already knows where to look.
+
+## Summary
+
+- Handovers fail when they are rushed or unstructured.
+- Cover status, open issues, watch list, events and changes.
+- Talk and write: both matter.
+- The incoming person owns the questions.
+- Repeat back critical items, including between teams.
+
+![Cheat sheet: The Handover.](/blog/media/design/shift-handover-prevents-outages-cheat.svg "Save this cheat sheet.")
+
+---
+
+## Logos With a Second Meaning: FedEx, Amazon, Baskin-Robbins, Toblerone and Why Hidden Symbols Work
+
+URL: https://abdullah-al-faahim.github.io/blog/logos-with-a-second-meaning/  
+Published: 2026-11-14  
+Topic: Brand identity  
+Author: Abdullah Al Fahim
+
+**After reading this, you'll understand why hidden symbols in logos work, and how to use negative space in your own marks without turning them into riddles.**
+
+*This is part of my Logo Autopsy series. Logos belong to their owners; I describe them here for commentary and link to official sources rather than reproducing them. The diagrams are my own abstract examples.*
+
+![A pencil and pen beside a sketched logo mark.](/blog/media/photos/logos-with-a-second-meaning.webp "Hidden meanings start on paper.")
+
+<p class="credit">Photo by <a href="https://pixabay.com/users/tookapic-1386459/">tookapic</a> on <a href="https://pixabay.com/photos/desk-workspace-pencil-paper-logo-931928/">Pixabay</a> (<a href="https://pixabay.com/service/license-summary/">Pixabay Content License</a>).</p>
+
+## Why it matters
+
+Most people see a logo for less than a second. A hidden symbol rewards a second look, and the moment someone notices it ("I never saw the arrow!") they remember the brand and often tell someone else. Done well, the hidden element also **reinforces the brand's message**. Done badly, it's a clever trick nobody needs.
+
+## The idea explained
+
+Hidden symbols usually rely on **figure/ground**: our brain separates shapes (figure) from the space around them (ground). When the ground itself forms a meaningful shape, the logo carries two messages at once.
+
+![Abstract diagram: two block letters whose inner gap forms an arrow, labelled figure, ground and hidden shape.](/blog/media/design/logos-with-a-second-meaning-1.svg "Figure/ground: the gap between two shapes becomes a third shape. My own abstract example.")
+
+Four well-known examples show the main techniques:
+
+- **FedEx (negative space).** The wordmark, designed by Lindon Leader at Landor in 1994, hides a right-pointing arrow between the "E" and the "x", suggesting speed and direction. The arrow is never outlined; it's simply there once you notice it.
+- **Amazon (a symbol with two jobs).** The orange curve under the wordmark, introduced in 2000, reads as a **smile** and also points from the "a" to the "z", hinting that the store sells everything from A to Z.
+- **Baskin-Robbins (a hidden number).** In the 2000s identity, the pink parts of the "BR" monogram form the number **31**, a reference to the brand's long-running "31 flavours" idea.
+- **Toblerone (a hidden animal).** The mountain in the logo contains a **bear** in its negative space, a nod to the Swiss city of Bern, whose symbol is a bear. In 2023 the packaging was redesigned and the Matterhorn image replaced after part of production moved outside Switzerland, which shows that even hidden meanings depend on the brand's context.
+
+*(As with any widely shared design story, check the official brand pages linked below before quoting dates.)*
+
+## A real example
+
+What makes these work, and what makes many imitations fail? Compare a hidden symbol that supports the message with one that's only clever:
+
+![Left: a busy logo with a forced hidden face that has no link to the brand. Right: a clean mark where a simple negative-space arrow supports the idea of delivery.](/blog/media/design/logos-with-a-second-meaning-2.svg "A hidden symbol should support the brand, not distract from it.")
+
+The successful ones share four qualities:
+
+1. **The logo works without the secret.** FedEx is a clean, readable wordmark even if you never see the arrow.
+2. **The hidden element supports the brand promise**: speed, choice, variety, origin.
+3. **It's simple.** One idea, not three.
+4. **It survives small sizes**, or at least doesn't hurt legibility when the detail disappears.
+
+## Try it yourself
+
+1. Write down the **one idea** your brand should communicate (fast, local, growing, safe).
+2. Find a simple symbol for that idea (arrow, leaf, house, shield).
+3. Set your brand name or initials in a few typefaces, and look at the **spaces** between and inside letters. Could any of them become that symbol with small adjustments?
+4. Test with five people. Show the logo for two seconds. Ask what they saw. Then ask if they notice anything else.
+5. If nobody can read the name, simplify. Legibility wins.
+
+## Common mistakes
+
+- **Forcing it.** Bending letters until they're hard to read just to hide a symbol.
+- **Hiding something unrelated** to the brand. Clever, but meaningless.
+- **Too many secrets.** One hidden idea is memorable; three are noise.
+- **Ignoring small sizes.** Check the logo at favicon size.
+- **Accidental hidden shapes.** Always look at the negative space for shapes you *didn't* intend.
+
+## Summary
+
+- Hidden symbols use figure/ground: the space between shapes becomes a shape.
+- The best ones support the brand's core message.
+- The logo must still work if nobody notices the secret.
+- Keep it to one simple idea, and test at small sizes.
+- Check your own designs for accidental shapes in the negative space.
+
+![Cheat sheet: five rules for using negative space and hidden symbols in a logo.](/blog/media/design/logos-with-a-second-meaning-cheat.svg "Hidden-symbol checklist.")
+
+## Sources and image credits
+
+- [FedEx brand and newsroom](https://www.fedex.com/en-us/about.html); Lindon Leader's design story has been widely published, including in interviews with design publications.
+- [Amazon brand guidelines and trademarks](https://www.amazon.com/gp/help/customer/display.html?nodeId=G4XAE7WE8SDALD6M).
+- [Baskin-Robbins](https://www.baskinrobbins.com/) and [Toblerone](https://www.toblerone.com/) official sites.
+- All logos are trademarks of their owners. They are described here for commentary only and are not reproduced. Diagrams are my own abstract examples.
+
+---
+
+## The Week Nusrat Said Yes to Everything
+
+URL: https://abdullah-al-faahim.github.io/blog/stop-saying-yes-to-everything/  
+Published: 2026-11-13  
+Topic: Work & life  
+Author: Abdullah Al Fahim
+
+*A Friday story. The people and places are fictional; the lessons are real.*
+
+**Nusrat had a reputation at the agency: if you needed something, ask her. She would always say yes.**
+
+It was a good reputation to have, at first. At 27, two years into her job as a graphic designer at a mid-sized ad agency in Banani, Nusrat Jahan was the person everyone liked. The sales team liked her because she never refused a "small favour". Rafiq bhai, the creative director, liked her because she never complained. Even the office peon, Jalil, liked her, because she once designed his daughter's school science-fair poster on a Friday.
+
+![A tired person resting his head on a desk.](/blog/media/photos/stop-saying-yes-to-everything.webp "Every yes uses time you could give to something else.")
+
+<p class="credit">Photo by <a href="https://pixabay.com/users/16391475-16391475/">16391475</a> on <a href="https://pixabay.com/photos/home-office-corona-virus-depression-5191464/">Pixabay</a> (<a href="https://pixabay.com/service/license-summary/">Pixabay Content License</a>).</p>
+
+## Sunday: five small yeses
+
+On Sunday morning, before her first cup of tea had cooled, the requests began.
+
+"Nusrat, just one Facebook post for the bank client? Ten minutes," said Kamal from sales.
+
+"Apu, can you check my layout before Rafiq bhai sees it?" asked Shuvo, the new junior.
+
+"Nusrat, we need someone for the pitch deck on Wednesday. You're good with decks," said Rafiq bhai, already walking away.
+
+Her phone buzzed: her cousin Ritu, getting married in December, needed a wedding card design "whenever you're free, no hurry."
+
+And her main project, the packaging redesign for a tea brand, was due Thursday.
+
+Yes. Yes. Of course. No problem. Sure, apu.
+
+## Wednesday: the bill arrives
+
+By Wednesday, the ten-minute Facebook post had taken three rounds of changes. Shuvo's "quick check" became a two-hour redesign. The pitch deck ate her whole Tuesday. Ritu had sent four reference images and a voice note.
+
+The tea packaging, the project she would actually be judged on, sat untouched.
+
+On Wednesday night, Nusrat left the office at 10:40 p.m. The Metro Rail was nearly empty. She opened her laptop on her knees and kept working until Mirpur 10.
+
+## Thursday: the deadline
+
+At 4 p.m. on Thursday, the tea brand's marketing manager called Rafiq bhai. "Where are the packaging options?"
+
+Rafiq bhai walked to Nusrat's desk. She had two half-finished options and red eyes.
+
+"Why didn't you tell me you were overloaded?" he asked, quietly.
+
+"You asked me to do the deck," she said.
+
+"I asked. You could have told me what it would cost."
+
+## Friday: tea at Karim chacha's stall
+
+On Friday afternoon, Nusrat met her university friend Mitu at Karim chacha's tea stall near Mirpur 10. Mitu freelanced, and had learned the hard way how to protect her time.
+
+"You don't say no," Mitu said, stirring her tea. "So nobody knows what's really on your plate. Not even you."
+
+She took a napkin and wrote three questions:
+
+1. Does this help my main work, or my team's?
+2. Do I really have the time, without stealing it from something more important?
+3. Am I the right person, or just the nearest person?
+
+"If any answer is no," Mitu said, "you don't have to refuse. You negotiate."
+
+## What Nusrat learned
+
+![Diagram: The overcommitment spiral.](/blog/media/design/stop-saying-yes-to-everything-1.svg "The overcommitment spiral.")
+
+The next Sunday, Kamal from sales came by with another "ten-minute" post.
+
+"I can do it Tuesday," Nusrat said, "after the tea packaging is approved."
+
+When Rafiq bhai asked about another deck, she said: "I can do the deck or finish the packaging revisions this week. Which matters more?"
+
+He looked surprised. Then he nodded. "Packaging. I'll ask Shuvo to start the deck, and you review it."
+
+Nobody was angry. If anything, people seemed to trust her more. Her yes, it turned out, was worth more now that it wasn't automatic.
+
+## Try this week
+
+List everything you've agreed to in the last two weeks. Mark each one: *important*, *nice to do* or *shouldn't be mine*. Renegotiate one item from the last list, using "yes, if…", "not now", "here's who can" or "which one first?"
+
+## Summary
+
+- Saying yes to everything feels helpful but quietly damages your priorities and trust.
+- Small requests add up to lost evenings and rushed work.
+- Ask: does it support my goals, do I have time, am I the right person?
+- Replace a flat "no" with "yes, if", "not now", "here's who can" or "which one first?"
+- A protected yes is worth more than an automatic one.
+
+![Cheat sheet: The Week Nusrat Said Yes to Everything.](/blog/media/design/stop-saying-yes-to-everything-cheat.svg "Save this cheat sheet.")
+
+---
+
+## What a 24/7 Control Room Teaches About Calm Leadership
+
+URL: https://abdullah-al-faahim.github.io/blog/calm-leadership-24-7-control-room/  
+Published: 2026-11-12  
+Topic: Leadership  
+Author: Abdullah Al Fahim
+
+There is a particular silence in a Master Control Room when something goes wrong. The monitors are still bright, the clocks still tick, but every person in the room is suddenly listening for one voice: the one that says what happens next.
+
+I work in transmission at Channel i, where the MCR runs every hour of every day. Over hundreds of live broadcasts I have learned that technical skill keeps a channel on air, but **calm** is what keeps a team working well enough to use that skill. This post is about what calm leadership actually looks like in a room where the clock never stops.
+
+![A historic photo of an operator at a control console.](/blog/media/photos/calm-leadership-24-7-control-room.webp "Calm in a control room comes from preparation, not personality.")
+
+<p class="credit">Photo: <a href="https://www.rawpixel.com/image/8738375/operators-desk-k-25-k-27-master-control-room">Operators Desk K-25 &amp; K-27</a> by usdoe, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via rawpixel.</p>
+
+## Calm is not a personality. It is preparation.
+
+![Diagram: Calm is preparation.](/blog/media/design/calm-leadership-24-7-control-room-1.svg "Calm is preparation.")
+
+People sometimes describe a good MCR operator as "naturally calm". I don't think that's true. Calm is mostly the visible result of three invisible things:
+
+1. **You have seen this failure before**, in a drill, a checklist or a previous shift.
+2. **You know your first move** without thinking about it.
+3. **You trust the people beside you** to do their part.
+
+When those three exist, a fault becomes a sequence of steps. When they don't, the same fault becomes panic. So the leader's job begins long before the incident: rehearsing failovers, writing clear [runbooks](/blog/runbook-anyone-can-lead-at-3am/), and making sure every person knows what "normal" looks and sounds like.
+
+## The first ten seconds set the tone
+
+In a live incident, the room copies the first person who speaks. If that voice is loud and rushed, everyone rushes. If it is clear and steady, people steady themselves.
+
+The habit I try to keep is simple:
+
+- **Say what you see**, not what you fear. "Main feed is frozen on monitor three" is useful. "Everything's gone!" is not.
+- **Say the first action and who owns it.** "I'm switching to backup. You check the encoder."
+- **Say when you will update.** "Give me thirty seconds, then I'll tell you where we are."
+
+That last one matters more than it sounds. People panic when they don't know what's happening. A promised update gives them permission to focus on their own task.
+
+## Lower your voice when the stakes go up
+
+This sounds like advice from a parenting book, but it works in broadcast. When pressure rises, I deliberately speak more slowly and a little more quietly. It forces me to think before I talk, and it signals to everyone else that we are still in control.
+
+Calm leaders are not the ones who feel no stress. They are the ones who **don't hand their stress to the team**.
+
+## Separate the fix from the blame
+
+During an incident, there is only one question: *how do we get the right picture back on air?* Who caused it, why it happened and what we change are all important, but they belong to later, in a [blameless post-mortem](/blog/blameless-post-mortems-broadcast-engineering/).
+
+If someone feels they are being judged in the middle of a fault, they hide information. In a control room, hidden information is the most dangerous kind.
+
+## Make "normal" boring, on purpose
+
+The calmest shifts are not the ones with no problems. They are the ones where routine is so well practised that a problem stands out immediately. That means:
+
+- The same start-of-shift checks, every time.
+- The same way of logging events and changes.
+- The same [handover routine](/blog/shift-handover-prevents-outages/) between shifts.
+
+Boring routine frees attention. When nothing surprises you in the normal flow, you have energy left for the real surprise.
+
+## Look after the people, not just the signal
+
+A 24/7 operation runs on tired humans. Night shifts, festival schedules, election nights and long cricket coverage all wear people down. Leading calmly includes noticing when a colleague is exhausted, covering a break, or simply saying "good catch" after someone spots a problem early.
+
+Teams that feel looked after report problems sooner. Teams that feel watched report them later.
+
+## What this means outside a control room
+
+You don't need an ON AIR light to use these lessons. Any team with real deadlines (a newsroom, a design studio, a product launch, an event) faces moments where everyone looks at one person. The same rules apply:
+
+- Prepare so that calm is possible.
+- Speak first, clearly and slowly.
+- Fix now, learn later.
+- Make routine boring so surprises are obvious.
+- Look after the people who keep things running.
+
+A control room taught me that leadership is mostly invisible when it works. Nobody watching the channel at home will ever know a fault happened. That is exactly the point.
+
+## Summary
+
+- Calm is prepared, practised and expected, not a trait.
+- The first ten seconds of a fault set everyone's tone.
+- Lower your voice as the stakes go up.
+- Fix first; review later without blame.
+- Make normal routines boring and look after the people.
+
+![Cheat sheet: What a 24/7 Control Room Teaches About Calm Leadership.](/blog/media/design/calm-leadership-24-7-control-room-cheat.svg "Save this cheat sheet.")
+
+---
+
+## Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet
+
+URL: https://abdullah-al-faahim.github.io/blog/color-profiles-explained/  
+Published: 2026-11-11  
+Topic: Colour & print  
+Author: Abdullah Al Fahim
+
+**After reading this, you'll know which colour profile to export for web, social, print and video, and why the wrong one makes colours look dull or strange.**
+
+![A technician checking colour bars on a monitor with test equipment.](/blog/media/photos/color-profiles-explained.webp "Colour has to be checked, not assumed.")
+
+<p class="credit">Photo by <a href="https://pixabay.com/users/Pexels-2286921/">Pexels</a> on <a href="https://pixabay.com/photos/technology-electronics-computer-1850021/">Pixabay</a> (<a href="https://pixabay.com/service/license-summary/">Pixabay Content License</a>).</p>
+
+## Why it matters
+
+A colour value like `#6B4AFF` isn't a colour on its own. It's an instruction: "this much red, green and blue". A **colour profile** tells the device what those numbers mean. Export the right numbers with the wrong profile and the same file looks vivid on your screen, washed out on a client's phone and muddy in print.
+
+I deal with this from two sides: as a designer exporting brand files, and as a broadcast engineer, where video has its own colour rules. The good news is that you only need to understand five profiles to make the right choice almost every time.
+
+## The idea explained
+
+Every profile describes a **gamut**: the range of colours it can represent. On a chromaticity chart (the horseshoe of all colours people can see), each RGB gamut is a triangle. A bigger triangle can show more saturated colours.
+
+![Nested triangles for sRGB, Display P3 and Adobe RGB drawn inside the horseshoe of visible colours, with CMYK as an irregular smaller shape.](/blog/media/design/color-profiles-explained-1.svg "Simplified gamut comparison. Shapes are illustrative, not measured.")
+
+Here are the five you'll meet most:
+
+- **sRGB**: the standard for the web and most screens since the 1990s. Smallest of the RGB gamuts here, and the safest default.
+- **Display P3**: a wider gamut used by most recent iPhones, Macs and many Android flagships. Roughly a quarter more colour area than sRGB, especially in reds and greens.
+- **Adobe RGB (1998)**: wider than sRGB in greens and cyans. Popular with photographers who print, but rarely the right choice for screens.
+- **Rec.709 (BT.709)**: the HD television standard. It uses the **same primaries as sRGB**, but video also uses a limited "legal" signal range and its own gamma. More on that in a later post on broadcast-safe colour.
+- **CMYK (FOGRA, SWOP, GRACoL)**: not one profile but a family describing specific printing conditions: paper, ink and press. FOGRA profiles are common in Europe and Asia; SWOP and GRACoL in the US. Ask your printer which one they use.
+
+## A real example
+
+Take a bright violet button colour from a brand palette and export it three ways:
+
+![Three panels showing the same violet: correct in sRGB on the web, shifted when a P3 file is shown without its profile, and duller in CMYK print.](/blog/media/design/color-profiles-explained-2.svg "One colour, three outcomes depending on profile handling.")
+
+1. **Exported in sRGB with the profile embedded:** looks the same in every modern browser.
+2. **Exported in Display P3 but the profile stripped** (some upload tools do this): the numbers are read as sRGB, and the colour shifts.
+3. **Converted to CMYK for print:** the most saturated violets fall outside the CMYK gamut, so they become slightly duller. That's physics, not a mistake, and it's why print proofs matter.
+
+## Try it yourself
+
+Use this decision path for your next export:
+
+| Where will it be seen? | Export as |
+|---|---|
+| Website, email, most social media | **sRGB**, profile embedded |
+| App or site targeting modern Apple devices, with a fallback | **Display P3** + sRGB fallback |
+| Video for TV or YouTube | **Rec.709** (check your editor's project settings) |
+| Commercial print | **CMYK profile from your printer** (e.g., a FOGRA profile) |
+| Photo printing at a lab | Ask the lab: often sRGB or Adobe RGB |
+
+Then open one of your recent exports in Photoshop (**Edit → Assign Profile** shows what's embedded) or check it with an online EXIF viewer. Is the profile what you expected?
+
+## Common mistakes
+
+- **Designing in a wide gamut and exporting without conversion.** Convert to sRGB on export rather than just labelling.
+- **Stripping profiles to save a few kilobytes.** Many optimisers remove them; check the settings.
+- **Converting to CMYK yourself with a generic profile.** Use your printer's profile, or send RGB and let them convert, if they prefer.
+- **Assuming Rec.709 and sRGB are interchangeable.** The colours match, but video levels and gamma are different.
+- **Trusting one uncalibrated screen.** Check on a few devices before approving.
+
+## Summary
+
+- A colour profile tells devices what the colour numbers mean.
+- Use sRGB for web and social unless you have a clear reason not to.
+- Use Display P3 only with a fallback and when you're sure it will be shown properly.
+- Use Rec.709 for video projects; it shares sRGB's colours but not its levels.
+- For print, use the CMYK profile your printer gives you.
+- Always embed the profile and check the export on more than one screen.
+
+![Cheat sheet summarising which colour profile to use for web, video and print.](/blog/media/design/color-profiles-explained-cheat.svg "Save this cheat sheet for your next export.")
+
+## Sources and image credits
+
+- International Color Consortium (ICC), [about ICC profiles](https://www.color.org/).
+- ITU-R, [Recommendation BT.709](https://www.itu.int/rec/R-REC-BT.709).
+- Apple Developer documentation on wide colour (Display P3).
+- All diagrams were drawn by me for this post. Gamut shapes are simplified for explanation, not measured data.
+
+---
+
+## Case Study: Building khanfarhana.info, a Brand, a Community and an Academy in One WordPress Theme
+
+URL: https://abdullah-al-faahim.github.io/blog/khanfarhana-info-case-study/  
+Published: 2026-11-09  
+Topic: Case studies  
+Author: Abdullah Al Fahim
+
+Some websites are a single thing: a shop, a portfolio, a blog. [khanfarhana.info](https://khanfarhana.info) had to be five things at once and still feel like one.
+
+Khan Farhana is a youth leader and digital inclusion champion. Her work reaches people through LinkedIn, television, newsletters, a leadership fellowship, public opportunities and, more recently, online courses. Before this project, all of that lived in different places. The website's job was to bring it under one roof, in one design, and to let her team keep it current without calling a developer for every change.
+
+I handled the whole project: design, front-end, WordPress engineering, the admin experience and SEO. This post walks through how it came together, the decisions that shaped it, and the problems I had to solve on the way. You can also see the [visual case study on the site itself](https://khanfarhana.info/developer/).
+
+![Website wireframe sketches in a notebook beside a keyboard.](/blog/media/photos/khanfarhana-info-case-study.webp "The site started as sketches before a single line of theme code.")
+
+<p class="credit">Photo: <a href="https://www.rawpixel.com/image/5969587/web-design-desk">Web Design Desk</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via rawpixel.</p>
+
+## The brief
+
+The site needed to do a lot:
+
+- **A personal-brand homepage** with real storytelling, not just a photo and a bio.
+- **Programme pages** that turn interest into applications, starting with the Leadership Fellowship.
+- **A press room and stories** for TV interviews, radio, print features and long-form programme stories.
+- **An opportunities board** that anyone can contribute to.
+- **A learning platform with payments**, where students enrol in free or paid courses and earn certificates.
+
+And one rule sat over all of it: **the team must be able to edit everything themselves**. Headings, cards, buttons, images, dates, cohort names. If an edit needs a developer, the site slowly goes out of date.
+
+## The big decision: one hand-coded theme, no page builder
+
+The usual way to build a site like this in WordPress is to stack a page builder, a theme framework and a dozen plugins: one for courses, one for forms, one for directories, one for SEO. It works on day one. It gets slower and more fragile every time something updates.
+
+I went the other way and built **a single hand-written theme**: plain PHP, CSS and JavaScript, with WooCommerce for payments and almost nothing else. That choice drove everything that followed:
+
+- **Speed.** No builder means no builder CSS, no nested wrapper divs and no scripts loaded "just in case".
+- **Consistency.** Every page uses the same components, so the design can't drift as the team adds content.
+- **Control.** Nothing breaks because a third-party builder pushed an update.
+
+The trade-off is obvious: everything a builder gives you for free, like editable sections, I had to build myself. That's where most of the work went, and it's the part I'm proudest of.
+
+## Four goals that shaped every page
+
+![Diagram: Four goals that shaped every page.](/blog/media/design/khanfarhana-info-case-study-1.svg "Four goals that shaped every page.")
+
+1. **One home for everything.** Brand, programmes, press, newsletters, opportunities and courses under one design.
+2. **Run by the team, not a developer.** Guided admin fields instead of code.
+3. **Fast on a phone.** Most visitors arrive from social media on mobile, so layouts, images and fonts are built mobile-first.
+4. **Easy to find and trust.** Clean structured data, breadcrumbs and a summary that AI assistants can read, so search engines and assistants describe the site correctly.
+
+## A light, editorial design language
+
+The design is deliberately calm. Airy white layouts, a serif headline with **one italic accent word**, and a thin rainbow strip borrowed from the UN Sustainable Development Goals that quietly signs every section. It ties the site to the causes Khan Farhana works on without shouting about it.
+
+The palette stays restrained so photos, press cards and programme content do the talking:
+
+| Colour | Hex | Role |
+|---|---|---|
+| Navy | `#19486A` | Primary, headings and buttons |
+| Sky | `#26BDE2` | Links and highlights |
+| Crimson | `#C5192D` | Accents and calls to action |
+| Ink | `#1A1A2E` | Body text |
+
+Typography is a three-font system, each with a clear job:
+
+- **Fraunces** for headlines, with its italic used for the single accent word.
+- **Plus Jakarta Sans** for the interface and body text.
+- **BCC Purno** for Bangla, loaded only when Bangla text is actually on the page (more on that below).
+
+## The build, page by page
+
+### 1. A homepage that tells a story
+
+The homepage runs like a short biography: a hero, a "Who am I" section, a scrollable timeline covering a decade of impact, the career journey, impact counters, services and a pinned profile card.
+
+Every one of those blocks has **its own admin editor**. If a new milestone happens, the team adds it to the timeline. If a number grows, they update the counter. The story can change without touching code.
+
+### 2. A programme page that drives applications
+
+The Leadership Fellowship page has stats, career tracks, a cohort timeline and an apply flow. It's fully editable, including the **cohort name, dates and call-to-action buttons**, so a new intake is an admin task, not a redesign.
+
+### 3. The Opportunities Hub
+
+This is a searchable directory of jobs, scholarships, fellowships and internships, built as its own content type with categories and deadlines. Three details make it work in practice:
+
+- **Visitors can post opportunities** through a public form.
+- **The team moderates** submissions from an approval queue in the admin.
+- **Listings close automatically** when their deadline passes, so the board never fills up with dead links.
+
+### 4. Press and media coverage
+
+TV interviews, radio, print and online features appear as clean cards with the outlet, date and an external link. They're managed as their own content type, so adding a new feature is a form, not a page edit.
+
+### 5. Featured stories
+
+Long-form stories of programmes and events, each with its own template, structured data and share tools.
+
+### 6. A blog with reader submissions
+
+A fast reading experience with categories, search and comments, plus a front-end form that lets **guest authors submit posts for review**. The community can contribute without needing a WordPress account with editor rights.
+
+### 7. KF Academy: a learning platform of its own
+
+This was the largest piece. KF Academy lets students and instructors sign in separately, enrol in free or paid courses, learn through lessons, quizzes and assignments, and earn **verifiable certificates**. Sign-up uses an email one-time password.
+
+It's **built natively in the theme**, with no third-party LMS plugin. Under the hood that means instructor and student roles, progress tracking and **nine purpose-built database tables**, with WooCommerce handling payments.
+
+### Built for the phone first
+
+Every page reflows cleanly down to small phones: larger touch targets, stacked layouts, no sideways scrolling, and menus that open in one tap.
+
+## Under the hood
+
+### An admin built for non-developers
+
+The theme ships with **more than 45 admin screens**, one for each page and section. Instead of asking editors to remember URLs, every button link has a **destination picker**: choose a page from a list, or paste a custom link. It sounds small. It removes the most common way editors break a site.
+
+### A live ticker for OBS
+
+Khan Farhana also streams. The theme includes a transparent overlay page at `/ticker/` that can be added to OBS as a browser source. It re-reads its settings about every 15 seconds, so an edit in the admin reaches a **running broadcast** without restarting anything. Coming from broadcast engineering, this was a fun crossover to build.
+
+### SEO and AI-ready
+
+- **Schema.org JSON-LD** for Person, Organization, WebSite, breadcrumbs and articles.
+- **Visible breadcrumbs that always match the markup**, so what users see and what search engines read never disagree.
+- A **`/llms.txt`** summary, so AI assistants have a clean, accurate description of who she is and what the site offers.
+
+### Performance by design
+
+- Image dimensions and lazy loading are added **at render time** across the theme.
+- CSS and JavaScript are minified.
+- The Bangla font loads only when Bangla text is on the page.
+
+### Safe to operate
+
+One-click maintenance mode, a branded login screen, one-time data migrations, and demo content that can be imported **and removed** in one click.
+
+### Motion with restraint
+
+Gentle scroll reveals and counters appear only where they help, and they switch off for visitors who prefer reduced motion or have Data Saver turned on.
+
+## Problems I ran into, and how I solved them
+
+Every real project has a list like this. These five taught me the most.
+
+**1. Garbled apostrophes and ampersands on the homepage.**
+Text in the homepage timeline was being escaped twice on save, so an apostrophe would turn into visible code. I fixed it at the source, then wrote a **one-time, repeat-safe migration** that cleaned the existing content. Nobody had to retype anything.
+
+**2. Images popping in and the page jumping.**
+Many hand-coded images had no width and height, so browsers couldn't reserve space for them and the layout shifted as they loaded. A small render-time layer now adds dimensions and lazy loading across the whole theme, instead of fixing images one template at a time.
+
+**3. Bangla text without a heavy font.**
+Loading a full Bangla font on every page would slow down the English pages for no reason. BCC Purno is mapped to Bangla characters only, using a `unicode-range` rule and `size-adjust`. English keeps its own typeface, the two scripts sit at a matching visual size, and the Bangla font is fetched only when it's needed.
+
+**4. Wide layouts breaking on small phones.**
+A few grids pushed the page wider than the screen. Grids now use `minmax(0, 1fr)`, long words wrap safely, and horizontal overflow is clipped. Then I checked every template at phone, tablet and desktop widths.
+
+**5. Replacing a plugin without losing payments.**
+The course platform started on a third-party LMS plugin and moved to the native one. The risk was breaking checkout for paid courses. The solution: each paid course gets a **hidden, synced WooCommerce product**, so carts, orders and receipts kept working exactly as before.
+
+## The outcome
+
+- **One theme, no page builder.** Everything on the site is plain, hand-written PHP, CSS and JavaScript. There is nothing to break when a builder updates.
+- **A team that can run it alone.** A **32-page Admin Panel Operation Guide** ships with the theme, so new editors can learn every screen.
+- **Room to grow.** New pages, courses, programmes and opportunities are added from the admin. The structure doesn't change.
+
+## What I'd tell anyone building a site like this
+
+1. **Design the admin as carefully as the front end.** The people who edit the site every week are users too. Guided fields and a destination picker did more for the site's long-term health than any visual flourish.
+2. **Fix problems at the source, then migrate.** Patching symptoms template by template leaves landmines. Fixing the cause and running a one-time, repeat-safe migration cleans up the past and protects the future.
+3. **Own the critical paths.** Payments and courses are the parts that hurt most when they break. Building the LMS natively, with WooCommerce only where it's strongest, made those paths predictable.
+4. **Write the manual.** A site the client can't operate is a site that stops changing. The operation guide is part of the deliverable, not an extra.
+
+Visit the live site at [khanfarhana.info](https://khanfarhana.info), and see the screens in the [visual case study](https://khanfarhana.info/developer/). If you need a site that your own team can run, [get in touch](/#contact).
+
+## Summary
+
+- Start from a clear brief: brand, community and academy.
+- One hand-coded theme can replace a heavy page builder.
+- Four goals shaped every page decision.
+- A light, editorial design language keeps it readable.
+- Solve real problems as they come and document them.
+
+![Cheat sheet: Case Study.](/blog/media/design/khanfarhana-info-case-study-cheat.svg "Save this cheat sheet.")
+
+---
+
+## Running an MCR Like a High-Reliability Operation: Shift Handovers, SOPs and Checklists That Prevent On-Air Errors
+
+URL: https://abdullah-al-faahim.github.io/blog/mcr-high-reliability-operation/  
+Published: 2026-11-07  
+Topic: Broadcast technology  
+Author: Abdullah Al Fahim
+
+Most on-air errors don't start with broken equipment. They start with a small gap between people: a shift that didn't hear about a flaky feed, a step skipped because "we always do it this way", a live event that changed at the last minute and nobody wrote it down.
+
+In my work at Channel i, I've learned that the equipment in a Master Control Room (MCR) is usually the easy part. The hard part is making a 24/7 room behave the same way at 3 p.m. on a calm Tuesday and at 3 a.m. during a breaking-news overrun, with different people on every shift.
+
+Other industries solved this problem long ago. Hospitals, airlines, air traffic control and power plants operate in conditions where small mistakes become serious very quickly, yet they make remarkably few of them. Researchers call them *high-reliability organisations*. This post is about borrowing their habits for broadcast: shift handovers, standard operating procedures (SOPs) and checklists.
+
+![A blank checklist on a clipboard.](/blog/media/photos/mcr-high-reliability-operation.webp "Checklists are the cheapest reliability tool a control room has.")
+
+<p class="credit">Photo: <a href="https://www.rawpixel.com/image/5917664/image-paper-public-domain-check">Close checklist wooden surface</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via rawpixel.</p>
+
+## What "high reliability" actually means
+
+![Diagram: Five habits of high-reliability teams.](/blog/media/design/mcr-high-reliability-operation-1.svg "Five habits of high-reliability teams.")
+
+The idea comes from organisational research, most famously Karl Weick and Kathleen Sutcliffe's work on how these organisations stay safe. They describe five habits of mind. Each one maps neatly onto an MCR:
+
+1. **Preoccupation with failure.** Treat every small glitch as a warning, not as luck. A single dropped frame on a backup feed is information.
+2. **Reluctance to simplify.** "It's probably the encoder again" is how real causes get missed. Look at what actually happened.
+3. **Sensitivity to operations.** Know what's happening on the floor right now, not just what the schedule says should be happening.
+4. **Commitment to resilience.** Expect things to go wrong and practise recovering from them quickly.
+5. **Deference to expertise.** In a fault, the person who knows the system best leads, whatever their job title.
+
+None of this needs new equipment. It needs routines that make these habits automatic, which is exactly what handovers, SOPs and checklists are for.
+
+## Shift handovers: where most knowledge gets lost
+
+A 24-hour room changes hands several times a day. Every handover is a moment where information can disappear. The outgoing operator knows that the remote feed from the stadium kept breaking up, that the 8 p.m. programme was replaced, that the backup playout server rebooted itself once. If that knowledge doesn't cross the handover, the next shift rediscovers it the hard way, usually on air.
+
+### Make handovers written and structured
+
+Spoken handovers are better than nothing, but they depend on memory and mood at the end of a long shift. Healthcare uses structured formats such as SBAR (Situation, Background, Assessment, Recommendation) for exactly this reason. For an MCR, I use a simple written structure:
+
+- **On air now:** what's playing, what's coming in the next hour, any live events scheduled.
+- **Changes:** schedule changes, replaced programmes, new ad breaks, late material.
+- **Known issues:** anything flaky, even if it recovered (feeds, encoders, graphics, power, network).
+- **Workarounds in place:** anything temporary, like a source routed manually or a backup chain left on air.
+- **Pending actions:** calls to return, tickets raised, engineers on their way.
+- **Watch for:** the one or two things the next shift should keep an eye on.
+
+It takes five minutes to write and saves far more. It also creates a record: when someone asks next week why the backup chain was on air on Thursday night, the answer is there.
+
+### Overlap, don't just swap
+
+A good handover has a few minutes of overlap where both operators are in the room and both are watching the output. The incoming operator reads the written handover, asks questions, and only then takes over. The rule I like is simple: **you haven't handed over until the other person says "I have it."**
+
+### Never hand over in the middle of a critical event
+
+If a live event or a known risky transition is minutes away, the outgoing shift stays until it's done. Handing over a live programme halfway through is how cues get missed.
+
+## SOPs: decide once, not at 3 a.m.
+
+Faults rarely give you time to think. When the main feed drops during a live programme, the operator needs to act in seconds. That's not the moment to work out from first principles which way to switch.
+
+A standard operating procedure decides in advance, when everyone is calm, what the right response is. In my team, writing technical SOPs and troubleshooting guides for our common faults cut problem-resolution time by about 35%. Most of the time saved wasn't technical. It was the minutes people used to lose deciding what to do and who to call.
+
+### What a good MCR SOP looks like
+
+The SOPs that actually get used share a few features:
+
+- **One page, one situation.** "Main playout failure", "loss of live contribution feed", "audio missing on air". Not one giant manual.
+- **The first action at the top.** Usually "protect the air": switch to backup, cut to a slate or put up filler. Diagnosis comes after viewers are safe.
+- **Short, numbered steps** with the exact names of buttons, sources and devices as they appear in the room.
+- **Decision points made explicit.** "If the backup is also failing, go to step 6."
+- **Who to call, with numbers,** and when to escalate.
+- **How to return to normal,** because switching back is when the second error often happens.
+- **A last-reviewed date and an owner,** so stale SOPs get noticed.
+
+### Keep them where people are
+
+An SOP on a shared drive nobody can find during a fault is useless. The ones that matter most should be printed and within reach of the operator's chair, and also available digitally. The test is simple: could a new operator find and follow it in under a minute, with an alarm going off?
+
+### Update them after every incident
+
+Every real fault is a free test of an SOP. If people had to improvise, the SOP was missing something. Updating it right after the event, while memories are fresh, is how the procedures stay alive.
+
+## Checklists: the cheapest reliability tool there is
+
+Atul Gawande's *The Checklist Manifesto* popularised a point that aviation learned decades earlier: skilled people still forget simple steps, especially under pressure or routine. Checklists catch those slips.
+
+There are two styles, and both have a place in an MCR:
+
+- **Read-do checklists:** you read each step and do it, in order. Good for rare or complicated procedures, like a planned switch to a backup uplink path.
+- **Do-confirm checklists:** you do the work from memory, then stop and confirm nothing was missed. Good for routine tasks experienced operators do daily.
+
+### Checklists I've found worth having
+
+**Start of shift (do-confirm):**
+
+- Read the handover and ask questions.
+- Confirm off-air monitoring is working and matches the output.
+- Check main and backup chains are both healthy.
+- Check audio loudness meters and alarms are live.
+- Review the next few hours of the playlist, especially live events and transitions.
+
+**Before a live event (read-do):**
+
+- Every source tested end to end, including the return feed to the venue.
+- Backup source or filler programme ready and cued.
+- Graphics, lower thirds and tickers checked on the actual output.
+- Communication with the production gallery and the remote team confirmed.
+- Timing agreed: start time, breaks and hard out.
+- Who does what if the main feed fails, said out loud.
+
+**Planned changeovers and maintenance (read-do):**
+
+- Is anything live or critical coming up? If yes, wait.
+- Backup confirmed healthy before touching the main.
+- One change at a time, with the result checked on air after each one.
+- A second person watching the output during risky steps.
+- Everything returned to normal and written in the handover.
+
+### Keep checklists short
+
+A checklist that takes twenty minutes gets skipped. The best ones fit on one card and only include the steps that are both important and easy to forget. Everything else belongs in training, not on the list.
+
+## Two people for risky actions
+
+Aviation uses "challenge and response": one person reads, the other confirms. In an MCR, the equivalent is simple: for actions that can take the channel off air (switching transmission paths, restarting a playout server, changing routing during a live event), a second person watches the output and confirms each step. It feels slow. It's much faster than recovering from a mistake that went to air.
+
+## Watch the right things, and only the right things
+
+Sensitivity to operations depends on monitoring, but more monitoring isn't automatically better. A multiviewer wall full of tiny pictures and an alarm panel that beeps constantly teach operators to ignore both. That's *alarm fatigue*, and it's a known problem in hospitals too.
+
+What helps:
+
+- Make the on-air output and off-air return the biggest pictures in the room.
+- Show audio meters and loudness clearly next to the output.
+- Tune alarms so they mean something: silence, black, freeze and loss of signal on air should be loud and unmistakable; minor warnings shouldn't sound the same.
+- Review alarm noise regularly and remove the ones nobody acts on.
+
+## Learn from near misses, without blame
+
+The most valuable events in a reliable operation are the ones where *nothing reached air*: the feed that dropped during a promo instead of during the news, the wrong clip caught in preview. These near misses are free lessons.
+
+I find two practices make the biggest difference:
+
+- **A near-miss log** in the handover notes: what almost happened and what caught it.
+- **Blameless reviews** after real incidents: what happened, why it made sense to the people involved at the time, and what we'll change. The goal is a better system, not a guilty person. If people expect blame, they stop reporting near misses, and the organisation goes blind.
+
+## Practise failure on purpose
+
+Redundancy only works if it's tested. A backup chain nobody has switched to in six months is a hope, not a plan. Regular, planned failover drills (during quiet hours, with everyone aware) keep both the equipment and the people ready. New operators should run their first failover in a drill, not during a live news bulletin.
+
+This connects directly to the preventive maintenance routine I described in [Inside a Master Control Room](/blog/inside-a-master-control-room/). In our team, steady maintenance cut system downtime by around 30% and helped us reach 99.99% uptime across more than 800 live broadcasts. The hardware matters, but the routine around it matters more.
+
+## Look after the people
+
+Every procedure above assumes an alert operator. Night shifts, long live events and back-to-back overruns wear that down. Reliable operations plan for fatigue: sensible shift lengths, proper breaks during long events, and the expectation that anyone can ask for a second pair of eyes without it being a weakness.
+
+## A simple starting point
+
+If your MCR doesn't have these routines yet, you don't need to build everything at once. Start with three things:
+
+1. **A written handover template**, used at every shift change.
+2. **One-page SOPs for your three most common faults**, printed and within reach.
+3. **A pre-live checklist** for every live event.
+
+Then review them after every incident and near miss. Within a few months, the room starts to feel calmer, faults get shorter, and the channel stays on air through problems that used to make it go dark.
+
+The audience never sees any of this. That's the point.
+
+## Summary
+
+- Borrow habits from high-reliability organisations.
+- Make shift handovers structured, spoken and written.
+- Decide procedures once in SOPs, not at 3 a.m.
+- Use checklists and two-person checks for risky actions.
+- Learn from near misses without blame and practise failure.
+
+![Cheat sheet: Running an MCR Like a High-Reliability Operation.](/blog/media/design/mcr-high-reliability-operation-cheat.svg "Save this cheat sheet.")
+
+---
+
+## Inside a Master Control Room: How a TV Channel Stays on Air 24/7
+
+URL: https://abdullah-al-faahim.github.io/blog/inside-a-master-control-room/  
+Published: 2026-11-04  
+Topic: Broadcast technology  
+Author: Abdullah Al Fahim
+
+Most people only notice a television channel when something goes wrong: a frozen frame, a second of black, audio that suddenly jumps in volume. That is the point. A Master Control Room (MCR) exists so that nobody watching ever has to think about it.
+
+I work in transmission at Channel i, Bangladesh's first digital satellite television network. My job sits at the last stop before the signal leaves the building. Over the past two years I've supported more than 800 live broadcasts, and the most important thing I've learned is that staying on air is less about heroics and more about boring, repeatable habits.
+
+This post walks through what an MCR does, how a signal travels from a playlist to a satellite, and the routines that keep a 24/7 channel stable. I'll describe a typical setup rather than any one station's exact configuration.
+
+![Operators in a broadcast control room in front of a monitor wall.](/blog/media/photos/inside-a-master-control-room.webp "A master control room keeps a channel on air every second of the day.")
+
+<p class="credit">Photo: <a href="https://www.rawpixel.com/image/9658326/image-person-woman-public-domain">Little League Softball World Series</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via rawpixel.</p>
+
+## What a Master Control Room is for
+
+A newsroom or production gallery *makes* programmes. The MCR *sends* them. It is the place where every source a channel might put on air comes together and gets turned into one continuous, legal, correctly timed output.
+
+On a normal day the MCR is responsible for:
+
+- **Playout:** running the schedule of programmes, adverts, promos and station idents exactly on time.
+- **Live switching:** taking live feeds from studios, outside broadcasts and remote reporters at the right moment.
+- **Branding and graphics:** the channel logo, tickers, "live" bugs and lower thirds that sit on top of the picture.
+- **Quality control:** watching picture and sound for faults before viewers see them.
+- **Compliance:** making sure audio loudness, captions and logging meet the rules the channel has to follow.
+- **Transmission:** handing the finished signal to the encoders and uplink chain that put it on the satellite.
+
+If production is the kitchen, the MCR is the pass where every plate is checked before it leaves.
+
+## Following the signal, step by step
+
+![Diagram: Following the signal.](/blog/media/design/inside-a-master-control-room-1.svg "Following the signal.")
+
+It helps to think of the chain as a series of handovers. Every handover is a place where something can fail, so every handover has a way to be watched and, ideally, a backup.
+
+### 1. Ingest and the playlist
+
+Programmes arrive as files from editors, producers and agencies. They are ingested into a media server, checked for format and length, and placed into a playlist that the traffic and scheduling team has built for the day. A good playlist is not just a list of clips. It holds the exact durations, the secondary events (graphics, logo changes, ad triggers) and the points where live content will interrupt the recorded schedule.
+
+### 2. Playout automation
+
+Automation software reads the playlist and drives the playout servers and switchers frame by frame. Humans can't reliably hit a transition at 20:59:59:24 every day; automation can. The operator's job becomes supervising the automation: preparing live events, adjusting timings when a live programme overruns, and taking over manually when something unexpected happens.
+
+### 3. The master switcher and branding
+
+The output of playout runs through a master control switcher, where live sources can be cut in and graphics are layered on top. Brands such as Grass Valley, Ross Video, Imagine Communications and Harris are common in this part of the chain. This is also where the channel's on-screen identity lives, which is one reason I care so much about broadcast graphics as a designer. A logo bug that looks good in a brand guideline can still fail on air if it flickers on interlaced pictures or disappears against a bright background.
+
+### 4. Live contribution
+
+Live content can come from a studio in the same building or from a reporter on the other side of the country. Remote feeds often arrive over bonded cellular systems from vendors such as LiveU and TVU Networks, which combine several mobile connections into one stream, or over dedicated fibre and satellite links. Each contribution path has its own delay, its own failure modes and its own monitoring.
+
+### 5. Encoding, multiplexing and uplink
+
+The finished baseband signal is compressed by encoders, packed into a transport stream alongside audio and data, and handed to the modulation and uplink chain. From there it goes up to a satellite and back down to cable operators and home receivers across the footprint. Encoders and multiplexers from companies like Harmonic and Ericsson are typical here.
+
+### 6. Monitoring the return
+
+The MCR doesn't stop watching once the signal leaves. A good room also monitors what comes *back*: the signal received off-air through a receiver, so the team sees what viewers see, including any problems introduced after the building.
+
+## The quiet standards behind a "normal" broadcast
+
+A surprising amount of MCR work is invisible compliance.
+
+**Loudness.** Viewers hate adverts that are louder than the programme around them. Broadcasters measure loudness over time rather than just peak levels, using standards such as EBU R128 (a target of −23 LUFS in Europe) or ATSC A/85 (−24 LKFS in the United States). Whatever target a channel uses, the habit is the same: measure, correct at ingest, and watch the meters on air.
+
+**Ad insertion triggers.** When a programme hits an ad break, cable operators and distribution partners may want to insert their own local adverts. Automation signals those breaks with cue messages. Inside the building they often travel as SCTE-104 messages in the video signal, and encoders turn them into SCTE-35 markers in the transport stream. If those markers are wrong, partners insert adverts in the middle of a news report.
+
+**Logging and recording.** Most channels must keep a recording of what actually went to air. When there's a complaint or a dispute, the log is the evidence.
+
+## Redundancy: assume everything will fail
+
+The single most useful mindset in an MCR is that every component will fail eventually. The goal is to make each failure small, quick to notice and quick to recover from.
+
+That usually means:
+
+- **Main and backup playout chains**, running in parallel, with a changeover switch that can move to the backup in a frame.
+- **Dual power** to critical equipment, backed by UPS units and generators.
+- **Redundant network and signal paths**, so a single cable or switch port can't take the channel off air.
+- **Backup content** ready to play, such as a filler programme or a slate, for when a live feed drops without warning.
+
+Redundancy only works if it is tested. A backup chain nobody has switched to in six months is a hope, not a plan.
+
+## The habits that matter more than the equipment
+
+Equipment gets the attention, but in my experience the difference between a stable channel and a fragile one is the routine around it.
+
+**Preventive maintenance.** Fans clog, drives wear out, cables get bumped. Scheduled checks of fans, storage, redundant power supplies and connections catch problems while they are still cheap. In our team, a steady preventive maintenance routine cut system downtime by around 30% and helped us reach 99.99% uptime.
+
+**Written SOPs.** At 3 a.m., during a fault, nobody should be improvising. I've written technical standard operating procedures and troubleshooting guides for common faults: what to check first, which way to switch, who to call. Clear SOPs cut our problem-resolution time by about 35%, mostly because people stopped losing minutes deciding what to do.
+
+**Clean handovers.** A 24-hour room changes hands several times a day. A short written handover (what's scheduled, what's flaky, what changed) prevents the classic mistake of one shift not knowing what the previous shift worked around.
+
+**Rehearsing live events.** Before a big live broadcast we check every source, every return path and every graphic. Most live failures I've seen were visible in a rehearsal that someone decided to skip.
+
+**Watching what viewers see.** Multiviewer walls, off-air receivers and audio meters are only useful if someone is actually looking at them. Good rooms make the important signals large and alarm loudly when something is wrong.
+
+## Where MCRs are heading
+
+The traditional MCR is built around SDI cables and dedicated hardware. That is changing. More channels are moving video around the building as IP traffic, using standards such as SMPTE ST 2110, and some playout is moving into software running on standard servers or the cloud. Remote production lets a single control room run events in several locations.
+
+The technology is changing quickly, but the job stays the same: get the right pictures and sound to air, on time, every time, and notice problems before the audience does. I wrote more about the SDI-to-IP shift in [From SDI to IP](/blog/sdi-to-ip-st-2110/).
+
+## What this taught me as a designer
+
+Working in an MCR has changed how I design. Broadcast teaches you that design is only finished when it survives real conditions: a logo on a noisy picture, a lower third read from across a room, a ticker running for twelve hours straight. It also taught me to value clear checklists and calm, repeatable systems, which turns out to be exactly what a good design system is.
+
+If you're curious about broadcast engineering, the best advice I can give is to spend time in front of a multiviewer and simply watch. Every fault you see once is a fault you'll catch faster the next time.
+
+## Summary
+
+- The MCR is the last check before a signal reaches viewers.
+- The signal flows through playout, master control, encoding and transmission.
+- Quiet standards like loudness and timing keep broadcasts normal.
+- Redundancy assumes everything will fail.
+- Habits and checklists matter more than equipment.
+
+![Cheat sheet: Inside a Master Control Room.](/blog/media/design/inside-a-master-control-room-cheat.svg "Save this cheat sheet.")
+
+---
+
+## AI in My Design Workflow: Where It Helps and Where It Doesn't
+
+URL: https://abdullah-al-faahim.github.io/blog/ai-in-my-design-workflow/  
+Published: 2026-10-30  
+Topic: AI for design  
+Author: Abdullah Al Fahim
+
+AI tools have changed how I work faster than any software change I can remember. Some days they save me hours. Other days they produce confident nonsense that takes longer to fix than doing the job myself.
+
+After a lot of trial and error across brand design, social media work, app interfaces and code, I've settled into a clear split: AI is excellent at some parts of the design process and poor at others. Here's where I use it, where I don't, and the rules I follow to use it responsibly.
+
+![A designer's hands on a laptop beside printed layout sketches.](/blog/media/photos/ai-in-my-design-workflow.webp "AI speeds up the busywork; the decisions stay with the designer.")
+
+<p class="credit">Photo: <a href="https://stocksnap.io/photo/office-work-42H3JH8QI5">Office Work</a> by <a href="https://stocksnap.io/author/31875">energepic.com</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via StockSnap.</p>
+
+## Where AI genuinely helps
+
+### 1. Turning messy input into a clear brief
+
+Clients rarely send a brief. They send a voice note, three WhatsApp messages and a screenshot of a competitor. A language model is very good at turning that into a structured summary: goals, audience, deliverables, deadlines and open questions.
+
+I never send that summary as-is. I use it as a first draft, correct it, and then confirm it with the client. It saves me twenty minutes of organising and makes sure I don't miss a requirement buried in a message.
+
+### 2. Research and first-pass understanding
+
+When I start working with a new industry, AI tools help me get oriented quickly: what terms people use, what competitors typically emphasise, what questions I should ask. It's a starting point for real research, not a replacement for it. Anything factual gets checked against primary sources before it influences a design.
+
+### 3. Exploring directions quickly
+
+Image generation tools are useful early in a project for exploring mood and direction: lighting, colour atmosphere, composition ideas for a campaign. I treat these images as sketches. They help a client react ("warmer", "less busy", "more local") before I spend time building the real thing.
+
+What I don't do is present generated images as finished brand assets. More on that below.
+
+### 4. Image editing chores
+
+AI-assisted features in tools like Photoshop's generative fill are genuinely useful for production chores: extending a background to fit a wider banner, removing a distracting object, cleaning up a product shot. These are tasks that used to take careful manual work and now take minutes, though I still check every edge closely.
+
+### 5. Copy variations and translation drafts
+
+For social media campaigns I often need many variations of a headline or caption. AI can produce options quickly, which I then edit for tone and accuracy. For Bangla, I'm especially careful: AI translations can be grammatically fine but sound unnatural, so a native reader (usually me) rewrites them. I covered the typography side of bilingual work in [Designing Bilingual Brands](/blog/designing-bilingual-brands/).
+
+### 6. Code and automation
+
+This is where AI has changed my work the most. I use AI assistants to write and debug the scripts that generate my GitHub profile cards, to help build parts of my apps, and to automate repetitive tasks like resizing and exporting assets. For a designer who codes, an assistant that explains an error or drafts a function in seconds is a huge accelerator. I still read every line before it runs, and I test it.
+
+## Where AI doesn't help (yet)
+
+![Diagram: Where AI helps, and where it doesn't.](/blog/media/design/ai-in-my-design-workflow-1.svg "Where AI helps, and where it doesn't.")
+
+### Strategy and judgement
+
+AI can list options. It can't decide which option is right for *this* client, with *this* budget, in *this* market. That requires understanding people, context and trade-offs, which is most of what a designer is actually paid for.
+
+### Logos and identity marks
+
+I don't use AI to generate logos. Generated marks tend to look generic, are hard to edit as clean vectors, can resemble existing marks without anyone noticing, and raise real questions about ownership. A logo has to be distinctive, ownable and built properly for every size. That still needs a designer and a construction grid, as I described in [Brand Identity Is More Than a Logo](/blog/brand-identity-process/).
+
+### Typography and fine detail
+
+AI tools are still weak at typography: kerning, consistent letterforms, and especially Bangla script with its conjuncts and vowel signs. Any text in a generated image needs to be replaced with real, properly set type.
+
+### Knowing what's true
+
+Language models can state incorrect facts with complete confidence. In a design context, that means wrong statistics on an infographic, a made-up quote on a social post, or an inaccurate product claim. For anything factual, I verify.
+
+## My rules for using AI responsibly
+
+1. **Client data stays private.** I don't paste confidential briefs, unreleased product details or personal data into tools without permission and without checking how the tool handles data.
+2. **Generated images are drafts, not deliverables,** unless the client has agreed and the tool's licence clearly allows commercial use.
+3. **No generated logos or identity marks.**
+4. **Every fact gets checked** against a reliable source before it's published.
+5. **Be honest about AI use** when it's a meaningful part of the work, especially for imagery.
+6. **Real people's likenesses are off-limits** for generated images unless they've agreed.
+7. **The final decision is human.** AI can propose; I decide, and I'm responsible for what goes out.
+
+## How my workflow looks now
+
+A typical brand or campaign project now looks something like this:
+
+1. **Brief:** AI summarises the client's messages; I correct and confirm.
+2. **Research:** AI helps me get oriented; I verify and dig deeper.
+3. **Exploration:** quick generated mood images and rough sketches for direction.
+4. **Design:** I build the real work by hand: identity, typography, layout and hierarchy.
+5. **Production:** AI-assisted editing for background extensions, clean-ups and resizing.
+6. **Copy:** AI drafts variations; I edit for tone, accuracy and Bangla.
+7. **Review:** I check every detail as if no AI was involved.
+
+The time saved goes into the parts that matter most: thinking, crafting and talking to the people the work is for.
+
+## The skill that matters more now
+
+If AI makes producing *something* easy, then the valuable skill is knowing whether that something is *good*. Taste, judgement, an understanding of [design principles](/blog/design-theory-you-can-use/) and the willingness to throw away a plausible but wrong idea are what separate a designer from a generator.
+
+AI is a powerful assistant. It's not the designer. In my work, it makes me faster at the parts I don't enjoy, so I can spend more time on the parts that need a person.
+
+## Summary
+
+- Use AI for brainstorming, research summaries and repetitive production work.
+- Keep concept, taste and brand judgement human.
+- Check facts, rights and licences on everything AI produces.
+- Tell clients when and how AI was used.
+- Clear thinking and good briefs matter more now, not less.
+
+![Cheat sheet: AI in My Design Workflow.](/blog/media/design/ai-in-my-design-workflow-cheat.svg "Save this cheat sheet.")
+
+---
+
+## Building a Personal Design System from One Colour
+
+URL: https://abdullah-al-faahim.github.io/blog/design-system-from-one-colour/  
+Published: 2026-10-24  
+Topic: Design systems  
+Author: Abdullah Al Fahim
+
+Design systems are usually discussed as something big companies build: hundreds of components, a dedicated team, a documentation site. But the idea works at any size. Even a single designer benefits from a small set of rules that decide things once, so you don't decide them again on every project.
+
+Everything you see on this site, my GitHub profile, my CV and my app pages comes from one small system. It started from a single colour. This post explains how it's built and why each rule exists.
+
+![A fan of printed colour swatches.](/blog/media/photos/design-system-from-one-colour.webp "A whole personal system can grow from one confident colour.")
+
+<p class="credit">Photo: <a href="https://stocksnap.io/photo/color-swatches-VYSZEM4UWE">Color Swatches</a> by <a href="https://www.secretagencygroup.com">Tim Sullivan</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via StockSnap.</p>
+
+## Why bother with a system for one person
+
+I work across very different surfaces: a portfolio website, a GitHub profile made of SVG cards, social posts, presentation decks, app interfaces, even broadcast graphics. Without a system, each one drifts. The violet gets slightly different, a new typeface sneaks in, buttons change shape.
+
+A system gives three things:
+
+- **Recognition.** People start to associate a colour and a type pairing with your work.
+- **Speed.** You stop agonising over choices that were already made.
+- **Consistency across tools.** The same tokens can drive CSS, Figma styles and generated graphics.
+
+## Step 1: choose one base colour
+
+![Diagram: From one colour to a system.](/blog/media/design/design-system-from-one-colour-1.svg "From one colour to a system.")
+
+My base is a deep violet, **#3A10AD**. I wanted something that felt confident and a little technical, stood apart from the usual corporate blues, and worked on both light and dark backgrounds.
+
+From that one colour I built a full scale, from almost white to almost black:
+
+| Token | Hex | Typical use |
+|---|---|---|
+| brand-50 | #F3F2FF | Tinted backgrounds |
+| brand-300 | #B4ADFF | Accents on dark backgrounds |
+| brand-500 | #6B4AFF | Primary buttons, links, highlights |
+| brand-900 | #3A10AD | The anchor colour |
+| brand-950 | #1E066F | Deep backgrounds, dark sections |
+
+The steps in between fill in the gaps for hover states, borders and subtle fills. The key is that every violet anywhere in my work comes from this scale. No one-off purples.
+
+## Step 2: one highlight, used sparingly
+
+Next to the violet sits **Acid Lime, #D4FF24**. It's loud on purpose. The rule is that lime is a *highlight only*: one call-to-action button, a key word in a headline, an availability badge. Never a background for long text, never a second brand colour.
+
+The scarcity is what makes it work. If everything is highlighted, nothing is. On this site, lime marks "Hire me", the first name in the hero, and small status dots. Your eye goes to those things first, which is exactly where I want it.
+
+## Step 3: two typefaces with clear jobs
+
+- **Sora** for display and body text. It's geometric and modern without feeling cold, and it reads well at small sizes.
+- **JetBrains Mono** for labels, tags, dates and anything technical. Monospace text signals "metadata" and gives the system a subtle engineering flavour that fits my background.
+
+Two typefaces, two jobs. Headlines and paragraphs in Sora; eyebrows, chips and version numbers in JetBrains Mono. That's the entire typography system, and it covers almost everything.
+
+## Step 4: check contrast with numbers, not eyes
+
+A colour system isn't finished until it passes accessibility checks. WCAG asks for a contrast ratio of at least **4.5:1** for normal text and **3:1** for large text.
+
+Some of the pairings in my system:
+
+- White text on brand-500 (#6B4AFF) is about **5.2:1**, which is enough for button labels.
+- White on brand-900 (#3A10AD) is about **11.3:1**.
+- Brand-950 (#1E066F) text on lime (#D4FF24) is about **13.8:1**, so lime buttons use dark violet text.
+- Lime on white is only about **1.2:1**, which is why lime never appears as text on a light background.
+
+That last number is the reason for a rule that might otherwise feel arbitrary. Systems are full of rules like that: they look like taste, but they're backed by measurements.
+
+## Step 5: turn decisions into tokens
+
+The rules only become a system when they're written down in a form tools can use. On this site, every colour is a CSS custom property:
+
+```css
+:root {
+  --brand-500: #6b4aff;
+  --brand-900: #3a10ad;
+  --lime: #d4ff24;
+  --on-lime: #1e066f;
+  --canvas: #ffffff;
+  --ink: #160a45;
+  --mark: var(--brand-600);
+}
+```
+
+Components never use raw hex values. A button uses `--brand-500`, body text uses `--ink`, a highlight uses `--lime`. That indirection is what makes dark mode possible.
+
+## Step 6: light and dark from the same tokens
+
+Dark mode isn't a second design. It's the same tokens pointing at different values. In dark mode, `--canvas` becomes a near-black violet, `--ink` becomes a soft off-white and `--mark` shifts from brand-600 to the lighter brand-300 so it stays readable. Components don't change at all.
+
+The same thinking applies outside the browser. The SVG cards on my GitHub profile come in light and dark versions generated by a small script, using the same token values and with the Sora and JetBrains Mono fonts embedded. GitHub shows the right one based on the viewer's theme.
+
+## Step 7: a few components, not a library
+
+My "component library" is small:
+
+- **Buttons:** primary (violet), highlight (lime), ghost and outline. Fully rounded.
+- **Cards:** a surface colour, a thin border, a 20px radius and a soft violet-tinted shadow.
+- **Chips and tags:** small, rounded, set in JetBrains Mono.
+- **Section headers:** a mono eyebrow, a divider line and a large Sora headline with one highlighted phrase.
+
+Four or five patterns repeated consistently feel more designed than fifty patterns used once each.
+
+## Keep the system somewhere safe
+
+I keep the full system, including tokens, type specimens, component notes and usage rules, as a single source of truth, separate from any one project. When I change a rule, I change it there first, then update the projects that use it. That stops the system from slowly forking into versions.
+
+## Start smaller than you think
+
+If you want a personal design system, don't start with components. Start with:
+
+1. **One base colour and a tonal scale.**
+2. **One highlight colour** with a strict rule for when it's allowed.
+3. **Two typefaces** with clear jobs.
+4. **Contrast checks** for every text and background pair you use.
+5. **Tokens** so every tool reads the same values.
+
+That's enough to make everything you produce feel like it came from the same place. For how a system like this grows into a full brand for a client, see [Brand Identity Is More Than a Logo](/blog/brand-identity-process/).
+
+## Summary
+
+- Start with one base colour and one sparing highlight.
+- Give two typefaces clear, separate jobs.
+- Check contrast with numbers, not just your eyes.
+- Turn decisions into tokens shared by light and dark modes.
+- Build a few components, not a library, and keep it somewhere safe.
+
+![Cheat sheet: Building a Personal Design System from One Colour.](/blog/media/design/design-system-from-one-colour-cheat.svg "Save this cheat sheet.")
+
+---
+
+## Making Alarms Reliable on Android: Lessons from Building TaskBell
+
+URL: https://abdullah-al-faahim.github.io/blog/reliable-alarms-on-android/  
+Published: 2026-10-18  
+Topic: App development  
+Author: Abdullah Al Fahim
+
+TaskBell has one job: ring before a task and ring again when it starts. A notes app can be a bit late. A reminder app that rings five minutes late is worse than no app at all, because you trusted it.
+
+Getting an alarm to fire reliably on Android turned out to be the hardest part of the whole project. Android has spent years tightening what background apps are allowed to do, to protect battery life, and phone makers add their own aggressive battery savers on top. This post collects what I learned, in the hope it saves someone else a few weeks.
+
+![A red alarm clock on a blanket beside a mug.](/blog/media/photos/reliable-alarms-on-android.webp "An alarm app earns trust only if it rings every time.")
+
+<p class="credit">Photo: <a href="https://www.rawpixel.com/image/3300588/free-photo-image-clock-alarm-alcohol">macro shot standard alarm clock</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via rawpixel.</p>
+
+## Pick the right kind of alarm
+
+![Diagram: What makes an Android alarm reliable.](/blog/media/design/reliable-alarms-on-android-1.svg "What makes an Android alarm reliable.")
+
+Android's `AlarmManager` offers several ways to schedule work, and they are not equal.
+
+- **Inexact alarms** let the system batch your alarm with others to save battery. Fine for "sometime this hour", useless for "at 4:45 PM".
+- **`setExactAndAllowWhileIdle()`** fires at an exact time, even when the device is in Doze, the deep idle mode Android uses when a phone sits still with the screen off.
+- **`setAlarmClock()`** is meant for alarms the user sets and expects. The system treats it as the highest priority, shows the alarm icon in the status bar and lets the user see the next alarm.
+
+For a reminder that the user explicitly asked for, `setAlarmClock()` is the most honest and most reliable choice. It tells the system, and the user, exactly what the app intends.
+
+## Permissions changed under my feet
+
+Exact alarms are now permission-gated.
+
+- From **Android 12**, apps need the `SCHEDULE_EXACT_ALARM` permission to set exact alarms, and users can revoke it in settings.
+- **Android 13** added `USE_EXACT_ALARM`, intended for apps whose core function is alarms or calendars. Google Play limits which apps may declare it.
+- From **Android 14**, `SCHEDULE_EXACT_ALARM` is no longer granted by default to most newly installed apps targeting recent Android versions, so the app has to ask.
+
+The practical lesson: never assume you have permission. Check with `canScheduleExactAlarms()` before scheduling, explain clearly why the permission matters, and send the user to the right settings screen if it's missing.
+
+Notifications have the same story. From Android 13, apps must request `POST_NOTIFICATIONS` at runtime. A reminder app without notification permission is silent, so TaskBell asks for it during setup with a plain explanation.
+
+## Ringing over the lock screen
+
+When a task starts, TaskBell shows a full-screen alarm over the lock screen, the same way a clock app does. That uses a notification with a full-screen intent.
+
+Android 14 tightened this too: full-screen intents are meant for calls and alarms, and users can turn the permission off. The app checks `canUseFullScreenIntent()` and falls back to a high-priority notification if it's not allowed, rather than failing silently.
+
+To ring even when the phone is on silent, the alarm sound uses alarm audio attributes (`USAGE_ALARM`). That plays on the alarm stream, which is controlled separately from the ringer, the same as a normal alarm clock. Users can still choose a softer pre-reminder and a louder start alarm, and High and Urgent tasks keep ringing until they're answered.
+
+## Alarms are forgotten on reboot
+
+Alarms registered with `AlarmManager` don't survive a reboot. If your app doesn't reschedule them, every reminder silently disappears the next time the phone restarts.
+
+The fix is to treat the app's own database as the source of truth and rebuild alarms from it whenever something might have cleared them:
+
+- **After a reboot**, with a receiver for `BOOT_COMPLETED` (and `LOCKED_BOOT_COMPLETED` if you want alarms to work before the user unlocks the phone for the first time).
+- **After the app is updated**, with `MY_PACKAGE_REPLACED`.
+- **After the time or time zone changes**, with `TIME_SET` and `TIMEZONE_CHANGED`, because a task at 9:00 AM should still ring at 9:00 AM local time after you travel or the clock is corrected.
+
+The rescheduling code is the same function every time: read upcoming tasks, cancel anything stale, schedule the next alarms. Keeping it in one place means there's only one thing to test.
+
+## Missed alarms should be visible
+
+Even with everything done right, alarms can be missed: the phone was off, the battery died, a manufacturer's battery saver killed the app. When that happens, the worst outcome is silence.
+
+TaskBell keeps a **Missed** list. On startup and after a reboot, it checks for tasks whose alarm time passed without firing and shows them clearly, so the user at least knows what they missed.
+
+## The real enemy: OEM battery savers
+
+Stock Android behaves well if you follow the rules. Many phones don't run stock Android. Several manufacturers add their own background-killing features, battery "optimisers" and auto-start blockers. These can stop alarms or kill the app in ways that the official APIs can't detect.
+
+There's no code-only fix for this. What works is honesty and guidance:
+
+- **An alarm health check.** TaskBell has a screen that checks the settings that affect reliability (notification permission, exact alarm permission, full-screen alerts, battery optimisation) and shows which ones need attention.
+- **Direct links to settings.** Where Android allows it, the app opens the exact settings page instead of describing a path through menus.
+- **A test alarm.** Setup ends with a test alarm, so the user hears it working before relying on it.
+
+The community site *Don't Kill My App* documents manufacturer-specific battery behaviour and is worth reading if you build anything that runs in the background.
+
+## Design matters as much as code
+
+Most reliability problems end up in front of the user, so the interface carries a lot of the weight.
+
+- **Confirm what will happen.** After saving a task, TaskBell shows "Alarms set: 4:45 PM and 5:00 PM", so the user knows exactly when to expect it.
+- **Explain permissions in plain words,** with the reason first and the button second.
+- **Make setup short.** Three steps and a test alarm is about as much as people will do.
+- **Never fail silently.** If the app can't guarantee an alarm, say so.
+
+## A checklist if you're building something similar
+
+1. Use `setAlarmClock()` for user-facing alarms.
+2. Check exact-alarm, notification and full-screen permissions every time, not just at install.
+3. Store tasks in a local database and treat it as the source of truth.
+4. Reschedule after boot, app updates, and time or time-zone changes.
+5. Use alarm audio attributes so alarms ring in silent mode.
+6. Track and show missed alarms.
+7. Add a health check and a test alarm for phones with aggressive battery savers.
+
+Building TaskBell taught me that reliability is a feature you design, not just a bug you fix. You can read more about the app on its page: [TaskBell](/TaskBell-releases/).
+
+## Summary
+
+- Use the right exact-alarm API for the job.
+- Ask for permissions clearly and handle changes.
+- Ring over the lock screen with a full-screen intent.
+- Reschedule alarms after reboot and show missed ones.
+- Guide users past aggressive OEM battery savers.
+
+![Cheat sheet: Making Alarms Reliable on Android.](/blog/media/design/reliable-alarms-on-android-cheat.svg "Save this cheat sheet.")
+
+---
+
+## Designing Bilingual Brands: Setting Bangla and English Together
+
+URL: https://abdullah-al-faahim.github.io/blog/designing-bilingual-brands/  
+Published: 2026-10-11  
+Topic: Brand identity  
+Author: Abdullah Al Fahim
+
+Most brands in Bangladesh speak two languages. The logo might be in English, the Facebook posts in Bangla, the event banner in both. Yet in many identities the Bangla side is an afterthought: a default font dropped in at the last minute, sitting awkwardly next to a carefully chosen English typeface.
+
+When Bangla and English are designed together, the brand feels confident and local. When they aren't, it looks like two brands sharing a page. These are the rules I follow to make them work as one.
+
+![Metal type letters scattered on a printer's tray.](/blog/media/photos/designing-bilingual-brands.webp "Two scripts feel like one brand only when they are set together on purpose.")
+
+<p class="credit">Photo: <a href="https://stocksnap.io/photo/typography-letter-IMZP3JUC0G">Typography Letter</a> by <a href="https://stocksnap.io/author/34754">Raphael Schaller</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via StockSnap.</p>
+
+## Why the two scripts don't match by default
+
+![Diagram: Eight rules for Bangla + English.](/blog/media/design/designing-bilingual-brands-1.svg "Eight rules for Bangla + English.")
+
+Latin and Bangla are built on different structures, and you can see it the moment you put them side by side.
+
+- **Different anchor lines.** Latin letters sit on a *baseline*. Bangla letters hang from a *headline*, the horizontal stroke called the matra that runs along the top of most letters.
+- **Different vertical extent.** Bangla has vowel signs that sit above the headline and below the letters, and conjuncts (যুক্তবর্ণ) can stack consonants vertically. A line of Bangla needs more vertical room than a line of English.
+- **Different apparent size.** At the same point size, Bangla often looks smaller than Latin text, because much of its height is taken up by marks above and below the main letters.
+- **Different stroke logic.** Many Latin typefaces are geometric or humanist; Bangla typefaces have their own traditions, from calligraphic to modern geometric. A perfect match rarely exists.
+
+So "use the same size and spacing for both" almost never works.
+
+## Rule 1: pick typefaces as a pair
+
+I choose the Bangla and English typefaces together, looking for shared qualities rather than identical shapes:
+
+- **Similar stroke contrast.** A low-contrast, even-stroke Latin typeface pairs better with a low-contrast Bangla one.
+- **Similar weight range.** If headlines use a bold weight in English, the Bangla typeface needs a genuinely bold weight too, not a faked one.
+- **Similar personality.** Rounded and friendly with rounded and friendly; sharp and technical with sharp and technical.
+
+Some typeface families are designed for both scripts, such as Noto Sans and Noto Sans Bengali or Hind and Hind Siliguri, which makes matching much easier. For more distinctive brands, I pair a characterful English typeface with the Bangla face whose rhythm feels closest, then adjust size and spacing by eye.
+
+## Rule 2: always use Unicode fonts
+
+Many people in Bangladesh learned to type Bangla with Bijoy, and older documents often use ANSI fonts such as SutonnyMJ, where Bangla letters are mapped onto Latin character codes. Those files look right on the designer's computer but break everywhere else: text turns into Latin gibberish when the font is missing, can't be searched, and won't survive being pasted into a website or app.
+
+For anything digital, I insist on **Unicode Bangla fonts**. Text stays readable on every device, works with screen readers and search engines, and can be copied, translated and indexed. (I built a small [Bijoy typing practice page](/Bijoy-Bangla-Typing-Practice/) for people learning the layout, but the text it produces should still end up in Unicode.)
+
+## Rule 3: match apparent size, not point size
+
+When Bangla and English sit next to each other, as in a bilingual headline or a logo with both names, I adjust sizes until they *look* equal. In practice that often means setting the Bangla a little larger than the English, then checking by eye at the final size.
+
+The test is simple: squint. If one language jumps out as bigger or heavier, adjust until neither dominates (unless one is meant to).
+
+## Rule 4: give Bangla more line height
+
+Line height that looks comfortable for English can make Bangla feel cramped, and in tight layouts it can even clip vowel signs above or below the line. I set Bangla body text with more generous line height than English, and I test the tallest conjuncts and the deepest marks in the real typeface, not just a sample sentence.
+
+In apps this matters even more. A button or list row with a fixed height that fits English may cut off Bangla. I design components to grow with their text instead of fixing heights to the English version, as I described in [Building Offline-First Apps for Bangladesh](/blog/offline-first-apps-bangladesh/).
+
+## Rule 5: align to what each script respects
+
+In a bilingual logo or lockup, I have to decide which lines to align. Aligning the English baseline with the bottom of the Bangla letters can look fine; aligning the top of the English capitals with the Bangla headline often looks even better, because the matra creates a strong visual line.
+
+There's no universal answer. I try both alignments, look at them at the size they'll be used, and pick the one where the two names read as one unit.
+
+## Rule 6: decide the hierarchy
+
+When both languages appear, one usually leads. For a local community organisation, Bangla might lead and English support. For a tech company working with international partners, the reverse. Making this decision explicit, and writing it into the brand guidelines, prevents every new banner from reinventing it.
+
+Common patterns I use:
+
+- **Bangla primary, English secondary:** the Bangla name larger, the English name smaller underneath.
+- **Equal weight:** both names at matched apparent size, separated by a clear divider or placed side by side.
+- **Context switch:** Bangla for local social media, English for international documents, with the same layout system for both.
+
+## Rule 7: numbers, dates and punctuation
+
+Bilingual brands also need rules for the small stuff:
+
+- **Digits:** use Bangla digits (০–৯) in Bangla text and Latin digits in English text, consistently.
+- **Dates:** decide whether Bangla materials use the Bangla calendar, the Gregorian calendar, or both.
+- **Punctuation:** Bangla uses the দাঁড়ি (।) as its full stop. It's a small detail, but getting it wrong is noticeable to every native reader.
+- **Currency:** ৳ for taka, with consistent spacing and grouping.
+
+## Rule 8: put it in the guidelines
+
+All of this disappears if it lives only in my head. A bilingual brand guideline should include:
+
+- the Bangla and English typefaces, with weights for each role
+- the size relationship between them (for example, "Bangla headlines one step larger")
+- line height for each script
+- examples of correct bilingual lockups and headlines
+- digit, date and punctuation rules
+
+I treat this as part of the brand identity process I described in [Brand Identity Is More Than a Logo](/blog/brand-identity-process/).
+
+## Designing for the audience you actually have
+
+Treating Bangla as a first-class part of a brand isn't just good typography. It's respect for the people the brand is speaking to. Most of them read Bangla first. A brand that clearly took the time to get Bangla right earns trust that an English-only identity, or a careless translation, never will.
+
+## Summary
+
+- Choose Bangla and Latin typefaces as a pair.
+- Always use Unicode Bangla fonts for anything digital.
+- Match apparent size and give Bangla more line height.
+- Decide which script leads, and handle numbers and dates.
+- Write all of it into the brand guidelines.
+
+![Cheat sheet: Designing Bilingual Brands.](/blog/media/design/designing-bilingual-brands-cheat.svg "Save this cheat sheet.")
+
+---
+
+## Moving from SDI to IP Workflows (SMPTE ST 2110): Planning, Risks and a Phased Migration Roadmap for Bangladesh
+
+URL: https://abdullah-al-faahim.github.io/blog/sdi-to-ip-st-2110/  
+Published: 2026-10-04  
+Topic: Broadcast technology  
+Author: Abdullah Al Fahim
+
+Walk into almost any TV station in Dhaka and you will find the same thing behind the racks: thick bundles of coaxial cable, BNC connectors and a large SDI router at the centre of everything. It is reliable, it is familiar, and the engineers who built it know every path by heart.
+
+The rest of the broadcast world is slowly replacing that cable with network switches, fibre and software, mostly built on a family of standards called **SMPTE ST 2110**. The question for Bangladeshi channels is not *whether* IP arrives, but *when, how fast and in what order*, because our budgets, our power supply, our import process and our skills market are different from those of a broadcaster in London or Montreal.
+
+I work in a Master Control Room at Channel i, so this post looks at the move from the inside: what changes, what can go wrong, and a phased roadmap that keeps the on-air signal safe the whole way through.
+
+![A fibre optic patch cable with connectors.](/blog/media/photos/sdi-to-ip-st-2110.webp "Moving to IP means fibre and network switches replace much of the SDI cabling.")
+
+<p class="credit">Photo: <a href="https://www.rawpixel.com/image/5941552/free-public-domain-cc0-photo"></a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via rawpixel.</p>
+
+## Where Bangladeshi broadcasting stands today
+
+Bangladesh has around three dozen television channels on air, the state broadcaster BTV plus a large group of private satellite channels, most of them headquartered within a few kilometres of each other in Dhaka. Many of these facilities were designed between the mid-2000s and the mid-2010s, when the industry moved from tape to file-based workflows and from SD towards HD.
+
+A typical Bangladeshi facility today looks like this:
+
+- **An SDI core.** HD-SDI (or 3G-SDI) routing, with some SD still in archives and older equipment.
+- **File-based ingest and playout**, driven by automation, with news and programmes on shared storage.
+- **Satellite uplink** for the main channel, including on the country's own communications satellite launched in 2018, plus a teleport or backup path.
+- **Many distribution routes at once:** cable operators, DTH, IPTV, and a growing share of viewers on YouTube, Facebook and channel apps.
+- **Field contribution over the internet**, using bonded cellular units and streaming protocols, because district bureaus and live events rarely have dedicated fibre.
+
+So in practice our channels are already half on IP at the edges. What is still SDI is the core: the router, the production switchers, the master control chain and the cables between them. That core is what ST 2110 replaces.
+
+## SDI and ST 2110 in one minute
+
+**SDI** carries uncompressed video, embedded audio and data down one coaxial cable, point to point, with almost no delay. HD-SDI runs at about 1.5 Gb/s, 3G-SDI at about 3 Gb/s and 12G-SDI at about 12 Gb/s for UHD. It is simple and deterministic. Its weakness is that every new connection needs a physical cable and a router port, and every format upgrade tends to mean new hardware.
+
+**ST 2110** sends the same professional signals over a managed IP network, but splits them into separate streams ("essences"):
+
+- **ST 2110-20**: uncompressed video
+- **ST 2110-30**: uncompressed audio (based on AES67)
+- **ST 2110-40**: ancillary data such as captions and timecode
+- **ST 2110-22**: compressed video (for example JPEG XS) where bandwidth matters
+- **ST 2110-21**: rules for how evenly packets are sent
+
+Around it sit three things every engineer has to learn:
+
+- **Timing with PTP.** Devices agree on time using the Precision Time Protocol, under the broadcast profile in SMPTE ST 2059. A GPS-locked grandmaster replaces the old reference generator. Timing stops being a cable and becomes a network service.
+- **Redundancy with ST 2022-7.** Each stream is sent twice over two separate networks ("red" and "blue"), and receivers rebuild a clean signal from whichever packets arrive. It is the IP version of the main and backup chains every MCR already runs, which I described in [Inside a Master Control Room](/blog/inside-a-master-control-room/).
+- **Control with AMWA NMOS.** IS-04 lets devices announce themselves and IS-05 connects senders to receivers, so a control system can behave like the router panel operators already know.
+
+## Why a Bangladeshi channel would move at all
+
+IP should never be adopted because it is fashionable. In our market the real drivers are:
+
+1. **End-of-life SDI cores.** Routers, switchers and frame-sync cards bought around 2010 to 2015 are reaching the end of vendor support. When a core has to be replaced anyway, buying IP-ready equipment avoids paying twice.
+2. **HD everywhere, and UHD later.** Upgrading formats on IP is mostly about bandwidth and licences, not rewiring the building.
+3. **Remote and distributed production.** Cricket, elections, Ekushey February, Eid programming and big talk shows increasingly mix studios, outside locations and remote guests. IP makes it easier to share sources between studios, control rooms and even other buildings.
+4. **Digital-first distribution.** When a large part of the audience watches on YouTube, Facebook and apps, the facility needs to feed many outputs at once. Software-based playout and graphics fit naturally on an IP plant.
+5. **A local skills advantage.** Bangladesh has a deep pool of networking talent from its ISPs, telecom operators and IT sector. Routing, switching and multicast are skills we can hire and grow locally.
+
+## Planning: what to settle before buying anything
+
+**1. Write down why.** One page: what problem the move solves, what success looks like, and what must never happen (usually: never lose the on-air signal).
+
+**2. Inventory the plant.** List every SDI source, destination, format, frame rate and audio map. Mark what is end-of-life, what is new and what can stay SDI for years with a gateway.
+
+**3. Decide the architecture early.** Two common network designs exist: a large central switch, or a spine-and-leaf fabric that scales by adding switches. For most Bangladeshi channels, a modest spine-leaf design with fully separate red and blue networks is a sensible default.
+
+**4. Do the bandwidth sums.** One uncompressed 1080p50 or 1080i stream is roughly 1.5 to 3 Gb/s. Multiply by sources, then add headroom, then double it for 2022-7 redundancy. Link speeds, switch buffers and optics follow from this, not from a brochure.
+
+**5. Choose standards over brands.** Insist on ST 2110, ST 2059 PTP, ST 2022-7 and NMOS IS-04/IS-05, and ask vendors for proof of interoperability, such as participation in the JT-NM Tested programme. Avoid any design that only works with one manufacturer's controller.
+
+**6. Count the full cost, in taka.** Budget for switches, optics, PTP grandmasters, gateways, a broadcast controller, monitoring, training, spares held locally, UPS and cooling, not just the headline devices. Most equipment is priced in US dollars and imported, so exchange-rate movement and import timelines belong in the plan from day one.
+
+**7. Plan for people.** Who will run the network at 3 a.m.? Broadcast and IT staff need to become one team, with shared on-call rules and the same [checklists and handovers](/blog/mcr-high-reliability-operation/) the MCR already depends on.
+
+## The risks, and how to manage them
+
+| Risk | What it looks like in Bangladesh | How to reduce it |
+|---|---|---|
+| **Timing (PTP) failure** | Lip-sync drift, devices that won't lock, glitches nobody can explain | Two GPS-locked grandmasters, PTP-aware switches, timing alarms in the MCR, a simple PTP runbook |
+| **Network misconfiguration** | A multicast flood or wrong IGMP setting takes down many feeds at once | Change control, a test lab, configuration backups, strict separation of red and blue networks |
+| **Interoperability gaps** | A camera, switcher and controller from three vendors don't agree | Standards-based tenders, JT-NM-tested kit, a proof-of-concept before the main order |
+| **Skills gap** | SDI veterans and IT staff speak different languages | Joint training, a small lab to practise on, pair broadcast and network engineers |
+| **Import and currency delays** | Equipment held up by letters of credit, dollar shortages or customs; prices rise mid-project | Order critical items early, phase purchases, keep local spares, fix prices where possible |
+| **Power and heat** | Load-shedding, generator switchover glitches, hot and humid equipment rooms | Double-conversion UPS on all network gear, dual power supplies, proper cooling and dust control |
+| **Cyber security** | A networked plant can be reached from places a coaxial cable never could | Segmented networks, no direct internet on media networks, access control, logging |
+| **On-air disruption during cutover** | A migration step goes wrong live | Never cut over the main chain first; keep SDI fallback paths and rehearse rollback |
+
+## A phased roadmap that keeps the channel on air
+
+![Diagram: A phased migration that stays on air.](/blog/media/design/sdi-to-ip-st-2110-1.svg "A phased migration that stays on air.")
+
+The safest migrations do not replace everything at once. They grow IP from the edges inward, with a working SDI fallback at every step. The durations below are typical for a mid-sized channel and will vary with budget and import timelines.
+
+### Phase 0: Readiness (3 to 6 months)
+
+- Train a core team in multicast, IGMP, PTP and ST 2110 basics.
+- Build a small lab: two switches, a PTP grandmaster, a few gateways and a monitoring tool.
+- Complete the inventory, the architecture and the risk register.
+- **Exit when:** the team can build, break and fix a small 2110 network in the lab.
+
+### Phase 1: IP at the edges (6 to 12 months)
+
+- Move audio first with AES67-compatible equipment. It teaches the same ideas (PTP, multicast, discovery) at a fraction of the bandwidth and risk.
+- Standardise field contribution on streaming protocols such as SRT for remote bureaus and events.
+- Use IP for non-critical paths such as monitoring feeds and multiviewers.
+- **Exit when:** IP audio and contribution run daily without incidents.
+
+### Phase 2: The first IP island (12 to 18 months)
+
+- Build one new studio or production control room natively on ST 2110, with gateways to the existing SDI core.
+- Install red and blue networks, redundant PTP, an NMOS-based broadcast controller and network monitoring.
+- Operate the island under real production pressure while the SDI core stays untouched.
+- **Exit when:** the island has run real shows for months with documented fault handling.
+
+### Phase 3: Core and master control (18 to 30 months)
+
+- Replace the SDI router with the IP fabric, moving sources across in planned windows.
+- Migrate master control and playout last, with an SDI or tested backup chain kept ready for rollback.
+- Update every MCR procedure, alarm and handover note for the new plant.
+- **Exit when:** the main and backup chains both run on IP and failover has been rehearsed.
+
+### Phase 4: Optimise and grow (ongoing)
+
+- Move more processing into software: graphics, multiviewers, playout.
+- Extend remote production between studios, bureaus and venues.
+- Prepare for UHD or higher frame rates where the business case exists.
+
+Many Bangladeshi channels will reasonably stay **hybrid** for years: SDI where it still works well, IP where it clearly helps, and gateways in between. That is not failing to modernise. It is good engineering under real constraints.
+
+## What the rest of the world teaches us
+
+We don't have to learn every lesson ourselves:
+
+- **BBC Cymru Wales** opened its Central Square headquarters in Cardiff in 2020, widely cited as one of the first large broadcast centres built around ST 2110. Its main lesson for others has been how much effort goes into integration, timing and testing compared with simply buying equipment.
+- **CBC/Radio-Canada** moved into its new Montreal headquarters around the same time, also designed as a large IP facility, showing that a public broadcaster can migrate a whole building while staying on air.
+- **The EBU** (European Broadcasting Union) publishes guidance for broadcasters, including its *Technology Pyramid for Media Nodes* (EBU Tech 3371), which helps buyers specify the minimum capabilities IP equipment should have.
+- **The JT-NM Tested programme** checks how well products from different vendors follow ST 2110, PTP and NMOS. Its reports are a useful filter before writing a tender.
+- **AMWA** maintains the NMOS specifications as open, free documents, so any engineer in Dhaka can read exactly what a controller is supposed to do.
+
+The common thread is consistent: successful broadcasters treated IP migration as a change in **people and processes** as much as in technology, and they kept a safe path to air throughout.
+
+## Where a Bangladeshi engineer should start
+
+1. **Learn networking properly.** Multicast and IGMP are the heart of ST 2110. Our ISP and telecom sector is full of people who can teach this.
+2. **Understand PTP.** Most IP plant problems eventually lead back to timing.
+3. **Practise with audio.** AES67 equipment is affordable and teaches the same concepts.
+4. **Read the standards summaries.** SMPTE ST 2110 parts, ST 2059 and NMOS IS-04/IS-05. Know what each does.
+5. **Bring the MCR mindset with you.** Signal paths, redundancy, checklists and rehearsed failover matter even more on IP.
+
+The coaxial cable on the desk is going away, slowly. The job isn't. It is still about getting a clean picture from one place to another, on time, without the viewer ever noticing, whether that viewer is in Dhaka, in a district town, or watching a Bangladeshi channel on a phone halfway around the world.
+
+## Summary
+
+- Most Bangladeshi channels still run on SDI, and that's fine for now.
+- ST 2110 sends video, audio and data as separate IP streams.
+- Settle timing, networking and skills before buying.
+- Move in phases: edges first, the on-air core last.
+- Learn from others and start building IP skills now.
+
+![Cheat sheet: Moving from SDI to IP Workflows.](/blog/media/design/sdi-to-ip-st-2110-cheat.svg "Save this cheat sheet.")
+
+---
+
+## Brand Identity Is More Than a Logo: A Practical Process for Small Organisations
+
+URL: https://abdullah-al-faahim.github.io/blog/brand-identity-process/  
+Published: 2026-09-26  
+Topic: Brand identity  
+Author: Abdullah Al Fahim
+
+When a small organisation asks for "a logo", they almost always need more than one. They need a way to look consistent across a Facebook page, a banner at an event, a business card and a pitch deck, usually made by different people with different tools.
+
+That's what a brand identity is: not a single mark, but a system that lets anyone produce something that clearly belongs to the same organisation. Over the years I've designed identities for youth organisations, tech communities, fashion labels and retailers. This is the process I use, scaled for teams that don't have a marketing department.
+
+![Pages of a sketchbook filled with logo ideas.](/blog/media/photos/brand-identity-process.webp "Good identities start on paper, after the right questions.")
+
+<p class="credit">Photo: <a href="https://stocksnap.io/photo/designer-logo-GW7VC9EJ0X">Designer Logo</a> by <a href="https://www.messalaciulla.com">Messala Ciulla</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via StockSnap.</p>
+
+## 1. Start with questions, not sketches
+
+![Diagram: A practical brand identity process.](/blog/media/design/brand-identity-process-1.svg "A practical brand identity process.")
+
+The most expensive mistake in branding is designing before you understand the problem. Before I open Illustrator, I want answers to a short list of questions:
+
+- **Who is this for?** Not "everyone". The two or three groups whose opinion really matters.
+- **What should they feel?** Three or four words, such as "trustworthy, modern, local", work better than a paragraph.
+- **What makes you different?** If you swapped your name with a competitor's, what would be wrong?
+- **Where will the brand live?** Social media, signage, packaging, uniforms, an app? This decides which formats matter most.
+- **What exists already?** Old logos, colours people already associate with you, things the team loves or hates.
+
+I write the answers up as a one-page brief and get the client to agree to it. Later, when opinions clash, the brief is the referee.
+
+## 2. Research the space
+
+Next I look at the people the brand will stand next to: competitors, similar organisations, and the visual habits of the sector. If every education initiative uses blue and a graduation cap, a new one can either fit the category deliberately or stand out deliberately. Both are valid, as long as the choice is conscious.
+
+I collect references into a single board and mark what to avoid as clearly as what to aim for. Clients often find the "avoid" list more useful.
+
+## 3. Concept before polish
+
+I sketch broadly before committing to anything. A good logo usually comes from one clear idea: a letterform, a symbol tied to what the organisation does, or a shape that captures its personality.
+
+I usually present **two or three distinct directions**, not ten variations of the same one. Each direction gets a short rationale explaining the idea behind it. Clients choose better when they're comparing ideas rather than shades of the same shape.
+
+## 4. Build the mark properly
+
+Once a direction is chosen, the craft begins:
+
+- **Construction.** I rebuild the mark on a grid so curves, angles and spacing are consistent. Construction grids aren't decoration; they make the mark feel intentional and easier to redraw.
+- **Small sizes.** The logo must work as a 32-pixel favicon and a social profile picture, so I test it tiny early and simplify details that disappear.
+- **One colour.** It must work in solid black, solid white and a single brand colour, for stamps, embroidery, engraving and photocopies.
+- **Variations.** A full lockup with the name, a compact version, and an icon-only mark for tight spaces.
+
+## 5. Colour and type, chosen as a system
+
+A logo alone doesn't make an identity. Colour and typography do most of the everyday work.
+
+**Colour.** I pick a primary colour, a supporting palette and usually one accent. Then I check contrast so text stays readable (WCAG's 4.5:1 for normal text is a good baseline), and I define exact values for screen (HEX and RGB) and print (CMYK, and Pantone where it matters). Print colours can look very different from screen colours, so I always check a printed proof when the budget allows. I describe how I build a colour scale in more detail in [Building a Personal Design System from One Colour](/blog/design-system-from-one-colour/).
+
+**Typography.** I choose one or two typefaces with clear roles: one for headlines, one for body text. For organisations in Bangladesh, the Bangla typeface needs as much attention as the English one, and the two have to feel like they belong together. I wrote about that in [Designing Bilingual Brands](/blog/designing-bilingual-brands/).
+
+## 6. Show it in use
+
+A logo on a white artboard tells you almost nothing. Before handover, I show the identity applied to the places it will actually live:
+
+- social media post templates and profile images
+- an event banner or standee
+- business cards, letterheads and envelopes
+- a presentation title slide
+- merchandise like T-shirts, if the organisation uses them
+
+Mock-ups catch real problems: a tagline too long for a banner, a colour that vibrates on screen, a logo that disappears on a busy photo.
+
+## 7. Write guidelines people will read
+
+Brand guidelines fail when they're 60 pages nobody opens. For small organisations, I aim for something short and practical:
+
+- **The logo:** versions, minimum size, clear space, and a page of "don'ts" (no stretching, no recolouring, no drop shadows).
+- **Colours:** exact values for screen and print, with examples of good combinations.
+- **Typography:** which typefaces to use for what, with sizes for common formats.
+- **Templates:** ready-to-edit files for the things the team makes most often.
+
+Templates matter more than rules. A volunteer with ten minutes before an event will use a ready social post template; they won't read a rulebook.
+
+## 8. Hand over files that work
+
+The final package should let the client work without coming back to me for every small job:
+
+- logos in SVG, PDF and high-resolution PNG, in full colour, black and white
+- colour values in one easy-to-copy document
+- font names and where to get them
+- editable templates (Figma, Illustrator, PowerPoint or Canva, depending on what the team uses)
+- the guidelines as a PDF
+
+I organise them in clearly named folders. "Logo_final_FINAL2.png" has no place in a brand handover.
+
+## Common mistakes I see
+
+- **Starting with "make it pop".** Without a brief, feedback becomes personal taste.
+- **Too many colours.** Most small brands need one main colour, one or two supporting colours and neutrals.
+- **A logo that only works big.** If it fails at profile-picture size, it fails where most people will see it.
+- **No templates.** Without them, every new post becomes a fresh design, and the brand drifts within months.
+- **Ignoring the second language.** A beautiful English wordmark paired with a default Bangla font looks unfinished.
+
+## Brand is what people do with it
+
+The identity I hand over is only the beginning. A brand becomes real when the team uses it consistently, week after week, on every post and every banner. My job is to make that easy: a clear idea, a solid system, and tools simple enough that people actually use them.
+
+## Summary
+
+- Start with questions and a clear brief, not sketches.
+- Research the space before drawing concepts.
+- Choose a concept before polishing it.
+- Build colour and type as a system, and show it in real use.
+- Hand over readable guidelines and files that work.
+
+![Cheat sheet: Brand Identity Is More Than a Logo.](/blog/media/design/brand-identity-process-cheat.svg "Save this cheat sheet.")
+
+---
+
+## Design Theory You Can Use Tomorrow: Gestalt, Hierarchy and Simple Research
+
+URL: https://abdullah-al-faahim.github.io/blog/design-theory-you-can-use/  
+Published: 2026-09-18  
+Topic: Design theory & research  
+Author: Abdullah Al Fahim
+
+There's a gap between design theory as it's taught and design as it's practised. Theory can feel abstract: lists of principles, laws named after psychologists, diagrams of eyes scanning pages. Practice is a deadline and a client asking why the poster "doesn't feel right".
+
+The good news is that a small amount of theory goes a long way. These are the principles and research methods I actually reach for, with examples of how each one changes a real design.
+
+![A bold vintage poster with a pipe illustration and hand lettering.](/blog/media/photos/design-theory-you-can-use.webp "Strong posters use grouping and hierarchy to guide the eye.")
+
+<p class="credit">Photo: <a href="https://www.rawpixel.com/image/8649298/image-art-vintage-public-domain">Seymour Chwast lights Tyler! design</a> by libraryofcongress, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via rawpixel.</p>
+
+## Gestalt: how people group what they see
+
+![Diagram: Theory you can use tomorrow.](/blog/media/design/design-theory-you-can-use-1.svg "Theory you can use tomorrow.")
+
+Gestalt psychology describes how our brains organise visual information into groups and wholes. You don't need to memorise every principle, but five of them explain most layout problems.
+
+### Proximity
+
+Things that are close together are seen as related. This is the single most useful principle in layout. If a caption is the same distance from the image above it and the paragraph below it, readers can't tell which one it belongs to. Tighten the space to what it belongs to, loosen the space to everything else.
+
+**In practice:** on event posters, group the date, time and venue tightly into one block, separated clearly from the speaker names. People will read it as "the details" at a glance.
+
+### Similarity
+
+Things that look alike are seen as the same kind of thing. Consistent colour, shape or style signals a category. That's why all buttons in a system should look like buttons, and why a link styled differently on one page confuses people.
+
+### Common region
+
+Things inside the same boundary, such as a card, a box or a background colour, are seen as a group, even if they're not especially close. Cards work because of common region.
+
+### Closure and continuity
+
+We complete incomplete shapes and follow smooth lines. Logo designers use closure all the time, letting the viewer fill in a missing piece of a letter or symbol. Continuity explains why aligned edges feel calm: the eye travels along them.
+
+### Figure and ground
+
+We separate what's in front (figure) from what's behind (ground). When figure and ground compete, as with text over a busy photo, the design feels noisy. A darkened overlay, a solid band or simply a calmer image restores the separation.
+
+## Visual hierarchy: deciding what's seen first
+
+Every layout answers the question "what should people notice first, second and third?" If you don't answer it deliberately, the layout answers it for you, usually badly.
+
+The tools of hierarchy are simple:
+
+- **Size:** bigger is seen first.
+- **Contrast:** high-contrast elements stand out against low-contrast ones.
+- **Colour:** a single accent colour draws the eye. This is why my own design system allows only one highlight colour, [Acid Lime](/blog/design-system-from-one-colour/), and uses it sparingly.
+- **Position:** in left-to-right languages, people tend to start top-left.
+- **Space:** an element surrounded by empty space feels important.
+
+**A quick check:** blur your design (or step back and squint). The shapes you still see are your hierarchy. If the most important message isn't among them, the design needs work.
+
+## A few useful "laws"
+
+Two more principles are worth knowing because they turn directly into design decisions.
+
+**Fitts's law** says the time to reach a target depends on its size and distance. On a phone, that means primary actions should be large and easy to reach with a thumb. It's why the main buttons on this site stretch to full width on phones.
+
+**Hick's law** says decision time grows with the number of choices. Long menus and crowded dashboards slow people down. Grouping related items, for example putting experience, awards and tools under one "About" menu, keeps the main navigation short and easy to scan.
+
+These aren't rules to obey blindly, but they're good arguments when you need to explain a design decision to a client.
+
+## Research doesn't have to be expensive
+
+Theory tells you how people *tend* to see things. Research tells you how *your* audience actually behaves. Many designers skip research because it sounds slow and costly. Most of the useful methods are neither.
+
+### The five-second test
+
+Show someone a design for five seconds, then hide it and ask: what was this about? What do you remember? Who is it for? It's a fast way to check whether a poster, landing page or social post communicates its main message. If people can't tell you the event name after five seconds, the hierarchy needs fixing.
+
+### Quick usability tests
+
+Give a few people a realistic task ("record a 500 taka expense from bKash") and watch them try it without helping. Jakob Nielsen's well-known argument is that testing with around five users reveals most of the major usability problems in a design, and that several small rounds beat one big study. In my experience, the first two or three people already reveal the problems that matter most.
+
+**Tips that make it work:**
+
+- Ask people to think out loud.
+- Don't explain the interface; watch where they hesitate.
+- Write down what they *do*, not just what they *say*.
+
+### Surveys, used carefully
+
+Surveys are good for understanding patterns across many people and bad for understanding *why*. I co-authored a study on public reactions to the November 2025 earthquake in Bangladesh, based on 110 survey responses, and the experience taught me how much the wording of each question shapes the answers. Keep questions neutral, avoid asking two things at once, and pilot the survey with a few people before sending it widely.
+
+### Interviews
+
+Short conversations with real users, focused on their past behaviour ("tell me about the last time you tracked your spending") rather than hypotheticals ("would you use an app that…?"), reveal motivations and context that no survey will.
+
+### Card sorting
+
+For navigation and information architecture, give people cards with your content topics and ask them to group them in ways that make sense. It shows you how your audience expects things to be organised, which is often different from how your team thinks about them.
+
+## Putting theory and research together
+
+A typical project for me looks like this:
+
+1. **Brief and questions** to understand what success means.
+2. **Quick research** such as a few interviews, a look at competitors, maybe a short survey.
+3. **Design using principles:** Gestalt for grouping, hierarchy for emphasis, Fitts and Hick for interaction.
+4. **Test early** with a five-second test or a small usability session on a rough version.
+5. **Revise and test again** before polishing.
+
+Theory gives you a starting point that's probably right. Research tells you where it's wrong for these particular people. Together, they turn "I think this looks good" into "this works, and here's why".
+
+## Summary
+
+- Gestalt explains how people group what they see.
+- Decide what should be seen first, second and third.
+- Hick's and Fitts's laws help make choices quick and targets easy.
+- Five quick user tests find most usability problems.
+- Combine theory with simple research before big decisions.
+
+![Cheat sheet: Design Theory You Can Use Tomorrow.](/blog/media/design/design-theory-you-can-use-cheat.svg "Save this cheat sheet.")
+
+## Further reading
+
+If you want to go deeper, the classic starting points are Don Norman's *The Design of Everyday Things* for how people understand objects and interfaces, and Steve Krug's *Don't Make Me Think* for practical, low-cost usability testing. Both are short, readable and still relevant decades after they were first published.
+
+---
+
+## Building Offline-First Apps for Bangladesh
+
+URL: https://abdullah-al-faahim.github.io/blog/offline-first-apps-bangladesh/  
+Published: 2026-09-10  
+Topic: App development  
+Author: Abdullah Al Fahim
+
+Every app I've released has the same three rules: it works without the internet, the user's data stays on their phone, and it treats Bangla as a first-class language rather than a translation added at the end.
+
+None of these rules came from a design principle I read somewhere. They came from watching how people around me actually use their phones. This post explains why I build this way and what it changes in the design and the code, using two of my apps as examples: **Taka**, a personal finance manager, and **TaskBell**, a task manager with alarm reminders.
+
+![A hand holding a smartphone.](/blog/media/photos/offline-first-apps-bangladesh.webp "Apps for Bangladesh should work well on any phone and any connection.")
+
+<p class="credit">Photo: <a href="https://stocksnap.io/photo/iphone-smartphone-ODN23L0AC9">Iphone Smartphone</a> by <a href="https://stocksnap.io/author/16808">Adrianna Calvo</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via StockSnap.</p>
+
+## Why offline-first
+
+![Diagram: Online-only vs offline-first.](/blog/media/design/offline-first-apps-bangladesh-1.svg "Online-only vs offline-first.")
+
+"Offline-first" means the app is designed to work fully without a network connection. Syncing or online features, if they exist at all, are extras on top of an app that already works.
+
+For many users in Bangladesh, that matters for practical reasons:
+
+- **Connectivity is uneven.** Mobile data can be slow or patchy outside city centres, inside buildings, or during busy times.
+- **Data costs money.** People are careful about what eats their data pack.
+- **Phones are shared and storage is tight.** Many users run budget Android phones with little free space, so a light app that doesn't download content constantly is easier to keep.
+- **Trust is low for apps that ask for accounts.** A money app that wants your phone number, email and a sign-up before you can record your first expense loses people at the first screen.
+
+An app that opens instantly, works in a basement and doesn't ask for an account removes all of those problems at once.
+
+## Privacy as a feature, not a policy page
+
+Both Taka and TaskBell keep data on the device. TaskBell goes further and doesn't request the internet permission at all, which means it physically can't send your tasks anywhere. There's no account, no ads and no analytics.
+
+This is a design decision as much as an engineering one. When an app records your savings, loans and bKash balance, or your private reminders and contacts, the safest data is data that never leaves the phone. It also makes the app much simpler to build and maintain. There's no server to pay for, no database to secure, and no breach to apologise for.
+
+The trade-off is that the user becomes responsible for their own backup. So backup has to be easy. In TaskBell, a single backup file is saved to a folder the user chooses, and restoring shows a preview of what's inside before anything is overwritten. In Taka, the same idea applies: the user owns the file and decides where it goes.
+
+## Designing for Bangla first
+
+Supporting Bangla is not just translating strings. It affects layout, typography and even the words you choose.
+
+- **Text length changes.** A button label that fits in English may wrap in Bangla, or the other way round. I design layouts that can grow instead of fixing widths to the English text.
+- **Script needs room.** Bangla letters have marks above and below the main line, and conjuncts can be tall. Line height that looks fine for English can clip Bangla.
+- **Numbers matter.** In a finance app, people expect to see Bangla digits (০১২৩…) when they choose Bangla, and amounts in the local grouping style. Taka handles amounts like ৳3,46,064.75 rather than forcing Western grouping.
+- **Words should be familiar.** Financial terms like DPS, Sanchayapatra and FDR are what people actually say. Using the everyday term is better than a literal translation nobody uses.
+
+I go deeper into setting Bangla and English together in [Designing Bilingual Brands](/blog/designing-bilingual-brands/).
+
+## Building for the local context
+
+Offline-first also means thinking about what people actually need to track. Taka isn't a generic budgeting app with a Bangladeshi flag on it. It handles cash, bKash, Nagad, bank accounts, DPS, Sanchayapatra, loans given and taken, and insurance, because that's what a household's money really looks like here.
+
+The lesson generalises: the more specific your app is to the people using it, the less it needs to explain itself.
+
+## The engineering choices that follow
+
+Once you commit to offline-first, several technical decisions become obvious.
+
+**The local database is the source of truth.** Everything the user sees comes from a database on the device. Screens read from it, actions write to it, and nothing waits on a network request.
+
+**Every write must be safe.** If the phone dies mid-save, the data must still be consistent. That means transactions for anything that touches more than one record, and careful migrations when the database structure changes between versions.
+
+**Migrations need testing.** Users can skip versions. A user going from version 0.2 to 0.9 has to land on the correct database schema without losing anything. I keep migrations small and test upgrades from older versions, not just fresh installs.
+
+**Background work has to respect the OS.** TaskBell's whole purpose is to ring at the right time, so it has to work with Android's alarm and battery rules rather than against them. That deserves its own post: [Making Alarms Reliable on Android](/blog/reliable-alarms-on-android/).
+
+**Updates still need a channel.** Without an app store or a server, users still need to find out about new versions. My apps are distributed as APKs from GitHub Releases, with a simple update check and a release page that explains what changed. TaskBell's site and Taka's site both live on this domain.
+
+## The tools
+
+I've used different stacks for different apps. Taka is built with Flutter, which made it practical to design a polished, consistent interface and handle Bangla and English from a single codebase. TaskBell is written in Kotlin as a native Android app, because alarms, notifications and lock-screen behaviour are deeply tied to Android itself, and native code gives the most control over them.
+
+The choice of framework matters less than the principles. If the app works offline, stores data locally and is built for the language and context of its users, the framework is just the way you get there.
+
+## What I'd tell someone starting out
+
+1. **Decide early what must work offline.** Usually the answer is "everything the user does every day".
+2. **Treat privacy as a product feature.** Fewer permissions and no account are selling points, so say so clearly.
+3. **Design for Bangla from the first sketch,** not after the English version is finished.
+4. **Make backup and restore boring and safe.** If users own their data, they need an easy way to protect it.
+5. **Test on cheap phones.** If it runs well on a budget device, it runs well everywhere.
+
+Building this way is slower at the start, but it produces apps that people can trust on the first day and keep using for years.
+
+## Summary
+
+- Design apps to work with no signal first.
+- Keep data on the device: privacy as a feature.
+- Design for Bangla first, not as a translation.
+- Respect budget phones, data packs and local habits.
+- Keep the engineering simple and the app light.
+
+![Cheat sheet: Building Offline-First Apps for Bangladesh.](/blog/media/design/offline-first-apps-bangladesh-cheat.svg "Save this cheat sheet.")
+
+---
+
+## Leading Volunteer Creative Teams: What Student Organisations Taught Me
+
+URL: https://abdullah-al-faahim.github.io/blog/leading-volunteer-creative-teams/  
+Published: 2026-09-02  
+Topic: Leadership  
+Author: Abdullah Al Fahim
+
+Leading a team of paid professionals is hard. Leading a team of volunteers is a different kind of hard. Nobody has to show up. Everyone has exams, jobs or family commitments that rightly come first. The only thing holding the team together is that people want to be there.
+
+Most of my leadership experience comes from exactly that setting. I led the branding and communication team at NUSDF Bangladesh (the National University Skill Development Forum), served as General Secretary of the IEEE ISTT Student Branch after two years as its graphic designer, founded the ISTT Photographic Society, and mentored a team at FarhanasBrainstation on an education initiative. These are the lessons that stuck.
+
+![Students working together on ideas around a table.](/blog/media/photos/leading-volunteer-creative-teams.webp "Student organisations are a real training ground for creative leadership.")
+
+<p class="credit">Photo: <a href="https://www.rawpixel.com/image/8809342/photo-image-paper-women-public-domain">Group students table studying. View</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via rawpixel.</p>
+
+## 1. Start with why the work matters
+
+![Diagram: Running a volunteer creative team.](/blog/media/design/leading-volunteer-creative-teams-1.svg "Running a volunteer creative team.")
+
+Volunteers don't stay for tasks; they stay for purpose. At NUSDF, our team of four produced the forum's brand communication and the visuals for five national skill development summits that reached more than 5,000 National University students across three divisions. When the team understood that a clear poster meant more students showed up to a session that might change their career, the late nights felt worth it.
+
+Whenever I take on a new team, the first conversation is not about deadlines. It's about who we're doing this for and what changes if we do it well.
+
+## 2. Make the work visible
+
+In volunteer teams, effort easily goes unseen. Someone spends a weekend on a set of social posts and nobody mentions it. That's how people quietly drift away.
+
+I make a habit of:
+
+- crediting the designer by name when work goes out
+- sharing results ("this post reached X students", "the hall was full") with the whole team
+- showing early drafts in group chats so progress feels collective
+
+Recognition costs nothing and is the main currency a volunteer leader has.
+
+## 3. Design systems are leadership tools
+
+One of the most effective things I did as a creative lead wasn't a design at all. It was building templates and simple brand rules so that anyone on the team could produce on-brand work quickly.
+
+When a summit needs speaker cards, schedules, countdown posts, certificates and banners, all in a week, you can't design each one from scratch. With templates, a new volunteer can produce a speaker card in twenty minutes that looks like it came from the same team as everything else. That's not just efficiency. It lets new people contribute confidently on their first day.
+
+I wrote about the thinking behind this in [Brand Identity Is More Than a Logo](/blog/brand-identity-process/) and [Building a Personal Design System from One Colour](/blog/design-system-from-one-colour/).
+
+## 4. Give clear briefs, then trust people
+
+The fastest way to frustrate a creative volunteer is a vague request followed by endless revisions. The fastest way to frustrate a leader is to receive work that misses the point.
+
+A good brief solves both. Mine usually fit in a few lines:
+
+- **What:** "Speaker announcement post, square, for Facebook and Instagram."
+- **Why:** "To get students to register for the Chattogram session."
+- **Must include:** name, title, photo, session time, registration link.
+- **Deadline:** with a clear first-draft date before the final one.
+
+Then I step back. People do their best work when they own it, not when someone is looking over their shoulder in Illustrator.
+
+## 5. Feedback that improves work without crushing people
+
+Volunteers are often students still learning. Feedback has to make the work better and make the person want to come back.
+
+What works for me:
+
+- **Start with the goal, not taste.** "The date is hard to find at a glance" is useful. "I don't like it" is not.
+- **Be specific.** Point to the exact element and suggest a direction.
+- **Limit the rounds.** Two rounds of feedback, then decide. Endless iteration kills morale.
+- **Explain the principle.** If I explain *why* proximity or hierarchy matters, the next design is better without my help.
+
+## 6. Plan backwards from the event
+
+Events have a deadline that doesn't move. When I coordinate event design, I plan backwards from the day:
+
+- **Event day:** banners, stage backdrop, live social posts.
+- **One week before:** schedule, speaker cards, reminder posts.
+- **Two to three weeks before:** announcement campaign and registration push.
+- **Four weeks before:** concept, key visual and templates locked.
+
+The key visual and templates come first because everything else depends on them. Teams that design the backdrop the night before the event are teams that skipped this step.
+
+## 7. Protect people from burnout
+
+Volunteer teams burn out in predictable ways: the same two reliable people get every urgent task, and eventually they stop answering messages.
+
+I try to spread work deliberately, pair experienced members with newer ones, and say no to requests that arrive too late to do well. A leader who says yes to everything is quietly volunteering their team's weekends.
+
+## 8. Build the next leaders
+
+The best measure of a volunteer leader is what happens after they leave. Student organisations turn over every year. If all the knowledge lives in one person's head, the team starts from zero every time.
+
+So I document: how we brief, where templates live, which printers are reliable, what went wrong last time. And I give newer members real responsibility early, so that when it's their turn to lead, they've already done it once with support.
+
+## What carries over to paid work
+
+These lessons turned out to be just as useful outside student organisations. In my work at Channel i, clear written procedures and calm handovers matter as much as they did at any summit; I wrote about that in [Inside a Master Control Room](/blog/inside-a-master-control-room/). When I run training sessions, such as an MS Office 365 and Google Workspace session for a leadership fellowship cohort, the same principles apply: start with why, keep it practical, and give people something they can use the next day.
+
+Leadership in volunteer teams strips away formal authority. What's left is clarity, recognition and trust. In my experience, those are what make any team work.
+
+## Summary
+
+- Start with why the work matters.
+- Make work visible on one shared board.
+- Use a design system as a leadership tool.
+- Give clear briefs, then trust people.
+- Plan backwards from the event, prevent burnout and build the next leaders.
+
+![Cheat sheet: Leading Volunteer Creative Teams.](/blog/media/design/leading-volunteer-creative-teams-cheat.svg "Save this cheat sheet.")
+

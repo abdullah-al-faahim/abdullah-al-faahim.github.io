@@ -1,0 +1,205 @@
+[
+ {
+  "name": "Channel i",
+  "src": "clients/_web/channel-i.svg",
+  "w": 110,
+  "h": 47,
+  "dark": false
+ },
+ {
+  "name": "Laptop World BD",
+  "src": "clients/_web/laptop-world-bd.webp",
+  "w": 93,
+  "h": 56,
+  "dark": false
+ },
+ {
+  "name": "FarhanasBrainstation",
+  "src": "clients/_web/farhanasbrainstation.webp",
+  "w": 83,
+  "h": 63,
+  "dark": false
+ },
+ {
+  "name": "AI Crafters Bangladesh",
+  "src": "clients/_web/ai-crafters-bangladesh.svg",
+  "w": 106,
+  "h": 49,
+  "dark": false
+ },
+ {
+  "name": "Amader Sui Suta",
+  "src": "clients/_web/amader-sui-suta.webp",
+  "w": 66,
+  "h": 64,
+  "dark": false
+ },
+ {
+  "name": "Ankur 2019",
+  "src": "clients/_web/ankur-2019.webp",
+  "w": 66,
+  "h": 64,
+  "dark": false
+ },
+ {
+  "name": "Buy Now",
+  "src": "clients/_web/buy-now.webp",
+  "w": 47,
+  "h": 64,
+  "dark": false
+ },
+ {
+  "name": "BYLC",
+  "src": "clients/_web/bylc.webp",
+  "w": 142,
+  "h": 37,
+  "dark": false
+ },
+ {
+  "name": "Drik Gallery",
+  "src": "clients/_web/drik-gallery.webp",
+  "w": 113,
+  "h": 46,
+  "dark": false
+ },
+ {
+  "name": "EGR Shop",
+  "src": "clients/_web/egr-shop.webp",
+  "w": 130,
+  "h": 40,
+  "dark": false
+ },
+ {
+  "name": "English Carnival",
+  "src": "clients/_web/english-carnival.webp",
+  "w": 116,
+  "h": 45,
+  "dark": false
+ },
+ {
+  "name": "Envoy Group",
+  "src": "clients/_web/envoy-group.webp",
+  "w": 88,
+  "h": 59,
+  "dark": false
+ },
+ {
+  "name": "Hameem Group",
+  "src": "clients/_web/hameem-group.webp",
+  "w": 94,
+  "h": 56,
+  "dark": false
+ },
+ {
+  "name": "Impress Telefilm Ltd",
+  "src": "clients/_web/impress-telefilm-ltd.webp",
+  "w": 144,
+  "h": 34,
+  "dark": false
+ },
+ {
+  "name": "InstaPack",
+  "src": "clients/_web/instapack.webp",
+  "w": 121,
+  "h": 43,
+  "dark": false
+ },
+ {
+  "name": "ISTT",
+  "src": "clients/_web/istt.webp",
+  "w": 64,
+  "h": 64,
+  "dark": false
+ },
+ {
+  "name": "ISTT Innovation Hub",
+  "src": "clients/_web/istt-innovation-hub.webp",
+  "w": 88,
+  "h": 59,
+  "dark": false
+ },
+ {
+  "name": "Kumu's Elegance",
+  "src": "clients/_web/kumu-s-elegance.webp",
+  "w": 121,
+  "h": 43,
+  "dark": false
+ },
+ {
+  "name": "LapX",
+  "src": "clients/_web/lapx.webp",
+  "w": 112,
+  "h": 46,
+  "dark": false
+ },
+ {
+  "name": "Learn to Lead",
+  "src": "clients/_web/learn-to-lead.webp",
+  "w": 121,
+  "h": 43,
+  "dark": false
+ },
+ {
+  "name": "Legacy of ISTT",
+  "src": "clients/_web/legacy-of-istt.webp",
+  "w": 53,
+  "h": 64,
+  "dark": false
+ },
+ {
+  "name": "NUSDF Bangladesh",
+  "src": "clients/_web/nusdf-bangladesh.webp",
+  "w": 122,
+  "h": 43,
+  "dark": false
+ },
+ {
+  "name": "Ome Hair Fashion",
+  "src": "clients/_web/ome-hair-fashion.webp",
+  "w": 76,
+  "h": 64,
+  "dark": false
+ },
+ {
+  "name": "POJ Foundation",
+  "src": "clients/_web/poj-foundation.webp",
+  "w": 82,
+  "h": 63,
+  "dark": false
+ },
+ {
+  "name": "Suvonil LCC",
+  "src": "clients/_web/suvonil-lcc.webp",
+  "w": 76,
+  "h": 64,
+  "dark": false
+ },
+ {
+  "name": "The Aesthetic Vagabonds",
+  "src": "clients/_web/the-aesthetic-vagabonds.webp",
+  "w": 92,
+  "h": 57,
+  "dark": false
+ },
+ {
+  "name": "Utopia Design Studio",
+  "src": "clients/_web/utopia-design-studio.webp",
+  "w": 131,
+  "h": 40,
+  "dark": false
+ },
+ {
+  "name": "Utopia SoftTech",
+  "src": "clients/_web/utopia-softtech-white.webp",
+  "w": 109,
+  "h": 48,
+  "dark": true
+ },
+ {
+  "name": "Youth Opportunities",
+  "src": "clients/_web/youth-opportunities.webp",
+  "w": 131,
+  "h": 40,
+  "dark": false
+ }
+]
