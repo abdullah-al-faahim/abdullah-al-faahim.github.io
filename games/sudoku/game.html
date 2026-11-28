@@ -1,0 +1,86 @@
+    <div class="sd" id="sudoku">
+      <div class="sd-head">
+        <div>
+          <a class="sd-back" href="/games/">&#8592; All games</a>
+          <h1>Sudoku</h1>
+        </div>
+        <div class="sd-levels" role="radiogroup" aria-label="Level">
+          <button type="button" role="radio" data-pick="easy" aria-checked="true">Easy</button>
+          <button type="button" role="radio" data-pick="medium" aria-checked="false">Medium</button>
+          <button type="button" role="radio" data-pick="hard" aria-checked="false">Hard</button>
+        </div>
+      </div>
+
+      <div class="sd-play">
+        <div class="sd-left">
+          <div class="sd-stats">
+            <span>Level <b data-level>Easy</b></span>
+            <span>Mistakes <b data-mistakes>0</b></span>
+            <span>Time <b data-time>00:00</b></span>
+          </div>
+          <div class="sd-wrap">
+            <div class="sd-board" role="grid" aria-label="Sudoku board"></div>
+            <p class="sd-busy" aria-live="polite">Making a new puzzle&#8230;</p>
+          </div>
+        </div>
+
+        <div class="sd-side">
+          <div class="sd-tools">
+            <button type="button" data-act="undo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/></svg>Undo</button>
+            <button type="button" data-act="erase"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 21-4.3-4.3a1 1 0 0 1 0-1.4l10-10a1 1 0 0 1 1.4 0l5.6 5.6a1 1 0 0 1 0 1.4L11 21"/><path d="M22 21H7M5 11l9 9"/></svg>Erase</button>
+            <button type="button" data-act="notes" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>Notes <em>Off</em></button>
+            <button type="button" data-act="hint"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.3h6c0-1 .4-1.8 1-2.3A7 7 0 0 0 12 2Z"/></svg>Hint</button>
+          </div>
+          <div class="sd-pad" aria-label="Numbers"></div>
+          <button type="button" class="sd-new" data-act="new">New game</button>
+          <p class="sd-keys">Keyboard: arrows to move, 1&#8211;9 to fill, Backspace to erase, N for notes, Ctrl+Z to undo.</p>
+        </div>
+      </div>
+
+      <section class="sd-lb" aria-labelledby="sdLbT">
+        <div class="sd-lb-head">
+          <div>
+            <h2 id="sdLbT">Leaderboard</h2>
+            <p class="sd-lb-note" data-lb-note></p>
+          </div>
+          <div class="sd-levels small" role="tablist" aria-label="Leaderboard level">
+            <button type="button" role="tab" data-lb="easy" aria-selected="true">Easy</button>
+            <button type="button" role="tab" data-lb="medium" aria-selected="false">Medium</button>
+            <button type="button" role="tab" data-lb="hard" aria-selected="false">Hard</button>
+          </div>
+        </div>
+        <p class="sd-me">You play as <b data-player>&#8230;</b><span data-myrank></span></p>
+        <div class="sd-table-wrap">
+          <table class="sd-table">
+            <thead><tr><th>#</th><th>Player</th><th>Score</th><th>Time</th><th class="opt">Mistakes</th><th class="opt">Hints</th><th class="opt">Date</th></tr></thead>
+            <tbody data-lb-rows><tr><td colspan="7" class="sd-lb-empty">Loading&#8230;</td></tr></tbody>
+          </table>
+        </div>
+        <p class="sd-lb-how">Ranked by score: your time, plus 15 seconds for each mistake and 60 seconds for each hint. Your best game on each level counts. Your player key is made the first time you play and stays on this device.</p>
+      </section>
+    </div>
+
+    <dialog class="sd-dlg" id="sdDone" aria-labelledby="sdDoneT">
+      <form method="dialog">
+        <span class="sd-trophy" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4h8v5a4 4 0 0 1-8 0z"/><path d="M8 6H4v1a4 4 0 0 0 4 4M16 6h4v1a4 4 0 0 1-4 4"/><path d="M12 13v4M8 20h8M10 17h4"/></svg></span>
+        <h2 id="sdDoneT">Solved!</h2>
+        <p data-sum></p>
+        <p class="sd-best" data-best></p>
+        <p class="sd-rank" data-rank></p>
+        <div class="sd-dlg-acts">
+          <button value="close" class="ghost">Look at the board</button>
+          <button value="again">Play again</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog class="sd-dlg" id="sdNew" aria-labelledby="sdNewT">
+      <form method="dialog">
+        <h2 id="sdNewT">Start a new game?</h2>
+        <p>This starts a new <b data-lvl>easy</b> puzzle. Your current game will be lost.</p>
+        <div class="sd-dlg-acts">
+          <button value="no" class="ghost">Keep playing</button>
+          <button value="yes">Start new game</button>
+        </div>
+      </form>
+    </dialog>

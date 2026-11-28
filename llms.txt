@@ -1,0 +1,103 @@
+# Abdullah Al Fahim (Fahim Rifat)
+
+> Abdullah Al Fahim, also known as Fahim Rifat, is a creative technologist in Dhaka, Bangladesh. He works where design meets engineering: broadcast engineering at Channel i, brand identity design through his studio Utopia SoftTech, and Android and web apps such as TaskBell and Taka.
+
+Official website: https://abdullah-al-faahim.github.io/
+
+## Facts
+
+- Name: Abdullah Al Fahim. Also known as: Fahim Rifat, Abdullah Al Faahim.
+- Based in: Dhaka, Bangladesh.
+- Current role: Broadcast Engineer, Transmission, at Channel i (Impress Telefilm Ltd.), since September 2024. Runs Master Control Room transmission, encoding and live contribution: 800+ live broadcasts.
+- Founder and Creative Director, Utopia SoftTech (since 2018): brand identity, presentations, apps and tools.
+- Previously: Executive, IT & System Support (MIS), Laptop World BD (2023–2024).
+- Education: BSc in Electronics & Communication Engineering, ISTT, National University, Bangladesh (2018–2023).
+- Leadership: Head of Branding & Communication, NUSDF (2023–24); General Secretary, IEEE ISTT Student Branch (2020–21); IEEEXtreme 15.0 Country Ambassador (2021).
+- Skills: broadcast engineering, brand identity and graphic design, design systems, Android and web app development.
+
+## Main pages
+
+- [Home and portfolio](https://abdullah-al-faahim.github.io/): about, design projects, apps, experience, booking.
+- [Blog](https://abdullah-al-faahim.github.io/blog/): articles on broadcast technology, design, colour, design systems and leadership.
+- [CV (PDF)](https://abdullah-al-faahim.github.io/cv/Abdullah%20Al%20Fahim_CV.pdf)
+- [Book a meeting](https://cal.com/meet-fahim)
+
+## Profiles
+
+- [LinkedIn](https://linkedin.com/in/abdullah-al-fahim)
+- [GitHub](https://github.com/abdullah-al-faahim)
+- [Behance](https://behance.net/hire-fahim)
+- [Dribbble](https://dribbble.com/hire-fahim)
+
+<!-- ARTICLES:START -->
+
+## Articles by topic
+
+### [Broadcast engineering and TV operations](https://abdullah-al-faahim.github.io/blog/topic/broadcast/)
+
+- [Monitoring and Alarm Strategy for Broadcast: Which Signals Matter, Cutting Alert Fatigue, and What to Put on the MCR Wall](https://abdullah-al-faahim.github.io/blog/broadcast-monitoring-alarm-strategy/) (2026-11-23): Which broadcast signals to monitor, how to cut alarm fatigue in the master control room, and what belongs on the MCR multiviewer wall.
+- [Designing Redundancy for 24/7 Transmission: N+1 vs 2N, Failover Testing, and When Each Is Worth the Cost](https://abdullah-al-faahim.github.io/blog/redundancy-n-plus-1-vs-2n-broadcast/) (2026-11-16): N+1 vs 2N redundancy for TV playout and transmission: where each fits, how to test failover properly, and when the extra cost of 2N is worth it.
+- [Running an MCR Like a High-Reliability Operation: Shift Handovers, SOPs and Checklists That Prevent On-Air Errors](https://abdullah-al-faahim.github.io/blog/mcr-high-reliability-operation/) (2026-11-07): Run a broadcast master control room like a high-reliability operation: shift handovers, SOPs, checklists and a no-blame culture that prevent on-air errors.
+- [Inside a Master Control Room: How a TV Channel Stays on Air 24/7](https://abdullah-al-faahim.github.io/blog/inside-a-master-control-room/) (2026-11-04): How a TV master control room keeps a channel on air 24/7: playout, monitoring, transmission and the daily habits that prevent dead air, from Channel i's MCR.
+- [Moving from SDI to IP Workflows (SMPTE ST 2110): Planning, Risks and a Phased Migration Roadmap for Bangladesh](https://abdullah-al-faahim.github.io/blog/sdi-to-ip-st-2110/) (2026-10-04): Planning a move from SDI to SMPTE ST 2110 IP workflows: what changes, PTP timing, network design, risks for Bangladeshi TV channels and a phased roadmap.
+
+### [App development](https://abdullah-al-faahim.github.io/blog/topic/apps/)
+
+- [Making Alarms Reliable on Android: Lessons from Building TaskBell](https://abdullah-al-faahim.github.io/blog/reliable-alarms-on-android/) (2026-10-18): Exact alarms, Doze, battery savers, reboots and time zones: what it takes for a reminder app to ring at the right second, every time.
+- [Building Offline-First Apps for Bangladesh](https://abdullah-al-faahim.github.io/blog/offline-first-apps-bangladesh/) (2026-09-10): Why my apps work without the internet, keep data on the phone and speak Bangla first, and the design and engineering choices that follow.
+
+### [Design systems](https://abdullah-al-faahim.github.io/blog/topic/design-systems/)
+
+- [Build a Personal Design System in a Weekend: Palette, Type Scale, Spacing, 5 Components and a README](https://abdullah-al-faahim.github.io/blog/personal-design-system-weekend/) (2026-11-21): You don't need a team to have a design system. Here is a two-day plan to build a small, practical system for your own portfolio, posts and documents, using my GitHub profile system as the case study.
+- [Building a Personal Design System from One Colour](https://abdullah-al-faahim.github.io/blog/design-system-from-one-colour/) (2026-10-24): How one violet, one highlight colour and two typefaces became the rules behind my website, GitHub profile, CV and apps.
+
+### [Brand identity](https://abdullah-al-faahim.github.io/blog/topic/brand/)
+
+- [Logos With a Second Meaning: FedEx, Amazon, Baskin-Robbins, Toblerone and Why Hidden Symbols Work](https://abdullah-al-faahim.github.io/blog/logos-with-a-second-meaning/) (2026-11-14): An arrow between two letters. A smile that points from A to Z. A number hidden in initials. Why the best hidden symbols in logos work, and how to use negative space in your own designs without making a puzzle.
+- [Designing Bilingual Brands: Setting Bangla and English Together](https://abdullah-al-faahim.github.io/blog/designing-bilingual-brands/) (2026-10-11): Why Bangla and English type rarely match out of the box, and the practical rules I use to make them feel like one brand.
+- [Brand Identity Is More Than a Logo: A Practical Process for Small Organisations](https://abdullah-al-faahim.github.io/blog/brand-identity-process/) (2026-09-26): The step-by-step process I use with startups, youth organisations and shops to go from a vague brief to an identity people can actually use.
+
+### [Design theory and research](https://abdullah-al-faahim.github.io/blog/topic/research/)
+
+- [Gestalt in the Wild: 7 Laws Hiding in Every Logo You Know](https://abdullah-al-faahim.github.io/blog/gestalt-laws-in-logos/) (2026-11-28): You already see proximity, closure and figure/ground every day. You just don't have the names. Seven Gestalt laws, one example each, and a 10-second self-test to train your eye.
+- [Design Theory You Can Use Tomorrow: Gestalt, Hierarchy and Simple Research](https://abdullah-al-faahim.github.io/blog/design-theory-you-can-use/) (2026-09-18): The handful of design principles and research methods I actually use every week, explained without the jargon.
+
+### [Leadership in high-pressure teams](https://abdullah-al-faahim.github.io/blog/topic/leadership/)
+
+- [Running a Creative and Branding Team of Volunteers: What Worked](https://abdullah-al-faahim.github.io/blog/volunteer-branding-team-what-worked/) (2026-11-26): Five national skill development summits, thousands of students, and a branding team made entirely of volunteers. Here are the practical systems that let NUSDF's creative team ship consistent work on time.
+- [How to Lead Volunteers When You Can't Pay or Promote Them](https://abdullah-al-faahim.github.io/blog/lead-volunteers-without-pay-or-promotion/) (2026-11-24): Volunteers can leave at any moment, and you have no salary, title or bonus to hold them. Leading them well means understanding what they actually get from the work, and making sure they get it.
+- [Blameless Post-Mortems in a Broadcast Engineering Team](https://abdullah-al-faahim.github.io/blog/blameless-post-mortems-broadcast-engineering/) (2026-11-22): How to run blameless post-mortems after on-air incidents so broadcast engineering teams find root causes, share lessons and stop the same failure twice.
+- [Writing the Runbook So Anyone Can Lead at 3 AM](https://abdullah-al-faahim.github.io/blog/runbook-anyone-can-lead-at-3am/) (2026-11-19): How to write runbooks and SOPs for broadcast operations that any operator can follow at 3 AM, so the channel stays on air when the expert is not there.
+- ["Dead Air Is Not an Option": Deciding With 30 Seconds to Act](https://abdullah-al-faahim.github.io/blog/dead-air-30-second-decisions/) (2026-11-17): What happens in the first 30 seconds of dead air in a TV master control room, and how to make calm, correct decisions under live broadcast pressure.
+- [The Handover: How Shift-Change Communication Prevents Outages](https://abdullah-al-faahim.github.io/blog/shift-handover-prevents-outages/) (2026-11-15): How a good shift handover in a TV master control room prevents outages: what to pass on, how to write it down and why it is a core broadcast leadership habit.
+- [What a 24/7 Control Room Teaches About Calm Leadership](https://abdullah-al-faahim.github.io/blog/calm-leadership-24-7-control-room/) (2026-11-12): What running live transmission in a 24/7 master control room at Channel i teaches about staying calm and leading a team when the stakes are on air.
+- [Leading Volunteer Creative Teams: What Student Organisations Taught Me](https://abdullah-al-faahim.github.io/blog/leading-volunteer-creative-teams/) (2026-09-02): Lessons from leading design teams and events in student and youth organisations, where nobody is paid and everyone is busy.
+
+### [AI for design](https://abdullah-al-faahim.github.io/blog/topic/ai/)
+
+- [AI in My Design Workflow: Where It Helps and Where It Doesn't](https://abdullah-al-faahim.github.io/blog/ai-in-my-design-workflow/) (2026-10-30): A practical look at using AI tools for briefs, research, ideation, image editing and code, plus the parts of design I still won't hand over.
+
+### [Case studies](https://abdullah-al-faahim.github.io/blog/topic/case-studies/)
+
+- [Case Study: Building khanfarhana.info, a Brand, a Community and an Academy in One WordPress Theme](https://abdullah-al-faahim.github.io/blog/khanfarhana-info-case-study/) (2026-11-09): How I designed and hand-coded one WordPress theme that holds a personal brand, a fellowship, an opportunities board, a press room and a full learning platform with payments, and that her team runs without a developer.
+
+### [Colour and print](https://abdullah-al-faahim.github.io/blog/topic/color/)
+
+- [Broadcast-Safe Colour: What a TV Control Room Knows That Designers Don't](https://abdullah-al-faahim.github.io/blog/broadcast-safe-color/) (2026-11-25): Broadcast-safe colour for designers: Rec.709 legal levels, saturation limits and how to prepare motion graphics and lower thirds that look right on TV.
+- [RGB vs CMYK vs Pantone: Why Your Logo Looks Different on Screen and in Print](https://abdullah-al-faahim.github.io/blog/rgb-vs-cmyk-vs-pantone/) (2026-11-18): The bright red on your screen came back brown from the printer. Here is why RGB, CMYK and Pantone spot colours behave differently, and how to specify a brand colour so it survives every medium.
+- [Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet](https://abdullah-al-faahim.github.io/blog/color-profiles-explained/) (2026-11-11): Which colour profile should you export for the web, social media, print and video? A plain-language guide to sRGB, Display P3, Adobe RGB, Rec.709 and CMYK (FOGRA/SWOP), with a decision flowchart.
+
+### [Work and life](https://abdullah-al-faahim.github.io/blog/topic/work-life/)
+
+- [The Friday That Disappeared, and the Plan That Saved the Next One](https://abdullah-al-faahim.github.io/blog/weekend-plan-not-a-to-do-list/) (2026-11-27): Nusrat's Fridays keep vanishing: a late wake-up, endless scrolling, chores, and suddenly it's Saturday night. Her friend Mitu has a three-part plan scribbled on a paper napkin. A Friday story about weekends that actually restore you.
+- [Tanvir and the 50/50 Myth: What Work-Life Balance Really Means](https://abdullah-al-faahim.github.io/blog/what-work-life-balance-really-means/) (2026-11-20): Tanvir works night shifts at a TV channel in Tejgaon and has decided work-life balance is impossible for people like him. Then his grandmother, peeling oranges on a winter afternoon, gives him a better definition. A Friday story.
+- [The Week Nusrat Said Yes to Everything](https://abdullah-al-faahim.github.io/blog/stop-saying-yes-to-everything/) (2026-11-13): Nusrat is the designer who never says no: to her boss, to the sales team, to her cousin's wedding card. Then one Thursday night in Banani, everything she promised comes due at once. A Friday story about the overcommitment trap.
+
+## Other pages
+
+- [Media kit](https://abdullah-al-faahim.github.io/media-kit/): biography in English and Bangla, headshots, events, speaking topics, brand assets.
+- [Utopia SoftTech](https://abdullah-al-faahim.github.io/utopia/): the design and software studio he founded in 2018; services, process and pricing.
+- [Games](https://abdullah-al-faahim.github.io/games/): small browser games he designs and builds, playable on any screen.
+- [Full text of all articles](https://abdullah-al-faahim.github.io/llms-full.txt)
+
+<!-- ARTICLES:END -->

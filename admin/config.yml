@@ -1,0 +1,364 @@
+# Blog editor settings (Sveltia CMS). Posts are saved to content/blog/ and the
+# "Build blog" GitHub Action turns them into pages under /blog/.
+backend:
+  name: github
+  repo: abdullah-al-faahim/portfolio-source
+  branch: main
+  commit_messages:
+    create: "Blog: add {{slug}}"
+    update: "Blog: update {{slug}}"
+    delete: "Blog: delete {{slug}}"
+    uploadMedia: "Blog: upload {{path}}"
+    deleteMedia: "Blog: delete {{path}}"
+
+site_url: https://abdullah-al-faahim.github.io
+display_url: https://abdullah-al-faahim.github.io/blog/
+logo_url: /favicon.svg
+
+media_folder: blog/media
+public_folder: /blog/media
+
+collections:
+  - name: blog
+    label: Blog posts
+    label_singular: Blog post
+    description: Write a post, add a cover, then Save. The site updates about a minute later.
+    folder: content/blog
+    create: true
+    delete: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    summary: "{{title}} · {{date}}"
+    sortable_fields: [date, title, category]
+    preview_path: "blog/{{slug}}/"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - label: Publish date
+        name: date
+        widget: datetime
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        hint: "Pick a future date to schedule the post: it goes live automatically just after midnight (Dhaka time) on that day."
+      - label: Topic
+        name: category
+        widget: select
+        options:
+          - { label: Broadcast technology, value: broadcast }
+          - { label: App development, value: apps }
+          - { label: Design systems, value: design-systems }
+          - { label: Brand identity, value: brand }
+          - { label: Design theory & research, value: research }
+          - { label: Leadership, value: leadership }
+          - { label: AI for design, value: ai }
+          - { label: Case studies, value: case-studies }
+          - { label: Colour & print, value: color }
+          - { label: Typography, value: typography }
+          - { label: Work & life, value: work-life }
+      - { label: Short summary, name: excerpt, widget: text, hint: "One or two sentences. Shown on cards, in search results and when the link is shared." }
+      - { label: Search title (optional), name: seo_title, widget: string, required: false, hint: "Shown in Google and Bing results instead of the full title. Keep it under 60 characters, main keyword first." }
+      - { label: Search description (optional), name: seo_description, widget: text, required: false, hint: "Shown in search results. 140-160 characters with the words people search for." }
+      - { label: Last updated (optional), name: updated, widget: datetime, required: false, format: "YYYY-MM-DD", hint: "Set when you revise a post, so search engines see it is current." }
+      - label: Cover image
+        name: cover
+        widget: image
+        required: false
+        media_folder: /blog/media/covers
+        public_folder: /blog/media/covers
+        hint: "16:9 works best, for example 1600 × 900."
+      - { label: Cover description, name: cover_alt, widget: string, required: false, hint: "What the cover shows, for screen readers." }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - label: Resources (downloads for readers)
+        name: resources
+        widget: list
+        required: false
+        hint: "Shown under Share on the post, after the LinkedIn image and cover downloads."
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: File, name: file, widget: file, media_folder: /blog/media/resources, public_folder: /blog/media/resources }
+          - { label: Note, name: note, widget: string, required: false, hint: "For example: PDF, 2 pages" }
+      - { label: Draft (hide from the site), name: draft, widget: boolean, default: false, required: false }
+      - { label: Post, name: body, widget: markdown }
+
+  - name: pages
+    label: Pages
+    description: Media kit and Utopia SoftTech pages. The media kit page (/media-kit/). Upload headshots, add events, press and quotes. The page and its ZIP rebuild about a minute after you save.
+    files:
+      - name: media-kit
+        label: Media kit
+        file: content/media-kit.yml
+        format: yaml
+        fields:
+          - label: Headshots
+            name: headshots
+            widget: list
+            required: false
+            hint: "Upload professional photos (large JPG or PNG). Every photo in media-kit/headshots/ shows on the page with a download button and goes into the ZIP. The first by file name is used at the top."
+            field: { label: Photo, name: photo, widget: image, media_folder: /media-kit/headshots, public_folder: /media-kit/headshots }
+          - { label: Tagline, name: tagline, widget: string }
+          - label: Top of the page
+            name: hero
+            widget: object
+            hint: "For a photo standing in the half circle, upload a transparent PNG named cutout.png under Headshots."
+            fields:
+              - { label: Role (second line of the headline), name: role, widget: string }
+              - label: Chips around the photo (up to 4)
+                name: chips
+                widget: list
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: Icon, name: icon, widget: select, options: [broadcast, brand, apps, leadership, it, ai, design] }
+              - label: Stats
+                name: stats
+                widget: object
+                fields:
+                  - label: Left
+                    name: left
+                    widget: object
+                    fields:
+                      - { label: Number, name: value, widget: string }
+                      - { label: Text, name: label, widget: string }
+                  - label: Right
+                    name: right
+                    widget: object
+                    fields:
+                      - { label: Number, name: value, widget: string }
+                      - { label: Text, name: label, widget: string }
+          - label: Biographies
+            name: bios
+            widget: object
+            fields:
+              - { label: "English, short", name: en_short, widget: text }
+              - { label: "English, medium", name: en_medium, widget: text }
+              - { label: "English, long", name: en_long, widget: text, hint: "Leave an empty line between paragraphs." }
+              - { label: "Bangla, short", name: bn_short, widget: text }
+              - { label: "Bangla, medium", name: bn_medium, widget: text }
+              - { label: "Bangla, long", name: bn_long, widget: text }
+          - label: Quick facts
+            name: facts
+            widget: list
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: Value, name: value, widget: string }
+          - label: Speaking and training topics
+            name: topics
+            widget: list
+            hint: "Short, top-level topic names, e.g. Leadership, Broadcast Technology."
+            fields:
+              - { label: Topic, name: title, widget: string }
+          - label: Events
+            name: events
+            widget: list
+            hint: "Newest first. Trainings, summits, reality shows, conferences, competitions."
+            fields:
+              - { label: Event, name: title, widget: string }
+              - { label: Organiser, name: org, widget: string, required: false }
+              - { label: Your role, name: role, widget: string, required: false, hint: "Speaker, Trainer, Panelist, Organiser…" }
+              - { label: Date, name: date, widget: string, required: false, hint: "For example: Mar 2026, or 2023–24" }
+              - { label: Place, name: place, widget: string, required: false }
+              - { label: Description, name: text, widget: text, required: false }
+              - { label: Link, name: url, widget: string, required: false }
+              - { label: Type, name: kind, widget: select, required: false, options: [Training, Summit, Reality show, Conference, Competition, Awards, Workshop, Talk], hint: "Shown on the cover" }
+              - { label: Photo, name: photo, widget: image, required: false, hint: "Cover photo. Leave empty and a cover is drawn in the site design.", media_folder: /media-kit/events, public_folder: /media-kit/events }
+              - { label: Photo credit, name: credit, widget: string, required: false, hint: "Who took or published the photo, e.g. The Business Standard" }
+              - { label: Photo credit link, name: credit_url, widget: string, required: false }
+          - label: Recognition
+            name: recognition
+            widget: list
+            field: { label: Item, name: item, widget: string }
+          - label: Press (as featured in)
+            name: press
+            widget: list
+            required: false
+            hint: "Hidden on the page while empty."
+            fields:
+              - { label: Publication, name: name, widget: string }
+              - { label: Headline, name: title, widget: string, required: false }
+              - { label: Link, name: url, widget: string }
+              - { label: Date, name: date, widget: string, required: false }
+          - label: Testimonials
+            name: testimonials
+            widget: list
+            required: false
+            hint: "Hidden on the page while empty."
+            fields:
+              - { label: Quote, name: quote, widget: text }
+              - { label: Name, name: name, widget: string }
+              - { label: Role and organisation, name: role, widget: string, required: false }
+          - label: Brand
+            name: brand
+            widget: object
+            fields:
+              - label: Colours
+                name: colours
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Hex code, name: hex, widget: string }
+              - label: Fonts
+                name: fonts
+                widget: list
+                fields:
+                  - { label: Font, name: name, widget: string }
+                  - { label: Used for, name: use, widget: string }
+                  - { label: Link, name: url, widget: string }
+      - name: shop
+        label: Shop
+        file: content/shop.yml
+        format: yaml
+        fields:
+          - { label: Page title, name: title, widget: string }
+          - { label: Small label above the heading, name: eyebrow, widget: string }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Intro, name: intro, widget: text }
+          - { label: Currency symbol, name: currency, widget: string, default: "৳" }
+          - { label: Orders server (Apps Script web app URL), name: orders_endpoint, widget: string, hint: "The same URL as the games leaderboard" }
+          - { label: Payment methods, name: payment_methods, widget: list, field: { label: Method, name: m, widget: string } }
+          - { label: Delivery note, name: delivery_note, widget: text }
+          - label: Ordering steps
+            name: steps
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Text, name: text, widget: text }
+          - label: Questions
+            name: faq
+            widget: list
+            fields:
+              - { label: Question, name: q, widget: string }
+              - { label: Answer, name: a, widget: text }
+          - label: Categories
+            name: categories
+            widget: list
+            fields:
+              - { label: Id (designs, merch or ebooks), name: id, widget: string }
+              - { label: Name, name: label, widget: string }
+              - { label: Short line, name: blurb, widget: string }
+          - label: Products
+            name: products
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Id (no spaces), name: id, widget: string }
+              - { label: Category, name: category, widget: select, options: [designs, merch, ebooks] }
+              - { label: Title, name: title, widget: string }
+              - { label: Short description, name: summary, widget: text }
+              - { label: Price (number only), name: price, widget: number }
+              - { label: Badge (Bestseller, New, Limited), name: badge, widget: string, required: false }
+              - { label: Format or delivery line, name: format, widget: string, required: false }
+              - { label: Photo (replaces the drawn cover), name: image, widget: image, required: false }
+              - { label: More photos (shown as thumbnails on the product page), name: gallery, widget: list, field: { label: Photo, name: g, widget: image }, required: false }
+              - { label: Full description for the product page (blank line between paragraphs), name: description, widget: text, required: false }
+              - { label: Reasons to buy (replaces the default three lines), name: perks, widget: list, field: { label: Line, name: l, widget: string }, required: false }
+              - { label: Drawn cover, name: art, widget: select, options: [kit, social, deck, poster, tee, mug, stickers, tote, book], required: false }
+              - { label: Cover colours (two hex codes), name: colors, widget: list, field: { label: Colour, name: c, widget: string }, required: false }
+              - label: Choice for the buyer (size, licence)
+                name: options
+                widget: object
+                required: false
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: Choices, name: values, widget: list, field: { label: Choice, name: v, widget: string } }
+              - { label: Details (bullet points), name: details, widget: list, field: { label: Point, name: d, widget: string }, required: false }
+              - { label: Status, name: status, widget: select, options: [live, draft], default: live, hint: "draft hides the product" }
+      - name: utopia
+        label: Utopia SoftTech
+        file: content/utopia.yml
+        format: yaml
+        fields:
+          - { label: Studio name, name: name, widget: string }
+          - { label: Founded (year), name: founded, widget: number }
+          - { label: Tagline, name: tagline, widget: string }
+          - { label: About the studio, name: intro, widget: text }
+          - { label: Currency, name: currency, widget: string, default: BDT, hint: "BDT shows prices as ৳1,20,000" }
+          - { label: Pricing note, name: price_note, widget: string }
+          - label: Services
+            name: services
+            widget: list
+            fields:
+              - { label: Icon, name: icon, widget: select, options: [brand, social, banner, uiux, print, poster, art, apps] }
+              - { label: Service, name: title, widget: string }
+              - { label: Description, name: text, widget: string }
+          - label: Process steps
+            name: process
+            widget: list
+            fields:
+              - { label: Step, name: title, widget: string }
+              - { label: Description, name: text, widget: string }
+          - label: Why choose us
+            name: why
+            widget: list
+            required: false
+            fields:
+              - { label: Point, name: title, widget: string }
+              - { label: Description, name: text, widget: string }
+          - label: Pricing
+            name: pricing
+            widget: list
+            hint: "Leave a price empty to show 'Ask for a quote'."
+            fields:
+              - { label: Service group, name: group, widget: string }
+              - label: Packages
+                name: packages
+                widget: list
+                fields:
+                  - { label: Package name, name: name, widget: string }
+                  - { label: Price (from), name: price, widget: string, required: false, hint: "Numbers only, e.g. 15000. Empty = Ask for a quote." }
+                  - { label: Per, name: unit, widget: string, required: false, hint: "Optional, e.g. per post, per month" }
+                  - { label: Short description, name: text, widget: string }
+                  - { label: Highlight as most chosen, name: featured, widget: boolean, required: false, default: false }
+                  - { label: What's included, name: features, widget: list, field: { label: Item, name: item, widget: string } }
+          - label: FAQ
+            name: faq
+            widget: list
+            required: false
+            fields:
+              - { label: Question, name: q, widget: string }
+              - { label: Answer, name: a, widget: text }
+          - label: Testimonials (happy customers)
+            name: testimonials
+            widget: list
+            required: false
+            hint: "Hidden on the page while empty."
+            fields:
+              - { label: Quote, name: quote, widget: text }
+              - { label: Name, name: name, widget: string }
+              - { label: Role and organisation, name: role, widget: string, required: false }
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - { label: Email, name: email, widget: string }
+              - { label: LinkedIn, name: linkedin, widget: string }
+          - label: Quote form
+            name: quote_form
+            widget: object
+            required: false
+            hint: "The Get a quote popup. Requests are emailed and saved privately in quote-requests/."
+            fields:
+              - { label: Form endpoint (Apps Script URL), name: endpoint, widget: string, required: false, hint: "Branded email and a private copy of each request. While empty, requests are emailed through FormSubmit." }
+              - { label: Inbox for requests, name: email, widget: string }
+              - { label: FormSubmit alias (optional), name: formsubmit, widget: string, required: false, hint: "The random string FormSubmit emails you after activation; hides the inbox address." }
+              - { label: Budget ranges, name: budgets, widget: list, hint: "A Custom amount option is always added." }
+      - name: games
+        label: Games
+        file: content/games.yml
+        format: yaml
+        description: The games page (/games/). Add a game when it is ready to play; it shows as a card with a Play now button.
+        fields:
+          - { label: Page title, name: title, widget: string }
+          - { label: Introduction, name: intro, widget: text }
+          - { label: Leaderboard server (Apps Script URL), name: leaderboard, widget: string, required: false, hint: "The web app URL from tools/apps-script/README.md. While empty, players see only their own results on their device." }
+          - label: Games
+            name: games
+            widget: list
+            required: false
+            summary: "{{fields.title}} ({{fields.status}})"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Genre, name: genre, widget: string, required: false, hint: "For example Arcade, Puzzle, Quiz" }
+              - { label: Short summary, name: summary, widget: text }
+              - { label: Cover (16:9), name: cover, widget: image, required: false, media_folder: /games/media, public_folder: /games/media }
+              - { label: Play link, name: url, widget: string, required: false, hint: "Where the game plays, e.g. /games/my-game/ or a full https:// address" }
+              - { label: Status, name: status, widget: select, options: [live, soon], default: soon }

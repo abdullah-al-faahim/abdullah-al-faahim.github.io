@@ -1,0 +1,70 @@
+    <div class="ox" id="ox" data-ready="false">
+      <header class="ox-top">
+        <div class="ox-brand">
+          <a class="ox-back" href="/games/">&#8592; All games</a>
+          <h1>Oxford <span>3000</span><sup class="ox-tm">&#8482;</sup></h1>
+          <p>Learn the 3,000 most useful English words, a few every day. Meanings in English and Bangla, real-life sentences, quick quizzes and a weekly exam.</p>
+        </div>
+        <div class="ox-me">
+          <div class="ox-chips">
+            <span class="ox-chip streak" title="Days in a row"><i aria-hidden="true" data-ic="flame"></i><b data-streak>0</b><small>day streak</small></span>
+            <span class="ox-chip xp" title="Experience points"><i aria-hidden="true" data-ic="star"></i><b data-xp>0</b><small>XP</small></span>
+          </div>
+          <div class="ox-level"><span data-levelname>Beginner</span><div class="ox-bar"><i data-levelbar style="width:0%"></i></div></div>
+          <button type="button" class="ox-acct" data-act="account"><span data-acct-label>Sign up / Sign in</span><small data-sync>Saved on this device</small></button>
+        </div>
+      </header>
+
+      <nav class="ox-tabs" role="tablist" aria-label="Sections">
+        <button role="tab" data-tab="today" aria-selected="true"><i aria-hidden="true" data-ic="sprout"></i>Today</button>
+        <button role="tab" data-tab="review" aria-selected="false"><i aria-hidden="true" data-ic="refresh"></i>Review<em data-due-badge hidden>0</em></button>
+        <button role="tab" data-tab="practice" aria-selected="false"><i aria-hidden="true" data-ic="gamepad"></i>Practice</button>
+        <button role="tab" data-tab="exam" aria-selected="false"><i aria-hidden="true" data-ic="note"></i>Weekly exam</button>
+        <button role="tab" data-tab="progress" aria-selected="false"><i aria-hidden="true" data-ic="chart"></i>Progress</button>
+      </nav>
+
+      <div class="ox-stage" id="oxStage" role="region" aria-label="Lesson">
+        <p class="ox-loading">Loading your words&#8230;</p>
+      </div>
+
+      <p class="ox-credit">Word list: <a href="https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000" target="_blank" rel="noopener">The Oxford 3000&#8482;</a> by Oxford University Press, levels A1 to B2. Meanings, Bangla and example sentences are written for this game.</p>
+    </div>
+
+    <dialog class="ox-dlg" id="oxAcct" aria-labelledby="oxAcctT">
+      <form method="dialog" class="ox-acct-form" id="oxAcctForm">
+        <button type="submit" value="close" formnovalidate class="ox-x" aria-label="Close">&#10005;</button>
+        <h2 id="oxAcctT">Save your progress</h2>
+        <p class="ox-dlg-sub" data-acct-sub>Create a free account to keep your words, streak and exam results on every device.</p>
+        <div class="ox-seg" role="tablist" aria-label="Account">
+          <button type="button" role="tab" data-mode="register" aria-selected="true">Sign up</button>
+          <button type="button" role="tab" data-mode="login" aria-selected="false">Sign in</button>
+        </div>
+        <label>Username<input name="user" autocomplete="username" maxlength="20" required spellcheck="false" autocapitalize="none" aria-describedby="oxUserHint" /></label>
+        <p class="ox-hint" id="oxUserHint" data-userhint aria-live="polite" hidden></p>
+        <div class="ox-sugg" data-sugg hidden><span>Try:</span></div>
+        <label data-emailrow>Email
+          <span class="ox-inrow"><input name="email" type="email" autocomplete="email" inputmode="email" maxlength="120" required spellcheck="false" autocapitalize="none" placeholder="you@example.com" />
+          <button type="button" class="ox-sendbtn" data-sendcode>Send code</button></span>
+        </label>
+        <div data-coderow hidden>
+          <label>6-digit code from your email<input name="code" inputmode="numeric" autocomplete="one-time-code" maxlength="6" pattern="[0-9]{6}" placeholder="123456" spellcheck="false" /></label>
+          <p class="ox-hint" data-codehint aria-live="polite"></p>
+        </div>
+        <label>Password
+          <span class="ox-inrow"><input name="pass" type="password" autocomplete="new-password" minlength="6" maxlength="64" required />
+          <button type="button" class="ox-eye" data-eye aria-label="Show password" aria-pressed="false"></button></span>
+        </label>
+        <p class="ox-form-note" data-note>3 to 20 letters, numbers or _. Password: at least 6 characters. Your email is only used to recover your account later. We never send ads.</p>
+        <p class="ox-form-err" data-err role="alert"></p>
+        <button type="submit" value="go" class="ox-primary" data-go>Sign up</button>
+      </form>
+      <div class="ox-signed" id="oxSigned" hidden>
+        <button type="button" class="ox-x" data-close aria-label="Close">&#10005;</button>
+        <h2>Hi, <span data-name></span></h2>
+        <p class="ox-dlg-sub" data-sync-long>Your progress is saved to your account.</p>
+        <div class="ox-dlg-acts">
+          <button type="button" class="ox-primary" data-now>Save now</button>
+          <button type="button" class="ox-ghost" data-logout>Sign out</button>
+        </div>
+      </div>
+    </dialog>

@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blameless Post-Mortems for Broadcast Engineering Teams · Abdullah Al Fahim</title>
+  <meta name="description" content="How to run blameless post-mortems after on-air incidents so broadcast engineering teams find root causes, share lessons and stop the same failure twice." />
+  <meta name="author" content="Abdullah Al Fahim" />
+  <meta name="theme-color" content="#1e066f" />
+  <link rel="canonical" href="https://abdullah-al-faahim.github.io/blog/blameless-post-mortems-broadcast-engineering/" />
+  <link rel="me" href="https://linkedin.com/in/abdullah-al-fahim" />
+  <link rel="me" href="https://github.com/abdullah-al-faahim" />
+  <link rel="me" href="https://behance.net/hire-fahim" />
+  <link rel="me" href="https://dribbble.com/hire-fahim" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Abdullah Al Fahim" />
+  <meta property="og:url" content="https://abdullah-al-faahim.github.io/blog/blameless-post-mortems-broadcast-engineering/" />
+  <meta property="og:title" content="Blameless Post-Mortems for Broadcast Engineering Teams · Abdullah Al Fahim" />
+  <meta property="og:description" content="How to run blameless post-mortems after on-air incidents so broadcast engineering teams find root causes, share lessons and stop the same failure twice." />
+  <meta property="og:image" content="https://abdullah-al-faahim.github.io/blog/media/covers/blameless-post-mortems-broadcast-engineering.jpg" />
+  <meta property="og:image:width" content="1600" />
+  <meta property="og:image:height" content="900" />
+  <meta property="og:image:alt" content="Blameless Post-Mortems in a Broadcast Engineering Team, a post by Abdullah Al Fahim" />
+  <meta name="twitter:image:alt" content="Blameless Post-Mortems in a Broadcast Engineering Team, a post by Abdullah Al Fahim" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Blameless Post-Mortems for Broadcast Engineering Teams · Abdullah Al Fahim" />
+  <meta name="twitter:description" content="How to run blameless post-mortems after on-air incidents so broadcast engineering teams find root causes, share lessons and stop the same failure twice." />
+  <meta name="twitter:image" content="https://abdullah-al-faahim.github.io/blog/media/covers/blameless-post-mortems-broadcast-engineering.jpg" />
+  <meta property="article:published_time" content="2026-11-22" />
+  <meta property="article:modified_time" content="2026-11-22" />
+  <meta property="article:author" content="https://abdullah-al-faahim.github.io/" />
+  <meta property="article:section" content="Leadership" />
+  <meta property="article:tag" content="Leadership" />
+  <meta property="article:tag" content="Post-Mortem" />
+  <meta property="article:tag" content="Culture" />
+  <meta property="article:tag" content="Broadcast" />
+  <meta property="article:tag" content="Reliability" />
+  <meta name="keywords" content="Leadership, Post-Mortem, Culture, Broadcast, Reliability" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "@id": "https://abdullah-al-faahim.github.io/blog/blameless-post-mortems-broadcast-engineering/#article", "headline": "Blameless Post-Mortems in a Broadcast Engineering Team", "name": "Blameless Post-Mortems in a Broadcast Engineering Team", "description": "How to run blameless post-mortems after on-air incidents so broadcast engineering teams find root causes, share lessons and stop the same failure twice.", "url": "https://abdullah-al-faahim.github.io/blog/blameless-post-mortems-broadcast-engineering/", "datePublished": "2026-11-22", "dateModified": "2026-11-22", "image": {"@type": "ImageObject", "url": "https://abdullah-al-faahim.github.io/blog/media/covers/blameless-post-mortems-broadcast-engineering.jpg", "width": 1600, "height": 900}, "inLanguage": "en", "articleSection": "Leadership", "author": {"@type": "Person", "@id": "https://abdullah-al-faahim.github.io/#person", "name": "Abdullah Al Fahim", "alternateName": ["Fahim Rifat", "Abdullah Al Faahim", "Fahim"], "url": "https://abdullah-al-faahim.github.io/", "sameAs": ["https://linkedin.com/in/abdullah-al-fahim", "https://github.com/abdullah-al-faahim", "https://behance.net/hire-fahim", "https://dribbble.com/hire-fahim"]}, "publisher": {"@type": "Person", "@id": "https://abdullah-al-faahim.github.io/#person", "name": "Abdullah Al Fahim", "alternateName": ["Fahim Rifat", "Abdullah Al Faahim", "Fahim"], "url": "https://abdullah-al-faahim.github.io/", "sameAs": ["https://linkedin.com/in/abdullah-al-fahim", "https://github.com/abdullah-al-faahim", "https://behance.net/hire-fahim", "https://dribbble.com/hire-fahim"]}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://abdullah-al-faahim.github.io/blog/blameless-post-mortems-broadcast-engineering/"}, "isPartOf": {"@type": "Blog", "@id": "https://abdullah-al-faahim.github.io/blog/#blog", "name": "Abdullah Al Fahim · Blog"}, "about": {"@type": "Thing", "name": "Leadership", "url": "https://abdullah-al-faahim.github.io/blog/topic/leadership/"}, "keywords": ["Leadership", "Post-Mortem", "Culture", "Broadcast", "Reliability"], "wordCount": 710, "timeRequired": "PT4M", "isAccessibleForFree": true, "copyrightHolder": {"@type": "Person", "@id": "https://abdullah-al-faahim.github.io/#person", "name": "Abdullah Al Fahim", "alternateName": ["Fahim Rifat", "Abdullah Al Faahim", "Fahim"], "url": "https://abdullah-al-faahim.github.io/", "sameAs": ["https://linkedin.com/in/abdullah-al-fahim", "https://github.com/abdullah-al-faahim", "https://behance.net/hire-fahim", "https://dribbble.com/hire-fahim"]}, "copyrightYear": 2026}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://abdullah-al-faahim.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://abdullah-al-faahim.github.io/blog/"}, {"@type": "ListItem", "position": 3, "name": "Leadership", "item": "https://abdullah-al-faahim.github.io/blog/topic/leadership/"}, {"@type": "ListItem", "position": 4, "name": "Blameless Post-Mortems in a Broadcast Engineering Team", "item": "https://abdullah-al-faahim.github.io/blog/blameless-post-mortems-broadcast-engineering/"}]}</script>
+  <link rel="alternate" type="application/rss+xml" title="Abdullah Al Fahim · Blog" href="/blog/feed.xml" />
+  <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  <link rel="icon" href="/favicon.svg?v=g" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="preload" href="/assets/fonts/sora.woff" as="font" type="font/woff" crossorigin />
+  <link rel="stylesheet" href="/showcase/showcase.css?v=3f2a1ff3" />
+  <link rel="stylesheet" href="/blog/blog.css?v=648e7607" />
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      t = "light";
+      document.documentElement.setAttribute("data-theme", t);
+      document.documentElement.classList.add("js");
+    })();
+  </script>
+</head>
+<body>
+  <!-- generated by tools/build_blog.py -->
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="read-bar" aria-hidden="true"><i></i></div>
+  <header class="top">
+    <nav class="wrap" aria-label="Main">
+      <a class="logo" href="/">Abdullah Al <span>Fahim</span></a>
+      <ul class="links" id="links">
+        <li><a href="/">Home</a></li>
+        <li class="has-sub">
+          <a href="/#about">About</a><button class="sub-toggle" type="button" aria-expanded="false" aria-controls="aboutSub" aria-label="Show more About links"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></button>
+          <ul class="sub" id="aboutSub">
+            <li><a href="/cv/Abdullah%20Al%20Fahim_CV.pdf" target="_blank" rel="noopener" data-cv>My CV</a></li>
+            <li><a href="/#experience">Experience</a></li>
+            <li><a href="/#recognition">Recognition</a></li>
+            <li><a href="/#services">Services</a></li>
+            <li><a href="/media-kit/">Media Kit</a></li>
+          </ul>
+        </li>
+        <li><a href="/utopia/">Studio</a></li>
+        <li class="has-sub mega">
+          <a href="/apps/">Apps</a><button class="sub-toggle" type="button" aria-expanded="false" aria-controls="appsSub" aria-label="Show more Apps links"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></button>
+          <ul class="sub mega-sub" id="appsSub">
+            <li class="mg"><span class="mg-h"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 9h10v8a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 7 17z"/><path d="M8 6l-1.5-2M16 6l1.5-2M7 9a5 5 0 0 1 10 0M10 12.5h.01M14 12.5h.01"/></svg>Android apps<small>5</small></span><ul><li><a href="/apps/taka/">Taka · টাকা</a></li><li><a href="/apps/alljobs-reimagined/">Alljobs Reimagined</a></li><li><a href="/apps/taskbell/">TaskBell</a></li><li><a href="/apps/zakat-calculator/">Zakat Calculator</a></li><li><a href="/apps/battery-saver/">Battery Saver</a></li></ul></li>
+            <li class="mg"><span class="mg-h"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5l7.5-1v7H3zM12 4.3l9-1.3v8.5h-9zM3 13h7.5v7L3 18.8zM12 13h9v8.2l-9-1.3z"/></svg>Windows software<small>3</small></span><ul><li><a href="/apps/photo-viewer/">Photo Viewer</a></li><li><a href="/apps/quickview/">QuickView</a></li><li><a href="/apps/filexp/">FileXP</a></li></ul></li>
+            <li class="mg"><span class="mg-h"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="7" width="19" height="11" rx="5"/><path d="M7.5 10.5v4M5.5 12.5h4M15.5 11.5h.01M18 13.5h.01"/></svg>Games<small>3</small></span><ul><li><a href="/games/oxford-3000/">Oxford 3000™</a></li><li><a href="/games/sudoku/">Sudoku</a></li><li><a href="/games/wordsearch/">Word Search</a></li><li><a href="/games/">All games</a></li></ul></li>
+          </ul>
+        </li>
+        <li><a href="/shop/">Shop</a></li>
+        <li><a href="/blog/" aria-current="true">Blog</a></li>
+        <li class="m-book"><a href="/#book">Book a Meeting</a></li>
+      </ul>
+      <button class="icon-btn menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="links"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16" /></svg></button>
+      <a class="btn btn-lime hire" href="/#book">Book a Meeting</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article class="post">
+      <header class="post-head wrap">
+        <a class="crumb" href="/blog/">&#8592; All posts</a>
+        <a class="pc-cat" href="/blog/topic/leadership/">Leadership</a>
+        <h1>Blameless Post-Mortems in a Broadcast Engineering Team</h1>
+        <p class="post-excerpt">After an on-air fault, the easy question is &#x27;who did this?&#x27;. The useful question is &#x27;what let this happen?&#x27;. Here is how blameless reviews work in a broadcast team, and why they make channels more reliable, not less accountable.</p>
+        <div class="byline">
+          <img src="/assets/img/avatar.webp" alt="" width="44" height="44" />
+          <div><b>Abdullah Al Fahim</b><span><time datetime="2026-11-22">22 Nov 2026</time> &#183; 4 min read<span class="reads" data-reads="/blog/blameless-post-mortems-broadcast-engineering/" hidden></span></span></div>
+        </div>
+      </header>
+      <div class="wrap"><figure class="post-cover"><img src="/blog/media/covers/blameless-post-mortems-broadcast-engineering.jpg" alt="A timeline of an incident with markers, a magnifying glass over one point, and a group of people around a table." width="1600" height="900" fetchpriority="high" decoding="async" /></figure></div>
+      <div class="post-layout wrap">
+        <aside class="post-toc" aria-label="On this page"><b>On this page</b><ol><li><a href="#blameless-doesnt-mean-consequence-free">Blameless doesn’t mean consequence-free</a></li><li><a href="#when-to-hold-one">When to hold one</a></li><li><a href="#the-structure-i-use">The structure I use</a></li><li><a href="#language-matters">Language matters</a></li><li><a href="#why-it-makes-teams-better">Why it makes teams better</a></li><li><a href="#summary">Summary</a></li></ol></aside>
+        <div class="prose">
+<p>When something goes wrong on air, there is a natural urge to find the person responsible. A wrong button, a missed step, a forgotten note at handover. Find them, correct them, move on.</p>
+<p>It feels like accountability. In practice, it usually makes the next incident more likely. People who expect blame start hiding small mistakes, and small hidden mistakes are exactly what grow into big outages.</p>
+<p>A <strong>blameless post-mortem</strong> takes a different approach. It assumes that people acted reasonably with what they knew at the time, and asks what in the system (the process, tools, information, timing) allowed the problem to happen.</p>
+<figure class="fig"><img loading="lazy" decoding="async" alt="An engineer sketching a process flow on a whiteboard." src="/blog/media/photos/blameless-post-mortems-broadcast-engineering.webp" /><figcaption>A good review maps what happened before asking why.</figcaption></figure>
+<p class="credit">Photo: <a href="https://stocksnap.io/photo/flowchart-whiteboard-CDC8HFPYWR">Flowchart Whiteboard</a> by <a href="https://startupstockphotos.com">Startup Stock Photos</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via StockSnap.</p>
+
+<h2 id="blameless-doesnt-mean-consequence-free">Blameless doesn&rsquo;t mean consequence-free</h2>
+<p>This is the most common misunderstanding. Blameless doesn&rsquo;t mean &ldquo;nobody is responsible&rdquo; or &ldquo;anything goes&rdquo;. Deliberate negligence or repeated disregard for safety is still a management issue.</p>
+<p>What blameless means is: <strong>in the review, we focus on causes, not culprits.</strong> The goal is learning, and people only share honestly when they don&rsquo;t fear punishment for honest mistakes.</p>
+<h2 id="when-to-hold-one">When to hold one</h2>
+<p>Not every glitch needs a meeting. A useful rule:</p>
+<ul>
+<li>Any <strong>on-air impact</strong> viewers could notice.</li>
+<li>Any <strong>near miss</strong> where only luck or a fast reaction saved air.</li>
+<li>Any <strong>repeated</strong> small problem.</li>
+</ul>
+<p>Near misses are especially valuable. They show you the weak spot before it costs anything.</p>
+<h2 id="the-structure-i-use">The structure I use</h2>
+<figure class="fig"><img loading="lazy" decoding="async" alt="Diagram: A blameless review, step by step." src="/blog/media/design/blameless-post-mortems-broadcast-engineering-1.svg" /><figcaption>A blameless review, step by step.</figcaption></figure>
+<p>Keep it short and focused. Within a few days of the incident, while memories are fresh:</p>
+<h3 id="1-build-the-timeline">1. Build the timeline</h3>
+<p>What happened, minute by minute? Use logs, automation records, monitoring alarms and the people involved. Write facts, not interpretations: &ldquo;02:14 main encoder alarm&rdquo;, not &ldquo;02:14 operator ignored the alarm&rdquo;.</p>
+<h3 id="2-ask-what-made-sense-at-the-time">2. Ask &ldquo;what made sense at the time?&rdquo;</h3>
+<p>For each decision, ask why it seemed right to the person making it. Maybe the alarm looked like a common false alarm. Maybe the runbook said something different. Maybe two alarms arrived together. This is where the real causes appear.</p>
+<h3 id="3-find-the-contributing-factors">3. Find the contributing factors</h3>
+<p>There is rarely one root cause. Usually it&rsquo;s several things lining up:</p>
+<ul>
+<li>A missing step in a <a href="/blog/runbook-anyone-can-lead-at-3am/">runbook</a></li>
+<li>An unclear label on a panel</li>
+<li>A <a href="/blog/shift-handover-prevents-outages/">handover</a> that didn&rsquo;t mention an unstable feed</li>
+<li>An alarm that fires so often people stopped trusting it</li>
+</ul>
+<h3 id="4-agree-on-actions-with-owners">4. Agree on actions, with owners</h3>
+<p>Each action should be specific, owned and dated: &ldquo;Rename the two encoder inputs on the router panel so they can&rsquo;t be confused. Owner: X. By Friday.&rdquo; Avoid actions like &ldquo;be more careful&rdquo;. That&rsquo;s not a fix. It&rsquo;s a hope.</p>
+<h3 id="5-share-what-you-learned">5. Share what you learned</h3>
+<p>A short written summary goes to the whole team, not just the people involved. Other shifts will meet the same weak spot one day.</p>
+<h2 id="language-matters">Language matters</h2>
+<p>Small changes in wording change the whole meeting:</p>
+<ul>
+<li>Say <strong>&ldquo;what happened&rdquo;</strong>, not &ldquo;what went wrong with you&rdquo;.</li>
+<li>Say <strong>&ldquo;the switch was pressed&rdquo;</strong>, not &ldquo;you pressed the wrong switch&rdquo;.</li>
+<li>Ask <strong>&ldquo;what would have helped you see it sooner?&rdquo;</strong>, not &ldquo;why didn&rsquo;t you notice?&rdquo;</li>
+</ul>
+<p>As the person running the review, your tone sets the safety level. If you stay curious, people stay honest.</p>
+<h2 id="why-it-makes-teams-better">Why it makes teams better</h2>
+<p>Over time, blameless reviews change a team:</p>
+<ul>
+<li>People <strong>report near misses</strong> voluntarily, because reporting is valued.</li>
+<li>Fixes go into <strong>systems</strong> (labels, alarms, runbooks, training) instead of depending on individuals trying harder.</li>
+<li>Juniors learn faster, because they hear how experienced people think.</li>
+<li>Trust grows between operators and engineers, who stop seeing each other as the problem.</li>
+</ul>
+<p>Broadcast is a team sport played against the clock. A team that learns honestly from every fault gets steadily harder to knock off air.</p>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>Blameless means focusing on systems, not that nothing changes.</li>
+<li>Hold a review for every on-air incident and serious near miss.</li>
+<li>Go through the timeline, impact, causes, what went well and actions.</li>
+<li>Use neutral language: what happened, not who failed.</li>
+<li>Every action needs an owner and a due date.</li>
+</ul>
+<figure class="fig"><img loading="lazy" decoding="async" alt="Cheat sheet: Blameless Post-Mortems in a Broadcast Engineering Team." src="/blog/media/design/blameless-post-mortems-broadcast-engineering-cheat.svg" /><figcaption>Save this cheat sheet.</figcaption></figure>
+        </div>
+        <aside class="post-side">
+          <ul class="post-tags" aria-label="Tags"><li>Leadership</li><li>Post-Mortem</li><li>Culture</li><li>Broadcast</li><li>Reliability</li></ul>
+          <div class="share">
+            <b>Share</b>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://abdullah-al-faahim.github.io/blog/blameless-post-mortems-broadcast-engineering/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://twitter.com/intent/tweet?url=https://abdullah-al-faahim.github.io/blog/blameless-post-mortems-broadcast-engineering/&amp;text=Blameless Post-Mortems in a Broadcast Engineering Team" target="_blank" rel="noopener">X</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://abdullah-al-faahim.github.io/blog/blameless-post-mortems-broadcast-engineering/" target="_blank" rel="noopener">Facebook</a>
+            <button type="button" class="copy-link" data-url="https://abdullah-al-faahim.github.io/blog/blameless-post-mortems-broadcast-engineering/">Copy link</button>
+          </div>
+          <div class="resources"><b>Resources</b><a href="/blog/media/social/blameless-post-mortems-broadcast-engineering.jpg" download="blameless-post-mortems-broadcast-engineering-thumbnail-portrait.jpg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14" /></svg><span>Thumbnail image (portrait)<small>1080 × 1350 · JPG</small></span></a><a href="/blog/media/og/blameless-post-mortems-broadcast-engineering.jpg" download="blameless-post-mortems-broadcast-engineering-thumbnail-landscape.jpg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14" /></svg><span>Thumbnail image (landscape)<small>1200 × 630 · JPG</small></span></a><a href="/blog/media/covers/blameless-post-mortems-broadcast-engineering.jpg" download="blameless-post-mortems-broadcast-engineering-cover.jpg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14" /></svg><span>Cover image (landscape)<small>1600 × 900 · JPG</small></span></a></div>
+        </aside>
+      </div>
+      <div class="wrap post-end">
+        <div class="author-card">
+          <img src="/assets/img/avatar.webp" alt="" width="72" height="72" loading="lazy" />
+          <div>
+            <b>Written by Abdullah Al Fahim</b>
+            <p>Broadcast engineer at Channel i, brand and social media designer, and maker of offline-first apps for Bangladesh.</p>
+            <a href="/">See my work <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg></a>
+          </div>
+        </div>
+        <nav class="post-nav" aria-label="More posts"><a class="prev" href="/blog/broadcast-monitoring-alarm-strategy/"><small>Newer</small><b>Monitoring and Alarm Strategy for Broadcast: Which Signals Matter, Cutting Alert Fatigue, and What to Put on the MCR Wall</b></a><a class="next" href="/blog/personal-design-system-weekend/"><small>Older</small><b>Build a Personal Design System in a Weekend: Palette, Type Scale, Spacing, 5 Components and a README</b></a></nav>
+      </div>
+    </article>
+    <section class="more-posts"><div class="wrap"><span class="eyebrow">Keep reading</span><div class="post-grid three"><a class="post-card" href="/blog/volunteer-branding-team-what-worked/" data-cat="leadership" data-q="running a creative and branding team of volunteers: what worked five national skill development summits, thousands of students, and a branding team made entirely of volunteers. here are the practical systems that let nusdf&#x27;s creative team ship consistent work on time. leadership"><span class="pc-im"><img src="/blog/media/covers/volunteer-branding-team-what-worked.jpg" alt="" width="1600" height="900" loading="lazy" decoding="async" /></span><span class="pc-meta"><span class="pc-cat">Leadership</span><time datetime="2026-11-26">26 Nov 2026</time></span><b>Running a Creative and Branding Team of Volunteers: What Worked</b><small>Five national skill development summits, thousands of students, and a branding team made entirely of volunteers. Here are the practical systems that let NUSDF&#x27;s creative team ship consistent work on time.</small><span class="pc-read">4 min read<span class="reads" data-reads="/blog/volunteer-branding-team-what-worked/" hidden></span></span></a><a class="post-card" href="/blog/lead-volunteers-without-pay-or-promotion/" data-cat="leadership" data-q="how to lead volunteers when you can&#x27;t pay or promote them volunteers can leave at any moment, and you have no salary, title or bonus to hold them. leading them well means understanding what they actually get from the work, and making sure they get it. leadership"><span class="pc-im"><img src="/blog/media/covers/lead-volunteers-without-pay-or-promotion.jpg" alt="" width="1600" height="900" loading="lazy" decoding="async" /></span><span class="pc-meta"><span class="pc-cat">Leadership</span><time datetime="2026-11-24">24 Nov 2026</time></span><b>How to Lead Volunteers When You Can&#x27;t Pay or Promote Them</b><small>Volunteers can leave at any moment, and you have no salary, title or bonus to hold them. Leading them well means understanding what they actually get from the work, and making sure they get it.</small><span class="pc-read">4 min read<span class="reads" data-reads="/blog/lead-volunteers-without-pay-or-promotion/" hidden></span></span></a><a class="post-card" href="/blog/runbook-anyone-can-lead-at-3am/" data-cat="leadership" data-q="writing the runbook so anyone can lead at 3 am a runbook is leadership you leave behind. written well, it lets the most junior person on the night shift handle a fault the way your best engineer would. here is how to write one people actually use. leadership"><span class="pc-im"><img src="/blog/media/covers/runbook-anyone-can-lead-at-3am.jpg" alt="" width="1600" height="900" loading="lazy" decoding="async" /></span><span class="pc-meta"><span class="pc-cat">Leadership</span><time datetime="2026-11-19">19 Nov 2026</time></span><b>Writing the Runbook So Anyone Can Lead at 3 AM</b><small>A runbook is leadership you leave behind. Written well, it lets the most junior person on the night shift handle a fault the way your best engineer would. Here is how to write one people actually use.</small><span class="pc-read">4 min read<span class="reads" data-reads="/blog/runbook-anyone-can-lead-at-3am/" hidden></span></span></a></div></div></section>
+  </main>
+  <footer class="sf">
+    <div class="wrap">
+      <div class="sf-grid">
+        <div class="sf-brand">
+          <a class="logo" href="/" aria-label="Abdullah Al Fahim, home">Abdullah Al <span>Fahim</span></a>
+          <p class="sf-line">Creative technologist in Dhaka.</p>
+          <p>Broadcast operations engineer at Channel i, brand identity designer and builder of small, useful tools for Bangladesh.</p>
+          <p class="sf-place">Dhaka, Bangladesh</p>
+        </div>
+        <nav class="sf-col" aria-label="Explore">
+          <h2>Explore</h2>
+          <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/cv/Abdullah%20Al%20Fahim_CV.pdf" target="_blank" rel="noopener">CV</a></li>
+          <li><a href="/utopia/">Studio</a></li>
+          <li><a href="/shop/">Shop</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          </ul>
+        </nav>
+        <nav class="sf-col" aria-label="Android apps">
+          <h2>Android apps</h2>
+          <ul>
+          <li><a href="/apps/taka/">Taka · টাকা</a></li>
+          <li><a href="/apps/alljobs-reimagined/">Alljobs Reimagined</a></li>
+          <li><a href="/apps/taskbell/">TaskBell</a></li>
+          <li><a href="/apps/zakat-calculator/">Zakat Calculator</a></li>
+          <li><a href="/apps/battery-saver/">Battery Saver</a></li>
+          </ul>
+        </nav>
+        <nav class="sf-col" aria-label="Windows software">
+          <h2>Windows software</h2>
+          <ul>
+          <li><a href="/apps/photo-viewer/">Photo Viewer</a></li>
+          <li><a href="/apps/quickview/">QuickView</a></li>
+          <li><a href="/apps/filexp/">FileXP</a></li>
+          </ul>
+        </nav>
+        <nav class="sf-col" aria-label="Work with me">
+          <h2>Work with me</h2>
+          <ul>
+          <li><a href="/#book">Book a meeting</a></li>
+          <li><a href="/utopia/#quote">Get a quote</a></li>
+          <li><a href="/media-kit/">Media Kit</a></li>
+          <li><a href="https://github.com/abdullah-al-faahim">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/abdullah-al-fahim">LinkedIn</a></li>
+          </ul>
+        </nav>
+      </div>
+      <form class="sf-news" data-endpoint="https://script.google.com/macros/s/AKfycbxnNUlZmuTSw_UC-P6NwjmOIrMwaecBCln59KAoylqlQpfQgEdbpkrHbL7eRamW2kcG/exec" novalidate>
+        <div class="sf-news-copy">
+          <h2>Get new posts and app updates</h2>
+          <p>A short email when I publish a new post or release an app. No spam.</p>
+        </div>
+        <div class="sf-news-form">
+          <label class="sf-sr" for="sfEmail">Email address</label>
+          <input id="sfEmail" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required maxlength="120" />
+          <input class="sf-hp" name="company_url" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <button class="btn btn-lime" type="submit"><span>Subscribe</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          <p class="sf-msg" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+      <div class="sf-bar">
+        <span>&#169; <span id="year">2026</span> Abdullah Al Fahim (Fahim Rifat)</span>
+        <a class="sf-top" href="#top">Back to top <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a>
+      </div>
+    </div>
+  </footer>
+  <script src="/blog/blog.js?v=61dec340" defer></script>
+  <script src="/assets/pull-refresh.js?v=d3171870" defer></script>
+  <script src="/assets/footer.js?v=2238aa60" defer></script>
+  <script data-goatcounter="https://fahim.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

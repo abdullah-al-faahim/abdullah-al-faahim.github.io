@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Colour Profiles Explained: sRGB, P3, Adobe RGB, CMYK · Abdullah Al Fahim</title>
+  <meta name="description" content="Which colour profile should you export for the web, social media, print and video? A plain-language guide to sRGB, Display P3, Adobe RGB, Rec.709 and CMYK (FOGRA/SWOP), with a decision flowchart." />
+  <meta name="author" content="Abdullah Al Fahim" />
+  <meta name="theme-color" content="#1e066f" />
+  <link rel="canonical" href="https://abdullah-al-faahim.github.io/blog/color-profiles-explained/" />
+  <link rel="me" href="https://linkedin.com/in/abdullah-al-fahim" />
+  <link rel="me" href="https://github.com/abdullah-al-faahim" />
+  <link rel="me" href="https://behance.net/hire-fahim" />
+  <link rel="me" href="https://dribbble.com/hire-fahim" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Abdullah Al Fahim" />
+  <meta property="og:url" content="https://abdullah-al-faahim.github.io/blog/color-profiles-explained/" />
+  <meta property="og:title" content="Colour Profiles Explained: sRGB, P3, Adobe RGB, CMYK · Abdullah Al Fahim" />
+  <meta property="og:description" content="Which colour profile should you export for the web, social media, print and video? A plain-language guide to sRGB, Display P3, Adobe RGB, Rec.709 and CMYK (FOGRA/SWOP), with a decision flowchart." />
+  <meta property="og:image" content="https://abdullah-al-faahim.github.io/blog/media/covers/color-profiles-explained.jpg" />
+  <meta property="og:image:width" content="1600" />
+  <meta property="og:image:height" content="900" />
+  <meta property="og:image:alt" content="Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet, a post by Abdullah Al Fahim" />
+  <meta name="twitter:image:alt" content="Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet, a post by Abdullah Al Fahim" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Colour Profiles Explained: sRGB, P3, Adobe RGB, CMYK · Abdullah Al Fahim" />
+  <meta name="twitter:description" content="Which colour profile should you export for the web, social media, print and video? A plain-language guide to sRGB, Display P3, Adobe RGB, Rec.709 and CMYK (FOGRA/SWOP), with a decision flowchart." />
+  <meta name="twitter:image" content="https://abdullah-al-faahim.github.io/blog/media/covers/color-profiles-explained.jpg" />
+  <meta property="article:published_time" content="2026-11-11" />
+  <meta property="article:modified_time" content="2026-11-11" />
+  <meta property="article:author" content="https://abdullah-al-faahim.github.io/" />
+  <meta property="article:section" content="Colour &amp; print" />
+  <meta property="article:tag" content="Colour" />
+  <meta property="article:tag" content="Colour Profiles" />
+  <meta property="article:tag" content="sRGB" />
+  <meta property="article:tag" content="Display P3" />
+  <meta property="article:tag" content="Print" />
+  <meta property="article:tag" content="Video" />
+  <meta name="keywords" content="Colour, Colour Profiles, sRGB, Display P3, Print, Video" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "@id": "https://abdullah-al-faahim.github.io/blog/color-profiles-explained/#article", "headline": "Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet", "name": "Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet", "description": "Which colour profile should you export for the web, social media, print and video? A plain-language guide to sRGB, Display P3, Adobe RGB, Rec.709 and CMYK (FOGRA/SWOP), with a decision flowchart.", "url": "https://abdullah-al-faahim.github.io/blog/color-profiles-explained/", "datePublished": "2026-11-11", "dateModified": "2026-11-11", "image": {"@type": "ImageObject", "url": "https://abdullah-al-faahim.github.io/blog/media/covers/color-profiles-explained.jpg", "width": 1600, "height": 900}, "inLanguage": "en", "articleSection": "Colour & print", "author": {"@type": "Person", "@id": "https://abdullah-al-faahim.github.io/#person", "name": "Abdullah Al Fahim", "alternateName": ["Fahim Rifat", "Abdullah Al Faahim", "Fahim"], "url": "https://abdullah-al-faahim.github.io/", "sameAs": ["https://linkedin.com/in/abdullah-al-fahim", "https://github.com/abdullah-al-faahim", "https://behance.net/hire-fahim", "https://dribbble.com/hire-fahim"]}, "publisher": {"@type": "Person", "@id": "https://abdullah-al-faahim.github.io/#person", "name": "Abdullah Al Fahim", "alternateName": ["Fahim Rifat", "Abdullah Al Faahim", "Fahim"], "url": "https://abdullah-al-faahim.github.io/", "sameAs": ["https://linkedin.com/in/abdullah-al-fahim", "https://github.com/abdullah-al-faahim", "https://behance.net/hire-fahim", "https://dribbble.com/hire-fahim"]}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://abdullah-al-faahim.github.io/blog/color-profiles-explained/"}, "isPartOf": {"@type": "Blog", "@id": "https://abdullah-al-faahim.github.io/blog/#blog", "name": "Abdullah Al Fahim · Blog"}, "about": {"@type": "Thing", "name": "Colour & print", "url": "https://abdullah-al-faahim.github.io/blog/topic/color/"}, "keywords": ["Colour", "Colour Profiles", "sRGB", "Display P3", "Print", "Video"], "wordCount": 792, "timeRequired": "PT4M", "isAccessibleForFree": true, "copyrightHolder": {"@type": "Person", "@id": "https://abdullah-al-faahim.github.io/#person", "name": "Abdullah Al Fahim", "alternateName": ["Fahim Rifat", "Abdullah Al Faahim", "Fahim"], "url": "https://abdullah-al-faahim.github.io/", "sameAs": ["https://linkedin.com/in/abdullah-al-fahim", "https://github.com/abdullah-al-faahim", "https://behance.net/hire-fahim", "https://dribbble.com/hire-fahim"]}, "copyrightYear": 2026}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://abdullah-al-faahim.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://abdullah-al-faahim.github.io/blog/"}, {"@type": "ListItem", "position": 3, "name": "Colour & print", "item": "https://abdullah-al-faahim.github.io/blog/topic/color/"}, {"@type": "ListItem", "position": 4, "name": "Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet", "item": "https://abdullah-al-faahim.github.io/blog/color-profiles-explained/"}]}</script>
+  <link rel="alternate" type="application/rss+xml" title="Abdullah Al Fahim · Blog" href="/blog/feed.xml" />
+  <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  <link rel="icon" href="/favicon.svg?v=g" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="preload" href="/assets/fonts/sora.woff" as="font" type="font/woff" crossorigin />
+  <link rel="stylesheet" href="/showcase/showcase.css?v=3f2a1ff3" />
+  <link rel="stylesheet" href="/blog/blog.css?v=648e7607" />
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      t = "light";
+      document.documentElement.setAttribute("data-theme", t);
+      document.documentElement.classList.add("js");
+    })();
+  </script>
+</head>
+<body>
+  <!-- generated by tools/build_blog.py -->
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="read-bar" aria-hidden="true"><i></i></div>
+  <header class="top">
+    <nav class="wrap" aria-label="Main">
+      <a class="logo" href="/">Abdullah Al <span>Fahim</span></a>
+      <ul class="links" id="links">
+        <li><a href="/">Home</a></li>
+        <li class="has-sub">
+          <a href="/#about">About</a><button class="sub-toggle" type="button" aria-expanded="false" aria-controls="aboutSub" aria-label="Show more About links"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></button>
+          <ul class="sub" id="aboutSub">
+            <li><a href="/cv/Abdullah%20Al%20Fahim_CV.pdf" target="_blank" rel="noopener" data-cv>My CV</a></li>
+            <li><a href="/#experience">Experience</a></li>
+            <li><a href="/#recognition">Recognition</a></li>
+            <li><a href="/#services">Services</a></li>
+            <li><a href="/media-kit/">Media Kit</a></li>
+          </ul>
+        </li>
+        <li><a href="/utopia/">Studio</a></li>
+        <li class="has-sub mega">
+          <a href="/apps/">Apps</a><button class="sub-toggle" type="button" aria-expanded="false" aria-controls="appsSub" aria-label="Show more Apps links"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></button>
+          <ul class="sub mega-sub" id="appsSub">
+            <li class="mg"><span class="mg-h"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 9h10v8a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 7 17z"/><path d="M8 6l-1.5-2M16 6l1.5-2M7 9a5 5 0 0 1 10 0M10 12.5h.01M14 12.5h.01"/></svg>Android apps<small>5</small></span><ul><li><a href="/apps/taka/">Taka · টাকা</a></li><li><a href="/apps/alljobs-reimagined/">Alljobs Reimagined</a></li><li><a href="/apps/taskbell/">TaskBell</a></li><li><a href="/apps/zakat-calculator/">Zakat Calculator</a></li><li><a href="/apps/battery-saver/">Battery Saver</a></li></ul></li>
+            <li class="mg"><span class="mg-h"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5l7.5-1v7H3zM12 4.3l9-1.3v8.5h-9zM3 13h7.5v7L3 18.8zM12 13h9v8.2l-9-1.3z"/></svg>Windows software<small>3</small></span><ul><li><a href="/apps/photo-viewer/">Photo Viewer</a></li><li><a href="/apps/quickview/">QuickView</a></li><li><a href="/apps/filexp/">FileXP</a></li></ul></li>
+            <li class="mg"><span class="mg-h"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="7" width="19" height="11" rx="5"/><path d="M7.5 10.5v4M5.5 12.5h4M15.5 11.5h.01M18 13.5h.01"/></svg>Games<small>3</small></span><ul><li><a href="/games/oxford-3000/">Oxford 3000™</a></li><li><a href="/games/sudoku/">Sudoku</a></li><li><a href="/games/wordsearch/">Word Search</a></li><li><a href="/games/">All games</a></li></ul></li>
+          </ul>
+        </li>
+        <li><a href="/shop/">Shop</a></li>
+        <li><a href="/blog/" aria-current="true">Blog</a></li>
+        <li class="m-book"><a href="/#book">Book a Meeting</a></li>
+      </ul>
+      <button class="icon-btn menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="links"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16" /></svg></button>
+      <a class="btn btn-lime hire" href="/#book">Book a Meeting</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article class="post">
+      <header class="post-head wrap">
+        <a class="crumb" href="/blog/">&#8592; All posts</a>
+        <a class="pc-cat" href="/blog/topic/color/">Colour &amp; print</a>
+        <h1>Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet</h1>
+        <p class="post-excerpt">Which colour profile should you export for the web, social media, print and video? A plain-language guide to sRGB, Display P3, Adobe RGB, Rec.709 and CMYK (FOGRA/SWOP), with a decision flowchart.</p>
+        <div class="byline">
+          <img src="/assets/img/avatar.webp" alt="" width="44" height="44" />
+          <div><b>Abdullah Al Fahim</b><span><time datetime="2026-11-11">11 Nov 2026</time> &#183; 4 min read<span class="reads" data-reads="/blog/color-profiles-explained/" hidden></span></span></div>
+        </div>
+      </header>
+      <div class="wrap"><figure class="post-cover"><img src="/blog/media/covers/color-profiles-explained.jpg" alt="Nested colour gamut triangles over a horseshoe-shaped chromaticity chart, labelled sRGB, P3 and Adobe RGB." width="1600" height="900" fetchpriority="high" decoding="async" /></figure></div>
+      <div class="post-layout wrap">
+        <aside class="post-toc" aria-label="On this page"><b>On this page</b><ol><li><a href="#why-it-matters">Why it matters</a></li><li><a href="#the-idea-explained">The idea explained</a></li><li><a href="#a-real-example">A real example</a></li><li><a href="#try-it-yourself">Try it yourself</a></li><li><a href="#common-mistakes">Common mistakes</a></li><li><a href="#summary">Summary</a></li><li><a href="#sources-and-image-credits">Sources and image credits</a></li></ol></aside>
+        <div class="prose">
+<p><strong>After reading this, you&rsquo;ll know which colour profile to export for web, social, print and video, and why the wrong one makes colours look dull or strange.</strong></p>
+<figure class="fig"><img loading="lazy" decoding="async" alt="A technician checking colour bars on a monitor with test equipment." src="/blog/media/photos/color-profiles-explained.webp" /><figcaption>Colour has to be checked, not assumed.</figcaption></figure>
+<p class="credit">Photo by <a href="https://pixabay.com/users/Pexels-2286921/">Pexels</a> on <a href="https://pixabay.com/photos/technology-electronics-computer-1850021/">Pixabay</a> (<a href="https://pixabay.com/service/license-summary/">Pixabay Content License</a>).</p>
+
+<h2 id="why-it-matters">Why it matters</h2>
+<p>A colour value like <code>#6B4AFF</code> isn&rsquo;t a colour on its own. It&rsquo;s an instruction: &ldquo;this much red, green and blue&rdquo;. A <strong>colour profile</strong> tells the device what those numbers mean. Export the right numbers with the wrong profile and the same file looks vivid on your screen, washed out on a client&rsquo;s phone and muddy in print.</p>
+<p>I deal with this from two sides: as a designer exporting brand files, and as a broadcast engineer, where video has its own colour rules. The good news is that you only need to understand five profiles to make the right choice almost every time.</p>
+<h2 id="the-idea-explained">The idea explained</h2>
+<p>Every profile describes a <strong>gamut</strong>: the range of colours it can represent. On a chromaticity chart (the horseshoe of all colours people can see), each RGB gamut is a triangle. A bigger triangle can show more saturated colours.</p>
+<figure class="fig"><img loading="lazy" decoding="async" alt="Nested triangles for sRGB, Display P3 and Adobe RGB drawn inside the horseshoe of visible colours, with CMYK as an irregular smaller shape." src="/blog/media/design/color-profiles-explained-1.svg" /><figcaption>Simplified gamut comparison. Shapes are illustrative, not measured.</figcaption></figure>
+<p>Here are the five you&rsquo;ll meet most:</p>
+<ul>
+<li><strong>sRGB</strong>: the standard for the web and most screens since the 1990s. Smallest of the RGB gamuts here, and the safest default.</li>
+<li><strong>Display P3</strong>: a wider gamut used by most recent iPhones, Macs and many Android flagships. Roughly a quarter more colour area than sRGB, especially in reds and greens.</li>
+<li><strong>Adobe RGB (1998)</strong>: wider than sRGB in greens and cyans. Popular with photographers who print, but rarely the right choice for screens.</li>
+<li><strong>Rec.709 (BT.709)</strong>: the HD television standard. It uses the <strong>same primaries as sRGB</strong>, but video also uses a limited &ldquo;legal&rdquo; signal range and its own gamma. More on that in a later post on broadcast-safe colour.</li>
+<li><strong>CMYK (FOGRA, SWOP, GRACoL)</strong>: not one profile but a family describing specific printing conditions: paper, ink and press. FOGRA profiles are common in Europe and Asia; SWOP and GRACoL in the US. Ask your printer which one they use.</li>
+</ul>
+<h2 id="a-real-example">A real example</h2>
+<p>Take a bright violet button colour from a brand palette and export it three ways:</p>
+<figure class="fig"><img loading="lazy" decoding="async" alt="Three panels showing the same violet: correct in sRGB on the web, shifted when a P3 file is shown without its profile, and duller in CMYK print." src="/blog/media/design/color-profiles-explained-2.svg" /><figcaption>One colour, three outcomes depending on profile handling.</figcaption></figure>
+<ol>
+<li><strong>Exported in sRGB with the profile embedded:</strong> looks the same in every modern browser.</li>
+<li><strong>Exported in Display P3 but the profile stripped</strong> (some upload tools do this): the numbers are read as sRGB, and the colour shifts.</li>
+<li><strong>Converted to CMYK for print:</strong> the most saturated violets fall outside the CMYK gamut, so they become slightly duller. That&rsquo;s physics, not a mistake, and it&rsquo;s why print proofs matter.</li>
+</ol>
+<h2 id="try-it-yourself">Try it yourself</h2>
+<p>Use this decision path for your next export:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Where will it be seen?</th>
+<th>Export as</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Website, email, most social media</td>
+<td><strong>sRGB</strong>, profile embedded</td>
+</tr>
+<tr>
+<td>App or site targeting modern Apple devices, with a fallback</td>
+<td><strong>Display P3</strong> + sRGB fallback</td>
+</tr>
+<tr>
+<td>Video for TV or YouTube</td>
+<td><strong>Rec.709</strong> (check your editor&rsquo;s project settings)</td>
+</tr>
+<tr>
+<td>Commercial print</td>
+<td><strong>CMYK profile from your printer</strong> (e.g., a FOGRA profile)</td>
+</tr>
+<tr>
+<td>Photo printing at a lab</td>
+<td>Ask the lab: often sRGB or Adobe RGB</td>
+</tr>
+</tbody>
+</table></div>
+<p>Then open one of your recent exports in Photoshop (<strong>Edit → Assign Profile</strong> shows what&rsquo;s embedded) or check it with an online EXIF viewer. Is the profile what you expected?</p>
+<h2 id="common-mistakes">Common mistakes</h2>
+<ul>
+<li><strong>Designing in a wide gamut and exporting without conversion.</strong> Convert to sRGB on export rather than just labelling.</li>
+<li><strong>Stripping profiles to save a few kilobytes.</strong> Many optimisers remove them; check the settings.</li>
+<li><strong>Converting to CMYK yourself with a generic profile.</strong> Use your printer&rsquo;s profile, or send RGB and let them convert, if they prefer.</li>
+<li><strong>Assuming Rec.709 and sRGB are interchangeable.</strong> The colours match, but video levels and gamma are different.</li>
+<li><strong>Trusting one uncalibrated screen.</strong> Check on a few devices before approving.</li>
+</ul>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>A colour profile tells devices what the colour numbers mean.</li>
+<li>Use sRGB for web and social unless you have a clear reason not to.</li>
+<li>Use Display P3 only with a fallback and when you&rsquo;re sure it will be shown properly.</li>
+<li>Use Rec.709 for video projects; it shares sRGB&rsquo;s colours but not its levels.</li>
+<li>For print, use the CMYK profile your printer gives you.</li>
+<li>Always embed the profile and check the export on more than one screen.</li>
+</ul>
+<figure class="fig"><img loading="lazy" decoding="async" alt="Cheat sheet summarising which colour profile to use for web, video and print." src="/blog/media/design/color-profiles-explained-cheat.svg" /><figcaption>Save this cheat sheet for your next export.</figcaption></figure>
+<h2 id="sources-and-image-credits">Sources and image credits</h2>
+<ul>
+<li>International Color Consortium (ICC), <a href="https://www.color.org/">about ICC profiles</a>.</li>
+<li>ITU-R, <a href="https://www.itu.int/rec/R-REC-BT.709">Recommendation BT.709</a>.</li>
+<li>Apple Developer documentation on wide colour (Display P3).</li>
+<li>All diagrams were drawn by me for this post. Gamut shapes are simplified for explanation, not measured data.</li>
+</ul>
+        </div>
+        <aside class="post-side">
+          <ul class="post-tags" aria-label="Tags"><li>Colour</li><li>Colour Profiles</li><li>sRGB</li><li>Display P3</li><li>Print</li><li>Video</li></ul>
+          <div class="share">
+            <b>Share</b>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://abdullah-al-faahim.github.io/blog/color-profiles-explained/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://twitter.com/intent/tweet?url=https://abdullah-al-faahim.github.io/blog/color-profiles-explained/&amp;text=Colour Profiles Explained: sRGB, Display P3, Adobe RGB, Rec.709 and CMYK in One Cheat Sheet" target="_blank" rel="noopener">X</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://abdullah-al-faahim.github.io/blog/color-profiles-explained/" target="_blank" rel="noopener">Facebook</a>
+            <button type="button" class="copy-link" data-url="https://abdullah-al-faahim.github.io/blog/color-profiles-explained/">Copy link</button>
+          </div>
+          <div class="resources"><b>Resources</b><a href="/blog/media/social/color-profiles-explained.jpg" download="color-profiles-explained-thumbnail-portrait.jpg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14" /></svg><span>Thumbnail image (portrait)<small>1080 × 1350 · JPG</small></span></a><a href="/blog/media/og/color-profiles-explained.jpg" download="color-profiles-explained-thumbnail-landscape.jpg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14" /></svg><span>Thumbnail image (landscape)<small>1200 × 630 · JPG</small></span></a><a href="/blog/media/covers/color-profiles-explained.jpg" download="color-profiles-explained-cover.jpg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14" /></svg><span>Cover image (landscape)<small>1600 × 900 · JPG</small></span></a></div>
+        </aside>
+      </div>
+      <div class="wrap post-end">
+        <div class="author-card">
+          <img src="/assets/img/avatar.webp" alt="" width="72" height="72" loading="lazy" />
+          <div>
+            <b>Written by Abdullah Al Fahim</b>
+            <p>Broadcast engineer at Channel i, brand and social media designer, and maker of offline-first apps for Bangladesh.</p>
+            <a href="/">See my work <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg></a>
+          </div>
+        </div>
+        <nav class="post-nav" aria-label="More posts"><a class="prev" href="/blog/calm-leadership-24-7-control-room/"><small>Newer</small><b>What a 24/7 Control Room Teaches About Calm Leadership</b></a><a class="next" href="/blog/khanfarhana-info-case-study/"><small>Older</small><b>Case Study: Building khanfarhana.info, a Brand, a Community and an Academy in One WordPress Theme</b></a></nav>
+      </div>
+    </article>
+    <section class="more-posts"><div class="wrap"><span class="eyebrow">Keep reading</span><div class="post-grid three"><a class="post-card" href="/blog/broadcast-safe-color/" data-cat="color" data-q="broadcast-safe colour: what a tv control room knows that designers don&#x27;t a neon lower-third that looks great in figma can clip, smear or get rejected on air. a broadcast engineer&#x27;s guide to legal range, rec.709, colour bars and designing graphics that survive television. colour &amp; print"><span class="pc-im"><img src="/blog/media/covers/broadcast-safe-color.jpg" alt="" width="1600" height="900" loading="lazy" decoding="async" /></span><span class="pc-meta"><span class="pc-cat">Colour &amp; print</span><time datetime="2026-11-25">25 Nov 2026</time></span><b>Broadcast-Safe Colour: What a TV Control Room Knows That Designers Don&#x27;t</b><small>A neon lower-third that looks great in Figma can clip, smear or get rejected on air. A broadcast engineer&#x27;s guide to legal range, Rec.709, colour bars and designing graphics that survive television.</small><span class="pc-read">4 min read<span class="reads" data-reads="/blog/broadcast-safe-color/" hidden></span></span></a><a class="post-card" href="/blog/rgb-vs-cmyk-vs-pantone/" data-cat="color" data-q="rgb vs cmyk vs pantone: why your logo looks different on screen and in print the bright red on your screen came back brown from the printer. here is why rgb, cmyk and pantone spot colours behave differently, and how to specify a brand colour so it survives every medium. colour &amp; print"><span class="pc-im"><img src="/blog/media/covers/rgb-vs-cmyk-vs-pantone.jpg" alt="" width="1600" height="900" loading="lazy" decoding="async" /></span><span class="pc-meta"><span class="pc-cat">Colour &amp; print</span><time datetime="2026-11-18">18 Nov 2026</time></span><b>RGB vs CMYK vs Pantone: Why Your Logo Looks Different on Screen and in Print</b><small>The bright red on your screen came back brown from the printer. Here is why RGB, CMYK and Pantone spot colours behave differently, and how to specify a brand colour so it survives every medium.</small><span class="pc-read">3 min read<span class="reads" data-reads="/blog/rgb-vs-cmyk-vs-pantone/" hidden></span></span></a><a class="post-card" href="/blog/gestalt-laws-in-logos/" data-cat="research" data-q="gestalt in the wild: 7 laws hiding in every logo you know you already see proximity, closure and figure/ground every day. you just don&#x27;t have the names. seven gestalt laws, one example each, and a 10-second self-test to train your eye. design theory &amp; research"><span class="pc-im"><img src="/blog/media/covers/gestalt-laws-in-logos.jpg" alt="" width="1600" height="900" loading="lazy" decoding="async" /></span><span class="pc-meta"><span class="pc-cat">Design theory &amp; research</span><time datetime="2026-11-28">28 Nov 2026</time></span><b>Gestalt in the Wild: 7 Laws Hiding in Every Logo You Know</b><small>You already see proximity, closure and figure/ground every day. You just don&#x27;t have the names. Seven Gestalt laws, one example each, and a 10-second self-test to train your eye.</small><span class="pc-read">3 min read<span class="reads" data-reads="/blog/gestalt-laws-in-logos/" hidden></span></span></a></div></div></section>
+  </main>
+  <footer class="sf">
+    <div class="wrap">
+      <div class="sf-grid">
+        <div class="sf-brand">
+          <a class="logo" href="/" aria-label="Abdullah Al Fahim, home">Abdullah Al <span>Fahim</span></a>
+          <p class="sf-line">Creative technologist in Dhaka.</p>
+          <p>Broadcast operations engineer at Channel i, brand identity designer and builder of small, useful tools for Bangladesh.</p>
+          <p class="sf-place">Dhaka, Bangladesh</p>
+        </div>
+        <nav class="sf-col" aria-label="Explore">
+          <h2>Explore</h2>
+          <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/cv/Abdullah%20Al%20Fahim_CV.pdf" target="_blank" rel="noopener">CV</a></li>
+          <li><a href="/utopia/">Studio</a></li>
+          <li><a href="/shop/">Shop</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          </ul>
+        </nav>
+        <nav class="sf-col" aria-label="Android apps">
+          <h2>Android apps</h2>
+          <ul>
+          <li><a href="/apps/taka/">Taka · টাকা</a></li>
+          <li><a href="/apps/alljobs-reimagined/">Alljobs Reimagined</a></li>
+          <li><a href="/apps/taskbell/">TaskBell</a></li>
+          <li><a href="/apps/zakat-calculator/">Zakat Calculator</a></li>
+          <li><a href="/apps/battery-saver/">Battery Saver</a></li>
+          </ul>
+        </nav>
+        <nav class="sf-col" aria-label="Windows software">
+          <h2>Windows software</h2>
+          <ul>
+          <li><a href="/apps/photo-viewer/">Photo Viewer</a></li>
+          <li><a href="/apps/quickview/">QuickView</a></li>
+          <li><a href="/apps/filexp/">FileXP</a></li>
+          </ul>
+        </nav>
+        <nav class="sf-col" aria-label="Work with me">
+          <h2>Work with me</h2>
+          <ul>
+          <li><a href="/#book">Book a meeting</a></li>
+          <li><a href="/utopia/#quote">Get a quote</a></li>
+          <li><a href="/media-kit/">Media Kit</a></li>
+          <li><a href="https://github.com/abdullah-al-faahim">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/abdullah-al-fahim">LinkedIn</a></li>
+          </ul>
+        </nav>
+      </div>
+      <form class="sf-news" data-endpoint="https://script.google.com/macros/s/AKfycbxnNUlZmuTSw_UC-P6NwjmOIrMwaecBCln59KAoylqlQpfQgEdbpkrHbL7eRamW2kcG/exec" novalidate>
+        <div class="sf-news-copy">
+          <h2>Get new posts and app updates</h2>
+          <p>A short email when I publish a new post or release an app. No spam.</p>
+        </div>
+        <div class="sf-news-form">
+          <label class="sf-sr" for="sfEmail">Email address</label>
+          <input id="sfEmail" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required maxlength="120" />
+          <input class="sf-hp" name="company_url" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <button class="btn btn-lime" type="submit"><span>Subscribe</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          <p class="sf-msg" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+      <div class="sf-bar">
+        <span>&#169; <span id="year">2026</span> Abdullah Al Fahim (Fahim Rifat)</span>
+        <a class="sf-top" href="#top">Back to top <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a>
+      </div>
+    </div>
+  </footer>
+  <script src="/blog/blog.js?v=61dec340" defer></script>
+  <script src="/assets/pull-refresh.js?v=d3171870" defer></script>
+  <script src="/assets/footer.js?v=2238aa60" defer></script>
+  <script data-goatcounter="https://fahim.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
